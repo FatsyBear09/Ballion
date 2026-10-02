@@ -354,6 +354,8 @@
   }
   else goHome();
   if (qs.get("help") === "1") $("help").showModal();
+  window.BALLION_READY = true;
+  $("load-status").hidden = true;
 })();
 
 /* Self-test (?selftest=1): plays a full free game through the real UI paths and writes a

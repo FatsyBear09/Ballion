@@ -60,6 +60,7 @@
     <p class="sub" id="daily-sub"></p>
     <button class="btn" id="free-btn">FREE PLAY</button>
     <p class="sub">7 rounds · 30 seconds each · rarer answers kick farther</p>
+    <p class="sub load-status" id="load-status">Loading game…</p>
   </section>
 
   <!-- Round screen -->
@@ -119,6 +120,16 @@
   <form method="dialog"><button class="btn btn-primary">LET'S PLAY</button></form>
 </dialog>
 
+<script>
+  // If the game scripts haven't started after 10 s (e.g. a stalled connection), say so instead of hanging silently.
+  setTimeout(function () {
+    if (window.BALLION_READY) return;
+    var el = document.getElementById("load-status");
+    var missing = ["BALLION_DATA", "BallionMatcher", "BallionAudio", "BallionScene"].filter(function (k) { return !window[k]; });
+    el.textContent = "Some game files didn't load (" + (missing.concat(window.BALLION_READY ? [] : ["game.js"]).join(", ")) + "). Try a hard refresh (Ctrl+Shift+R).";
+    el.classList.add("load-error");
+  }, 10000);
+</script>
 <script src="data.js"></script>
 <script src="js/matcher.js"></script>
 <script src="js/audio.js"></script>
