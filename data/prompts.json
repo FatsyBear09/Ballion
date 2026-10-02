@@ -1,0 +1,517 @@
+[
+  {
+    "id": "p001",
+    "text": "Name a player who was part of Arsenal's Invincibles Premier League season (2003–04)",
+    "source": "en:2003–04 Arsenal F.C. season — Player statistics (≥1 Premier League appearance)"
+  },
+  {
+    "id": "p002",
+    "text": "Name a player who has scored over 100 goals in La Liga",
+    "source": "en:List of La Liga top scorers — La Liga players with 100 or more goals"
+  },
+  {
+    "id": "p003",
+    "text": "Name a club that has won the top-flight league title in one of Europe's top 5 leagues",
+    "source": "en:List of {English,Spanish,German,Italian,French} football champions — by-club tables"
+  },
+  {
+    "id": "p004",
+    "text": "Name a winner of the men's Ballon d'Or (1956–2025, including the 2010–15 FIFA Ballon d'Or)",
+    "source": "en:Ballon d'Or — Winners table (1st place)"
+  },
+  {
+    "id": "p005",
+    "text": "Name a player who has finished in the top 3 of the men's Ballon d'Or voting (1956–2025)",
+    "source": "en:Ballon d'Or — Winners table (1st–3rd place)"
+  },
+  {
+    "id": "p006",
+    "text": "Name a winner of FIFA's men's player of the year award (FIFA World Player of the Year 1991–2009, FIFA Ballon d'Or 2010–15, or The Best FIFA Men's Player 2016–)",
+    "source": "en:FIFA World Player of the Year, en:Ballon d'Or (2010–15 rows), en:The Best FIFA Men's Player — 1st place"
+  },
+  {
+    "id": "p007",
+    "text": "Name a winner of the European Golden Shoe (top scorer across Europe's leagues)",
+    "source": "en:European Golden Shoe — winners table (L'Équipe 1968–91, ESM 1997–)"
+  },
+  {
+    "id": "p008",
+    "text": "Name a player who has won (or shared) the Premier League Golden Boot",
+    "source": "en:Premier League Golden Boot — winners table"
+  },
+  {
+    "id": "p009",
+    "text": "Name a winner of the Premier League Player of the Season award",
+    "source": "en:Premier League Player of the Season — winners table"
+  },
+  {
+    "id": "p010",
+    "text": "Name a winner of the PFA Players' Player of the Year award (England)",
+    "source": "en:PFA Players' Player of the Year — winners table"
+  },
+  {
+    "id": "p011",
+    "text": "Name a winner of the FWA Footballer of the Year award (England, men's)",
+    "source": "en:FWA Footballer of the Year — winners table"
+  },
+  {
+    "id": "p012",
+    "text": "Name a player who won the Golden, Silver or Bronze Ball at a men's FIFA World Cup (1982–2026)",
+    "source": "en:FIFA World Cup awards — Golden Ball table (official winners 1982–present)"
+  },
+  {
+    "id": "p013",
+    "text": "Name a player who was the top scorer (Golden Boot/Shoe winner, incl. joint and retrospective pre-1982 top scorers) at a men's FIFA World Cup",
+    "source": "en:FIFA World Cup awards — Golden Boot table, 'Top goalscorer'/'Golden Shoe'/'Golden Boot' column"
+  },
+  {
+    "id": "p014",
+    "text": "Name a winner of the African Footballer of the Year award (France Football 1970–94 or CAF 1992–)",
+    "source": "en:African Footballer of the Year — France Football award + CAF award tables (1st place)"
+  },
+  {
+    "id": "p015",
+    "text": "Name a winner of the (men's) South American Footballer of the Year award (El Mundo 1971–85 or El País 1986–)",
+    "source": "en:South American Footballer of the Year — El Mundo (1971–85) + El País (1986–) tables (1st place)"
+  },
+  {
+    "id": "p016",
+    "text": "Name a winner of the Asian Footballer of the Year award (AFC award incl. AFC International Player of the Year, or the IFFHS award)",
+    "source": "en:Asian Footballer of the Year — IFFHS, AFC and AFC International tables (1st place)"
+  },
+  {
+    "id": "p017",
+    "text": "Name a winner of Tuttosport's Golden Boy award (best under-21 player in Europe)",
+    "source": "en:Golden Boy (award) — winners table"
+  },
+  {
+    "id": "p018",
+    "text": "Name a player who has finished a season as La Liga's top scorer (Pichichi Trophy, men's)",
+    "source": "en:Pichichi Trophy — Men winners table"
+  },
+  {
+    "id": "p019",
+    "text": "Name a player who has finished a Serie A season as top scorer (Capocannoniere, 1929–30 onwards)",
+    "source": "en:Capocannoniere — Winners table, Serie A seasons only"
+  },
+  {
+    "id": "p020",
+    "text": "Name a player who has finished a season as the Bundesliga's top scorer",
+    "source": "en:List of Bundesliga top scorers by season — Winners table"
+  },
+  {
+    "id": "p021",
+    "text": "Name a player who has finished a season as top scorer of France's top flight (Ligue 1 / Division 1)",
+    "source": "en:List of Ligue 1 top scorers — Top scorers by season table"
+  },
+  {
+    "id": "p022",
+    "text": "Name a player who has been (joint) top scorer of a European Cup / UEFA Champions League season",
+    "source": "en:List of UEFA Champions League top scorers — Top scorers by season table"
+  },
+  {
+    "id": "p023",
+    "text": "Name a player who was (joint) top scorer at a UEFA European Championship finals tournament",
+    "source": "en:UEFA European Championship top goalscorers — Top goalscorers for each tournament table"
+  },
+  {
+    "id": "p024",
+    "text": "Name a player who has scored 100 or more Premier League goals",
+    "source": "en:List of footballers with 100 or more Premier League goals"
+  },
+  {
+    "id": "p025",
+    "text": "Name a player who has scored 100 or more Bundesliga goals",
+    "source": "en:List of Bundesliga top scorers — all-time table (≥100 goals)"
+  },
+  {
+    "id": "p026",
+    "text": "Name a player who has scored 100 or more Serie A goals",
+    "source": "en:List of Serie A players with 100 or more goals"
+  },
+  {
+    "id": "p027",
+    "text": "Name a player who has scored 100 or more Ligue 1 (French top-flight) goals",
+    "source": "en:List of Ligue 1 top scorers — all-time table (≥100 goals, incl. Division 1 era)"
+  },
+  {
+    "id": "p028",
+    "text": "Name a player who has scored 30 or more goals in the European Cup / UEFA Champions League (main competition, qualifying excluded)",
+    "source": "en:List of UEFA Champions League top scorers — all-time table (≥30 goals, 1955– )"
+  },
+  {
+    "id": "p029",
+    "text": "Name a men's footballer who has scored 50 or more international goals",
+    "source": "en:List of men's footballers with 50 or more international goals"
+  },
+  {
+    "id": "p030",
+    "text": "Name a men's footballer who has won 150 or more international caps",
+    "source": "en:List of men's footballers with 100 or more international caps (≥150)"
+  },
+  {
+    "id": "p031",
+    "text": "Name a player who has scored 20 or more goals for England's men's national team",
+    "source": "en:List of England international footballers (≥10 caps table; Goals ≥ 20)"
+  },
+  {
+    "id": "p032",
+    "text": "Name a player who has made 500 or more Premier League appearances",
+    "source": "en:List of footballers with 500 or more Premier League appearances"
+  },
+  {
+    "id": "p033",
+    "text": "Name a player who has scored 3 or more Premier League hat-tricks",
+    "source": "en:List of Premier League hat-tricks — multiple hat-tricks by player table (≥3)"
+  },
+  {
+    "id": "p034",
+    "text": "Name a player who has scored a hat-trick at a men's FIFA World Cup finals tournament",
+    "source": "en:List of FIFA World Cup hat-tricks"
+  },
+  {
+    "id": "p035",
+    "text": "Name a player who has played (not just been in the squad) at 4 or more men's FIFA World Cups",
+    "source": "en:List of players who have appeared in the most FIFA World Cups — squads table, 'Played' ≥ 4"
+  },
+  {
+    "id": "p036",
+    "text": "Name a player who has scored in a men's FIFA World Cup final (incl. the 1950 deciding match; own goals and penalty-shootout kicks excluded)",
+    "source": "en:List of FIFA World Cup finals → each final article's match box"
+  },
+  {
+    "id": "p037",
+    "text": "Name a player who has scored in a UEFA Champions League final (1993 onward; own goals and penalty-shootout kicks excluded)",
+    "source": "en:List of European Cup and UEFA Champions League finals → each final article's match box (1993–)"
+  },
+  {
+    "id": "p038",
+    "text": "Name a player who has scored in an FA Cup final (1990 onward, replays included; own goals and penalty-shootout kicks excluded)",
+    "source": "en:List of FA Cup finals → each final article's match box (1990–)"
+  },
+  {
+    "id": "p039",
+    "text": "Name a player who has scored in a men's UEFA European Championship final (replays included; own goals and penalty-shootout kicks excluded)",
+    "source": "en:List of UEFA European Championship finals → each final article's match box"
+  },
+  {
+    "id": "p040",
+    "text": "Name a player whose transfer set a new world-record transfer fee",
+    "source": "en:List of most expensive association football transfers — world transfer record progression table"
+  },
+  {
+    "id": "p041",
+    "text": "Name a goalkeeper who has won the Premier League Golden Glove (2004–05 onward)",
+    "source": "en:Premier League Golden Glove — winners table"
+  },
+  {
+    "id": "p042",
+    "text": "Name a player who has won the Premier League with two or more different clubs",
+    "source": "en:List of Premier League winning players — Club(s) column with ≥2 clubs"
+  },
+  {
+    "id": "p043",
+    "text": "Name a player who was in a European Cup / Champions League-winning matchday squad (final line-up incl. listed substitutes) for two or more different clubs",
+    "source": "en:List of European Cup and UEFA Champions League finals → line-ups in each final article"
+  },
+  {
+    "id": "p044",
+    "text": "Name a country that has played at a men's FIFA World Cup finals tournament (1930–2026)",
+    "source": "en:National team appearances in the FIFA World Cup — appearances table + predecessor/successor breakdown tables"
+  },
+  {
+    "id": "p045",
+    "text": "Name a country that has hosted or co-hosted a men's FIFA World Cup (1930–2026; future hosts excluded)",
+    "source": "en:List of FIFA World Cup hosts — results of host nations table"
+  },
+  {
+    "id": "p046",
+    "text": "Name a country that has played at a men's UEFA European Championship finals tournament (1960–2024)",
+    "source": "en:UEFA European Championship records and statistics — appearances table + predecessor tables"
+  },
+  {
+    "id": "p047",
+    "text": "Name a country that has played at an Africa Cup of Nations finals tournament (1957–2025)",
+    "source": "en:Africa Cup of Nations records and statistics — all-time ranking table"
+  },
+  {
+    "id": "p048",
+    "text": "Name a country that has finished in the top four (reached the semi-finals) of a men's FIFA World Cup",
+    "source": "en:FIFA World Cup records and statistics — teams reaching the top four (1950 final-group top four included)"
+  },
+  {
+    "id": "p049",
+    "text": "Name a country that has won a men's continental championship (European Championship, Copa América, Africa Cup of Nations, AFC Asian Cup, CONCACAF Championship/Gold Cup, OFC Nations Cup)",
+    "source": "en: winners tables of UEFA Euro / Copa América / AFCON / Asian Cup records articles, CONCACAF Championship (1963–89), CONCACAF Gold Cup (1991–), OFC Men's Nations Cup"
+  },
+  {
+    "id": "p050",
+    "text": "Name a player who captained a men's World Cup-winning team in the final (1930–2026)",
+    "source": "en:'YYYY FIFA World Cup final' articles (1950: decisive match) — (c) in line-ups, matched to the winners list"
+  },
+  {
+    "id": "p051",
+    "text": "Name a player who has won both the men's FIFA World Cup and the European Cup / UEFA Champions League (as a squad member)",
+    "source": "en:List of FIFA World Cup winning players ∩ (Category:UEFA Champions League–winning players ∪ winning line-ups in every European Cup/UCL final article)"
+  },
+  {
+    "id": "p052",
+    "text": "Name a player in Brazil's 2002 FIFA World Cup-winning squad (full registered tournament squad)",
+    "source": "en:2002 FIFA World Cup squads — Brazil section"
+  },
+  {
+    "id": "p053",
+    "text": "Name a player in Spain's 2010 FIFA World Cup-winning squad (full registered tournament squad)",
+    "source": "en:2010 FIFA World Cup squads — Spain section"
+  },
+  {
+    "id": "p054",
+    "text": "Name a player in Germany's 2014 FIFA World Cup-winning squad (full registered tournament squad)",
+    "source": "en:2014 FIFA World Cup squads — Germany section"
+  },
+  {
+    "id": "p055",
+    "text": "Name a player in France's 2018 FIFA World Cup-winning squad (full registered tournament squad)",
+    "source": "en:2018 FIFA World Cup squads — France section"
+  },
+  {
+    "id": "p056",
+    "text": "Name a player in Argentina's 2022 FIFA World Cup-winning squad (full registered tournament squad)",
+    "source": "en:2022 FIFA World Cup squads — Argentina section"
+  },
+  {
+    "id": "p057",
+    "text": "Name a player in Greece's UEFA Euro 2004-winning squad (full registered tournament squad)",
+    "source": "en:UEFA Euro 2004 squads — Greece section"
+  },
+  {
+    "id": "p058",
+    "text": "Name a player in Italy's 2006 FIFA World Cup-winning squad (full registered tournament squad)",
+    "source": "en:2006 FIFA World Cup squads — Italy section"
+  },
+  {
+    "id": "p059",
+    "text": "Name a manager who has won the men's FIFA World Cup (1930–2026)",
+    "source": "en:List of FIFA World Cup winning managers"
+  },
+  {
+    "id": "p060",
+    "text": "Name a manager who has won the men's UEFA European Championship (1960–2024)",
+    "source": "en:List of UEFA European Championship winning managers"
+  },
+  {
+    "id": "p061",
+    "text": "Name a stadium that has hosted a men's FIFA World Cup final (incl. the 1950 decisive match; 1930–2026)",
+    "source": "en:List of FIFA World Cup finals — venue column"
+  },
+  {
+    "id": "p062",
+    "text": "Name a stadium that has hosted a European Cup / UEFA Champions League final (1956–2026)",
+    "source": "en:List of European Cup and UEFA Champions League finals — venue column (1974 replay included)"
+  },
+  {
+    "id": "p063",
+    "text": "Name a country that has played at a men's Copa América (South American Championship), guest nations included (1916–2024)",
+    "source": "en:Copa América records and statistics — all-time table"
+  },
+  {
+    "id": "p064",
+    "text": "Name a club that has played in the Premier League (1992–93 to 2026–27)",
+    "source": "en:List of Premier League clubs — all-time clubs table"
+  },
+  {
+    "id": "p065",
+    "text": "Name a club that has been relegated from the Premier League (as of the end of 2025–26)",
+    "source": "en:List of Premier League clubs — clubs with a 'most recent relegation' entry"
+  },
+  {
+    "id": "p066",
+    "text": "Name a club that has played in the Bundesliga (1963–64 to 2026–27)",
+    "source": "en:List of clubs in the Bundesliga — all-time table (+ 2026–27 participants)"
+  },
+  {
+    "id": "p067",
+    "text": "Name a club that has played in La Liga (1929 to 2026–27)",
+    "source": "en:List of La Liga clubs — all-time table (+ 2026–27 participants)"
+  },
+  {
+    "id": "p068",
+    "text": "Name a club that has played in Serie A (single-table era, 1929–30 to 2026–27)",
+    "source": "en:List of Serie A clubs — all-time table (+ 2026–27 participants)"
+  },
+  {
+    "id": "p069",
+    "text": "Name a club that has played in the French top flight (Division 1 / Ligue 1, 1932–33 to 2026–27)",
+    "source": "en:List of Ligue 1 clubs (+ 2025–26 and 2026–27 participants)"
+  },
+  {
+    "id": "p070",
+    "text": "Name a club that has played in Major League Soccer (1996 to 2026, incl. defunct clubs)",
+    "source": "en:Major League Soccer — current clubs + former clubs tables"
+  },
+  {
+    "id": "p071",
+    "text": "Name a club that has reached a European Cup / UEFA Champions League final (winners or runners-up, to 2026)",
+    "source": "en:List of European Cup and UEFA Champions League finals — performances by club"
+  },
+  {
+    "id": "p072",
+    "text": "Name a club that has won the UEFA Cup / UEFA Europa League (to 2026)",
+    "source": "en:List of UEFA Cup and Europa League finals — performances by club"
+  },
+  {
+    "id": "p073",
+    "text": "Name a club that has won the European Cup Winners' Cup (1960–61 to 1998–99)",
+    "source": "en:List of UEFA Cup Winners' Cup finals — performances by club"
+  },
+  {
+    "id": "p074",
+    "text": "Name a club that has won the FA Cup (to the 2026 final)",
+    "source": "en:List of FA Cup finals — results by team"
+  },
+  {
+    "id": "p075",
+    "text": "Name a club that has won the English Football League Cup (to the 2026 final)",
+    "source": "en:List of EFL Cup finals — results by team"
+  },
+  {
+    "id": "p076",
+    "text": "Name a club that has reached the Copa del Rey final (winners or runners-up, to 2026)",
+    "source": "en:List of Copa del Rey finals — results by team"
+  },
+  {
+    "id": "p077",
+    "text": "Name a club that has won the Copa Libertadores (to 2025)",
+    "source": "en:List of Copa Libertadores finals — performances by club"
+  },
+  {
+    "id": "p078",
+    "text": "Name a club that has reached the Copa Sudamericana final (winners or runners-up, 2002–2025)",
+    "source": "en:List of Copa Sudamericana finals — performances by club"
+  },
+  {
+    "id": "p079",
+    "text": "Name a club that has won the Asian Club Championship / AFC Champions League (Elite) (to 2025–26)",
+    "source": "en:List of Asian Club Championship and AFC Champions League Elite finals — performances by club"
+  },
+  {
+    "id": "p080",
+    "text": "Name a club that has won the African Cup of Champions Clubs / CAF Champions League (to 2026)",
+    "source": "en:List of African Cup of Champions Clubs and CAF Champions League finals — performances by club"
+  },
+  {
+    "id": "p081",
+    "text": "Name a club that has won the Intercontinental Cup (1960–2004), the FIFA Club World Cup or the FIFA Intercontinental Cup (2024–)",
+    "source": "en:List of Intercontinental Cup matches + List of FIFA Club World Cup finals (by club) + FIFA Intercontinental Cup"
+  },
+  {
+    "id": "p082",
+    "text": "Name a club that has been Dutch national football champions (since 1888–89, incl. pre-Eredivisie era)",
+    "source": "en:List of Dutch football champions — titles by club"
+  },
+  {
+    "id": "p083",
+    "text": "Name a stadium that has been the home ground of a Premier League club during a Premier League season (1992–93 to 2026–27, incl. former and temporary grounds)",
+    "source": "en:List of Premier League stadiums"
+  },
+  {
+    "id": "p084",
+    "text": "Name a manager who has won the European Cup / UEFA Champions League (up to the 2026 final)",
+    "source": "en:List of European Cup and UEFA Champions League winning managers — winners by final"
+  },
+  {
+    "id": "p085",
+    "text": "Name a manager who has won the English top-flight league title (1888–89 to 2025–26)",
+    "source": "en:List of English football championship–winning managers — winners by season"
+  },
+  {
+    "id": "p086",
+    "text": "Name a manager who has won the Bundesliga (since 1963–64, up to 2025–26)",
+    "source": "en:List of Bundesliga managers — Bundesliga title-winning managers table"
+  },
+  {
+    "id": "p087",
+    "text": "Name a manager who has won La Liga (1929 to 2025–26)",
+    "source": "en:List of La Liga winning managers — winners by season"
+  },
+  {
+    "id": "p088",
+    "text": "Name a manager who has won Serie A (single-division era since 1929–30, up to 2025–26)",
+    "source": "en:List of Serie A winning managers — winners by season (2004–05 revoked title excluded)"
+  },
+  {
+    "id": "p089",
+    "text": "Name a manager of the England men's national team since 1946 (caretakers included, as of 2026)",
+    "source": "en:England national football team manager — list of managers (incl. caretakers)"
+  },
+  {
+    "id": "p090",
+    "text": "Name a manager of Manchester United (caretakers/interims included, as of 2026)",
+    "source": "en:List of Manchester United F.C. managers — main table"
+  },
+  {
+    "id": "p091",
+    "text": "Name a head coach of Real Madrid (all-time, incl. interim spells listed by Wikipedia, as of 2026)",
+    "source": "en:List of Real Madrid CF managers — main table"
+  },
+  {
+    "id": "p092",
+    "text": "Name a head coach of FC Barcelona (all-time, incl. interim spells listed by Wikipedia, as of 2026)",
+    "source": "en:List of FC Barcelona managers — main table"
+  },
+  {
+    "id": "p093",
+    "text": "Name a manager of Chelsea since the Abramovich takeover in July 2003 (caretakers included, as of 2026)",
+    "source": "en:List of Chelsea F.C. managers — managers in charge at any point from July 2003"
+  },
+  {
+    "id": "p094",
+    "text": "Name a manager of Arsenal (caretakers included, as of 2026)",
+    "source": "en:List of Arsenal F.C. managers — main table (unnamed/no-article caretakers dropped)"
+  },
+  {
+    "id": "p095",
+    "text": "Name a player who has played for both Real Madrid and Barcelona (≥1 league appearance for each senior team; loans count, wartime guest spells don't; per Wikipedia infoboxes, as of 2026)",
+    "source": "Wikidata P54 ∪ en:El Clásico 'Personnel at both clubs', verified via enwiki infobox senior career"
+  },
+  {
+    "id": "p096",
+    "text": "Name a player who has played for both Arsenal and Tottenham (≥1 league appearance for each senior team; loans count, wartime guest spells don't; per Wikipedia infoboxes, as of 2026)",
+    "source": "Wikidata P54 ∪ en:North London derby 'Crossing the divide', verified via enwiki infobox senior career"
+  },
+  {
+    "id": "p097",
+    "text": "Name a player who has played for both Manchester United and Manchester City (≥1 league appearance for each senior team; loans count, wartime guest spells don't; per Wikipedia infoboxes, as of 2026)",
+    "source": "Wikidata P54 ∪ en:Manchester derby 'Players who have played for both clubs', verified via enwiki infobox"
+  },
+  {
+    "id": "p098",
+    "text": "Name a player who has played for both Liverpool and Everton (≥1 league appearance for each senior team; loans count, wartime guest spells don't; per Wikipedia infoboxes, as of 2026)",
+    "source": "Wikidata P54 ∪ en:Merseyside derby 'Crossing the park', verified via enwiki infobox senior career"
+  },
+  {
+    "id": "p099",
+    "text": "Name a player who has played for both AC Milan and Inter (≥1 league appearance for each senior team; loans count, wartime guest spells don't; per Wikipedia infoboxes, as of 2026)",
+    "source": "Wikidata P54 ∪ en:Derby della Madonnina 'Players who played for both clubs', verified via enwiki infobox"
+  },
+  {
+    "id": "p100",
+    "text": "Name a player who has played for both Celtic and Rangers (≥1 league appearance for each senior team; loans count, wartime guest spells don't; per Wikipedia infoboxes, as of 2026)",
+    "source": "Wikidata P54 ∪ en:Old Firm 'Played for both teams', verified via enwiki infobox senior career"
+  },
+  {
+    "id": "p101",
+    "text": "Name a player who has played for both Chelsea and Arsenal (≥1 league appearance for each senior team; loans count, wartime guest spells don't; per Wikipedia infoboxes, as of 2026)",
+    "source": "Wikidata P54 ∪ en:Arsenal F.C.–Chelsea F.C. rivalry players section, verified via enwiki infobox"
+  },
+  {
+    "id": "p102",
+    "text": "Name a player who has played for both Bayern Munich and Borussia Dortmund (≥1 league appearance for each senior team; loans count, wartime guest spells don't; per Wikipedia infoboxes, as of 2026)",
+    "source": "Wikidata P54 ∪ en:Der Klassiker 'played for or managed both clubs', verified via enwiki infobox"
+  },
+  {
+    "id": "p103",
+    "text": "Name a player who has played for both Paris Saint-Germain and Marseille (≥1 league appearance for each senior team; loans count, wartime guest spells don't; per Wikipedia infoboxes, as of 2026)",
+    "source": "Wikidata P54 ∪ en:Le Classique 'Playing for both clubs', verified via enwiki infobox senior career"
+  }
+]

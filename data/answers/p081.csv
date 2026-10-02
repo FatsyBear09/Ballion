@@ -1,0 +1,33 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Barcelona,FC Barcelona,"Club World Cup: Winners 2009, 2011, 2015",Q7156,1491113,793331,14,-1.6097960788211558,common,10
+Manchester City,Manchester City F.C.,Club World Cup: Winners 2023,Q50602,1439274,921409,14,-1.5744805815660503,common,10
+Real Madrid,Real Madrid CF,"Intercontinental Cup: Winners 1960, 1998, 2002; Club World Cup: Winners ×5 (2014 to 2022); FIFA Intercontinental Cup: Winners 2024",Q8682,1361433,691034,14,-1.5189872293625515,common,10
+Chelsea,Chelsea F.C.,"Club World Cup: Winners 2021, 2025",Q9616,1286815,862821,14,-1.4627287136856422,common,10
+Manchester United,Manchester United F.C.,Intercontinental Cup: Winners 1999; Club World Cup: Winners 2008,Q18656,1116187,753652,14,-1.3207523762759836,common,10
+Liverpool,Liverpool F.C.,Club World Cup: Winners 2019,Q1130849,976002,652364,14,-1.1868031878773908,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,FIFA Intercontinental Cup: Winners 2025,Q483020,829684,354560,14,-1.0246979742854603,common,10
+Inter Milan,Inter Milan,"Intercontinental Cup: Winners 1964, 1965; Club World Cup: Winners 2010",Q631,705825,333052,14,-0.8633335113208801,uncommon,25
+Juventus,Juventus FC,"Intercontinental Cup: Winners 1985, 1996",Q1422,704286,311576,14,-0.8611549311184555,uncommon,25
+Milan,AC Milan,"Intercontinental Cup: Winners 1969, 1989, 1990; Club World Cup: Winners 2007",Q1543,650304,318521,14,-0.7815648032653398,uncommon,25
+Bayern Munich,FC Bayern Munich,"Intercontinental Cup: Winners 1976, 2001; Club World Cup: Winners 2013, 2020",Q15789,610356,279974,14,-0.7182900467166181,uncommon,25
+Atlético Madrid,Atlético Madrid,Intercontinental Cup: Winners 1974,Q8701,531794,279848,14,-0.5807707532683765,uncommon,25
+Borussia Dortmund,Borussia Dortmund,Intercontinental Cup: Winners 1997,Q41420,459055,231702,14,-0.4339695436387523,uncommon,25
+Ajax,AFC Ajax,"Intercontinental Cup: Winners 1972, 1995",Q81888,341248,184912,14,-0.13798369468592975,rare,40
+Feyenoord,Feyenoord,Intercontinental Cup: Winners 1970,Q134241,256028,131657,14,0.14878193894894204,rare,40
+Flamengo,Clube de Regatas do Flamengo,Intercontinental Cup: Winners 1981,Q17479,237713,71595,14,0.22286074271056777,rare,40
+Porto,FC Porto,"Intercontinental Cup: Winners 1987, 2004",Q128446,234145,125858,14,0.23795489184643565,rare,40
+Boca Juniors,Boca Juniors,"Intercontinental Cup: Winners 1977, 2000, 2003",Q170703,227616,76836,14,0.2661806202512354,rare,40
+River Plate,Club Atlético River Plate,Intercontinental Cup: Winners 1986,Q15799,223595,79425,14,0.2839696656399041,rare,40
+Santos,Santos FC,"Intercontinental Cup: Winners 1962, 1963",Q80955,208583,88576,14,0.3533341761385685,super rare,60
+Corinthians,Sport Club Corinthians Paulista,"Club World Cup: Winners 2000, 2012",Q35933,178541,47123,14,0.5085511672318698,super rare,60
+Red Star Belgrade,Red Star Belgrade,Intercontinental Cup: Winners 1991,Q173009,177874,92862,14,0.5122867348959856,super rare,60
+Estudiantes,Estudiantes de La Plata,Intercontinental Cup: Winners 1968,Q214940,136174,30240,14,0.7789099627442138,super rare,60
+São Paulo,São Paulo FC,"Intercontinental Cup: Winners 1992, 1993; Club World Cup: Winners 2005",Q38568,126915,39176,14,0.849189058520542,super rare,60
+Independiente,Club Atlético Independiente,"Intercontinental Cup: Winners 1973, 1984",Q214978,119636,32589,14,0.9081380434671364,super rare,60
+Racing,Racing Club de Avellaneda,Intercontinental Cup: Winners 1967,Q276533,111742,38269,14,0.9762665030554439,ultra rare,85
+Internacional,Sport Club Internacional,Club World Cup: Winners 2006,Q80845,107129,24189,14,1.0183434536778448,ultra rare,85
+Grêmio,Grêmio Foot-Ball Porto Alegrense,Intercontinental Cup: Winners 1983,Q221695,107017,31998,14,1.0193874349702503,ultra rare,85
+Nacional,Club Nacional de Football,"Intercontinental Cup: Winners 1971, 1980, 1988",Q499616,75885,25832,14,1.3624869660240089,ultra rare,85
+Peñarol,Peñarol,"Intercontinental Cup: Winners 1961, 1966, 1982",Q16320,69931,20828,14,1.4440377049758306,ultra rare,85
+Vélez Sarsfield,Club Atlético Vélez Sarsfield,Intercontinental Cup: Winners 1994,Q215163,61774,18303,14,1.5678222655635536,ultra rare,85
+Olimpia,Club Olimpia,Intercontinental Cup: Winners 1979,Q604589,58815,17921,14,1.6168120952261917,legendary,100

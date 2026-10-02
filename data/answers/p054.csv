@@ -1,0 +1,24 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manuel Neuer,Manuel Neuer,"#1 GK, Bayern Munich",Q107365,297330,110024,14,-1.4639317285746136,common,10
+Thomas Müller,Thomas Müller,"#13 FW, Bayern Munich",Q43666,285189,119257,14,-1.422101671047003,common,10
+Mesut Özil,Mesut Özil,"#8 MF, Arsenal",Q83488,240011,106570,14,-1.2490571087025681,common,10
+Toni Kroos,Toni Kroos,"#18 MF, Bayern Munich",Q131234,212043,79577,14,-1.1247468691732891,common,10
+Miroslav Klose,Miroslav Klose,"#11 FW, Lazio",Q80471,165371,50164,14,-0.8753176142582181,common,10
+Lukas Podolski,Lukas Podolski,"#10 FW, Arsenal",Q134976,149807,45591,14,-0.7761434275820246,uncommon,25
+Bastian Schweinsteiger,Bastian Schweinsteiger,"#7 MF, Bayern Munich",Q44298,145594,47913,14,-0.7475221709657114,uncommon,25
+Sami Khedira,Sami Khedira,"#6 MF, Real Madrid",Q54094,127536,51796,14,-0.6146562065648614,uncommon,25
+Mario Götze,Mario Götze,"#19 MF, Bayern Munich",Q104454,116121,42224,14,-0.5205768849988524,uncommon,25
+Philipp Lahm,Philipp Lahm,"#16 DF, Bayern Munich",Q43682,85846,31933,14,-0.217490045734867,uncommon,25
+Mats Hummels,Mats Hummels,"#5 DF, Borussia Dortmund",Q110053,84419,31902,14,-0.20067158096956916,rare,40
+Jérôme Boateng,Jérôme Boateng,"#20 DF, Bayern Munich",Q151260,83225,32605,14,-0.1863793124679053,rare,40
+Julian Draxler,Julian Draxler,"#14 MF, Schalke 04",Q315697,81256,32117,14,-0.16235626298003952,rare,40
+Per Mertesacker,Per Mertesacker,"#17 DF, Arsenal",Q70550,73063,20781,14,-0.055718959733578925,rare,40
+Christoph Kramer,Christoph Kramer,"#23 MF, Borussia Mönchengladbach",Q1085348,49869,7838,14,0.3274768221630377,super rare,60
+Shkodran Mustafi,Shkodran Mustafi,"#21 DF, Sampdoria",Q694014,47420,24393,14,0.37799998864708395,super rare,60
+André Schürrle,André Schürrle,"#9 FW, Chelsea",Q58377,46029,19049,14,0.40787155154856136,super rare,60
+Matthias Ginter,Matthias Ginter,"#3 DF, SC Freiburg",Q129109,28698,9322,14,0.8818855379750783,super rare,60
+Benedikt Höwedes,Benedikt Höwedes,"#4 DF, Schalke 04",Q152897,19354,5900,14,1.2771168560585806,ultra rare,85
+Kevin Großkreutz,Kevin Großkreutz,"#2 DF, Borussia Dortmund",Q158367,19113,4549,14,1.2896885708371806,ultra rare,85
+Roman Weidenfeller,Roman Weidenfeller,"#22 GK, Borussia Dortmund",Q154397,17930,5163,14,1.353792630271473,ultra rare,85
+Ron-Robert Zieler,Ron-Robert Zieler,"#12 GK, Hannover 96",Q155049,13837,5378,14,1.6137734294928596,ultra rare,85
+Erik Durm,Erik Durm,"#15 DF, Borussia Dortmund",Q823064,8633,3142,14,2.0870644567592085,legendary,100

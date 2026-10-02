@@ -1,0 +1,40 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,"2009–10 (Barcelona), 2011–12 (Barcelona), 2012–13 (Barcelona), 2016–17 (Barcelona), 2017–18 (Barcelona), 2018–19 (Barcelona)",Q615,3692534,1228261,14,-1.8753779676300153,common,10
+Cristiano Ronaldo,Cristiano Ronaldo,"2007–08 (Manchester United), 2010–11 (Real Madrid), 2013–14 (Real Madrid), 2014–15 (Real Madrid)",Q11571,3496461,1667632,14,-1.8505479380617125,common,10
+Erling Haaland,Erling Haaland,2022–23 (Manchester City),Q28967995,1568270,801476,14,-1.4856729543026523,common,10
+Kylian Mbappé,Kylian Mbappé,2024–25 (Real Madrid),Q21621995,1453131,597122,14,-1.4509717792218848,common,10
+Robert Lewandowski,Robert Lewandowski,"2020–21 (Bayern Munich), 2021–22 (Bayern Munich)",Q151269,875293,374771,14,-1.2202829278214966,common,10
+Harry Kane,Harry Kane,"2023–24 (Bayern Munich), 2025–26 (Bayern Munich)",Q969725,807574,476904,14,-1.1836379191805722,common,10
+Ronaldo,Ronaldo (Brazilian footballer),1996–97 (Barcelona),Q529207,766044,312358,14,-1.1596118375535602,common,10
+Thierry Henry,Thierry Henry,"2003–04 (Arsenal), 2004–05 (Arsenal)",Q45901,495955,263172,14,-0.9617630848642994,common,10
+Marco van Basten,Marco van Basten,1985–86 (Ajax),Q483629,388738,97551,14,-0.8509145510417979,uncommon,25
+Ciro Immobile,Ciro Immobile,2019–20 (Lazio),Q458101,299829,76888,14,-0.7327330589665227,uncommon,25
+Francesco Totti,Francesco Totti,2006–07 (Roma),Q20110,291527,94833,14,-0.7199545315032345,uncommon,25
+Luis Suárez,Luis Suárez (Uruguayan footballer),"2013–14 (Liverpool), 2015–16 (Barcelona)",Q26517,256754,22605,14,-0.6621528184798331,uncommon,25
+Diego Forlán,Diego Forlán,"2004–05 (Villarreal), 2008–09 (Atlético Madrid)",Q261534,251011,79641,14,-0.6518581376276072,uncommon,25
+Gerd Müller,Gerd Müller,"1969–70 (Bayern Munich), 1971–72 (Bayern Munich)",Q43744,137516,48924,14,-0.3780108540249564,uncommon,25
+Luca Toni,Luca Toni,2005–06 (Fiorentina),Q186478,120734,30648,14,-0.3187821157830774,uncommon,25
+Eusébio,Eusébio,"1967–68 (Benfica), 1972–73 (Benfica)",Q162043,109051,45857,14,-0.2724669119225462,uncommon,25
+Hugo Sánchez,Hugo Sánchez,1989–90 (Real Madrid),Q487155,108373,37993,14,-0.2696287337922305,rare,40
+Hristo Stoichkov,Hristo Stoichkov,1989–90 (CSKA Sofia),Q187125,96519,43617,14,-0.2169129151237617,rare,40
+Henrik Larsson,Henrik Larsson,2000–01 (Celtic),Q179334,91674,55836,14,-0.19347593240986824,rare,40
+Ian Rush,Ian Rush,1983–84 (Liverpool),Q219354,81874,55918,14,-0.14202612886112984,rare,40
+Roy Makaay,Roy Makaay,2002–03 (Deportivo La Coruña),Q152725,65298,27830,14,-0.039078769185028006,rare,40
+Mário Jardel,Mário Jardel,"1998–99 (Porto), 2001–02 (Sporting CP)",Q317863,45096,17021,14,0.12937498113643991,rare,40
+Kevin Phillips,Kevin Phillips (footballer),1999–2000 (Sunderland),Q256875,34833,30028,13,0.24688717637159036,rare,40
+Wim Kieft,Wim Kieft,1981–82 (Ajax),Q350625,22139,3602,13,0.4531341525088018,rare,40
+Toni Polster,Toni Polster,1986–87 (Austria Wien),Q311520,19860,3614,14,0.5025688045806271,super rare,60
+Darko Pančev,Darko Pančev,1990–91 (Red Star Belgrade),Q311362,18115,8109,13,0.544419311452208,super rare,60
+Hans Krankl,Hans Krankl,1977–78 (Rapid Wien),Q131529,16811,5019,14,0.5784151529338487,super rare,60
+Josip Skoblar,Josip Skoblar,1970–71 (Marseille),Q315114,15636,8080,13,0.6113872445936428,super rare,60
+Tanju Çolak,Tanju Çolak,1987–88 (Galatasaray),Q539734,14685,3059,12,0.6399414990757636,super rare,60
+Fernando Gomes,Fernando Gomes (Portuguese footballer),"1982–83 (Porto), 1984–85 (Porto)",Q361418,7465,2823,12,0.9478207891296097,super rare,60
+Nikos Machlas,Nikos Machlas,1997–98 (Vitesse),Q353059,6682,3308,12,0.9982404554252683,super rare,60
+Héctor Yazalde,Héctor Yazalde,1973–74 (Sporting CP),Q375280,5340,1511,12,1.1002490326722723,ultra rare,85
+Kees Kist,Kees Kist,1978–79 (AZ),Q440417,4873,1198,12,1.1418881364960756,ultra rare,85
+Dudu Georgescu,Dudu Georgescu,"1974–75 (Dinamo București), 1976–77 (Dinamo București)",Q50807,4426,2175,13,1.1856637862799067,ultra rare,85
+Erwin Vandenbergh,Erwin Vandenbergh,1979–80 (Lierse),Q222675,3944,1447,12,1.2381225891472372,ultra rare,85
+Sotiris Kaiafas,Sotiris Kaiafas,1975–76 (Omonia Nicosia),Q351862,2744,1598,12,1.4031663536895118,ultra rare,85
+Petar Zhekov,Petar Zhekov,1968–69 (CSKA Sofia),Q342424,2268,1001,12,1.489833094264321,ultra rare,85
+Dorin Mateuț,Dorin Mateuț,1988–89 (Dinamo București),Q440797,2245,1020,13,1.4944696326750797,ultra rare,85
+Georgi Slavkov,Georgi Slavkov,1980–81 (Botev Plovdiv),Q518790,861,376,11,1.930279674925589,legendary,100

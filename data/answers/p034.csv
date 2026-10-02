@@ -1,0 +1,55 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,2026 v Algeria,Q615,3692534,1228261,14,-2.2054259610694635,common,10
+Cristiano Ronaldo,Cristiano Ronaldo,2018 v Spain,Q11571,3496461,1667632,14,-2.1808966437294037,common,10
+Kylian Mbappé,Kylian Mbappé,2022 v Argentina,Q21621995,1453131,597122,14,-1.7861596831976914,common,10
+Harry Kane,Harry Kane,2018 v Panama,Q969725,807574,476904,14,-1.522063457671336,common,10
+Pelé,Pelé,1958 v France,Q12897,513950,220371,14,-1.3188987429048344,common,10
+Ousmane Dembélé,Ousmane Dembélé,2026 v Norway,Q20851003,444802,179983,14,-1.2539373380060406,common,10
+Gonçalo Ramos,Gonçalo Ramos,2022 v Switzerland,Q60621615,337273,99439,14,-1.1295249438574386,common,10
+Jonathan David,Jonathan David,2026 v Qatar,Q56085180,309473,123668,14,-1.090852141869597,common,10
+Thomas Müller,Thomas Müller,2014 v Portugal,Q43666,285189,119257,14,-1.0541138963023529,common,10
+Bukayo Saka,Bukayo Saka,2026 v France,Q59306386,272915,203216,14,-1.0343365641289868,common,10
+Gabriel Batistuta,Gabriel Batistuta,1994 v Greece; 1998 v Jamaica,Q170376,197178,69389,14,-0.8882025739979906,common,10
+Gonzalo Higuaín,Gonzalo Higuaín,2010 v South Korea,Q483846,172700,65814,14,-0.8286118663565918,uncommon,25
+Gary Lineker,Gary Lineker,1986 v Poland,Q47778,167195,130346,14,-0.8140480156320555,uncommon,25
+Miroslav Klose,Miroslav Klose,2002 v Saudi Arabia,Q80471,165371,50164,14,-0.8091165390063849,uncommon,25
+Gerd Müller,Gerd Müller,1970 v Bulgaria; 1970 v Peru,Q43744,137516,48924,14,-0.7261932036878198,uncommon,25
+Karl-Heinz Rummenigge,Karl-Heinz Rummenigge,1982 v Chile,Q152871,127874,50878,14,-0.693511947528666,uncommon,25
+Eusébio,Eusébio,1966 v North Korea,Q162043,109051,45857,14,-0.6219274861610119,uncommon,25
+Paolo Rossi,Paolo Rossi,1982 v Brazil,Q178628,95364,30587,14,-0.5616340866240679,uncommon,25
+Xherdan Shaqiri,Xherdan Shaqiri,2014 v Honduras,Q252190,82753,41193,14,-0.4978672633833274,uncommon,25
+Just Fontaine,Just Fontaine,1958 v Paraguay; 1958 v West Germany,Q192749,47128,15491,14,-0.24476608128446192,uncommon,25
+Zbigniew Boniek,Zbigniew Boniek,1982 v Belgium,Q68039,45538,9204,14,-0.2293370660734449,uncommon,25
+Geoff Hurst,Geoff Hurst,1966 v West Germany,Q212738,43524,33547,14,-0.20900134575037846,uncommon,25
+Emilio Butragueño,Emilio Butragueño,1986 v Denmark,Q41235,38623,12216,14,-0.15529486086112895,rare,40
+Igor Belanov,Igor Belanov,1986 v Belgium,Q311410,35433,14215,14,-0.1165409295266205,rare,40
+Pauleta,Pauleta,2002 v Poland,Q218165,34923,12102,14,-0.11002325685150183,rare,40
+Míchel,"Míchel (footballer, born 1963)",1990 v South Korea,Q558689,29083,10078,14,-0.027758029895200164,rare,40
+Teófilo Cubillas,Teófilo Cubillas,1978 v Iran,Q311403,24886,7252,14,0.042304285085990365,rare,40
+Sándor Kocsis,Sándor Kocsis,1954 v South Korea; 1954 v West Germany,Q295265,23955,10334,14,0.05944497127070924,rare,40
+Flórián Albert,Flórián Albert,1962 v Bulgaria,Q201534,20279,11072,14,0.13433613681178544,rare,40
+Oleg Salenko,Oleg Salenko,1994 v Cameroon,Q295746,19456,5976,14,0.15296108686076182,rare,40
+Leônidas,"Leônidas (footballer, born 1913)",1938 v Poland,Q311739,17315,4812,14,0.2053702592844505,rare,40
+Rob Rensenbrink,Rob Rensenbrink,1978 v Iran,Q311393,16229,5483,14,0.23448876738698504,rare,40
+Preben Elkjær,Preben Elkjær,1986 v Uruguay,Q167393,14353,5567,14,0.2897107972544807,super rare,60
+Guillermo Stábile,Guillermo Stábile,1930 v Mexico,Q309645,13021,5198,14,0.3334938004251565,super rare,60
+Ernst Wilimowski,Ernst Wilimowski,1938 v Brazil,Q559779,11805,2524,14,0.3775663020315595,super rare,60
+Ademir,Ademir de Menezes,1950 v Sweden,Q332012,10202,3517,14,0.4431704313246213,super rare,60
+Max Morlock,Max Morlock,1954 v Turkey,Q366361,9386,1877,14,0.4806448871153271,super rare,60
+Andrzej Szarmach,Andrzej Szarmach,1974 v Haiti,Q353105,8764,1510,14,0.5114671284203949,super rare,60
+Tomáš Skuhravý,Tomáš Skuhravý,1990 v Costa Rica,Q444293,8310,2616,14,0.5353782703299653,super rare,60
+Angelo Schiavio,Angelo Schiavio,1934 v United States,Q315817,5719,1613,14,0.7033429873252693,super rare,60
+Dušan Bajević,Dušan Bajević,1974 v Zaire,Q350447,5514,3861,13,0.7197510474114738,super rare,60
+Oldřich Nejedlý,Oldřich Nejedlý,1934 v Germany,Q266489,4927,2302,14,0.7703450561954095,super rare,60
+Bert Patenaude,Bert Patenaude,1930 v Paraguay,Q360524,4720,2554,13,0.7896373082164017,ultra rare,85
+Pedro Cea,Pedro Cea,1930 v Yugoslavia,Q191471,3949,1707,14,0.8697980869709838,ultra rare,85
+Óscar Míguez,Óscar Míguez,1950 v Bolivia,Q24347,2805,960,14,1.0235313941811162,ultra rare,85
+Edmund Conen,Edmund Conen,1934 v Belgium,Q258251,2042,618,14,1.1661985429787325,ultra rare,85
+Josef Hügi,Josef Hügi,1954 v Austria,Q665684,1787,727,12,1.2261360806735253,ultra rare,85
+László Kiss,László Kiss (footballer),1982 v El Salvador,Q1111896,1385,686,13,1.3406309145791604,ultra rare,85
+Erich Probst,Erich Probst,1954 v Czechoslovakia,Q224612,1290,562,12,1.372552605916229,ultra rare,85
+Carlos Borges,Carlos Borges,1954 v Scotland,Q166999,881,391,10,1.5438303019999315,ultra rare,85
+Burhan Sargın,Burhan Sargın,1954 v South Korea,Q1016283,778,261,10,1.5996584783345167,ultra rare,85
+Theodor Wagner,Theodor Wagner,1954 v Switzerland,Q700338,750,265,11,1.6161152006203325,ultra rare,85
+Gustav Wetterström,Gustav Wetterström,1938 v Cuba,Q721072,528,223,11,1.7736526076856005,legendary,100
+Harry Andersson,Harry Andersson,1938 v Cuba,Q677755,504,253,11,1.7945261886669106,legendary,100

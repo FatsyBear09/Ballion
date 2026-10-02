@@ -1,0 +1,27 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,"#10 FW, Paris Saint-Germain",Q615,3692534,1228261,14,-2.4710217114170505,common,10
+Emiliano Martínez,Emiliano Martínez,"#23 GK, Aston Villa",Q3275904,866108,474940,14,-1.3125747344405942,common,10
+Enzo Fernández,Enzo Fernández,"#24 MF, Benfica",Q96105248,848183,500663,14,-1.295867260003543,common,10
+Julián Alvarez,Julián Alvarez,"#9 FW, Manchester City",Q59381180,794425,363594,14,-1.2435572708303368,common,10
+Lautaro Martínez,Lautaro Martínez,"#22 FW, Inter Milan",Q21484126,424593,134958,14,-0.7430590563480413,common,10
+Paulo Dybala,Paulo Dybala,"#21 FW, Roma",Q166317,378723,139174,14,-0.65172457258747,uncommon,25
+Leandro Paredes,Leandro Paredes,"#5 MF, Juventus",Q630170,329133,120983,14,-0.53960515441034,uncommon,25
+Cristian Romero,"Cristian Romero (footballer, born 1998)","#13 DF, Tottenham Hotspur",Q28058687,328818,159105,14,-0.5388401981908119,uncommon,25
+Rodrigo De Paul,Rodrigo De Paul,"#7 MF, Atlético Madrid",Q6110670,297927,113147,14,-0.46002452039909786,uncommon,25
+Ángel Di María,Ángel Di María,"#11 FW, Juventus",Q251683,285109,107309,14,-0.4248915997397834,uncommon,25
+Alexis Mac Allister,Alexis Mac Allister,"#20 MF, Brighton & Hove Albion",Q33297140,246403,144488,14,-0.3083304248889076,rare,40
+Nahuel Molina,Nahuel Molina,"#26 DF, Atlético Madrid",Q22082590,241029,53819,14,-0.2907138974410744,rare,40
+Thiago Almada,Thiago Almada,"#16 MF, Atlanta United FC",Q57293140,236145,52492,14,-0.27435955475262624,rare,40
+Gerónimo Rulli,Gerónimo Rulli,"#12 GK, Villarreal",Q5879014,172543,91667,14,-0.023667243451229183,rare,40
+Lisandro Martínez,Lisandro Martínez,"#25 DF, Manchester United",Q30881092,137664,75111,14,0.15674696269597282,rare,40
+Nicolás Tagliafico,Nicolás Tagliafico,"#3 DF, Lyon",Q3876530,134097,34907,14,0.17771986757835248,super rare,60
+Nicolás Otamendi,Nicolás Otamendi,"#19 DF, Benfica",Q182063,118634,44737,14,0.27560020510745903,super rare,60
+Exequiel Palacios,Exequiel Palacios,"#14 MF, Bayer Leverkusen",Q19345715,101773,66895,14,0.39806864791594493,super rare,60
+Ángel Correa,Ángel Correa,"#15 FW, Atlético Madrid",Q10855654,95786,23801,14,0.4465039382137401,super rare,60
+Papu Gómez,Papu Gómez,"#17 MF, Sevilla",Q965846,52307,10479,14,0.9298188579798404,super rare,60
+Gonzalo Montiel,Gonzalo Montiel,"#4 DF, Sevilla",Q26255087,44711,16385,14,1.0551717326556695,ultra rare,85
+Franco Armani,Franco Armani,"#1 GK, River Plate",Q5484508,33417,6133,14,1.2877684353201289,ultra rare,85
+Germán Pezzella,Germán Pezzella,"#6 DF, Real Betis",Q3761173,31253,5842,14,1.341252449298851,ultra rare,85
+Marcos Acuña,Marcos Acuña,"#8 DF, Sevilla",Q17462635,30179,11563,14,1.3691882164640061,ultra rare,85
+Guido Rodríguez,Guido Rodríguez,"#18 MF, Real Betis",Q18224850,25473,10512,14,1.504618162497022,ultra rare,85
+Juan Foyth,Juan Foyth,"#2 DF, Villarreal",Q29841260,21616,10887,14,1.635779723173893,legendary,100

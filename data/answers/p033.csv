@@ -1,0 +1,44 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Cristiano Ronaldo,Cristiano Ronaldo,3 PL hat-tricks,Q11571,3496461,1667632,14,-2.7035604757372615,common,10
+Erling Haaland,Erling Haaland,8 PL hat-tricks,Q28967995,1568270,801476,14,-1.9751395205708,common,10
+Mohamed Salah,Mohamed Salah,4 PL hat-tricks,Q1354960,1099792,533180,14,-1.6527541452908654,common,10
+Harry Kane,Harry Kane,8 PL hat-tricks,Q969725,807574,476904,14,-1.3721695758769736,common,10
+Romelu Lukaku,Romelu Lukaku,3 PL hat-tricks,Q313316,697283,246165,14,-1.2387615252240818,common,10
+Raheem Sterling,Raheem Sterling,5 PL hat-tricks,Q312157,575836,431351,14,-1.0649021808042896,common,10
+Jamie Vardy,Jamie Vardy,3 PL hat-tricks,Q6147586,570074,364924,14,-1.0557655934020778,common,10
+Thierry Henry,Thierry Henry,8 PL hat-tricks,Q45901,495955,263172,14,-0.9292280591004163,common,10
+Wayne Rooney,Wayne Rooney,7 PL hat-tricks,Q266613,406974,273643,14,-0.7495839760622538,common,10
+Frank Lampard,Frank Lampard,3 PL hat-tricks,Q41533,398123,274289,14,-0.7296074982535917,uncommon,25
+Michael Owen,Michael Owen,8 PL hat-tricks,Q128829,350396,270992,14,-0.613594112050943,uncommon,25
+Fernando Torres,Fernando Torres,4 PL hat-tricks,Q42731,286526,130506,14,-0.43077155280662777,uncommon,25
+Cole Palmer,Cole Palmer,4 PL hat-tricks,Q99760796,276532,194590,14,-0.3985171764815329,uncommon,25
+Didier Drogba,Didier Drogba,3 PL hat-tricks,Q48892,275164,144094,14,-0.3940116666241101,uncommon,25
+Son Heung-min,Son Heung-min,4 PL hat-tricks,Q439722,272865,151184,14,-0.38638921354598255,uncommon,25
+Luis Suárez,Luis Suárez (Uruguayan footballer),6 PL hat-tricks,Q26517,256754,22605,14,-0.3310988199592532,uncommon,25
+Sergio Agüero,Sergio Agüero,12 PL hat-tricks,Q119562,255987,117996,14,-0.32838078953238503,uncommon,25
+Carlos Tevez,Carlos Tevez,4 PL hat-tricks,Q50600,255034,109919,14,-0.3249922596242232,uncommon,25
+Nicolas Anelka,Nicolas Anelka,3 PL hat-tricks,Q1939,231024,130584,14,-0.23516373721575176,rare,40
+Robin van Persie,Robin van Persie,5 PL hat-tricks,Q2339,227698,116984,14,-0.2219891578186936,rare,40
+Ian Wright,Ian Wright,5 PL hat-tricks,Q312595,208457,172320,14,-0.14177978388840637,rare,40
+Phil Foden,Phil Foden,3 PL hat-tricks,Q30729096,196564,126804,14,-0.08841005872141766,rare,40
+Ruud van Nistelrooy,Ruud van Nistelrooy,5 PL hat-tricks,Q45626,177256,87496,14,0.005522779097323589,rare,40
+Alan Shearer,Alan Shearer,11 PL hat-tricks,Q483583,167917,121283,14,0.054695632735502694,rare,40
+Robbie Keane,Robbie Keane,3 PL hat-tricks,Q184612,140251,113735,14,0.21825868949045465,rare,40
+Emmanuel Adebayor,Emmanuel Adebayor,3 PL hat-tricks,Q386876,136597,71641,14,0.24224191557096955,rare,40
+Dimitar Berbatov,Dimitar Berbatov,5 PL hat-tricks,Q170235,118564,66396,14,0.370869247484435,super rare,60
+Dwight Yorke,Dwight Yorke,4 PL hat-tricks,Q192175,106104,85626,14,0.47174276682639193,super rare,60
+Andy Cole,Andy Cole,5 PL hat-tricks,Q216928,96624,78290,14,0.5567714659240097,super rare,60
+Theo Walcott,Theo Walcott,3 PL hat-tricks,Q29516,84105,59690,14,0.682835559708367,super rare,60
+Ole Gunnar Solskjær,Ole Gunnar Solskjær,3 PL hat-tricks,Q18976,79260,51886,14,0.7367388393414626,super rare,60
+Dion Dublin,Dion Dublin,3 PL hat-tricks,Q531093,73415,70610,12,0.8063344050451428,super rare,60
+Robbie Fowler,Robbie Fowler,9 PL hat-tricks,Q206548,73189,60448,14,0.8091354198534705,super rare,60
+Jermain Defoe,Jermain Defoe,4 PL hat-tricks,Q188746,70669,54965,14,0.8409673723169311,super rare,60
+Chris Wood,"Chris Wood (footballer, born 1991)",3 PL hat-tricks,Q74548,68248,52281,14,0.8726364547418003,ultra rare,85
+Teddy Sheringham,Teddy Sheringham,4 PL hat-tricks,Q234576,65930,53366,14,0.9040290498742362,ultra rare,85
+Matthew Le Tissier,Matthew Le Tissier,4 PL hat-tricks,Q317803,65150,47051,13,0.9148412739073613,ultra rare,85
+Jimmy Floyd Hasselbaink,Jimmy Floyd Hasselbaink,4 PL hat-tricks,Q223176,63620,45145,14,0.9364310825859946,ultra rare,85
+Les Ferdinand,Les Ferdinand,4 PL hat-tricks,Q311709,48031,41751,14,1.191790786094107,ultra rare,85
+Chris Sutton,Chris Sutton,4 PL hat-tricks,Q363769,33829,30677,12,1.5102402486570694,ultra rare,85
+Kevin Campbell,Kevin Campbell (footballer),4 PL hat-tricks,Q927006,27211,24533,12,1.708013116414627,ultra rare,85
+Tony Cottee,Tony Cottee,3 PL hat-tricks,Q348642,26519,25938,10,1.7314152507147562,ultra rare,85
+Yakubu,Yakubu (footballer),4 PL hat-tricks,Q202410,24562,20953,14,1.8010595222075243,legendary,100

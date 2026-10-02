@@ -1,0 +1,43 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Barcelona,FC Barcelona,"Winners ×5 (1992 to 2015); Runners-up 1961, 1986, 1994",Q7156,1491113,793331,14,-1.6507568765357519,common,10
+Manchester City,Manchester City F.C.,Winners 2023; Runners-up 2021,Q50602,1439274,921409,14,-1.6109237289619394,common,10
+Real Madrid,Real Madrid CF,"Winners ×15 (1956 to 2024); Runners-up 1962, 1964, 1981",Q8682,1361433,691034,14,-1.5483315227211514,common,10
+Chelsea,Chelsea F.C.,"Winners 2012, 2021; Runners-up 2008",Q9616,1286815,862821,14,-1.4848762713040695,common,10
+Manchester United,Manchester United F.C.,"Winners 1968, 1999, 2008; Runners-up 2009, 2011",Q18656,1116187,753652,14,-1.3247379513145137,common,10
+Arsenal,Arsenal F.C.,"Runners-up 2006, 2026",Q9617,1051843,715252,14,-1.25789772621031,common,10
+Liverpool,Liverpool F.C.,Winners ×6 (1977 to 2019); Runners-up ×4 (1985 to 2022),Q1130849,976002,652364,14,-1.1736536341284594,common,10
+Aston Villa,Aston Villa F.C.,Winners 1982,Q18711,880389,449682,14,-1.057589118198802,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,"Winners 2025, 2026; Runners-up 2020",Q483020,829684,354560,14,-0.9908114997292811,common,10
+Tottenham Hotspur,Tottenham Hotspur F.C.,Runners-up 2019,Q18741,788489,533010,14,-0.9334816446432113,uncommon,25
+Inter Milan,Inter Milan,"Winners 1964, 1965, 2010; Runners-up ×4 (1967 to 2025)",Q631,705825,333052,14,-0.8088048747055336,uncommon,25
+Juventus,Juventus FC,"Winners 1985, 1996; Runners-up ×7 (1973 to 2017)",Q1422,704286,311576,14,-0.8063476048537828,uncommon,25
+Milan,AC Milan,Winners ×7 (1963 to 2007); Runners-up ×4 (1958 to 2005),Q1543,650304,318521,14,-0.7165761007095659,uncommon,25
+Bayern Munich,FC Bayern Munich,Winners ×6 (1974 to 2020); Runners-up ×5 (1982 to 2012),Q15789,610356,279974,14,-0.6452070726283334,uncommon,25
+Atlético Madrid,Atlético Madrid,"Runners-up 1974, 2014, 2016",Q8701,531794,279848,14,-0.49009595326335414,uncommon,25
+Borussia Dortmund,Borussia Dortmund,"Winners 1997; Runners-up 2013, 2024",Q41420,459055,231702,14,-0.3245155508425536,uncommon,25
+Roma,AS Roma,Runners-up 1984,Q2739,424999,199094,14,-0.23774011496018008,uncommon,25
+Leeds United,Leeds United F.C.,Runners-up 1975,Q1128631,355955,260309,14,-0.0381666836379025,rare,40
+Nottingham Forest,Nottingham Forest F.C.,"Winners 1979, 1980",Q19490,346771,236265,14,-0.008740270973804596,rare,40
+Ajax,AFC Ajax,"Winners ×4 (1971 to 1995); Runners-up 1969, 1996",Q81888,341248,184912,14,0.009333578221983847,rare,40
+Celtic,Celtic F.C.,Winners 1967; Runners-up 1970,Q19593,340848,238942,14,0.010653904422405885,rare,40
+Fiorentina,ACF Fiorentina,Runners-up 1957,Q2052,317158,129780,14,0.09174807033389042,rare,40
+Monaco,AS Monaco FC,Runners-up 2004,Q180305,311418,165497,14,0.11230852736522766,rare,40
+Marseille,Olympique de Marseille,Winners 1993; Runners-up 1991,Q132885,298484,127521,14,0.1600619459969395,rare,40
+Benfica,S.L. Benfica,"Winners 1961, 1962; Runners-up ×5 (1963 to 1990)",Q131499,296635,162171,14,0.1670571600691531,rare,40
+Valencia,Valencia CF,"Runners-up 2000, 2001",Q10333,259582,126752,14,0.3172638204725792,super rare,60
+Feyenoord,Feyenoord,Winners 1970,Q134241,256028,131657,14,0.33278301802916094,super rare,60
+PSV Eindhoven,PSV Eindhoven,Winners 1988,Q11938,248057,115090,14,0.3683880589696031,super rare,60
+Porto,FC Porto,"Winners 1987, 2004",Q128446,234145,125858,14,0.4333632071370746,super rare,60
+Bayer Leverkusen,Bayer 04 Leverkusen,Runners-up 2002,Q104761,230385,125372,14,0.4515874573552162,super rare,60
+Red Star Belgrade,Red Star Belgrade,Winners 1991,Q173009,177874,92862,14,0.7427882935078745,super rare,60
+Borussia Mönchengladbach,Borussia Mönchengladbach,Runners-up 1977,Q101959,171024,71554,14,0.7869975681037468,super rare,60
+Eintracht Frankfurt,Eintracht Frankfurt,Runners-up 1960,Q38245,169531,72221,14,0.7968681045187713,super rare,60
+Club Brugge,Club Brugge KV,Runners-up 1978,Q190916,166841,91359,14,0.8148736836754367,ultra rare,85
+Hamburger SV,Hamburger SV,Winners 1983; Runners-up 1980,Q51974,160480,75910,14,0.8586331008981721,ultra rare,85
+Panathinaikos,Panathinaikos F.C.,Runners-up 1971,Q4122219,156865,99965,14,0.8842815238668659,ultra rare,85
+Sampdoria,UC Sampdoria,Runners-up 1992,Q1457,139160,47847,14,1.0191005619271805,ultra rare,85
+Saint-Étienne,AS Saint-Étienne,Runners-up 1976,Q19521,107557,48189,14,1.3090925704623482,ultra rare,85
+Partizan,FK Partizan,Runners-up 1966,Q188656,78017,45390,14,1.6705570813075707,ultra rare,85
+Steaua București,FCSB,Winners 1986; Runners-up 1989,Q179658,77977,44246,14,1.6711343985318299,ultra rare,85
+Reims,Stade de Reims,"Runners-up 1956, 1959",Q208228,74183,27167,14,1.727284315697913,ultra rare,85
+Malmö FF,Malmö FF,Runners-up 1979,Q204881,41798,23359,14,2.373094249451508,legendary,100

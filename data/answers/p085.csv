@@ -1,0 +1,61 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+José Mourinho,José Mourinho,"Chelsea 2004–05, 2005–06, 2014–15",Q79983,2129806,1100506,14,-2.1656710850032974,common,10
+Pep Guardiola,Pep Guardiola,"Manchester City 2017–18, 2018–19, 2020–21, 2021–22, 2022–23, 2023–24",Q164038,1160977,589961,14,-1.9441937778731235,common,10
+Jürgen Klopp,Jürgen Klopp,Liverpool 2019–20,Q83106,733457,221733,14,-1.776563249465535,common,10
+Mikel Arteta,Mikel Arteta,Arsenal 2025–26,Q185572,409174,263988,14,-1.5635327430748565,common,10
+Carlo Ancelotti,Carlo Ancelotti,Chelsea 2009–10,Q174614,360173,143990,14,-1.5169734945629345,common,10
+Alex Ferguson,Alex Ferguson,"Manchester United 1992–93, 1993–94, 1995–96, 1996–97, 1998–99, 1999–2000, 2000–01, 2002–03, 2006–07, 2007–08, 2008–09, 2010–11, 2012–13",Q44980,314514,185855,14,-1.4674942339336223,common,10
+Antonio Conte,Antonio Conte,Chelsea 2016–17,Q26580,282616,132057,14,-1.4284602537102007,common,10
+Roberto Mancini,Roberto Mancini,Manchester City 2011–12,Q48330,276001,102037,14,-1.4198151427883208,common,10
+Manuel Pellegrini,Manuel Pellegrini,Manchester City 2013–14,Q296036,178930,73288,14,-1.2616164442800313,common,10
+Arsène Wenger,Arsène Wenger,"Arsenal 1997–98, 2001–02, 2003–04",Q47576,175260,96329,14,-1.2540519659509521,common,10
+Arne Slot,Arne Slot,Liverpool 2024–25,Q1029223,172461,103235,14,-1.2481755167770643,common,10
+Brian Clough,Brian Clough,Derby County 1971–72; Nottingham Forest 1977–78,Q207658,170710,142490,14,-1.2444506312801304,common,10
+Kenny Dalglish,Kenny Dalglish,"Liverpool 1985–86, 1987–88, 1989–90; Blackburn Rovers 1994–95",Q187198,165406,116381,14,-1.232929797243783,uncommon,25
+Claudio Ranieri,Claudio Ranieri,Leicester City 2015–16,Q235068,91908,39410,14,-1.0184455436560957,uncommon,25
+Don Revie,Don Revie,"Leeds United 1968–69, 1973–74",Q350795,46982,40335,13,-0.7735182738580432,uncommon,25
+Bill Shankly,Bill Shankly,"Liverpool 1963–64, 1965–66, 1972–73",Q207457,46269,39916,14,-0.7679365119943942,uncommon,25
+Matt Busby,Matt Busby,"Manchester United 1951–52, 1955–56, 1956–57, 1964–65, 1966–67",Q206237,46192,36613,14,-0.7673285744446293,uncommon,25
+Bob Paisley,Bob Paisley,"Liverpool 1975–76, 1976–77, 1978–79, 1979–80, 1981–82, 1982–83",Q314436,32308,24276,14,-0.6368434980858966,uncommon,25
+Dave Mackay,Dave Mackay,Derby County 1974–75,Q500417,20703,18616,13,-0.47440663490136004,uncommon,25
+George Graham,George Graham,"Arsenal 1988–89, 1990–91",Q313763,18978,16514,13,-0.4426529232126506,uncommon,25
+Alf Ramsey,Alf Ramsey,Ipswich Town 1961–62,Q311029,14724,11135,14,-0.35001806724940576,uncommon,25
+Joe Fagan,Joe Fagan,Liverpool 1983–84,Q348271,11873,10155,14,-0.2714692767232572,uncommon,25
+Howard Kendall,Howard Kendall,"Everton 1984–85, 1986–87",Q556898,10639,9434,12,-0.23141636557681144,uncommon,25
+Bertie Mee,Bertie Mee,Arsenal 1970–71,Q544272,10208,9777,9,-0.2163228627307142,uncommon,25
+Herbert Chapman,Herbert Chapman,"Huddersfield Town 1923–24, 1924–25; Arsenal 1930–31, 1932–33",Q313784,9773,7450,14,-0.2004288591893525,rare,40
+Howard Wilkinson,Howard Wilkinson,Leeds United 1991–92,Q552905,9590,8932,10,-0.19352991486274,rare,40
+George Ramsay,"George Ramsay (footballer, born 1855)","Aston Villa 1893–94, 1895–96, 1896–97, 1898–99, 1899–1900, 1909–10",Q1508144,6426,5434,8,-0.047409640733254,rare,40
+Joe Mercer,Joe Mercer,Manchester City 1967–68,Q359668,5743,4838,13,-0.0063998956772072105,rare,40
+Bill Nicholson,Bill Nicholson (footballer),Tottenham Hotspur 1960–61,Q712767,5226,4471,11,0.028027346894190272,rare,40
+Ted Drake,Ted Drake,Chelsea 1954–55,Q319355,4025,3195,12,0.12331867999759992,rare,40
+Ron Saunders,Ron Saunders,Aston Villa 1980–81,Q648720,3927,3594,8,0.13231362660225487,rare,40
+Stan Cullis,Stan Cullis,"Wolverhampton Wanderers 1953–54, 1957–58, 1958–59",Q182705,3189,2946,7,0.2082759043402637,rare,40
+Harry Catterick,Harry Catterick,"Everton 1962–63, 1969–70",Q583712,1969,1821,7,0.3842066686798903,rare,40
+Tom Watson,Tom Watson (football manager),"Sunderland 1891–92, 1892–93, 1894–95; Liverpool 1900–01, 1905–06",Q1190596,1651,1278,7,0.44846573780323656,rare,40
+Ernest Mangnall,Ernest Mangnall,"Manchester United 1907–08, 1910–11",Q706085,1633,1298,10,0.45246468263969863,rare,40
+George Allison,George Allison,"Arsenal 1934–35, 1937–38",Q722565,1506,1322,9,0.4819977625905986,rare,40
+Tom Whittaker,Tom Whittaker (footballer),"Arsenal 1947–48, 1952–53",Q544155,1225,924,9,0.5573229529510964,super rare,60
+George Kay,George Kay (footballer),Liverpool 1946–47,Q1009479,1121,857,7,0.589679012185293,super rare,60
+Fred Everiss,Fred Everiss,West Bromwich Albion 1919–20,Q10396682,1108,1063,3,0.5939328881332117,super rare,60
+Arthur Rowe,Arthur Rowe (footballer),Tottenham Hotspur 1950–51,Q472350,970,782,7,0.6424383139143055,super rare,60
+Frank Watt,Frank Watt (football manager),"Newcastle United 1904–05, 1906–07, 1908–09, 1926–27",Q5490260,724,656,4,0.7490780775285577,super rare,60
+Harry Potts,Harry Potts,Burnley 1959–60,Q3783527,702,635,4,0.7603258095381312,super rare,60
+William Sudell,William Sudell,"Preston North End 1888–89, 1889–90",Q8018960,552,552,1,0.8479280798104296,super rare,60
+Wilf Wild,Wilf Wild,Manchester City 1936–37,Q8001695,486,437,4,0.8943187621825746,super rare,60
+Matt McQueen,Matt McQueen,Liverpool 1922–23,Q2915513,467,376,6,0.9088446827100601,super rare,60
+Joe Shaw,"Joe Shaw (footballer, born 1883)",Arsenal 1933–34,Q1380443,440,373,6,0.9305348935870088,super rare,60
+Dick Molyneux,Dick Molyneux,Everton 1890–91,Q3026613,402,353,2,0.9634254324704967,super rare,60
+David Ashworth,David Ashworth,Liverpool 1921–22,Q1173594,395,285,6,0.9698212857984027,ultra rare,85
+Theo Kelly,Theo Kelly,Everton 1938–39,Q1615284,375,306,4,0.9887380132736816,ultra rare,85
+Thomas H. McIntosh,Thomas H. McIntosh,"Everton 1927–28, 1931–32",Q3525182,291,244,4,1.081025731190689,ultra rare,85
+Johnny Cochrane,Johnny Cochrane,Sunderland 1935–36,Q6266490,289,269,3,1.0835344087441232,ultra rare,85
+Bob Kyle,Bob Kyle,Sunderland 1912–13,Q4933088,265,265,1,1.1150657558737782,ultra rare,85
+Cecil Potter,Cecil Potter,Huddersfield Town 1925–26,Q4587734,239,207,2,1.1526098481317306,ultra rare,85
+Arthur Dickinson,Arthur Dickinson (football manager),"The Wednesday 1902–03, 1903–04",Q709110,228,191,3,1.1697350468468275,ultra rare,85
+Bob Jackson,Bob Jackson (football manager),"Portsmouth 1948–49, 1949–50",Q4932909,219,175,4,1.1843699706666848,ultra rare,85
+Will Cuff,Will Cuff,Everton 1914–15,Q3441424,210,183,2,1.1996162719787804,ultra rare,85
+John Haworth,John Haworth,Burnley 1920–21,Q6238319,180,180,1,1.2555947838333092,ultra rare,85
+Alex Mackie,Alex Mackie,Sunderland 1901–02,Q4717414,174,174,1,1.267899695547352,ultra rare,85
+Robert Brown,Robert Brown (football manager),"The Wednesday 1928–29, 1929–30",Q1773135,166,148,2,1.2849793560991802,legendary,100
+Joseph Wostinholm,Joseph Wostinholm,Sheffield United 1897–98,Q6288078,99,99,1,1.4721656962962228,legendary,100

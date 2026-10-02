@@ -1,0 +1,52 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,30 PL seasons,Q50602,1439274,921409,14,-2.040758060895954,common,10
+Chelsea,Chelsea F.C.,35 PL seasons,Q9616,1286815,862821,14,-1.9176186249462324,common,10
+Manchester United,Manchester United F.C.,35 PL seasons,Q18656,1116187,753652,14,-1.761174831760224,common,10
+Arsenal,Arsenal F.C.,35 PL seasons,Q9617,1051843,715252,14,-1.6958766673146979,common,10
+Liverpool,Liverpool F.C.,35 PL seasons,Q1130849,976002,652364,14,-1.6135761578572763,common,10
+Aston Villa,Aston Villa F.C.,32 PL seasons,Q18711,880389,449682,14,-1.500189348706801,common,10
+Tottenham Hotspur,Tottenham Hotspur F.C.,35 PL seasons,Q18741,788489,533010,14,-1.3789451397814476,common,10
+Hull City,Hull City A.F.C.,6 PL seasons,Q19477,644378,438487,14,-1.1569760517063328,common,10
+Newcastle United,Newcastle United F.C.,32 PL seasons,Q18716,537303,394360,14,-0.9571229026272426,common,10
+Crystal Palace,Crystal Palace F.C.,18 PL seasons,Q19467,464039,289306,14,-0.7959043072607607,common,10
+Brighton & Hove Albion,Brighton & Hove Albion F.C.,10 PL seasons,Q19453,459543,330152,14,-0.7851968985991917,uncommon,25
+Everton,Everton F.C.,35 PL seasons,Q5794,428615,318369,14,-0.7085724595360798,uncommon,25
+West Ham United,West Ham United F.C.,30 PL seasons,Q18747,419823,291954,14,-0.6857788483417214,uncommon,25
+Coventry City,Coventry City F.C.,10 PL seasons,Q19580,407852,299584,14,-0.6539639253935805,uncommon,25
+Ipswich Town,Ipswich Town F.C.,7 PL seasons,Q9653,405498,282722,14,-0.6475980200291416,uncommon,25
+Leicester City,Leicester City F.C.,18 PL seasons,Q19481,405038,267233,14,-0.6463497298786333,uncommon,25
+Leeds United,Leeds United F.C.,17 PL seasons,Q1128631,355955,260309,14,-0.504285853952867,uncommon,25
+Nottingham Forest,Nottingham Forest F.C.,10 PL seasons,Q19490,346771,236265,14,-0.4755383335759296,uncommon,25
+Fulham,Fulham F.C.,20 PL seasons,Q18708,343865,237708,14,-0.46628328401645774,uncommon,25
+Bournemouth,AFC Bournemouth,10 PL seasons,Q19568,326829,214352,14,-0.41040199863434473,uncommon,25
+Sunderland,Sunderland A.F.C.,18 PL seasons,Q18739,326448,216149,14,-0.4091192032959979,rare,40
+Brentford,Brentford F.C.,6 PL seasons,Q19571,320955,217510,14,-0.3904564799765793,rare,40
+Wolverhampton Wanderers,Wolverhampton Wanderers F.C.,12 PL seasons,Q19500,255462,177719,14,-0.13946034232161136,rare,40
+Burnley,Burnley F.C.,10 PL seasons,Q19458,254587,169715,14,-0.13568700247655335,rare,40
+Blackburn Rovers,Blackburn Rovers F.C.,18 PL seasons,Q19446,222592,169845,14,0.012013546331079759,rare,40
+Southampton,Southampton F.C.,25 PL seasons,Q18732,191619,127773,14,0.17679259709053455,rare,40
+Middlesbrough,Middlesbrough F.C.,15 PL seasons,Q18661,169268,137062,14,0.3131914009285725,rare,40
+Queens Park Rangers,Queens Park Rangers F.C.,7 PL seasons,Q18723,165165,121565,14,0.3401776566689706,rare,40
+Sheffield Wednesday,Sheffield Wednesday F.C.,8 PL seasons,Q19498,157978,127626,14,0.38910513958151205,rare,40
+Birmingham City,Birmingham City F.C.,7 PL seasons,Q19444,151712,100675,14,0.4336144353883738,rare,40
+West Bromwich Albion,West Bromwich Albion F.C.,13 PL seasons,Q18744,148064,112127,14,0.46038191968502035,super rare,60
+Bolton Wanderers,Bolton Wanderers F.C.,13 PL seasons,Q19451,146693,107742,14,0.47061260103545854,super rare,60
+Charlton Athletic,Charlton Athletic F.C.,8 PL seasons,Q19462,144200,117098,14,0.489463310534579,super rare,60
+Sheffield United,Sheffield United F.C.,6 PL seasons,Q19607,135816,105768,14,0.5553391545323131,super rare,60
+Swansea City,Swansea City A.F.C.,7 PL seasons,Q18659,134549,101426,14,0.5656467450625479,super rare,60
+Watford,Watford F.C.,8 PL seasons,Q2714,130203,87511,14,0.601755893824925,super rare,60
+Stoke City,Stoke City F.C.,10 PL seasons,Q18736,120133,89633,14,0.6902813445456645,super rare,60
+Derby County,Derby County F.C.,7 PL seasons,Q19470,118834,87761,14,0.7022378126161265,super rare,60
+Norwich City,Norwich City F.C.,10 PL seasons,Q18721,112685,85327,14,0.7606693476937025,super rare,60
+Luton Town,Luton Town F.C.,1 PL season,Q18520,111973,88327,14,0.7676402137675297,super rare,60
+Cardiff City,Cardiff City F.C.,2 PL seasons,Q18662,107848,84799,14,0.8089195639394053,ultra rare,85
+Portsmouth,Portsmouth F.C.,7 PL seasons,Q19604,102277,76310,14,0.8672485104450491,ultra rare,85
+Reading,Reading F.C.,3 PL seasons,Q18729,80788,57814,14,1.1266329315543433,ultra rare,85
+Wigan Athletic,Wigan Athletic F.C.,8 PL seasons,Q18750,80022,61263,14,1.1371101173854954,ultra rare,85
+Wimbledon,Wimbledon F.C.,8 PL seasons,Q19482,75726,55388,14,1.1977945697621064,ultra rare,85
+Bradford City,Bradford City A.F.C.,2 PL seasons,Q48879,69843,58568,14,1.2867334446186272,ultra rare,85
+Huddersfield Town,Huddersfield Town A.F.C.,2 PL seasons,Q19473,65856,50668,14,1.3513761085702978,ultra rare,85
+Blackpool,Blackpool F.C.,1 PL season,Q19449,58654,45624,14,1.4787434235536852,ultra rare,85
+Barnsley,Barnsley F.C.,1 PL season,Q19442,56625,45850,14,1.5174602907351307,ultra rare,85
+Swindon Town,Swindon Town F.C.,1 PL season,Q19634,48735,41725,14,1.6824807618849955,legendary,100
+Oldham Athletic,Oldham Athletic A.F.C.,2 PL seasons,Q19601,48253,39400,14,1.6934116311495782,legendary,100

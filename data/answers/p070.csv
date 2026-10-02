@@ -1,0 +1,34 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Inter Miami CF,Inter Miami CF,joined 2020,Q16844931,403141,218408,14,-2.9940656286332428,common,10
+Chicago Fire FC,Chicago Fire FC,joined 1998,Q308683,126063,70392,14,-1.3324439267098176,common,10
+LA Galaxy,LA Galaxy,joined 1996,Q204357,123557,68731,14,-1.303743899460371,common,10
+Los Angeles FC,Los Angeles FC,joined 2018,Q18380286,96276,61061,14,-0.947147143665044,common,10
+CF Montréal,CF Montréal,joined 2012,Q167615,87305,47490,14,-0.8073417434985833,common,10
+New York City FC,New York City FC,joined 2015,Q13361030,80969,58036,14,-0.6996536077540152,common,10
+New York Red Bulls,New York Red Bulls,joined 1996,Q204220,79953,55348,14,-0.681604814526431,common,10
+Vancouver Whitecaps FC,Vancouver Whitecaps FC,joined 2011,Q196107,70928,46857,14,-0.5104082079891704,uncommon,25
+Orlando City SC,Orlando City SC,joined 2015,Q15214308,67693,40372,14,-0.44368339590520633,uncommon,25
+Columbus Crew,Columbus Crew,joined 1996,Q457163,66473,42248,14,-0.41768824367548707,uncommon,25
+Nashville SC,Nashville SC,joined 2020,Q47518754,55885,40196,14,-0.16969978771144087,uncommon,25
+Atlanta United FC,Atlanta United FC,joined 2017,Q16836317,55512,33977,14,-0.16012787625382374,uncommon,25
+New England Revolution,New England Revolution,joined 1996,Q309095,54403,40714,14,-0.1312841791035365,uncommon,25
+D.C. United,D.C. United,joined 1996,Q238593,53608,34238,14,-0.11024307850406372,uncommon,25
+San Jose Earthquakes,San Jose Earthquakes,joined 1996,Q575370,52857,36285,14,-0.09007792030467446,rare,40
+Seattle Sounders FC,Seattle Sounders FC,joined 2009,Q632511,51054,38815,14,-0.04047137967232973,rare,40
+Charlotte FC,Charlotte FC,joined 2022,Q78944434,48654,33800,14,0.028350404439507256,rare,40
+Colorado Rapids,Colorado Rapids,joined 1996,Q642408,48443,39445,14,0.03456249662341653,rare,40
+Philadelphia Union,Philadelphia Union,joined 2010,Q689874,45919,34884,14,0.11104394779475099,rare,40
+San Diego FC,San Diego FC,joined 2025,Q118945347,44517,34544,11,0.15536411274448128,rare,40
+Toronto FC,Toronto FC,joined 2007,Q327238,44069,31538,14,0.1698210511091811,super rare,60
+Portland Timbers,Portland Timbers,joined 2011,Q1031200,43656,31694,14,0.18327932902226313,super rare,60
+Minnesota United FC,Minnesota United FC,joined 2017,Q19828435,41617,26999,14,0.2516465292012899,super rare,60
+Real Salt Lake,Real Salt Lake,joined 2005,Q391353,40386,28203,14,0.29456259024794534,super rare,60
+Austin FC,Austin FC,joined 2021,Q60643348,38197,27465,14,0.3742129930960322,super rare,60
+Sporting Kansas City,Sporting Kansas City,joined 1996,Q329812,37355,28086,14,0.4060727252285529,super rare,60
+FC Dallas,FC Dallas,joined 1996,Q642291,36503,26458,14,0.439050326726391,ultra rare,85
+FC Cincinnati,FC Cincinnati,joined 2019,Q20855983,33367,24898,14,0.567441231315603,ultra rare,85
+St. Louis City SC,St. Louis City SC,joined 2023,Q66642491,31942,24760,13,0.6298243340336678,ultra rare,85
+Houston Dynamo FC,Houston Dynamo FC,joined 2006,Q328313,30882,21562,14,0.6780609886013154,ultra rare,85
+Chivas USA,Chivas USA,"defunct, 2005–2014",Q642433,20327,15012,14,1.2758259055204726,ultra rare,85
+Tampa Bay Mutiny,Tampa Bay Mutiny,"defunct, 1996–2001",Q421009,8817,5950,13,2.469627522478284,ultra rare,85
+Miami Fusion,Miami Fusion,"defunct, 1998–2001",Q862647,7141,4799,12,2.7709383451841316,legendary,100

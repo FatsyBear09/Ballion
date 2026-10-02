@@ -1,0 +1,64 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Barcelona,FC Barcelona,"96 seasons, debut 1929",Q7156,1491113,793331,14,-2.2523083570469997,common,10
+Real Madrid,Real Madrid CF,"96 seasons, debut 1929",Q8682,1361433,691034,14,-2.1943965787542097,common,10
+Atlético Madrid,Atlético Madrid,"90 seasons, debut 1929",Q8701,531794,279848,14,-1.5960651949943394,common,10
+Real Betis,Real Betis,"61 seasons, debut 1932–33",Q8723,363516,201348,14,-1.3539207755358196,common,10
+Deportivo A Coruña,Deportivo de A Coruña,"47 seasons, debut 1941–42",Q8760,348440,167349,14,-1.326960515056273,common,10
+Real Sociedad,Real Sociedad,"80 seasons, debut 1929",Q10315,263252,135188,14,-1.1485160043138165,common,10
+Valencia,Valencia CF,"92 seasons, debut 1931–32",Q10333,259582,126752,14,-1.139580169775442,common,10
+Athletic Bilbao,Athletic Bilbao,"96 seasons, debut 1929",Q8687,252056,124987,14,-1.1208535904659112,common,10
+Villarreal,Villarreal CF,"27 seasons, debut 1998–99",Q12297,248913,112566,14,-1.1128669359649401,common,10
+Sevilla,Sevilla FC,"83 seasons, debut 1934–35",Q10329,221023,115503,14,-1.0372278926101681,common,10
+Racing Santander,Racing de Santander,"45 seasons, debut 1929",Q12236,211844,110662,14,-1.0102299048378733,common,10
+Rayo Vallecano,Rayo Vallecano,"24 seasons, debut 1977–78",Q10300,174606,94213,14,-0.8871838276728343,common,10
+Celta Vigo,RC Celta de Vigo,"61 seasons, debut 1939–40",Q8749,154005,79827,14,-0.8072738733045823,common,10
+Espanyol,RCD Espanyol,"90 seasons, debut 1929",Q8780,153064,83035,14,-0.8033728406633988,uncommon,25
+Levante,Levante UD,"18 seasons, debut 1963–64",Q8823,147740,68004,14,-0.7808395659299306,uncommon,25
+Elche,Elche CF,"26 seasons, debut 1959–60",Q10512,147373,70662,14,-0.7792564875837414,uncommon,25
+Málaga CF,Málaga CF,"18 seasons, debut 1949–50",Q8857,133447,68716,14,-0.7160765706900298,uncommon,25
+Alavés,Deportivo Alavés,"21 seasons, debut 1930–31",Q223620,125856,62044,14,-0.6787996857456067,uncommon,25
+Girona,Girona FC,"6 seasons, debut 2017–18",Q11945,117997,67677,14,-0.637759108838913,uncommon,25
+Getafe,Getafe CF,"22 seasons, debut 2004–05",Q8806,117443,64403,14,-0.6347637143074615,uncommon,25
+Leganés,CD Leganés,"5 seasons, debut 2016–17",Q856119,117206,45808,14,-0.6334779733194666,uncommon,25
+Zaragoza,Real Zaragoza,"58 seasons, debut 1939–40",Q10308,111099,56498,14,-0.5994183602056281,uncommon,25
+Osasuna,CA Osasuna,"45 seasons, debut 1935–36",Q10286,99843,51739,14,-0.5314264862776887,uncommon,25
+Mallorca,RCD Mallorca,"33 seasons, debut 1960–61",Q8835,92033,46009,14,-0.47958311155103933,uncommon,25
+UD Almería,UD Almería,"8 seasons, debut 2007–08",Q10407,86511,44246,14,-0.4401998019744111,uncommon,25
+Las Palmas,UD Las Palmas,"36 seasons, debut 1951–52",Q11979,75498,40134,14,-0.3535317926029992,rare,40
+Oviedo,Real Oviedo,"39 seasons, debut 1933–34",Q271574,74871,41498,14,-0.34822376253262366,rare,40
+Valladolid,Real Valladolid,"47 seasons, debut 1948–49",Q10319,61979,28130,14,-0.2279457566849565,rare,40
+Sporting Gijón,Sporting de Gijón,"42 seasons, debut 1944–45",Q12278,49269,21812,14,-0.08187164950759236,rare,40
+Castellón,CD Castellón,"11 seasons, debut 1941–42",Q743557,48607,26159,14,-0.07326157459807912,rare,40
+Tenerife,CD Tenerife,"13 seasons, debut 1961–62",Q216661,45497,22760,14,-0.031176445781211592,rare,40
+Granada,Granada CF,"27 seasons, debut 1941–42",Q8812,42915,21267,14,0.006010123284331457,rare,40
+Cádiz,Cádiz CF,"16 seasons, debut 1977–78",Q460448,41605,20392,14,0.02574178739111306,rare,40
+Hércules,Hércules CF,"20 seasons, debut 1935–36",Q11963,41240,18247,14,0.031350281814363064,rare,40
+Eibar,SD Eibar,"7 seasons, debut 2014–15",Q770740,37643,17992,14,0.08943671056957314,rare,40
+Albacete,Albacete Balompié,"7 seasons, debut 1991–92",Q576285,33836,15998,14,0.15729935743853843,rare,40
+Sabadell,CE Sabadell FC,"14 seasons, debut 1943–44",Q12260,31156,14867,14,0.20982063194543615,rare,40
+Córdoba,Córdoba CF,"9 seasons, debut 1962–63",Q10499,28627,13353,14,0.2637025748169278,super rare,60
+Europa,CE Europa,"3 seasons, debut 1929",Q856024,27532,10712,11,0.2885260015652755,super rare,60
+Recreativo,Recreativo de Huelva,"5 seasons, debut 1978–79",Q12249,27482,11849,14,0.2896829353864766,super rare,60
+Murcia,Real Murcia,"18 seasons, debut 1940–41",Q12230,26389,9194,14,0.3155136252416814,super rare,60
+Huesca,SD Huesca,"2 seasons, debut 2018–19",Q11971,24766,12060,14,0.35591411501027476,super rare,60
+Real Unión,Real Unión,"4 seasons, debut 1929",Q726810,23848,12979,13,0.37995455916508153,super rare,60
+Cultural Leonesa,Cultural y Deportiva Leonesa,"1 season, debut 1955–56",Q582342,22856,10119,14,0.4069961177175964,super rare,60
+Gimnàstic,Gimnàstic de Tarragona,"4 seasons, debut 1947–48",Q257984,22726,10483,14,0.4106265597141687,super rare,60
+Numancia,CD Numancia,"4 seasons, debut 1999–00",Q12158,15641,6470,14,0.6484186196861065,super rare,60
+Xerez,Xerez CD,"1 season, debut 2009–10",Q12308,15146,5531,14,0.6688865741580071,super rare,60
+Salamanca,UD Salamanca,"12 seasons, debut 1974–75",Q697353,12585,4061,14,0.7867771828038874,super rare,60
+Arenas,Arenas Club de Getxo,"7 seasons, debut 1929",Q641649,11526,4521,13,0.8427209330103832,super rare,60
+Jaén,Real Jaén,"3 seasons, debut 1953–54",Q837183,10590,4041,13,0.8966244191579965,ultra rare,85
+Logroñés,CD Logroñés,"9 seasons, debut 1987–88",Q657865,10159,2792,12,0.9230684775265585,ultra rare,85
+Compostela,SD Compostela,"4 seasons, debut 1994–95",Q929753,9518,4641,14,0.9645482220294516,ultra rare,85
+Pontevedra,Pontevedra CF,"6 seasons, debut 1963–64",Q849271,7039,3248,11,1.156568138510907,ultra rare,85
+Extremadura,CF Extremadura,"2 seasons, debut 1996–97",Q732742,6915,2385,12,1.167879100886803,ultra rare,85
+CD Málaga,CD Málaga,"20 seasons, debut 1949–50",Q124518,5770,2783,7,1.2830803661501575,ultra rare,85
+Lleida,UE Lleida,"2 seasons, debut 1950–51",Q837218,5691,2439,12,1.2918536681550132,ultra rare,85
+Alcoyano,CD Alcoyano,"4 seasons, debut 1945–46",Q837238,5336,2330,12,1.3328428899658635,ultra rare,85
+Atlético Tetuán,Atlético Tetuán,"1 season, debut 1951–52",Q757467,4941,1271,7,1.3817855472789757,ultra rare,85
+Condal,CD Condal,"1 season, debut 1956–57",Q856083,3466,1567,8,1.6074118288689832,ultra rare,85
+Mérida,CP Mérida,"2 seasons, debut 1995–96",Q856416,3464,1540,8,1.6077791102039465,ultra rare,85
+Real Burgos,Real Burgos CF,"3 seasons, debut 1990–91",Q543446,2820,1165,8,1.738656703335459,ultra rare,85
+AD Almería,AD Almería,"2 seasons, debut 1979–80",Q290781,1601,769,7,2.0988121331689293,legendary,100
+Burgos CF (1936),Burgos CF (1936),"6 seasons, debut 1971–72",Q4998669,1387,577,2,2.190079013169505,legendary,100

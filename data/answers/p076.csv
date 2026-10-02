@@ -1,0 +1,36 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Barcelona,FC Barcelona,Winners ×32 (1910–2025); runners-up ×11,Q7156,1491113,793331,14,-1.707829311302926,common,10
+Real Madrid,Real Madrid CF,Winners ×20 (1905–2023); runners-up ×21,Q8682,1361433,691034,14,-1.6616176817242614,common,10
+Atlético Madrid,Atlético Madrid,Winners ×10 (1960–2013); runners-up ×10,Q8701,531794,279848,14,-1.1841695859015289,common,10
+Real Betis,Real Betis,Winners ×3 (1977–2022); runners-up ×2,Q8723,363516,201348,14,-0.9909465741683353,common,10
+Deportivo La Coruña,Deportivo de La Coruña,Winners ×2 (1995–2002),Q8760,348440,167349,14,-0.9694332031865948,common,10
+Real Sociedad,Real Sociedad,Winners ×3 (1987–2026); runners-up ×4,Q10315,263252,135188,14,-0.8270405522635774,common,10
+Valencia,Valencia CF,Winners ×8 (1941–2019); runners-up ×10,Q10333,259582,126752,14,-0.819910060197251,common,10
+Athletic Bilbao,Athletic Bilbao,Winners ×24 (1903–2024); runners-up ×16,Q8687,252056,124987,14,-0.8049668867731453,uncommon,25
+Sevilla,Sevilla FC,Winners ×5 (1935–2010); runners-up ×4,Q10329,221023,115503,14,-0.7382364238778617,uncommon,25
+Celta Vigo,RC Celta de Vigo,Runners-up ×3,Q8749,154005,79827,14,-0.5547409368881662,uncommon,25
+Espanyol,RCD Espanyol,Winners ×4 (1929–2006); runners-up ×5,Q8780,153064,83035,14,-0.5516280455091925,uncommon,25
+Elche,Elche CF,Runners-up ×1,Q10512,147373,70662,14,-0.5323840159152307,uncommon,25
+Alavés,Deportivo Alavés,Runners-up ×1,Q223620,125856,62044,14,-0.45222290444442065,uncommon,25
+Getafe,Getafe CF,Runners-up ×2,Q8806,117443,64403,14,-0.4170836968388831,uncommon,25
+Zaragoza,Real Zaragoza,Winners ×6 (1964–2004); runners-up ×5,Q10308,111099,56498,14,-0.38887930631192175,rare,40
+Real Madrid Castilla,Real Madrid Castilla,Runners-up ×1,Q12217,104191,51866,14,-0.35627422156008237,rare,40
+Osasuna,CA Osasuna,Runners-up ×2,Q10286,99843,51739,14,-0.3346241032264318,rare,40
+Mallorca,RCD Mallorca,Winners 2003; runners-up ×3,Q8835,92033,46009,14,-0.29325485331558787,rare,40
+Las Palmas,UD Las Palmas,Runners-up ×1,Q11979,75498,40134,14,-0.19267018762497948,rare,40
+Real Valladolid,Real Valladolid,Runners-up ×2,Q10319,61979,28130,14,-0.09245680196868067,rare,40
+Sporting Gijón,Sporting de Gijón,Runners-up ×2,Q12278,49269,21812,14,0.024105367781767032,rare,40
+Castellón,CD Castellón,Runners-up ×1,Q743557,48607,26159,14,0.030975914742893854,super rare,60
+Granada,Granada CF,Runners-up ×1,Q8812,42915,21267,14,0.09423203373293759,super rare,60
+Sabadell,CE Sabadell FC,Runners-up ×1,Q12260,31156,14867,14,0.2568658883327495,super rare,60
+CE Europa,CE Europa,Runners-up ×1,Q856024,27532,10712,11,0.3196700966292974,super rare,60
+Recreativo,Recreativo de Huelva,Runners-up ×1,Q12249,27482,11849,14,0.32059329047290674,super rare,60
+Real Unión,Real Unión,Winners ×3 (1918–1927); runners-up ×1,Q726810,23848,12979,13,0.39262697623594284,super rare,60
+Racing de Ferrol,Racing de Ferrol,Runners-up ×1,Q843396,12432,6195,14,0.7234696979549274,super rare,60
+Arenas,Arenas Club de Getxo,Winners 1919; runners-up ×3,Q641649,11526,4521,13,0.7618988045241665,ultra rare,85
+Español de Madrid,Club Español de Madrid,Runners-up ×3,Q2180347,2356,1149,7,1.5680963801129364,ultra rare,85
+Club Ciclista de San Sebastián,Club Ciclista de San Sebastián,Winners 1909,Q5136174,1777,900,2,1.7112748171897663,ultra rare,85
+Espanya de Barcelona,FC Espanya de Barcelona,Runners-up ×1,Q636457,1524,594,5,1.7892354314499377,ultra rare,85
+Real Vigo Sporting,Real Vigo Sporting,Runners-up ×1,Q2428837,1284,654,3,1.8762067559198352,ultra rare,85
+Bizcaya,Club Bizcaya,Runners-up ×1,Q3320657,1039,646,4,1.983647794078843,ultra rare,85
+Gimnástica,Real Sociedad Gimnástica Española,Runners-up ×1,Q2479165,972,399,4,2.0174701038401452,legendary,100

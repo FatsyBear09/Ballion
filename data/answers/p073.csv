@@ -1,0 +1,33 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Barcelona,FC Barcelona,Winners ×4 (1979 to 1997),Q7156,1491113,793331,14,-1.5400646111387328,common,10
+Manchester City,Manchester City F.C.,Winners 1970,Q50602,1439274,921409,14,-1.5070506476876269,common,10
+Chelsea,Chelsea F.C.,"Winners 1971, 1998",Q9616,1286815,862821,14,-1.4025817213365113,common,10
+Manchester United,Manchester United F.C.,Winners 1991,Q18656,1116187,753652,14,-1.269858073689535,common,10
+Arsenal,Arsenal F.C.,Winners 1994,Q9617,1051843,715252,14,-1.2144604743769314,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,Winners 1996,Q483020,829684,354560,14,-0.9930977286135156,common,10
+Tottenham Hotspur,Tottenham Hotspur F.C.,Winners 1963,Q18741,788489,533010,14,-0.9455823838378742,common,10
+Juventus,Juventus FC,Winners 1984,Q1422,704286,311576,14,-0.8402128913762993,uncommon,25
+Milan,AC Milan,"Winners 1968, 1973",Q1543,650304,318521,14,-0.7658097036473835,uncommon,25
+Bayern Munich,FC Bayern Munich,Winners 1967,Q15789,610356,279974,14,-0.7066586039194831,uncommon,25
+Atlético Madrid,Atlético Madrid,Winners 1962,Q8701,531794,279848,14,-0.5781015317954077,uncommon,25
+Borussia Dortmund,Borussia Dortmund,Winners 1966,Q41420,459055,231702,14,-0.4408674519725636,uncommon,25
+Everton,Everton F.C.,Winners 1985,Q5794,428615,318369,14,-0.3768521990662947,uncommon,25
+West Ham United,West Ham United F.C.,Winners 1965,Q18747,419823,291954,14,-0.3575145752516814,rare,40
+Ajax,AFC Ajax,Winners 1987,Q81888,341248,184912,14,-0.16417119228842655,rare,40
+Fiorentina,ACF Fiorentina,Winners 1961,Q2052,317158,129780,14,-0.09586554244285188,rare,40
+Rangers,Rangers F.C.,Winners 1972,Q19597,305366,228805,14,-0.06051444147841696,rare,40
+Sporting CP,Sporting CP,Winners 1964,Q75729,268205,143719,14,0.060553310421708376,rare,40
+Lazio,SS Lazio,Winners 1999,Q2609,261477,113557,14,0.08425686641029587,rare,40
+Valencia,Valencia CF,Winners 1980,Q10333,259582,126752,14,0.09104333084995513,super rare,60
+Parma,Parma Calcio 1913,Winners 1993,Q2693,165949,74791,14,0.5084671763084201,super rare,60
+Slovan Bratislava,ŠK Slovan Bratislava,Winners 1969,Q192253,160752,82472,14,0.538153556687632,super rare,60
+Hamburger SV,Hamburger SV,Winners 1977,Q51974,160480,75910,14,0.5397335982811963,super rare,60
+Sampdoria,UC Sampdoria,Winners 1990,Q1457,139160,47847,14,0.6727300400935496,super rare,60
+Anderlecht,RSC Anderlecht,"Winners 1976, 1978",Q187528,131884,57829,14,0.7228343467352593,super rare,60
+Werder Bremen,SV Werder Bremen,Winners 1992,Q51976,128543,50754,14,0.746774778389291,ultra rare,85
+Zaragoza,Real Zaragoza,Winners 1995,Q10308,111099,56498,14,0.8828469605474245,ultra rare,85
+Dynamo Kyiv,FC Dynamo Kyiv,"Winners 1975, 1986",Q179075,74102,31632,14,1.2606964953891067,ultra rare,85
+Aberdeen,Aberdeen F.C.,Winners 1983,Q187326,63792,46927,14,1.400474623604801,ultra rare,85
+1. FC Magdeburg,1. FC Magdeburg,Winners 1974,Q155730,43569,16908,14,1.7562115315130369,ultra rare,85
+Dinamo Tbilisi,FC Dinamo Tbilisi,Winners 1981,Q201006,36064,20348,14,1.9325952341258974,ultra rare,85
+KV Mechelen,KV Mechelen,Winners 1988,Q113000,31397,11778,14,2.061891924561912,legendary,100
