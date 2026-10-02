@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ballion</title>
+<meta name="description" content="Name the rarest football answer. Kick the ball the farthest.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <button class="logo" id="home-btn" aria-label="Ballion home">BALL<span>ION</span></button>
+    <div class="topbar-actions">
+      <button class="icon-btn" id="help-btn" aria-label="How to play">?</button>
+      <button class="icon-btn" id="mute-btn" aria-label="Toggle sound">♪</button>
+    </div>
+  </header>
+
+  <div class="hud" id="hud" hidden>
+    <div class="hud-item"><span class="hud-label">ROUND</span><span class="hud-value" id="hud-round">1/7</span></div>
+    <div class="hud-item hud-timer">
+      <div class="timer-track"><div class="timer-fill" id="timer-fill"></div></div>
+      <span class="hud-value" id="hud-time">30</span>
+    </div>
+    <div class="hud-item hud-right"><span class="hud-label">SCORE</span><span class="hud-value" id="hud-score">0</span></div>
+  </div>
+
+  <div class="stage">
+    <canvas id="scene" width="400" height="225" aria-label="Stadium with a footballer about to kick a ball"></canvas>
+    <div class="stage-overlay" id="title-overlay">
+      <h1 class="title-logo">BALL<span>ION</span></h1>
+      <p class="tagline">Name the rarest answer.<br>Kick it the farthest.</p>
+    </div>
+  </div>
+
+  <div class="track" id="track" aria-hidden="true">
+    <div class="track-bar">
+      <span class="track-seg" style="--from:0;--to:10;--c:var(--t0)"></span>
+      <span class="track-seg" style="--from:10;--to:25;--c:var(--t1)"></span>
+      <span class="track-seg" style="--from:25;--to:40;--c:var(--t2)"></span>
+      <span class="track-seg" style="--from:40;--to:60;--c:var(--t3)"></span>
+      <span class="track-seg" style="--from:60;--to:85;--c:var(--t4)"></span>
+      <span class="track-seg" style="--from:85;--to:100;--c:var(--t5)"></span>
+    </div>
+    <div class="track-pins" id="track-pins"></div>
+    <div class="track-ball" id="track-ball"></div>
+    <div class="track-labels">
+      <span style="--at:10">10</span><span style="--at:25">25</span><span style="--at:40">40</span>
+      <span style="--at:60">60</span><span style="--at:85">85</span><span style="--at:100">100m</span>
+    </div>
+  </div>
+
+  <!-- Title screen -->
+  <section class="panel" id="screen-title">
+    <button class="btn btn-primary" id="daily-btn">DAILY CHALLENGE</button>
+    <p class="sub" id="daily-sub"></p>
+    <button class="btn" id="free-btn">FREE PLAY</button>
+    <p class="sub">7 rounds · 30 seconds each · rarer answers kick farther</p>
+  </section>
+
+  <!-- Round screen -->
+  <section class="panel" id="screen-round" hidden>
+    <div class="prompt-card">
+      <div class="prompt-kicker" id="prompt-kicker">ROUND 1</div>
+      <h2 class="prompt-text" id="prompt-text"></h2>
+      <p class="prompt-fine" id="prompt-fine"></p>
+    </div>
+    <form class="answer-row" id="answer-form" autocomplete="off">
+      <input id="answer-input" type="text" placeholder="Type your answer…" spellcheck="false" autocapitalize="words" maxlength="80" aria-label="Your answer">
+      <button class="btn btn-primary btn-kick" type="submit" id="kick-btn">KICK</button>
+    </form>
+    <div class="feedback" id="feedback" aria-live="polite"></div>
+    <div class="misses" id="misses"></div>
+
+    <div class="result" id="result" hidden>
+      <div class="result-head">
+        <span class="badge" id="result-badge">COMMON</span>
+        <span class="result-pts" id="result-pts">+10</span>
+      </div>
+      <p class="result-answer" id="result-answer"></p>
+      <div class="result-rarest" id="result-rarest"></div>
+      <details class="result-all">
+        <summary id="result-all-summary">All answers</summary>
+        <div class="chips" id="result-all"></div>
+      </details>
+      <button class="btn btn-primary" id="next-btn">NEXT ROUND</button>
+    </div>
+  </section>
+
+  <!-- Final screen -->
+  <section class="panel" id="screen-final" hidden>
+    <div class="final-head">
+      <div class="final-label" id="final-label">FULL TIME</div>
+      <div class="final-score"><span id="final-score">0</span><small>/700</small></div>
+      <div class="final-meters" id="final-meters"></div>
+    </div>
+    <ol class="final-rounds" id="final-rounds"></ol>
+    <div class="final-actions">
+      <button class="btn btn-primary" id="share-btn">SHARE</button>
+      <button class="btn" id="again-btn">FREE PLAY</button>
+    </div>
+    <p class="sub" id="share-note" aria-live="polite"></p>
+  </section>
+
+  <footer class="foot">Rarity from Wikipedia page views · <span id="foot-count"></span></footer>
+</div>
+
+<dialog id="help">
+  <h3>HOW TO PLAY</h3>
+  <p>Each round shows a football prompt. You have <b>30 seconds</b> to name a valid answer. Wrong guesses can be retried until time runs out.</p>
+  <p>The rarer your answer, the farther the ball flies. Legendary answers hit the back of the net.</p>
+  <ul class="legend" id="legend"></ul>
+  <p>Typos and nicknames are fine (“Bergkmap”, “Man Utd”, “CR7”) as long as they're close to a real answer.</p>
+  <p>The Daily Challenge is the same 7 prompts for everyone today. Free Play draws 7 random prompts.</p>
+  <form method="dialog"><button class="btn btn-primary">LET'S PLAY</button></form>
+</dialog>
+
+<script src="data.js"></script>
+<script src="js/matcher.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/scene.js"></script>
+<script src="js/game.js"></script>
+</body>
+</html>
