@@ -8,15 +8,16 @@ Open `web/index.html` in a browser. There's no build step or server; everything 
 
 - 7 rounds, 30 seconds each. Wrong guesses can be retried until time runs out.
 - Kick distance = points: common 10 m · uncommon 25 · rare 40 · super rare 60 · ultra rare 85 · legendary 100 (goal!)
-- Daily Challenge (same 7 prompts for everyone, seeded by date) and Free Play (random 7)
+- Daily Challenge (same 7 prompts for everyone, seeded by date, mixed themes) and Free Play (random 7 from the theme you pick: General, Premier League, La Liga, Champions League, National Teams, or all)
 - Autocorrect for typos, nicknames and surnames ("Bergkmap", "Man Utd", "CR7"), only when close to a real answer
 
 ## Data pipeline
 ```
 python prompts/build.py              # scrape answers + pageviews -> data/answers/*.csv
-python prompts/export_web.py         # bundle prompts, tiers and aliases -> web/data.js
+python prompts/build.py pl          # one theme (id prefix: gen, pl, ll, ucl, nat)
+python prompts/export_web.py         # bundle prompts, tiers and aliases -> web/data/
 ```
-- Prompts: `prompts/catalog.md`. Collectors: `prompts/collectors/*.py`
+- Prompts: `prompts/themes/*.md` (and the original `prompts/catalog.md`). Collectors: `prompts/collectors/*.py`
 - Rarity: Wikipedia page views (last 60 days, 14 languages), rank-based tiers per prompt
 
 ## Tests

@@ -3,23 +3,27 @@
 A football (soccer) take on krillion.io. Players get a prompt ("Name a player who scored 100+ La Liga goals") and must give a valid answer. Rarer answers score more, and in the game an 8-bit striker kicks the ball farther. Live at https://fatsybear09.github.io/Ballion/ (repo is public).
 
 ## Layout
-- `prompts/catalog.md`: all 103 prompts by theme (p001–p003 written by the user, p004–p103 drafted by Claude and approved by the user)
-- `prompts/collectors/*.py`: one scraper per prompt, registered with `@prompt(pid, text, source)` from `ballion/registry.py`. Each returns `[{answer, enwiki, detail}]`; `enwiki` is the answer's English Wikipedia title.
+- `prompts/catalog.md`: the original 103 prompts (p001–p003 written by the user, p004–p103 drafted by Claude and approved by the user)
+- `prompts/themes/`: the five themes (General `gen`, Premier League `pl`, La Liga `ll`, Champions League `ucl`, National Teams `nat`), one catalog per theme with a `## Build status` section listing dropped/reworded prompts. `existing.md` assigns p001–p103 to themes; `SPEC.md` is the drafting spec (recency-weighted for younger players).
+- `prompts/collectors/*.py`: one scraper per prompt, registered with `@prompt(pid, text, source, family=None)` from `ballion/registry.py`. Each returns `[{answer, enwiki, detail}]`; `enwiki` is the answer's English Wikipedia title. Theme modules are prefixed (`pl_*.py`, `gen_*.py`, ...). `family` tags sibling prompts that differ only by season/club/nationality.
+- `ballion/themes.py`: theme of every prompt (id prefix, or the p001–p103 mapping) and families for the original prompts.
 - `ballion/`: shared helpers. `wiki.py` handles the cached Wikipedia API (cache in `data/raw/cache/`, gitignored) and a global rate limiter. The rest: `tables.py` (wikitable parser), `wikidata.py` (SPARQL), `popularity.py` (page views), `scoring.py` (tiers).
-- `prompts/build.py`: collect, fetch page views and score, writing `data/answers/<pid>.csv`. `--answers-only` writes `data/answers_raw/` without page views.
-- `prompts/export_web.py`: bundles prompts, tiers and answer aliases into `web/data.js`
+- `prompts/build.py`: collect, fetch page views and score, writing `data/answers/<pid>.csv`. `--answers-only` writes `data/answers_raw/` without page views. Prompts that fail or fall outside 12–130 answers are skipped and listed at the end. Page views are fetched once for the union of all answers.
+- `prompts/export_web.py`: writes `web/data/index.js` (every prompt's text, theme, family, answer count), `web/data/p/<id>.js` (one prompt's answers and aliases, loaded on demand by `web/js/loader.js`) and `web/data/names.js` (every alias, for the different-entity check; loaded in the background).
 - `web/`: the game, plain HTML/JS/Canvas with no build step. `js/scene.js` is the pixel-art stadium and animation, `js/game.js` the game flow, `js/matcher.js` the autocorrect, `js/audio.js` the WebAudio sound effects.
 
 ## Commands
 ```
 python prompts/build.py [p004 p005 ...]   # re-scrape + rescore (all prompts if none given)
-python prompts/export_web.py              # rebuild web/data.js after any data change
+python prompts/build.py pl ucl            # every prompt of these themes (id prefixes)
+BALLION_RPS=1 python prompts/build.py ... # per-process request rate, when running several builds at once
+python prompts/export_web.py              # rebuild web/data/ after any data change
 node web/test/matcher.test.js             # autocorrect unit cases (must all pass)
 node web/test/typo_sweep.js               # one-typo recall over every answer (~99.97%)
 node web/test/fp_sweep.js                 # false autocorrections on out-of-list names (~0.5%)
 cd web && python -m http.server 8765      # play locally at http://localhost:8765
 ```
-Useful URL params: `?selftest=1` plays a full game automatically and writes the result to `<body data-selftest>`. `?shot=kick&m=60&tier=3&t=1.2` freezes an animation frame. Also `?shot=final` and `?help=1`.
+Useful URL params: `?selftest=1` (optionally `&theme=premier_league`) plays a full game automatically and writes the result to `<body data-selftest>`. `?shot=kick&m=60&tier=3&t=1.2` freezes an animation frame. Also `?shot=final` and `?help=1`.
 
 Pushing to `main` with changes under `web/` redeploys GitHub Pages via `.github/workflows/pages.yml`.
 
@@ -27,7 +31,9 @@ Pushing to `main` with changes under `web/` redeploys GitHub Pages via `.github/
 - 7 rounds, one prompt each, with a 30 s timer. Wrong guesses can be retried until time runs out. A timeout is a whiff animation and 0 points.
 - Tiers, points and kick distance (points = meters on a 100 m pitch; legendary goes into the net):
   common 10 (grey), uncommon 25 (green), rare 40 (blue), super rare 60 (dark blue), ultra rare 85 (purple), legendary 100 (gold). The final score is the sum, out of a max of 700.
-- Daily Challenge: the same 7 prompts for everyone, seeded by the local date; Daily #1 = 2026-10-03. Free Play draws 7 random prompts. A game has at most 2 prompts from the same theme group.
+- Daily Challenge: the same 7 prompts for everyone, seeded by the local date, mixed across all themes; Daily #1 = 2026-10-03. Free Play: the player picks All themes or one of the five themes, and gets 7 random prompts from it.
+- A game never has two prompts from the same family, and a mixed game (Daily or All themes) has at most 2 prompts from one theme.
+- New prompts lean toward football younger players know: about 2/3 mostly 2015 onward, at most ~10% pre-2000-heavy.
 - Autocorrect should be lenient on spelling but must not accept a *different* real entity. Typed names count when they're an alias or surname, or a first name that's unique within the prompt; typos are tolerated by edit distance scaled to length. A correctly spelled name of another entity is a miss (e.g. "Yaya Toure" must not match Kolo Touré).
 
 ## Rarity method
@@ -48,4 +54,4 @@ Pushing to `main` with changes under `web/` redeploys GitHub Pages via `.github/
 ## Rules
 - Never commit the user's email address. The scraper User-Agent uses the repo URL as contact. The email was scrubbed from git history before the repo went public.
 - The user works from two clones (a lab server and a laptop). Pull before editing and push when done.
-- Wikimedia rate-limits aggressively. Keep requests going through `ballion.wiki._get` (cache + shared throttle at `MAX_RPS = 5`) rather than adding raw `requests` calls.
+- Wikimedia rate-limits aggressively. Keep requests going through `ballion.wiki._get` (cache + shared throttle, `MAX_RPS` 5 per process, overridable with `BALLION_RPS`) rather than adding raw `requests` calls.
