@@ -1,6 +1,7 @@
 """Thin Wikipedia / Wikimedia API helpers with on-disk caching."""
 import hashlib
 import json
+import os
 import threading
 import time
 from pathlib import Path
@@ -15,8 +16,9 @@ _session = requests.Session()
 _session.headers["User-Agent"] = UA
 
 # Shared throttle across threads: at most MAX_RPS uncached requests/second, and a 429
-# pauses every thread until its Retry-After has passed.
-MAX_RPS = 5
+# pauses every thread until its Retry-After has passed. The throttle is per process, so when
+# several builds run at once, give each a share via BALLION_RPS (e.g. 5 processes x 1).
+MAX_RPS = float(os.environ.get("BALLION_RPS", 5))
 _lock = threading.Lock()
 _next_slot = 0.0
 
@@ -55,7 +57,10 @@ def _get(url, params=None, retries=8):
         break
     else:
         r.raise_for_status()
-    path.write_text(json.dumps(data))
+    # Write then rename, so a concurrent process never reads a half-written cache file.
+    tmp = path.with_suffix(f".{os.getpid()}.tmp")
+    tmp.write_text(json.dumps(data))
+    os.replace(tmp, path)
     return data
 
 
