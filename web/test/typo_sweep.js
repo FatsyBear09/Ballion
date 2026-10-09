@@ -1,8 +1,7 @@
 // For every answer: drop the 4th character (as the browser self-test does) and check it still matches.
 var fs = require("fs"), path = require("path");
 var M = require("../js/matcher.js");
-var src = fs.readFileSync(path.join(__dirname, "..", "data.js"), "utf8");
-var data = JSON.parse(src.slice(src.indexOf("=") + 1).trim().replace(/;$/, ""));
+var data = require("./load.js")();
 M.buildGlobal(data.prompts);
 var n = 0, bad = {}, ex = [];
 data.prompts.forEach(function (p) {

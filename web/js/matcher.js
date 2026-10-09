@@ -74,14 +74,21 @@
   }
 
   var globalNames = null; // every alias of every answer in every prompt
+  function addGlobal(p) {
+    globalNames = globalNames || {};
+    p.ans.forEach(function (a) {
+      a.a.forEach(function (al) { globalNames[al] = true; });
+      globalNames[norm(a.n)] = true;
+    });
+  }
   function buildGlobal(prompts) {
     globalNames = {};
-    prompts.forEach(function (p) {
-      p.ans.forEach(function (a) {
-        a.a.forEach(function (al) { globalNames[al] = true; });
-        globalNames[norm(a.n)] = true;
-      });
-    });
+    prompts.forEach(addGlobal);
+  }
+  // The browser gets the full list from data/names.js (already normalised) after the game starts.
+  function addGlobalNames(list) {
+    globalNames = globalNames || {};
+    list.forEach(function (al) { globalNames[al] = true; });
   }
 
   function match(prompt, input) {
@@ -131,7 +138,8 @@
     return { kind: "corrected", index: ranked[0], typed: input };
   }
 
-  var api = { norm: norm, editDistance: editDistance, match: match, buildGlobal: buildGlobal };
+  var api = { norm: norm, editDistance: editDistance, match: match, buildGlobal: buildGlobal,
+              addGlobal: addGlobal, addGlobalNames: addGlobalNames };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else root.BallionMatcher = api;
 })(this);

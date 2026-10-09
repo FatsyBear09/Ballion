@@ -1,8 +1,7 @@
 // Run: node web/test/matcher.test.js
 var fs = require("fs"), path = require("path");
 var M = require("../js/matcher.js");
-var src = fs.readFileSync(path.join(__dirname, "..", "data.js"), "utf8");
-var data = JSON.parse(src.slice(src.indexOf("=") + 1).trim().replace(/;$/, ""));
+var data = require("./load.js")();
 M.buildGlobal(data.prompts);
 var P = {}; data.prompts.forEach(function (p) { P[p.id] = p; });
 

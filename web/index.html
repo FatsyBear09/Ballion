@@ -58,7 +58,10 @@
   <section class="panel" id="screen-title">
     <button class="btn btn-primary" id="daily-btn">DAILY CHALLENGE</button>
     <p class="sub" id="daily-sub"></p>
-    <button class="btn" id="free-btn">FREE PLAY</button>
+    <h2 class="free-head">FREE PLAY</h2>
+    <div class="theme-grid" id="theme-grid">
+      <button class="btn theme-btn theme-all" id="free-btn" type="button"><span>ALL THEMES</span><small></small></button>
+    </div>
     <p class="sub">7 rounds · 30 seconds each · rarer answers kick farther</p>
     <p class="sub load-status" id="load-status">Loading game…</p>
   </section>
@@ -116,7 +119,7 @@
   <p>The rarer your answer, the farther the ball flies. Legendary answers hit the back of the net.</p>
   <ul class="legend" id="legend"></ul>
   <p>Typos and nicknames are fine (“Bergkmap”, “Man Utd”, “CR7”) as long as they're close to a real answer.</p>
-  <p>The Daily Challenge is the same 7 prompts for everyone today. Free Play draws 7 random prompts.</p>
+  <p>The Daily Challenge is the same 7 prompts for everyone today, mixed from every theme. Free Play draws 7 random prompts from the theme you pick: General, Premier League, La Liga, Champions League or National Teams.</p>
   <form method="dialog"><button class="btn btn-primary">LET'S PLAY</button></form>
 </dialog>
 
@@ -125,12 +128,13 @@
   setTimeout(function () {
     if (window.BALLION_READY) return;
     var el = document.getElementById("load-status");
-    var missing = ["BALLION_DATA", "BallionMatcher", "BallionAudio", "BallionScene"].filter(function (k) { return !window[k]; });
+    var missing = ["BALLION_INDEX", "BallionData", "BallionMatcher", "BallionAudio", "BallionScene"].filter(function (k) { return !window[k]; });
     el.textContent = "Some game files didn't load (" + (missing.concat(window.BALLION_READY ? [] : ["game.js"]).join(", ")) + "). Try a hard refresh (Ctrl+Shift+R).";
     el.classList.add("load-error");
   }, 10000);
 </script>
-<script src="data.js"></script>
+<script src="data/index.js"></script>
+<script src="js/loader.js"></script>
 <script src="js/matcher.js"></script>
 <script src="js/audio.js"></script>
 <script src="js/scene.js"></script>

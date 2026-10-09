@@ -1,10 +1,13 @@
-/* Ballion game flow: title -> 7 rounds -> final. Depends on BALLION_DATA, BallionMatcher, BallionScene, BallionAudio. */
+/* Ballion game flow: title -> 7 rounds -> final.
+ * Depends on BALLION_INDEX, BallionData, BallionMatcher, BallionScene, BallionAudio. */
 (function () {
   "use strict";
 
-  var DATA = window.BALLION_DATA;
+  var DATA = window.BALLION_INDEX;
   var M = window.BallionMatcher;
-  var ROUNDS = 7, SECONDS = 30, MAX_PER_GROUP = 2;
+  // A game never repeats a prompt family (siblings like "<season> knockout scorers"), and a mixed
+  // game (Daily, or Free Play across all themes) takes at most MAX_PER_THEME prompts from one theme.
+  var ROUNDS = 7, SECONDS = 30, MAX_PER_FAMILY = 1, MAX_PER_THEME = 2;
   var LAUNCH = Date.UTC(2026, 9, 3); // Daily #1
   var TIER_NAMES = ["COMMON", "UNCOMMON", "RARE", "SUPER RARE", "ULTRA RARE", "LEGENDARY"];
   var TIER_EMOJI = ["⬜", "🟩", "🟦", "🔵", "🟪", "🟨"];
@@ -13,9 +16,22 @@
   // Same hues, lightened where the base colour is too dark to read as text on the navy panels.
   var TEXT_COLORS = TIER_COLORS.slice(); TEXT_COLORS[3] = css.getPropertyValue("--t3-text").trim() || "#7d93ff";
 
-  M.buildGlobal(DATA.prompts);
+  // Index entries gain .ans once their data/p/<id>.js has loaded (see ensureLoaded).
   var byId = {};
   DATA.prompts.forEach(function (p) { byId[p.id] = p; });
+  var THEME_NAME = {};
+  DATA.themes.forEach(function (t) { THEME_NAME[t.key] = t.name; });
+  BallionData.onNames = M.addGlobalNames;
+
+  function ensureLoaded(ids, cb) {
+    BallionData.load(ids, function (failed) {
+      ids.forEach(function (id) {
+        var d = BallionData.prompts[id];
+        if (d && !byId[id].ans) { byId[id].ans = d.ans; M.addGlobal(byId[id]); }
+      });
+      cb(failed);
+    });
+  }
 
   var $ = function (id) { return document.getElementById(id); };
   var el = {
@@ -36,15 +52,22 @@
   function mulberry32(a) {
     return function () { a |= 0; a = (a + 0x6d2b79f5) | 0; var t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
   }
-  function pickPrompts(seedStr) {
+  // theme: a theme key, or null for a mix of every theme.
+  function pickPrompts(seedStr, theme) {
     var rnd = mulberry32(xmur3(seedStr)());
-    var ids = DATA.prompts.map(function (p) { return p.id; });
+    var ids = DATA.prompts.filter(function (p) { return !theme || p.th === theme; }).map(function (p) { return p.id; });
     for (var i = ids.length - 1; i > 0; i--) { var j = Math.floor(rnd() * (i + 1)); var tmp = ids[i]; ids[i] = ids[j]; ids[j] = tmp; }
-    var out = [], perGroup = {};
+    var out = [], perFamily = {}, perTheme = {};
     ids.forEach(function (id) {
-      var g = byId[id].g;
-      if (out.length < ROUNDS && (perGroup[g] || 0) < MAX_PER_GROUP) { out.push(id); perGroup[g] = (perGroup[g] || 0) + 1; }
+      var p = byId[id];
+      if (out.length >= ROUNDS || (perFamily[p.g] || 0) >= MAX_PER_FAMILY) return;
+      if (!theme && (perTheme[p.th] || 0) >= MAX_PER_THEME) return;
+      out.push(id);
+      perFamily[p.g] = (perFamily[p.g] || 0) + 1;
+      perTheme[p.th] = (perTheme[p.th] || 0) + 1;
     });
+    // Tiny pools can't satisfy the limits; top up rather than play a short game.
+    ids.forEach(function (id) { if (out.length < ROUNDS && out.indexOf(id) < 0) out.push(id); });
     return out;
   }
   function today() {
@@ -79,18 +102,42 @@
     show(el.title);
   }
 
-  function startGame(mode) {
+  var starting = false;
+  // mode "daily" (mixed themes, seeded by date) or "free"; theme = key or null for all themes.
+  // onStarted (optional) runs once round 1 is on screen.
+  function startGame(mode, theme, onStarted) {
+    if (starting) return;
     BallionAudio.unlock();
     var d = today();
     if (mode === "daily") {
       var done = load("ballion-daily-" + d.key);
       if (done) { S = done; showFinal(true); return; }
+      theme = null;
     }
     var seed = mode === "daily" ? "ballion-daily-" + d.key : "free-" + Date.now() + "-" + Math.random();
-    S = { mode: mode, day: d.num, key: d.key, prompts: pickPrompts(seed), round: 0, results: [], score: 0 };
-    clearPins();
-    show(el.roundScreen);
-    startRound();
+    var ids = pickPrompts(seed, theme || null);
+    var status = $("load-status");
+    starting = true;
+    status.hidden = false; status.classList.remove("load-error"); status.textContent = "Loading prompts…";
+    ensureLoaded(ids, function (failed) {
+      starting = false;
+      if (failed) {
+        status.textContent = "Couldn't load the prompts. Check your connection and try again.";
+        status.classList.add("load-error");
+        return;
+      }
+      status.hidden = true;
+      S = { mode: mode, theme: theme || null, day: d.num, key: d.key, prompts: ids, round: 0, results: [], score: 0 };
+      clearPins();
+      show(el.roundScreen);
+      startRound();
+      if (onStarted) onStarted();
+    });
+  }
+
+  function gameName(s) {
+    if (s.mode === "daily") return "DAILY #" + s.day;
+    return s.theme ? THEME_NAME[s.theme].toUpperCase() : "FREE PLAY";
   }
 
   // ---------- rounds ----------
@@ -100,7 +147,8 @@
     S.misses = [];
     el.round.textContent = (S.round + 1) + "/" + ROUNDS;
     el.score.textContent = S.score;
-    el.kicker.textContent = "ROUND " + (S.round + 1) + " · " + p.ans.length + " ANSWERS";
+    el.kicker.textContent = "ROUND " + (S.round + 1) + (S.theme ? "" : " · " + THEME_NAME[p.th].toUpperCase()) +
+      " · " + p.ans.length + " ANSWERS";
     el.text.textContent = p.q;
     el.fine.textContent = p.f ? "(" + p.f + ")" : "";
     el.input.value = "";
@@ -252,7 +300,7 @@
     el.round.textContent = ROUNDS + "/" + ROUNDS;
     el.score.textContent = S.score;
     el.time.textContent = "–"; el.fill.style.transform = "scaleX(0)";
-    $("final-label").textContent = S.mode === "daily" ? "DAILY #" + S.day + " · FULL TIME" : "FREE PLAY · FULL TIME";
+    $("final-label").textContent = gameName(S) + " · FULL TIME";
     if (fromSave) $("final-score").textContent = S.score; else countUp($("final-score"), 0, S.score);
     $("final-meters").textContent = "Total distance: " + S.score + " m · " + goalsText(S.results.filter(function (r) { return r.tier === 5; }).length);
     var ol = $("final-rounds"); ol.innerHTML = "";
@@ -274,7 +322,7 @@
   function goalsText(n) { return n === 1 ? "1 goal" : n + " goals"; }
 
   function shareText() {
-    var head = S.mode === "daily" ? "Ballion #" + S.day : "Ballion (free play)";
+    var head = S.mode === "daily" ? "Ballion #" + S.day : "Ballion (" + (S.theme ? THEME_NAME[S.theme] : "free play") + ")";
     var row = S.results.map(function (r) { return r.tier >= 0 ? TIER_EMOJI[r.tier] : "⬛"; }).join("");
     return head + " — " + S.score + "/700 ⚽\n" + row + "\nballion.io";
   }
@@ -315,8 +363,22 @@
   el.form.addEventListener("submit", function (e) { e.preventDefault(); submit(); });
   el.next.addEventListener("click", next);
   $("daily-btn").addEventListener("click", function () { startGame("daily"); });
-  $("free-btn").addEventListener("click", function () { startGame("free"); });
-  $("again-btn").addEventListener("click", function () { startGame("free"); });
+  $("free-btn").addEventListener("click", function () { startGame("free", null); });
+  // Free Play theme menu: one button per theme, after the mixed "ALL THEMES" button (#free-btn).
+  var grid = $("theme-grid");
+  DATA.themes.forEach(function (t) {
+    if (!t.n) return;
+    var b = document.createElement("button");
+    b.className = "btn theme-btn"; b.type = "button"; b.dataset.theme = t.key;
+    b.innerHTML = "<span></span><small></small>";
+    b.firstChild.textContent = t.name.toUpperCase();
+    b.lastChild.textContent = t.n + " prompts";
+    b.addEventListener("click", function () { startGame("free", t.key); });
+    grid.appendChild(b);
+  });
+  $("free-btn").lastChild.textContent = DATA.prompts.length + " prompts";
+  // Daily -> free play across all themes; free play -> another game in the same theme.
+  $("again-btn").addEventListener("click", function () { startGame("free", S && S.mode === "free" ? S.theme : null); });
   $("share-btn").addEventListener("click", share);
   $("home-btn").addEventListener("click", goHome);
   $("help-btn").addEventListener("click", function () { $("help").showModal(); });
@@ -334,7 +396,7 @@
     li.innerHTML = "<span style='color:" + TEXT_COLORS[i] + "'>" + TIER_NAMES[i] + "</span> " + t.pts + " m";
     legend.appendChild(li);
   });
-  $("foot-count").textContent = DATA.prompts.length + " prompts · " + DATA.prompts.reduce(function (s, p) { return s + p.ans.length; }, 0) + " answers";
+  $("foot-count").textContent = DATA.prompts.length + " prompts · " + DATA.prompts.reduce(function (s, p) { return s + p.n; }, 0) + " answers";
 
   // Debug hooks for screenshots: ?shot=kick&m=60&tier=3&t=1.2  |  ?shot=round  |  ?shot=final
   var qs = new URLSearchParams(location.search);
@@ -342,35 +404,42 @@
   if (shot === "kick") { show(el.title); el.overlay.hidden = true; BallionScene.debugFreeze(+qs.get("m"), +qs.get("tier"), +qs.get("t")); }
   else if (shot === "round") { startGame("daily"); }
   else if (shot === "result") {
-    startGame("daily");
-    var p0 = byId[S.prompts[0]];
-    var idx = p0.ans.findIndex(function (a) { return a.t === +(qs.get("tier") || 3); });
-    accept(idx, qs.get("typed")); BallionScene.reset(); showResult(); el.result.querySelector("details").open = qs.get("open") === "1";
+    startGame("daily", null, function () {
+      var p0 = byId[S.prompts[0]];
+      var idx = p0.ans.findIndex(function (a) { return a.t === +(qs.get("tier") || 3); });
+      accept(idx, qs.get("typed")); BallionScene.reset(); showResult(); el.result.querySelector("details").open = qs.get("open") === "1";
+    });
   }
   else if (shot === "final") {
-    startGame("free");
-    for (var r = 0; r < ROUNDS; r++) { var pr = byId[S.prompts[r]]; var tt = [5, 2, 0, 4, 1, 3, -1][r]; if (tt < 0) { S.results.push({ pid: pr.id, q: pr.q, answer: null, tier: -1, pts: 0 }); } else { var a2 = pr.ans.find(function (a) { return a.t === tt; }); S.results.push({ pid: pr.id, q: pr.q, answer: a2.n, tier: tt, pts: DATA.tiers[tt].pts }); S.score += DATA.tiers[tt].pts; } }
-    stopTimer(); showFinal(true);
+    startGame("free", qs.get("theme"), function () {
+      for (var r = 0; r < ROUNDS; r++) { var pr = byId[S.prompts[r]]; var tt = [5, 2, 0, 4, 1, 3, -1][r]; if (tt < 0) { S.results.push({ pid: pr.id, q: pr.q, answer: null, tier: -1, pts: 0 }); } else { var a2 = pr.ans.find(function (a) { return a.t === tt; }); S.results.push({ pid: pr.id, q: pr.q, answer: a2.n, tier: tt, pts: DATA.tiers[tt].pts }); S.score += DATA.tiers[tt].pts; } }
+      stopTimer(); showFinal(true);
+    });
   }
   else goHome();
+  // The "different real entity" list isn't needed to start playing, so fetch it after everything else.
+  setTimeout(BallionData.loadNames, 0);
   if (qs.get("help") === "1") $("help").showModal();
   window.BALLION_READY = true;
   $("load-status").hidden = true;
 })();
 
-/* Self-test (?selftest=1): plays a full free game through the real UI paths and writes a
+/* Self-test (?selftest=1[&theme=pl]): plays a full free game through the real UI paths and writes a
  * summary into <body data-selftest>, so a headless browser can verify the flow end to end. */
 (function () {
-  if (new URLSearchParams(location.search).get("selftest") !== "1") return;
+  var qs = new URLSearchParams(location.search);
+  if (qs.get("selftest") !== "1") return;
   var log = [];
   var $ = function (id) { return document.getElementById(id); };
   function wait(cond, cb, n) { n = n || 0; if (cond()) return cb(); if (n > 4000) { log.push("TIMEOUT"); return done(); } setTimeout(function () { wait(cond, cb, n + 1); }, 20); }
   function done() { document.body.setAttribute("data-selftest", log.join(" | ")); }
-  $("free-btn").click();
+  var themeBtn = qs.get("theme") && document.querySelector('.theme-btn[data-theme="' + qs.get("theme") + '"]');
+  (themeBtn || $("free-btn")).click();
   var round = 0;
-  (function play() {
+  wait(function () { return !$("screen-round").hidden; }, function play() {
     var text = $("prompt-text").textContent;
-    var p = window.BALLION_DATA.prompts.find(function (x) { return x.q === text; });
+    var p = window.BALLION_INDEX.prompts.find(function (x) { return x.q === text && x.ans; });
+    if (round === 0) log.push("theme=" + (themeBtn ? qs.get("theme") : "all") + " first=" + p.id);
     var input = $("answer-input");
     input.value = "zzqx not a player"; $("kick-btn").click();
     var missOk = /Not on the list/.test($("feedback").textContent);
@@ -395,7 +464,7 @@
         }, 1000);
       });
     });
-  })();
+  });
 })();
 
 /* Layout probe (?layout=1): reports elements wider than the viewport into <body data-layout>. */

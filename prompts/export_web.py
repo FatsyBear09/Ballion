@@ -1,4 +1,8 @@
-"""Export scored prompts + answer aliases to web/data.js for the game.
+"""Export scored prompts + answer aliases to web/data/ for the game.
+
+  web/data/index.js     every prompt's id, theme, family, text and answer count (loaded up front)
+  web/data/p/<id>.js    one prompt's answers + aliases (loaded on demand, 7 per game)
+  web/data/names.js     every alias in the game, for the "different real entity" check
 
   python prompts/export_web.py
 
@@ -8,6 +12,7 @@ Aliases per answer (all later normalised in the browser the same way):
   - people: surname (with particles, e.g. "van Basten"); clubs: name without FC/CF/AFC-style affixes
 Ambiguity (one alias -> several answers in the same prompt) is resolved in the browser.
 """
+import hashlib
 import json
 import re
 import sys
@@ -19,6 +24,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from ballion.scoring import TIERS  # noqa: E402
+from ballion.themes import EXISTING_FAMILY, THEMES, theme_of  # noqa: E402
 from ballion.wiki import _get  # noqa: E402
 from ballion.wikidata import sparql  # noqa: E402
 
@@ -97,14 +103,6 @@ def useful(alias):
     return len(alias) >= 2 and (len(toks) == 1 or any(len(t) >= 3 for t in toks))
 
 
-GROUPS = [(3, "original"), (23, "awards"), (43, "records"), (63, "national"), (83, "clubs"), (103, "managers")]
-
-
-def group(pid):
-    n = int(pid[1:])
-    return next(g for hi, g in GROUPS if n <= hi)
-
-
 def split_title(text):
     """'Name a X (fine print)' -> ('Name a X', 'fine print'); keeps short parentheticals inline."""
     m = re.match(r"^(.*?)\s*\((.{12,})\)\s*$", text)
@@ -112,14 +110,19 @@ def split_title(text):
 
 
 def main():
-    prompts = json.load(open(ROOT / "data" / "prompts.json"))
+    prompts = [p for p in json.load(open(ROOT / "data" / "prompts.json", encoding="utf8"))
+               if (ROOT / "data" / "answers" / f"{p['id']}.csv").exists()]
     frames = {p["id"]: pd.read_csv(ROOT / "data" / "answers" / f"{p['id']}.csv") for p in prompts}
     all_q = pd.concat(frames.values())["qid"].dropna().unique().tolist()
     print(f"fetching names for {len(all_q)} entities")
     wd = wikidata_names(all_q)
     people = humans(all_q)
 
-    out = []
+    out_dir = ROOT / "web" / "data"
+    pdir = out_dir / "p"
+    pdir.mkdir(parents=True, exist_ok=True)
+    index, global_names, written = [], set(), set()
+    digest = hashlib.sha1()  # content version, appended to data URLs so browsers never mix stale files
     for p in prompts:
         df = frames[p["id"]]
         title, fine = split_title(p["text"])
@@ -138,20 +141,36 @@ def main():
                 for n in list(names):
                     aliases |= set(club_core(n))
             aliases = sorted(a for a in aliases if useful(a))
+            global_names.update(aliases)
+            global_names.add(norm(r.answer))
             rec = {"n": r.answer, "t": [t[0] for t in TIERS].index(r.tier), "a": aliases}
             first = norm(r.answer).split()
             if r.qid in people and len(first) >= 2 and len(first[0]) >= 4:
                 rec["fn"] = first[0]  # first name: only accepted when unique within the prompt
             answers.append(rec)
-        out.append({"id": p["id"], "g": group(p["id"]), "q": title, "f": fine, "ans": answers})
+        # One small file per prompt, so a game only downloads the 7 prompts it plays.
+        body = json.dumps({"id": p["id"], "ans": answers}, ensure_ascii=False, separators=(",", ":"))
+        (pdir / f"{p['id']}.js").write_text(f"BallionData.add({body});\n", encoding="utf8")
+        written.add(f"{p['id']}.js")
+        digest.update(body.encode())
+        index.append({"id": p["id"], "th": p.get("theme") or theme_of(p["id"]),
+                      "g": p.get("family") or EXISTING_FAMILY.get(p["id"], p["id"]), "q": title, "f": fine, "n": len(answers)})
+    for stale in pdir.glob("*.js"):
+        if stale.name not in written:
+            stale.unlink()
 
     tiers = [{"name": n, "pts": pts} for n, pts in TIERS]
-    js = "window.BALLION_DATA = " + json.dumps({"tiers": tiers, "prompts": out}, ensure_ascii=False,
-                                                separators=(",", ":")) + ";\n"
-    dest = ROOT / "web" / "data.js"
-    dest.parent.mkdir(exist_ok=True)
-    dest.write_text(js)
-    print(f"wrote {dest} ({len(js) / 1e6:.2f} MB), {len(out)} prompts, {sum(len(p['ans']) for p in out)} answers")
+    themes = [{"key": k, "name": name, "n": sum(1 for i in index if i["th"] == k)} for k, _, name in THEMES]
+    js = "window.BALLION_INDEX = " + json.dumps({"v": digest.hexdigest()[:10], "tiers": tiers, "themes": themes, "prompts": index},
+                                                 ensure_ascii=False, separators=(",", ":")) + ";\n"
+    (out_dir / "index.js").write_text(js, encoding="utf8")
+    # Every alias of every answer, so a correctly spelled name of some *other* entity is never
+    # autocorrected into this prompt's answers. Loaded in the background; only typo handling uses it.
+    names = "BallionData.names(" + json.dumps(sorted(global_names), ensure_ascii=False, separators=(",", ":")) + ");\n"
+    (out_dir / "names.js").write_text(names, encoding="utf8")
+    total = sum(f.stat().st_size for f in pdir.glob("*.js"))
+    print(f"wrote {out_dir}: index {len(js) / 1e3:.0f} kB, names {len(names) / 1e3:.0f} kB, "
+          f"{len(index)} prompt files {total / 1e6:.2f} MB, {sum(i['n'] for i in index)} answers")
 
 
 if __name__ == "__main__":
