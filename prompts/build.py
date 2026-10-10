@@ -4,6 +4,7 @@
   python prompts/build.py p004 p005        # selected prompts
   python prompts/build.py pl ucl           # every prompt with these id prefixes (a theme)
   python prompts/build.py --answers-only   # collect + validate only (no pageviews); writes data/answers_raw/
+  python prompts/build.py --from-raw pl    # score the answers already in data/answers_raw/ (no re-scraping)
 
 A prompt whose collector fails, or whose answer count is outside MIN_ANSWERS..MAX_ANSWERS, is
 reported and skipped, so one broken scraper never sinks a long build. Page views are fetched
@@ -43,6 +44,8 @@ def collect(pid):
     ans = pd.DataFrame(PROMPTS[pid]["collect"]())
     assert {"answer", "enwiki", "detail"} <= set(ans.columns), f"{pid}: missing columns"
     assert ans["enwiki"].notna().all() and (ans["enwiki"].str.len() > 0).all(), f"{pid}: empty enwiki"
+    # A player without an article sometimes links to a "List of ..." page; that's not the answer's own page.
+    ans = ans[~ans["enwiki"].str.startswith("List of ")]
     return ans.drop_duplicates("enwiki").reset_index(drop=True)
 
 
@@ -60,7 +63,14 @@ def select(args):
     return sorted(set(out))
 
 
-def build(pids=None, answers_only=False):
+def from_raw(pid):
+    """Reuse the answers saved by an earlier --answers-only run instead of re-scraping."""
+    ans = pd.read_csv(ROOT / "data" / "answers_raw" / f"{pid}.csv")
+    ans = ans[~ans["enwiki"].str.startswith("List of ")]
+    return ans.drop_duplicates("enwiki").reset_index(drop=True)
+
+
+def build(pids=None, answers_only=False, raw=False):
     pids = pids or sorted(PROMPTS)
     out_dir = ROOT / "data" / ("answers_raw" if answers_only else "answers")
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -68,7 +78,7 @@ def build(pids=None, answers_only=False):
     collected, failed = {}, {}
     for pid in pids:
         try:
-            ans = collect(pid)
+            ans = from_raw(pid) if raw else collect(pid)
         except Exception as e:
             failed[pid] = f"{type(e).__name__}: {e}"
             traceback.print_exc(limit=2, file=sys.stderr)
@@ -109,4 +119,5 @@ def build(pids=None, answers_only=False):
 
 if __name__ == "__main__":
     args = sys.argv[1:]
-    build(select([a for a in args if not a.startswith("--")]), answers_only="--answers-only" in args)
+    build(select([a for a in args if not a.startswith("--")]), answers_only="--answers-only" in args,
+          raw="--from-raw" in args)

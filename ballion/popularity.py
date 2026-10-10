@@ -4,6 +4,8 @@ Uses the batched action-API `prop=pageviews` (50 titles/request) rather than the
 endpoint: ~50x fewer requests. On p002/p003 the 60-day ranking matched the 12-month one with
 Spearman 0.98-0.99 and no answer moved more than one tier.
 """
+from concurrent.futures import ThreadPoolExecutor
+
 from ballion.wiki import api, resolve
 
 LANGS = ["en", "es", "de", "it", "fr", "pt", "nl", "ru", "pl", "tr", "ar", "ja", "zh", "id"]
@@ -42,6 +44,7 @@ def popularity(en_titles):
     info = resolve(en_titles)
     out = {t: {"title": info[t]["title"], "qid": info[t]["qid"], "views": 0, "views_en": 0, "n_langs": 0}
            for t in en_titles}
+    locals_ = {}
     for lang in LANGS:
         local = {}
         for t in en_titles:
@@ -51,7 +54,13 @@ def popularity(en_titles):
             lt = rec["title"] if lang == "en" else rec["langlinks"].get(lang)
             if lt:
                 local[t] = lt
-        views = batch_views(local.values(), lang)
+        locals_[lang] = local
+    # Languages are fetched concurrently: each request is latency-bound (~0.5 s), so one thread
+    # manages ~2 req/s. The shared throttle in ballion.wiki still caps the total at MAX_RPS.
+    with ThreadPoolExecutor(max_workers=len(LANGS)) as pool:
+        all_views = dict(zip(LANGS, pool.map(lambda lang: batch_views(locals_[lang].values(), lang), LANGS)))
+    for lang in LANGS:
+        local, views = locals_[lang], all_views[lang]
         for t, lt in local.items():
             v = views.get(lt, 0)
             out[t]["views"] += v
