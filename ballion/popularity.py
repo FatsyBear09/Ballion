@@ -5,18 +5,31 @@ endpoint: ~50x fewer requests. On p002/p003 the 60-day ranking matched the 12-mo
 Spearman 0.98-0.99 and no answer moved more than one tier.
 """
 from concurrent.futures import ThreadPoolExecutor
+from urllib.parse import quote
 
 from ballion.wiki import api, resolve
 
 LANGS = ["en", "es", "de", "it", "fr", "pt", "nl", "ru", "pl", "tr", "ar", "ja", "zh", "id"]
 
 
+MAX_TITLES_URL = 6000  # Wikimedia rejects GET URLs over ~8 kB (HTTP 400); long non-Latin titles hit that
+
+
+def _fit(chunk):
+    """Split a chunk in halves until its percent-encoded title list fits in a URL. Chunks that
+    already fit come back unchanged, so their cached responses stay valid."""
+    if len(chunk) == 1 or len(quote("|".join(chunk))) <= MAX_TITLES_URL:
+        return [chunk]
+    mid = len(chunk) // 2
+    return _fit(chunk[:mid]) + _fit(chunk[mid:])
+
+
 def batch_views(titles, lang):
     """title -> summed daily views over the last 60 days (follows API continuation)."""
     out = {}
     titles = sorted(set(titles))
-    for i in range(0, len(titles), 50):
-        chunk = titles[i:i + 50]
+    chunks = [c for i in range(0, len(titles), 50) for c in _fit(titles[i:i + 50])]
+    for chunk in chunks:
         alias, cont = {}, {}
         while True:
             d = api(lang, action="query", prop="pageviews", titles="|".join(chunk), redirects=1, **cont)

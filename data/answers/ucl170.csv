@@ -1,0 +1,56 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Barcelona,FC Barcelona,1994–95 group; 1998–99 group; 2007–08 knockout; 2009 final; 2011 final,Q7156,1388578,728825,14,-1.7941789058017403,common,10
+Real Madrid,Real Madrid CF,1999–2000 knockout; 2002–03 knockout; 2012–13 knockout,Q8682,1208433,601446,14,-1.6762591329586896,common,10
+Chelsea F.C.,Chelsea F.C.,2008 final; 2010–11 knockout,Q9616,1158394,770880,14,-1.6403713205578823,common,10
+Arsenal,Arsenal F.C.,2008–09 knockout,Q9617,959872,647514,14,-1.4808404866278797,common,10
+Internazionale,Inter Milan,1998–99 knockout; 2008–09 knockout,Q631,661948,309128,14,-1.1654846954174793,common,10
+Juventus,Juventus FC,1996–97 group; 1997–98 group; 1998–99 knockout; 2002–03 group,Q1422,652749,286786,14,-1.1536089220527195,common,10
+Milan,AC Milan,2004–05 knockout; 2006–07 knockout; 2009–10 knockout,Q1543,589982,286974,14,-1.0678135683612648,common,10
+Bayern Munich,FC Bayern Munich,1998–99 group; 1999 final; 2000–01 knockout; 2001–02 group; 2009–10 knockout,Q15789,575149,261010,14,-1.0462054233945606,common,10
+Fenerbahçe,Fenerbahçe S.K. (football),1996–97 group; 2004–05 group,Q6601875,516090,235193,14,-0.9542599172455599,common,10
+Borussia Dortmund,Borussia Dortmund,1996–97 knockout,Q41420,429696,213182,14,-0.7987913371264344,common,10
+Roma,AS Roma,2006–07 knockout; 2007–08 group; 2007–08 knockout,Q2739,402830,186450,14,-0.7440020674273272,common,10
+Galatasaray,Galatasaray S.K. (football),1994–95 group; 2012–13 group,Q495299,387479,153676,14,-0.7110309398679067,uncommon,25
+Deportivo La Coruña,Deportivo de La Coruña,2001–02 group; 2001–02 knockout; 2002–03 group,Q8760,331514,159970,14,-0.5786545397274409,uncommon,25
+Celtic,Celtic F.C.,2006–07 group; 2008–09 group,Q19593,311520,215906,14,-0.5258653565205101,uncommon,25
+Lille,Lille OSC,2001–02 group; 2005–06 group; 2006–07 knockout,Q19516,308485,112316,14,-0.5175571726657259,uncommon,25
+Lyon,Olympique Lyonnais,2004–05 group; 2007–08 knockout,Q704,306256,118385,14,-0.5114031526183971,uncommon,25
+Beşiktaş,Beşiktaş J.K.,2009–10 group,Q172567,293563,122873,14,-0.47548218895817923,uncommon,25
+Monaco,AS Monaco FC,1997–98 knockout,Q180305,290851,151843,14,-0.46760608876301696,uncommon,25
+Fiorentina,ACF Fiorentina,1999–2000 group,Q2052,284889,117284,14,-0.4500300860488802,uncommon,25
+Schalke 04,FC Schalke 04,2010–11 knockout,Q32494,277004,103841,14,-0.42621152247429805,uncommon,25
+Marseille,Olympique de Marseille,1999–2000 group; 2010–11 knockout,Q132885,276544,117915,14,-0.42480112473340603,uncommon,25
+Benfica,S.L. Benfica,2005–06 group; 2006–07 group; 2011–12 group,Q131499,275308,148421,14,-0.42099979511699787,uncommon,25
+Rangers,Rangers F.C.,2003–04 group; 2010–11 group,Q19597,273991,210240,14,-0.4169305228876503,rare,40
+Olympiacos,Olympiacos F.C.,2001–02 group; 2002–03 group,Q19628,267030,148113,14,-0.3950921438675164,rare,40
+Sporting CP,Sporting CP,2007–08 group,Q75729,256490,135909,14,-0.36091742981688296,rare,40
+Valencia,Valencia CF,1999–2000 group; 2000–01 group; 2010–11 group,Q10333,244890,118666,14,-0.3216432354420518,rare,40
+Feyenoord,Feyenoord,1997–98 group,Q134241,244779,124240,14,-0.32125850271668366,rare,40
+Villarreal,Villarreal CF,2005–06 group; 2008–09 group,Q12297,229841,102996,14,-0.26782316238580123,rare,40
+Bordeaux,FC Girondins de Bordeaux,1999–2000 group,Q172476,228453,80441,14,-0.2626829004009281,rare,40
+PSV Eindhoven,PSV Eindhoven,2000–01 group,Q11938,223602,105825,14,-0.24446932222615378,rare,40
+Porto,FC Porto,1996–97 knockout; 2003–04 knockout; 2008–09 knockout,Q128446,222828,119503,14,-0.24152675356124076,rare,40
+Bayer Leverkusen,Bayer 04 Leverkusen,2001–02 knockout; 2002–03 group,Q104761,218856,117423,14,-0.22626347463219965,rare,40
+VfB Stuttgart,VfB Stuttgart,2003–04 group,Q4512,152997,69150,14,0.07753522759998202,rare,40
+Panathinaikos,Panathinaikos F.C.,2000–01 group; 2003–04 group,Q4122219,146861,92103,14,0.1122702809069822,super rare,60
+VfL Wolfsburg,VfL Wolfsburg,2009–10 group,Q101859,124898,54412,14,0.24973563865845502,super rare,60
+Anderlecht,R.S.C. Anderlecht,2000–01 group,Q187528,122339,52350,14,0.26730311364620735,super rare,60
+CSKA Moscow,PFC CSKA Moscow,2009–10 group,Q176371,104194,28926,14,0.40353963548081295,super rare,60
+Croatia Zagreb,GNK Dinamo Zagreb,1999–2000 group,Q172803,99751,62980,14,0.44051974874281413,super rare,60
+Copenhagen,F.C. Copenhagen,2006–07 group,Q188430,73184,46271,14,0.7033328446775653,super rare,60
+Braga,S.C. Braga,2012–13 group,Q75684,72503,38719,14,0.7112663303132756,super rare,60
+Nantes,FC Nantes,2001–02 group,Q192071,71476,25581,14,0.7233726782295118,super rare,60
+Basel,FC Basel,2002–03 group; 2011–12 group,Q189671,70128,33715,14,0.7395297213080867,super rare,60
+Rapid Wien,SK Rapid Wien,1996–97 group,Q131215,69543,37818,14,0.7466383604961312,super rare,60
+Dynamo Kyiv,FC Dynamo Kyiv,2000–01 group; 2007–08 group,Q179075,69010,29210,14,0.7531673756369738,ultra rare,85
+Sparta Prague,AC Sparta Prague,2004–05 group,Q193481,66363,38511,14,0.7863576891654572,ultra rare,85
+Boavista,Boavista F.C.,2001–02 group,Q219703,63965,28664,14,0.8175892958294455,ultra rare,85
+Bursaspor,Bursaspor,2010–11 group,Q203573,61510,27305,13,0.8508004005777458,ultra rare,85
+Sturm Graz,SK Sturm Graz,1999–2000 group; 2000–01 group,Q124007617,59008,29700,14,0.8860400120683918,ultra rare,85
+Brøndby,Brøndby IF,1998–99 group,Q211906,50443,31363,14,1.0191249948143677,ultra rare,85
+IFK Göteborg,IFK Göteborg,1994–95 group,Q201567,34390,20998,14,1.3442028868724483,ultra rare,85
+CFR Cluj,CFR Cluj,2012–13 group,Q205998,33339,21072,14,1.3705413613079227,ultra rare,85
+Maccabi Haifa,Maccabi Haifa F.C.,2002–03 group,Q2129100,30974,20578,14,1.432980264064462,ultra rare,85
+AaB,AaB Fodbold,2008–09 group,Q11492669,12578,9598,11,2.19771078517374,ultra rare,85
+Oțelul Galați,ASC Oțelul Galați,2011–12 group,Q220863,10268,7294,13,2.3698939438310838,legendary,100
+Košice,FC VSS Košice,1997–98 group,Q693909,4412,2564,13,3.086612603001454,legendary,100

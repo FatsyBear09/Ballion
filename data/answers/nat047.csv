@@ -1,0 +1,32 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,starter,Q615,3816900,1293817,14,-2.9018364455034655,common,10
+Neymar,Neymar,starter,Q142794,858112,368557,14,-1.583964523676805,common,10
+Emiliano Martínez,Emiliano Martínez,starter,Q3275904,843751,464426,14,-1.5690616207594774,common,10
+Vinícius Júnior,Vinícius Júnior,substitute,Q28973866,498085,215168,14,-1.1036337800046667,common,10
+Lautaro Martínez,Lautaro Martínez,starter,Q21484126,423801,133779,14,-0.9610202608135351,common,10
+Cristian Romero,"Cristian Romero (footballer, born 1998)",starter,Q28058687,288196,142748,14,-0.6205078872663324,common,10
+Rodrigo De Paul,Rodrigo De Paul,starter,Q6110670,281823,104502,14,-0.6007622048518442,uncommon,25
+Ángel Di María,Ángel Di María,starter,Q251683,273087,102521,14,-0.5729570460314961,uncommon,25
+Richarlison,Richarlison,starter,Q20806743,260478,165157,14,-0.5312150190047664,uncommon,25
+Leandro Paredes,Leandro Paredes,starter,Q630170,258143,98111,14,-0.5232637026139897,uncommon,25
+Marquinhos,Marquinhos,starter,Q39230,218108,79766,14,-0.37445469400689074,uncommon,25
+Casemiro,Casemiro,starter,Q616664,184442,98441,14,-0.22641229392042325,uncommon,25
+Thiago Silva,Thiago Silva,starter,Q210453,170173,70983,14,-0.1553123062815969,rare,40
+Nicolás González,"Nicolás González (footballer, born 1998)",substitute,Q43381082,153545,15182,14,-0.06451899449792597,rare,40
+Fred,"Fred (footballer, born 1993)",starter,Q965448,151074,43943,14,-0.05019304485796817,rare,40
+Roberto Firmino,Roberto Firmino,substitute,Q602525,149442,88140,14,-0.04060224291941686,rare,40
+Nicolás Otamendi,Nicolás Otamendi,starter,Q182063,130546,52632,14,0.07876605625113596,rare,40
+Nicolás Tagliafico,Nicolás Tagliafico,substitute,Q3876530,127066,32244,14,0.1026242296355196,rare,40
+Ederson,"Ederson (footballer, born 1993)",starter,Q17074511,120037,59060,14,0.1528735479890356,super rare,60
+Gabriel Barbosa,Gabriel Barbosa,substitute,Q13646572,104474,26450,14,0.27549031947930597,super rare,60
+Exequiel Palacios,Exequiel Palacios,substitute,Q19345715,101223,64179,14,0.3034043109719882,super rare,60
+Lucas Paquetá,Lucas Paquetá,starter,Q30089624,91543,35969,14,0.39216217587718827,super rare,60
+Everton,Everton Soares,starter,Q17385902,57058,11203,14,0.8095961087252378,super rare,60
+Danilo,"Danilo (footballer, born July 1991)",starter,Q437329,56100,22028,14,0.8245475801285311,super rare,60
+Giovani Lo Celso,Giovani Lo Celso,starter,Q20743436,54156,21306,14,0.855688550908755,ultra rare,85
+Emerson Royal,Emerson Royal,substitute,Q30123152,46134,19789,14,0.9972503628310907,ultra rare,85
+Gonzalo Montiel,Gonzalo Montiel,starter,Q26255087,40081,14948,14,1.121442420960439,ultra rare,85
+Germán Pezzella,Germán Pezzella,substitute,Q3761173,29722,5490,14,1.3854711497682677,ultra rare,85
+Marcos Acuña,Marcos Acuña,starter,Q17462635,28559,10949,14,1.4207160639107916,ultra rare,85
+Guido Rodríguez,Guido Rodríguez,substitute,Q18224850,24588,9804,14,1.5529113147821736,ultra rare,85
+Renan Lodi,Renan Lodi,starter,Q55055451,23133,6380,14,1.6067718747911384,legendary,100

@@ -1,0 +1,33 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,2015–16 participant,Q50602,1425404,916736,14,-1.5492340468417989,common,10
+Barcelona,FC Barcelona,2015–16 participant,Q7156,1388578,728825,14,-1.5263201675783462,common,10
+Real Madrid,Real Madrid CF,2015–16 participant,Q8682,1208433,601446,14,-1.4046771997951448,common,10
+Chelsea,Chelsea F.C.,2015–16 participant,Q9616,1158394,770880,14,-1.3676562668130965,common,10
+Manchester United,Manchester United F.C.,2015–16 participant,Q18656,1028323,687224,14,-1.263390585262838,common,10
+Arsenal,Arsenal F.C.,2015–16 participant,Q9617,959872,647514,14,-1.2030884117002534,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,2015–16 participant,Q483020,759345,323757,14,-0.997942096999623,common,10
+Juventus,Juventus FC,2015–16 participant,Q1422,652749,286786,14,-0.865524848715417,uncommon,25
+Bayern Munich,FC Bayern Munich,2015–16 participant,Q15789,575149,261010,14,-0.7547301956043849,uncommon,25
+Atlético Madrid,Atlético Madrid,2015–16 participant,Q8701,496791,258752,14,-0.6265183061225702,uncommon,25
+Roma,AS Roma,2015–16 participant,Q2739,402830,186450,14,-0.44298508104394874,uncommon,25
+Galatasaray,Galatasaray S.K. (football),2015–16 participant,Q495299,387479,153676,14,-0.4089729242123325,uncommon,25
+Lyon,Olympique Lyonnais,2015–16 participant,Q704,306256,118385,14,-0.20304209592499733,uncommon,25
+Benfica,S.L. Benfica,2015–16 participant,Q131499,275308,148421,14,-0.1097843458556119,rare,40
+Olympiacos,Olympiacos F.C.,2015–16 participant,Q19628,267030,148113,14,-0.08305868729728293,rare,40
+Valencia,Valencia CF,2015–16 participant,Q10333,244890,118666,14,-0.00729070550849665,rare,40
+PSV Eindhoven,PSV Eindhoven,2015–16 participant,Q11938,223602,105825,14,0.07231989424664263,rare,40
+Porto,FC Porto,2015–16 participant,Q128446,222828,119503,14,0.07535537147557425,rare,40
+Bayer Leverkusen,Bayer 04 Leverkusen,2015–16 participant,Q104761,218856,117423,14,0.09110057265996391,rare,40
+Sevilla,Sevilla FC,2015–16 participant,Q10329,206948,107222,14,0.1400763351972972,super rare,60
+Shakhtar Donetsk,FC Shakhtar Donetsk,2015–16 participant,Q172969,186632,84691,14,0.23053080651974708,super rare,60
+Borussia Mönchengladbach,Borussia Mönchengladbach,2015–16 participant,Q101959,168585,70058,14,0.31955823182492027,super rare,60
+VfL Wolfsburg,VfL Wolfsburg,2015–16 participant,Q101859,124898,54412,14,0.5821288659379198,super rare,60
+Zenit Saint Petersburg,FC Zenit Saint Petersburg,2015–16 participant,Q29108,124855,42124,14,0.5824303019732061,super rare,60
+CSKA Moscow,PFC CSKA Moscow,2015–16 participant,Q176371,104194,28926,14,0.7407890649809699,super rare,60
+Dinamo Zagreb,GNK Dinamo Zagreb,2015–16 participant,Q172803,99751,62980,14,0.7789367870948515,ultra rare,85
+Dynamo Kyiv,FC Dynamo Kyiv,2015–16 participant,Q179075,69010,29210,14,1.1014559396410468,ultra rare,85
+Maccabi Tel Aviv,Maccabi Tel Aviv F.C.,2015–16 participant,Q223728,65081,45904,14,1.1527705637953916,ultra rare,85
+Gent,KAA Gent,2015–16 participant,Q18232,63439,37269,14,1.1751402663408004,ultra rare,85
+Malmö FF,Malmö FF,2015–16 participant,Q204881,38787,21589,14,1.6058270858795909,ultra rare,85
+BATE Borisov,FC BATE Borisov,2015–16 participant,Q191101,26735,9387,14,1.9315666529688023,ultra rare,85
+Astana,FC Astana,2015–16 participant,Q779698,18920,9877,14,2.234229224739396,legendary,100

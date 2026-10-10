@@ -1,0 +1,46 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,Inter Miami CF,Q615,3816900,1293817,14,-3.76454528634934,common,10
+James Rodríguez,James Rodríguez,Minnesota United FC,Q368441,348394,111127,14,-2.167532277039996,common,10
+Rodrigo De Paul,Rodrigo De Paul,Inter Miami CF,Q6110670,281823,104502,14,-2.026064689655122,common,10
+Son Heung-min,Son Heung-min,Los Angeles FC,Q439722,271359,150165,14,-2.0008229006022993,common,10
+Lucas Herrington,Lucas Herrington,Colorado Rapids,Q133105064,80530,76791,12,-1.1903910954365895,common,10
+Matías Galarza,Matías Galarza (Paraguayan footballer),Atlanta United FC,Q106804819,48193,13445,11,-0.8478816413160469,common,10
+Sebastian Berhalter,Sebastian Berhalter,Vancouver Whitecaps FC,Q86301356,46656,41675,12,-0.8262589287126934,common,10
+Stephen Eustáquio,Stephen Eustáquio,Los Angeles FC,Q35009041,40774,31721,14,-0.7363606660335167,common,10
+Miguel Almirón,Miguel Almirón,Atlanta United FC,Q16145667,38742,21251,14,-0.7022576319002412,common,10
+Petar Musa,Petar Musa,FC Dallas,Q84810924,34972,25257,13,-0.6339610670156915,uncommon,25
+Tim Ream,Tim Ream,Charlotte FC,Q716113,33468,29489,14,-0.6046362527358035,uncommon,25
+Olwethu Makhanya,Olwethu Makhanya,Philadelphia Union,Q122207713,28892,28076,10,-0.506554668238593,uncommon,25
+Matt Turner,Matt Turner (soccer),New England Revolution,Q24663885,19854,15439,14,-0.2562853443249209,uncommon,25
+Marco Pašalić,Marco Pašalić,Orlando City SC,Q107641804,19612,11507,13,-0.2481041653298587,uncommon,25
+Dayne St. Clair,Dayne St. Clair,Inter Miami CF,Q60583915,15620,11062,13,-0.09628118022615026,uncommon,25
+Jayden Nelson,Jayden Nelson,Austin FC,Q64748312,14190,13273,12,-0.032231266904933144,uncommon,25
+Max Arfsten,Max Arfsten,Columbus Crew,Q117309867,12543,11692,11,0.050069507831164525,uncommon,25
+Matt Freese,Matt Freese,New York City FC,Q62036070,12380,10760,10,0.058795178835590545,uncommon,25
+Chris Brady,Chris Brady (soccer),Chicago Fire FC,Q98594864,12258,10344,11,0.06540154865836989,rare,40
+Jacob Shaffelburg,Jacob Shaffelburg,Los Angeles FC,Q64009768,11905,9777,13,0.08489366549067201,rare,40
+Mbekezeli Mbokazi,Mbekezeli Mbokazi,Chicago Fire FC,Q133464757,11541,9919,11,0.10560798513745745,rare,40
+Maxime Crépeau,Maxime Crépeau,Orlando City SC,Q19866530,8838,5956,12,0.2836107097270377,rare,40
+Richie Laryea,Richie Laryea,Toronto FC,Q22096162,8287,6691,12,0.32655054811857526,rare,40
+CJ dos Santos,CJ dos Santos,San Diego FC,Q62445814,7993,6223,9,0.3506455515363425,rare,40
+Miles Robinson,Miles Robinson (soccer),FC Cincinnati,Q30122953,7840,6646,12,0.3635377530143201,rare,40
+Cristian Roldan,Cristian Roldan,Seattle Sounders FC,Q19519224,7281,5593,14,0.41287921022053997,rare,40
+Jonathan Osorio,Jonathan Osorio,Toronto FC,Q10554558,7028,5112,12,0.43646964773243385,rare,40
+Rayan Elloumi,Rayan Elloumi,Vancouver Whitecaps FC,Q134932034,6593,4814,8,0.47908875755332764,super rare,60
+Juan Manuel Sanabria,Juan Manuel Sanabria,Real Salt Lake,Q60841788,6303,3135,11,0.5090934397082671,super rare,60
+Louicius Deedson,Louicius Deedson,FC Dallas,Q72697581,6099,2475,10,0.5310390557284616,super rare,60
+Aiden O'Neill,Aiden O'Neill,New York City FC,Q26485052,5599,4649,13,0.5880934290200033,super rare,60
+Mathieu Choinière,Mathieu Choinière,Los Angeles FC,Q55760452,5393,3730,11,0.6130970281248079,super rare,60
+Steven Moreira,Steven Moreira,Columbus Crew,Q14371131,5386,3479,13,0.6139633499596827,super rare,60
+Andrés Cubas,Andrés Cubas,Vancouver Whitecaps FC,Q16298600,5375,2297,12,0.6153269898642907,super rare,60
+Ahmed Qasem,Ahmed Qasem,Nashville SC,Q106907687,4931,3387,10,0.6728335732725108,super rare,60
+Aníbal Godoy,Aníbal Godoy,San Diego FC,Q2759958,4929,3262,13,0.6731041592016855,super rare,60
+Joel Waterman,Joel Waterman,Chicago Fire FC,Q63700064,4491,3523,12,0.7351745316738132,ultra rare,85
+Derrick Etienne Jr.,Derrick Etienne Jr.,Toronto FC,Q21005754,4223,3315,11,0.7762133361793255,ultra rare,85
+Finn Surman,Finn Surman,Portland Timbers,Q109968695,4097,3533,11,0.7964163531210258,ultra rare,85
+Michael Boxall,Michael Boxall,Minnesota United FC,Q524730,3930,2790,13,0.8241724157760206,ultra rare,85
+Danley Jean Jacques,Danley Jean Jacques,Philadelphia Union,Q113393306,3741,2657,11,0.8570443051973947,ultra rare,85
+Braian Ojeda,Braian Ojeda,Orlando City SC,Q60828724,2549,1549,11,1.1129064313969337,ultra rare,85
+Kai Trewin,Kai Trewin,New York City FC,Q87400019,2369,1991,9,1.161742588985661,ultra rare,85
+Herman Johansson,Herman Johansson,FC Dallas,Q106372516,2228,1678,11,1.2026622509968858,ultra rare,85
+Carlos Harvey,Carlos Harvey,Minnesota United FC,Q61990402,1814,1322,8,1.339735759759194,legendary,100

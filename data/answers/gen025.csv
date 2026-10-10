@@ -1,0 +1,51 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Zinedine Zidane,Zinedine Zidane,#1,Q1835,978364,302365,14,-2.2341124228674745,common,10
+Kevin Keegan,Kevin Keegan,#20,Q152832,523171,404309,14,-1.5824340309782623,common,10
+David Beckham,David Beckham,#22,Q10520,515252,286427,14,-1.5665554507028079,common,10
+Marco Van Basten,Marco Van Basten,#4,Q483629,372704,85861,14,-1.2293847196692256,common,10
+Johan Cruyff,Johan Cruyff,#3,Q17163,363937,139747,14,-1.2046035107963309,common,10
+Paolo Maldini,Paolo Maldini,#10,Q483027,282344,109882,14,-0.9403250866523116,common,10
+Eric Cantona,Eric Cantona,#42,Q170328,259604,107144,14,-0.8529083981700973,common,10
+Luís Figo,Luís Figo,#31,Q483145,258257,106439,14,-0.8474926091878958,common,10
+Franz Beckenbauer,Franz Beckenbauer,#2,Q4457,245906,77735,14,-0.7964744982342676,common,10
+Michel Platini,Michel Platini,#9,Q4261,233574,52768,14,-0.7429114804209085,common,10
+Ruud Gullit,Ruud Gullit,#13,Q173972,219406,86543,14,-0.677767045179682,uncommon,25
+Ronald Koeman,Ronald Koeman,#26,Q192635,214274,71828,14,-0.6531268827825777,uncommon,25
+Alessandro Del Piero,Alessandro Del Piero,#49,Q624,204485,66632,14,-0.6044459079047443,uncommon,25
+Roberto Baggio,Roberto Baggio,#24,Q67964,197617,66621,14,-0.5688793224435356,uncommon,25
+Lothar Matthäus,Lothar Matthäus,#15,Q36386,194645,50994,14,-0.5531036926958846,uncommon,25
+Lev Yashin,Lev Yashin,#8,Q167828,194396,59760,14,-0.5517710619066898,uncommon,25
+George Best,George Best,#19,Q164521,189346,108124,14,-0.524369022000975,uncommon,25
+Franco Baresi,Franco Baresi,#17,Q189984,184950,57918,14,-0.4999139926189385,uncommon,25
+Alfredo Di Stéfano,Alfredo Di Stéfano,#6,Q164546,175879,62799,14,-0.44755987063596697,uncommon,25
+Ruud van Nistelrooy,Ruud van Nistelrooy,#44,Q45626,173532,85380,14,-0.4335740290641032,uncommon,25
+Gary Lineker,Gary Lineker,#46,Q47778,162794,128029,14,-0.3670748862190976,rare,40
+Frank Rijkaard,Frank Rijkaard,#21,Q169098,153186,59994,14,-0.30374443355165887,rare,40
+Raúl,Raúl (footballer),#32,Q11576,147210,42746,14,-0.26231787128520545,rare,40
+Ferenc Puskás,Ferenc Puskás,#11,Q482931,138012,56221,14,-0.19514931742209118,rare,40
+Gerd Müller,Gerd Müller,#18,Q43744,135191,47975,14,-0.17364934413808725,rare,40
+Karl-Heinz Rummenigge,Karl-Heinz Rummenigge,#16,Q152871,127518,51280,14,-0.11281924560763217,rare,40
+Gheorghe Hagi,Gheorghe Hagi,#28,Q189892,126848,47534,14,-0.10733494345425887,rare,40
+Eusébio,Eusébio,#7,Q162043,119532,50905,14,-0.04549053310381985,rare,40
+Bobby Charlton,Bobby Charlton,#14,Q171583,113393,71892,14,0.009398607495499993,rare,40
+Peter Schmeichel,Peter Schmeichel,#27,Q182314,109473,62032,14,0.046024750364520924,rare,40
+Gianni Rivera,Gianni Rivera,#35,Q230046,105692,17600,14,0.08261654944288108,super rare,60
+Alessandro Nesta,Alessandro Nesta,#47,Q227892,104746,34637,14,0.09197650552231443,super rare,60
+Oliver Kahn,Oliver Kahn,#30,Q131261,103664,33797,14,0.10278627626912328,super rare,60
+Peter Shilton,Peter Shilton,#39,Q244799,87205,65225,14,0.2827775554459053,super rare,60
+Paolo Rossi,Paolo Rossi,#12,Q178628,86323,27591,14,0.29336048244437096,super rare,60
+Michael Laudrup,Michael Laudrup,#25,Q188720,69155,31149,14,0.5242092954402439,super rare,60
+Dino Zoff,Dino Zoff,#5,Q180661,63729,16604,14,0.6092741446656368,super rare,60
+Stanley Matthews,Stanley Matthews,#43,Q216140,61552,38058,14,0.645458267082436,super rare,60
+Bobby Moore,Bobby Moore,#23,Q191492,58745,40623,14,0.6940505467214709,super rare,60
+Bernd Schuster,Bernd Schuster,#40,Q44389,52469,12918,14,0.8116716737198035,ultra rare,85
+Alessandro Costacurta,Alessandro Costacurta,#50,Q213828,50924,16444,14,0.8427866386028817,ultra rare,85
+Marco Tardelli,Marco Tardelli,#37,Q312626,44951,6874,14,0.9726686232184691,ultra rare,85
+Just Fontaine,Just Fontaine,#38,Q192749,44135,14225,14,0.9917403992196452,ultra rare,85
+Sepp Maier,Sepp Maier,#29,Q44194,43209,8796,14,1.0138149705517698,ultra rare,85
+Raymond Kopa,Raymond Kopa,#41,Q123118,42382,14914,14,1.0339331565114902,ultra rare,85
+Berti Vogts,Berti Vogts,#33,Q828203,39761,14485,14,1.1003902545157649,ultra rare,85
+Johan Neeskens,Johan Neeskens,#34,Q233819,36690,14392,14,1.1840712945595184,ultra rare,85
+José Antonio Camacho,José Antonio Camacho,#36,Q311227,14939,4337,13,2.1194575036927934,ultra rare,85
+Valentin Ivanov,"Valentin Ivanov (footballer, born 1934)",#45,Q313309,8300,1569,13,2.7312564884452346,legendary,100
+José Santamaría,José Santamaría,#48,Q503248,7088,2676,12,2.8955696257627936,legendary,100

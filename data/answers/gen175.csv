@@ -1,0 +1,13 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,CFG-owned,Q50602,1425404,916736,14,-2.850538677418618,common,10
+Palermo,Palermo FC,CFG-owned,Q2674,127673,47508,14,-0.5416830104781142,common,10
+Girona,Girona FC,CFG-owned,Q11945,109716,63385,14,-0.3966329963390485,common,10
+Torque,Montevideo City Torque,CFG-owned,Q48646,81720,20442,11,-0.11472282324109805,uncommon,25
+New York City,New York City FC,CFG-owned,Q13361030,74114,54129,14,-0.02123574276906202,uncommon,25
+Troyes,ES Troyes AC,CFG-owned,Q501693,65593,37875,14,0.09563973988838607,rare,40
+Bahia,Esporte Clube Bahia,CFG-owned,Q198032,59850,24713,14,0.18332104454810988,rare,40
+Yokohama F. Marinos,Yokohama F. Marinos,Former,Q854932,59178,23892,14,0.1941263066934978,super rare,60
+Mumbai City,Mumbai City FC,Former,Q16845355,38315,30365,14,0.6101103626374533,super rare,60
+Melbourne City,Melbourne City FC,CFG-owned,Q748725,36560,26343,14,0.6549772649492073,ultra rare,85
+Lommel,Lommel SK,CFG-owned,Q1668203,30420,16710,13,0.8309109448039509,ultra rare,85
+Shenzhen Peng City,Shenzhen Peng City F.C.,CFG-owned,Q7507434,17578,14189,10,1.3557275867253353,legendary,100

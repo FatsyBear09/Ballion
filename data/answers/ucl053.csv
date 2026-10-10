@@ -1,0 +1,24 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Cristiano Ronaldo,Cristiano Ronaldo,UCL apps 13,Q11571,3573666,1706984,14,-2.7961779212994453,common,10
+Karim Benzema,Karim Benzema,UCL apps 13,Q1912,629696,263800,14,-1.1849848074877243,common,10
+Luka Modrić,Luka Modrić,UCL apps 11,Q483837,552173,265700,14,-1.0630619389178766,common,10
+Sergio Ramos,Sergio Ramos,UCL apps 11,Q483309,419482,187110,14,-0.8079968948843366,common,10
+Álvaro Morata,Álvaro Morata,UCL apps 9,Q48770,402284,130435,14,-0.7691467361075847,common,10
+James Rodríguez,James Rodríguez,UCL apps 6,Q368441,348394,111127,14,-0.6356711842226945,uncommon,25
+Gareth Bale,Gareth Bale,UCL apps 8,Q184586,311672,163057,14,-0.5323029793188758,uncommon,25
+Dani Carvajal,Dani Carvajal,UCL apps 11,Q127452,274413,115722,14,-0.41414695839928883,uncommon,25
+Toni Kroos,Toni Kroos,UCL apps 12,Q131234,203493,74748,14,-0.1366591667255199,uncommon,25
+Casemiro,Casemiro,UCL apps 9,Q616664,184442,98441,14,-0.04543566836966054,uncommon,25
+Marco Asensio,Marco Asensio,UCL apps 8,Q16148978,168223,64464,14,0.03998567109086646,rare,40
+Isco,Isco,UCL apps 6,Q80892,160191,66596,14,0.08538889236555791,rare,40
+Mateo Kovačić,Mateo Kovačić,UCL apps 6,Q701297,157450,84987,14,0.1014058928563044,rare,40
+Mariano Díaz,Mariano Díaz,UCL apps 1,Q10556350,143166,48204,14,0.18966564047994558,rare,40
+Raphaël Varane,Raphaël Varane,UCL apps 10,Q489039,128564,53442,14,0.28950246844933764,super rare,60
+Marcelo,"Marcelo (footballer, born 1988)",UCL apps 11,Q38136,128339,48450,14,0.29112805738578235,super rare,60
+Pepe,"Pepe (footballer, born 1983)",UCL apps 3,Q485697,115484,44548,14,0.3890764671455973,super rare,60
+Keylor Navas,Keylor Navas,UCL apps 12,Q969423,103560,41840,14,0.49021504302032237,super rare,60
+Lucas Vázquez,Lucas Vázquez,UCL apps 10,Q5981954,71430,29161,14,0.8349190365189988,ultra rare,85
+Nacho,"Nacho (footballer, born 1990)",UCL apps 4,Q503137,70007,35182,14,0.8535936249571054,ultra rare,85
+Danilo,"Danilo (footballer, born July 1991)",UCL apps 3,Q437329,56100,22028,14,1.0591154225210129,ultra rare,85
+Fábio Coentrão,Fábio Coentrão,UCL apps 2,Q484384,34770,13825,14,1.5030659135911975,ultra rare,85
+Kiko Casilla,Kiko Casilla,UCL apps 1,Q721600,15405,7848,14,2.2585221253509724,legendary,100

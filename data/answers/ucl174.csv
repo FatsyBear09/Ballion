@@ -1,0 +1,28 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Barcelona,FC Barcelona,"semi-finalist in 1993–94, 1999–00, 2001–02",Q7156,1388578,728825,14,-1.6228244168542287,common,10
+Real Madrid,Real Madrid CF,"semi-finalist in 1997–98, 1999–00, 2000–01",Q8682,1208433,601446,14,-1.445745772770422,common,10
+Chelsea,Chelsea F.C.,"semi-finalist in 2003–04, 2004–05, 2006–07",Q9616,1158394,770880,14,-1.3918534949458428,common,10
+Manchester United,Manchester United F.C.,"semi-finalist in 1996–97, 1998–99, 2001–02",Q18656,1028323,687224,14,-1.2400713915504382,common,10
+Arsenal,Arsenal F.C.,"semi-finalist in 2005–06, 2008–09",Q9617,959872,647514,14,-1.1522880422589263,common,10
+Liverpool,Liverpool F.C.,"semi-finalist in 2004–05, 2006–07, 2007–08",Q1130849,895551,596192,14,-1.0638979619433735,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,semi-finalist in 1994–95,Q483020,759345,323757,14,-0.8536515332358849,uncommon,25
+Inter Milan,Inter Milan,"semi-finalist in 2002–03, 2009–10",Q631,661948,309128,14,-0.6787222053755776,uncommon,25
+Juventus,Juventus FC,"semi-finalist in 1995–96, 1996–97, 1997–98",Q1422,652749,286786,14,-0.6608885054440381,uncommon,25
+Milan,AC Milan,"semi-finalist in 1992–93, 1993–94, 1994–95",Q1543,589982,286974,14,-0.5320506987379957,uncommon,25
+Bayern Munich,FC Bayern Munich,"semi-finalist in 1994–95, 1998–99, 1999–00",Q15789,575149,261010,14,-0.4996020184224128,uncommon,25
+Borussia Dortmund,Borussia Dortmund,"semi-finalist in 1996–97, 1997–98",Q41420,429696,213182,14,-0.1280633878154283,rare,40
+Leeds United,Leeds United F.C.,semi-finalist in 2000–01,Q1128631,335403,241793,14,0.18765084899526957,rare,40
+Deportivo A Coruña,Deportivo de A Coruña,semi-finalist in 2003–04,Q8760,331514,159970,14,0.20251328017263828,rare,40
+Lyon,Olympique Lyonnais,semi-finalist in 2009–10,Q704,306256,118385,14,0.3035038448158983,rare,40
+Ajax,AFC Ajax,"semi-finalist in 1994–95, 1995–96, 1996–97",Q81888,297879,160599,14,0.33884664845166335,rare,40
+Monaco,AS Monaco FC,"semi-finalist in 1993–94, 1997–98, 2003–04",Q180305,290851,151843,14,0.3692733463623869,super rare,60
+Schalke 04,FC Schalke 04,semi-finalist in 2010–11,Q32494,277004,103841,14,0.431435047441983,super rare,60
+Marseille,Olympique de Marseille,semi-finalist in 1992–93,Q132885,276544,117915,14,0.43355302404212825,super rare,60
+Valencia,Valencia CF,"semi-finalist in 1999–00, 2000–01",Q10333,244890,118666,14,0.5884639327204683,super rare,60
+Villarreal,Villarreal CF,semi-finalist in 2005–06,Q12297,229841,102996,14,0.6692848614885134,super rare,60
+PSV Eindhoven,PSV Eindhoven,semi-finalist in 2004–05,Q11938,223602,105825,14,0.7043550303831275,ultra rare,85
+Porto,FC Porto,"semi-finalist in 1993–94, 2003–04",Q128446,222828,119503,14,0.7087738488454038,ultra rare,85
+Bayer Leverkusen,Bayer 04 Leverkusen,semi-finalist in 2001–02,Q104761,218856,117423,14,0.7316945234011878,ultra rare,85
+Panathinaikos,Panathinaikos F.C.,semi-finalist in 1995–96,Q4122219,146861,92103,14,1.2400664186495425,ultra rare,85
+Nantes,FC Nantes,semi-finalist in 1995–96,Q192071,71476,25581,14,2.157751225066759,ultra rare,85
+Dynamo Kyiv,FC Dynamo Kyiv,semi-finalist in 1998–99,Q179075,69010,29210,14,2.202493548517661,legendary,100

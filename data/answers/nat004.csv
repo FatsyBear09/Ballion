@@ -1,0 +1,17 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+New York / New Jersey,New York City,"New York/New Jersey ( East Rutherford, New Jersey )",Q60,1157280,697822,14,-2.307178343962933,common,10
+Los Angeles,Los Angeles,"Los Angeles ( Inglewood, California )",Q65,659523,402744,14,-1.4205323584219778,common,10
+Toronto,Toronto,Toronto,Q172,381533,251068,14,-0.5575253330705282,common,10
+Mexico City,Mexico City,Mexico City,Q1489,366989,179854,14,-0.49624274732253293,uncommon,25
+Boston,Boston,"Boston ( Foxborough, Massachusetts )",Q100,350604,226914,14,-0.4242237923064574,uncommon,25
+Philadelphia,Philadelphia,Philadelphia,Q1345,345545,221585,14,-0.4013059801104547,uncommon,25
+Seattle,Seattle,Seattle,Q5083,314301,206153,14,-0.2518711297167607,rare,40
+Vancouver,Vancouver,Vancouver,Q24639,286984,176417,14,-0.1085023699811037,rare,40
+Atlanta,Atlanta,Atlanta,Q23556,286942,187115,14,-0.10827159104816314,rare,40
+Miami,Miami,"Miami ( Miami Gardens, Florida )",Q8652,262529,157537,14,0.031933921411899706,super rare,60
+Houston,Houston,Houston,Q16555,224998,149096,14,0.2751846150348953,super rare,60
+Kansas City,Kansas City,Kansas City,Q41819,181388,126094,14,0.6149076073809303,super rare,60
+Dallas,Dallas,"Dallas ( Arlington, Texas )",Q16557,175469,121219,14,0.6672189418819303,ultra rare,85
+Guadalajara,Guadalajara,"Guadalajara ( Zapopan, Jalisco )",Q9022,118311,62064,14,1.2887001174865444,ultra rare,85
+San Francisco Bay Area,San Francisco Bay Area,"San Francisco Bay Area ( Santa Clara, California )",Q213205,98185,79762,14,1.5827111379725642,ultra rare,85
+Monterrey,Monterrey,"Monterrey ( Guadalupe, Nuevo León )",Q81033,96195,48792,14,1.614997304772167,legendary,100

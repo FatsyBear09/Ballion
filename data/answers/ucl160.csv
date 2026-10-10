@@ -1,0 +1,28 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,2015–16 group; 2017–18 group; 2018–19 group; 2019–20 group; 2020–21 group; 2021–22 group; 2022–23 group; 2023–24 group,Q50602,1425404,916736,14,-1.649855377638498,common,10
+Barcelona,FC Barcelona,2015–16 group; 2016–17 group; 2017–18 group; 2018–19 group; 2019–20 group; 2023–24 group,Q7156,1388578,728825,14,-1.6118057331010371,common,10
+Real Madrid,Real Madrid CF,2015–16 group; 2018–19 group; 2020–21 group; 2021–22 group; 2022–23 group; 2023–24 group,Q8682,1208433,601446,14,-1.4098114905977603,common,10
+Chelsea,Chelsea F.C.,2015–16 group; 2020–21 group; 2022–23 group,Q9616,1158394,770880,14,-1.3483363765755412,common,10
+Manchester United,Manchester United F.C.,2017–18 group; 2021–22 group,Q18656,1028323,687224,14,-1.175197988490761,common,10
+Arsenal,Arsenal F.C.,2016–17 group; 2023–24 group,Q9617,959872,647514,14,-1.075063208058698,common,10
+Liverpool,Liverpool F.C.,2017–18 group; 2019–20 group; 2020–21 group; 2021–22 group,Q1130849,895551,596192,14,-0.9742363273779653,uncommon,25
+Paris Saint-Germain,Paris Saint-Germain FC,2017–18 group; 2018–19 group; 2019–20 group; 2020–21 group,Q483020,759345,323757,14,-0.7344074743532661,uncommon,25
+Tottenham Hotspur,Tottenham Hotspur F.C.,2017–18 group; 2022–23 group,Q18741,748442,504261,14,-0.7133839319444601,uncommon,25
+Juventus,Juventus FC,2016–17 group; 2018–19 group; 2019–20 group; 2020–21 group; 2021–22 group,Q1422,652749,286786,14,-0.5145219992700919,uncommon,25
+Bayern Munich,FC Bayern Munich,2015–16 group; 2018–19 group; 2019–20 group; 2020–21 group; 2021–22 group; 2022–23 group; 2023–24 group,Q15789,575149,261010,14,-0.3305419267971573,uncommon,25
+Atlético Madrid,Atlético Madrid,2015–16 group; 2016–17 group; 2023–24 group,Q8701,496791,258752,14,-0.11763966070028015,rare,40
+Borussia Dortmund,Borussia Dortmund,2016–17 group; 2018–19 group; 2020–21 group; 2023–24 group,Q41420,429696,213182,14,0.09327351768209871,rare,40
+Roma,AS Roma,2017–18 group,Q2739,402830,186450,14,0.18712645483886395,rare,40
+Leicester City,Leicester City F.C.,2016–17 group,Q19481,384466,250464,14,0.25495301635607565,rare,40
+Napoli,SSC Napoli,2016–17 group; 2022–23 group,Q2641,342522,161478,14,0.42287860369017216,rare,40
+Lille,Lille OSC,2021–22 group,Q19516,308485,112316,14,0.57502208831319,super rare,60
+Ajax,AFC Ajax,2021–22 group,Q81888,297879,160599,14,0.6258794656264066,super rare,60
+Beşiktaş,Beşiktaş J.K.,2017–18 group,Q172567,293563,122873,14,0.647095704615483,super rare,60
+Monaco,AS Monaco FC,2016–17 group,Q180305,290851,151843,14,0.6605873087327944,super rare,60
+Benfica,S.L. Benfica,2022–23 group,Q131499,275308,148421,14,0.7404229694870178,super rare,60
+Real Sociedad,Real Sociedad,2023–24 group,Q10315,266303,128846,14,0.7887652956038533,ultra rare,85
+Valencia,Valencia CF,2019–20 group,Q10333,244890,118666,14,0.9106187943719963,ultra rare,85
+RB Leipzig,RB Leipzig,2019–20 group,Q702455,243137,111568,14,0.9210619328825828,ultra rare,85
+Porto,FC Porto,2018–19 group; 2022–23 group,Q128446,222828,119503,14,1.0478567458992716,ultra rare,85
+VfL Wolfsburg,VfL Wolfsburg,2015–16 group,Q101859,124898,54412,14,1.8893795235833952,ultra rare,85
+Zenit Saint Petersburg,FC Zenit Saint Petersburg,2015–16 group,Q29108,124855,42124,14,1.8898800732223957,legendary,100

@@ -1,0 +1,34 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,"bought, sold",Q50602,1425404,916736,14,-1.833276279389357,common,10
+Barcelona,FC Barcelona,"sold, bought",Q7156,1388578,728825,14,-1.7891139694052658,common,10
+Real Madrid,Real Madrid CF,"bought, sold",Q8682,1208433,601446,14,-1.5546694046564717,common,10
+Chelsea,Chelsea F.C.,"sold, bought",Q9616,1158394,770880,14,-1.4833183296396286,common,10
+Manchester United,Manchester United F.C.,"bought, sold",Q18656,1028323,687224,14,-1.2823653047771224,common,10
+Arsenal,Arsenal F.C.,bought,Q9617,959872,647514,14,-1.166143898049501,common,10
+Liverpool,Liverpool F.C.,"bought, sold",Q1130849,895551,596192,14,-1.049119205349215,common,10
+Aston Villa,Aston Villa F.C.,sold,Q18711,835578,420556,14,-0.9321709523268056,uncommon,25
+Paris Saint-Germain,Paris Saint-Germain FC,"bought, sold",Q483020,759345,323757,14,-0.7707619097908229,uncommon,25
+Tottenham Hotspur,Tottenham Hotspur F.C.,"bought, sold",Q18741,748442,504261,14,-0.7463609407907763,uncommon,25
+Inter Milan,Inter Milan,"sold, bought",Q631,661948,309128,14,-0.5391629479611891,uncommon,25
+Juventus,Juventus FC,"sold, bought",Q1422,652749,286786,14,-0.5155518906259431,uncommon,25
+Bayern Munich,FC Bayern Munich,bought,Q15789,575149,261010,14,-0.3020154676129502,uncommon,25
+Atlético Madrid,Atlético Madrid,"bought, sold",Q8701,496791,258752,14,-0.0549105081322132,uncommon,25
+Newcastle United,Newcastle United F.C.,sold,Q18716,467010,337240,14,0.04938925931620157,rare,40
+Brighton & Hove Albion,Brighton & Hove Albion F.C.,sold,Q19453,438636,316329,14,0.1551433929060914,rare,40
+Borussia Dortmund,Borussia Dortmund,sold,Q41420,429696,213182,14,0.18988581721275044,rare,40
+Al-Nassr,Al-Nassr FC,bought,Q482764,424702,227397,14,0.20960942265357893,rare,40
+Everton,Everton F.C.,sold,Q5794,406142,301688,14,0.28500116081429056,rare,40
+West Ham United,West Ham United F.C.,sold,Q18747,385893,264445,14,0.3712884485783208,rare,40
+Leicester City,Leicester City F.C.,sold,Q19481,384466,250464,14,0.377539085076605,super rare,60
+Napoli,SSC Napoli,sold,Q2641,342522,161478,14,0.5724418741107491,super rare,60
+Al-Hilal,Al Hilal SFC,bought,Q73965,325918,188556,14,0.6562782320270274,super rare,60
+Nottingham Forest,Nottingham Forest F.C,sold,Q19490,323858,219993,14,0.6669761123286907,super rare,60
+Lille,Lille OSC,sold,Q19516,308485,112316,14,0.7490271697596075,super rare,60
+Ajax,AFC Ajax,sold,Q81888,297879,160599,14,0.808054771441219,super rare,60
+Monaco,AS Monaco FC,sold,Q180305,290851,151843,14,0.8483384204680694,ultra rare,85
+Benfica,S.L. Benfica,sold,Q131499,275308,148421,14,0.9409996592489356,ultra rare,85
+RB Leipzig,RB Leipzig,sold,Q702455,243137,111568,14,1.150658224884833,ultra rare,85
+Athletic Bilbao,Athletic Bilbao,sold,Q8687,238821,117727,14,1.1808769481733292,ultra rare,85
+Bayer Leverkusen,Bayer 04 Leverkusen,sold,Q104761,218856,117423,14,1.32816858602092,ultra rare,85
+Southampton,Southampton F.C.,sold,Q18732,181820,119842,14,1.6409666832284364,ultra rare,85
+Eintracht Frankfurt,Eintracht Frankfurt,sold,Q38245,161751,67780,14,1.8382977402575371,legendary,100

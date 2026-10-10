@@ -1,0 +1,35 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Spain,Spain national football team,e.g. Real Madrid,Q42267,549207,292285,14,-1.5164664258468274,common,10
+France,France national football team,e.g. Paris Saint-Germain,Q47774,450086,222345,14,-1.3400930917681784,common,10
+England,England national football team,e.g. Manchester United,Q47762,435549,321591,14,-1.3110000866818003,common,10
+Italy,Italy national football team,e.g. Juventus,Q676899,416147,195485,14,-1.2706200646526549,common,10
+Germany,Germany national football team,e.g. Bayern Munich,Q43310,412591,218524,14,-1.263015459782149,common,10
+Portugal,Portugal national football team,e.g. Porto,Q267245,392109,224617,14,-1.2178962349072266,common,10
+Netherlands,Netherlands national football team,e.g. PSV Eindhoven,Q47050,305351,173691,14,-0.9962937404589439,common,10
+Croatia,Croatia national football team,e.g. Dinamo Zagreb,Q134479,211134,136336,14,-0.6693382613829919,uncommon,25
+Belgium,Belgium national football team,e.g. Club Brugge,Q166776,202259,108366,14,-0.6312842525804933,uncommon,25
+Greece,Greece national football team,e.g. Olympiacos,Q134925,177347,117694,14,-0.5148104099707994,uncommon,25
+Norway,Norway national football team,e.g. Rosenborg,Q184387,161198,104399,14,-0.4302071843707532,uncommon,25
+Poland,Poland national football team,e.g. Legia Warsaw,Q166196,137644,64851,14,-0.2902315661958486,uncommon,25
+Russia,Russia national football team,e.g. CSKA Moscow,Q726080,133100,54287,14,-0.26048426352016,uncommon,25
+Turkey,Turkey national football team,e.g. Galatasaray,Q483856,132674,64465,14,-0.25764356760425433,uncommon,25
+Scotland,Scotland national football team,e.g. Celtic,Q34044,130227,107066,14,-0.24114745904869556,rare,40
+Czech Republic,Czech Republic national football team,e.g. Sparta Prague,Q483868,97159,63615,14,0.0184263785675172,rare,40
+Denmark,Denmark national football team,e.g. Copenhagen,Q131785,95928,65558,14,0.029725298739187674,rare,40
+Israel,Israel national football team,e.g. Maccabi Haifa,Q191406,95777,70424,14,0.031121247902775092,rare,40
+Serbia,Serbia national football team,e.g. Red Star Belgrade,Q182740,92086,62216,14,0.06594572426139542,rare,40
+Switzerland,Switzerland national football team,e.g. Basel,Q165141,90599,53779,14,0.08037164204084465,rare,40
+Hungary,Hungary national football team,e.g. Ferencváros,Q170561,78511,49322,14,0.20726878659746786,rare,40
+Austria,Austria national football team,e.g. Red Bull Salzburg,Q163534,74821,43550,14,0.24992696403504608,super rare,60
+Romania,Romania national football team,e.g. Steaua București,Q168397,74784,48863,14,0.2503652730017777,super rare,60
+Ukraine,Ukraine national football team,e.g. Shakhtar Donetsk,Q170403,70755,39971,14,0.29943949532343267,super rare,60
+Bulgaria,Bulgaria national football team,e.g. Ludogorets Razgrad,Q180845,56366,38244,14,0.500905653417802,super rare,60
+Finland,Finland national football team,e.g. HJK,Q186532,52400,35426,14,0.5655565699490133,super rare,60
+Slovenia,Slovenia national football team,e.g. Maribor,Q172221,48796,35422,14,0.6286998440745462,super rare,60
+Kazakhstan,Kazakhstan national football team,e.g. Astana,Q183468,41864,22936,14,0.764472482416719,ultra rare,85
+Slovakia,Slovakia national football team,e.g. Slovan Bratislava,Q174512,40454,26538,14,0.794831433602378,ultra rare,85
+Azerbaijan,Azerbaijan national football team,e.g. Qarabağ,Q180800,37204,23355,14,0.8690427674363091,ultra rare,85
+Belarus,Belarus national football team,e.g. BATE Borisov,Q186252,36166,19016,14,0.8941169341233025,ultra rare,85
+Cyprus,Cyprus national football team,e.g. APOEL,Q188791,33560,25054,14,0.9603843552194538,ultra rare,85
+Moldova,Moldova national football team,e.g. Sheriff Tiraspol,Q191142,26264,17627,14,1.1776006706502595,ultra rare,85
+Sweden,Sweden national football team,e.g. IFK Göteborg,Q127925698,1327,1327,1,3.8223305474126072,legendary,100

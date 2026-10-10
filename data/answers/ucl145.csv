@@ -1,0 +1,33 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,2019–20 participant,Q50602,1425404,916736,14,-1.7367876659937513,common,10
+Barcelona,FC Barcelona,2019–20 participant,Q7156,1388578,728825,14,-1.7062951595082387,common,10
+Real Madrid,Real Madrid CF,2019–20 participant,Q8682,1208433,601446,14,-1.5444195145596156,common,10
+Chelsea,Chelsea F.C.,2019–20 participant,Q9616,1158394,770880,14,-1.4951541315105148,common,10
+Liverpool,Liverpool F.C.,2019–20 participant,Q1130849,895551,596192,14,-1.1953550580879797,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,2019–20 participant,Q483020,759345,323757,14,-1.0031592322092697,common,10
+Tottenham Hotspur,Tottenham Hotspur F.C.,2019–20 participant,Q18741,748442,504261,14,-0.9863112297892255,common,10
+Inter Milan,Inter Milan,2019–20 participant,Q631,661948,309128,14,-0.8432483750061008,uncommon,25
+Juventus,Juventus FC,2019–20 participant,Q1422,652749,286786,14,-0.8269457785344907,uncommon,25
+Bayern Munich,FC Bayern Munich,2019–20 participant,Q15789,575149,261010,14,-0.679506462838314,uncommon,25
+Atlético Madrid,Atlético Madrid,2019–20 participant,Q8701,496791,258752,14,-0.5088892649996364,uncommon,25
+Borussia Dortmund,Borussia Dortmund,2019–20 participant,Q41420,429696,213182,14,-0.3398660970335607,uncommon,25
+Galatasaray,Galatasaray S.K. (football),2019–20 participant,Q495299,387479,153676,14,-0.2193920614697386,uncommon,25
+Napoli,SSC Napoli,2019–20 participant,Q2641,342522,161478,14,-0.07572472738517701,rare,40
+Lille,Lille OSC,2019–20 participant,Q19516,308485,112316,14,0.04620114729752553,rare,40
+Lyon,Olympique Lyonnais,2019–20 participant,Q704,306256,118385,14,0.05464914495025182,rare,40
+Ajax,AFC Ajax,2019–20 participant,Q81888,297879,160599,14,0.0869576097142147,rare,40
+Benfica,S.L. Benfica,2019–20 participant,Q131499,275308,148421,14,0.17875133280417238,rare,40
+Olympiacos,Olympiacos F.C.,2019–20 participant,Q19628,267030,148113,14,0.21431634157242802,rare,40
+Valencia,Valencia CF,2019–20 participant,Q10333,244890,118666,14,0.31514412588277657,super rare,60
+RB Leipzig,RB Leipzig,2019–20 participant,Q702455,243137,111568,14,0.3235131257153414,super rare,60
+Bayer Leverkusen,Bayer 04 Leverkusen,2019–20 participant,Q104761,218856,117423,14,0.44607772526046646,super rare,60
+Atalanta,Atalanta BC,2019–20 participant,Q1886,199355,90028,14,0.5547978187713528,super rare,60
+Shakhtar Donetsk,FC Shakhtar Donetsk,2019–20 participant,Q172969,186632,84691,14,0.6316236671484994,super rare,60
+Red Star Belgrade,Red Star Belgrade,2019–20 participant,Q173009,169038,86775,14,0.7469703017480153,super rare,60
+Club Brugge,Club Brugge KV,2019–20 participant,Q190916,152990,82331,14,0.8631739831870121,ultra rare,85
+Red Bull Salzburg,FC Red Bull Salzburg,2019–20 participant,Q994811,138294,81810,14,0.9808217886630517,ultra rare,85
+Zenit Saint Petersburg,FC Zenit Saint Petersburg,2019–20 participant,Q29108,124855,42124,14,1.0999117961026363,ultra rare,85
+Dinamo Zagreb,GNK Dinamo Zagreb,2019–20 participant,Q172803,99751,62980,14,1.3614116147550894,ultra rare,85
+Slavia Prague,SK Slavia Prague,2019–20 participant,Q194393,78098,42638,14,1.6464851263468876,ultra rare,85
+Lokomotiv Moscow,FC Lokomotiv Moscow,2019–20 participant,Q29115,70024,18854,14,1.7736096660650444,ultra rare,85
+Genk,KRC Genk,2019–20 participant,Q216032,66336,29079,14,1.8366384429408407,legendary,100

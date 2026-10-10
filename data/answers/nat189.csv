@@ -1,0 +1,21 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,Golden Ball 2014; Golden Ball 2022,Q615,3816900,1293817,14,-2.4459862707317757,common,10
+Rodri,"Rodri (footballer, born 1996)",Golden Ball 2026,Q20994118,1447248,631302,14,-1.3339281302376194,common,10
+Kylian Mbappé,Kylian Mbappé,Golden Boot 2022; Golden Boot 2026; Young Player 2018,Q21621995,1433583,582740,14,-1.3230493145737763,common,10
+Harry Kane,Harry Kane,Golden Boot 2018,Q969725,1019926,656705,14,-0.9326529677343467,common,10
+Zinedine Zidane,Zinedine Zidane,Golden Ball 2006,Q1835,978364,302365,14,-0.8849454377934356,uncommon,25
+Emiliano Martínez,Emiliano Martínez,Golden Glove 2022,Q3275904,843751,464426,14,-0.7152033536024331,uncommon,25
+Enzo Fernández,Enzo Fernández,Young Player 2022,Q96105248,824199,487848,14,-0.6883180873865685,uncommon,25
+Luka Modrić,Luka Modrić,Golden Ball 2018,Q483837,552173,265700,14,-0.22899999379256264,uncommon,25
+Paul Pogba,Paul Pogba,Young Player 2014,Q129027,454658,210030,14,-0.0061747881286680064,rare,40
+James Rodríguez,James Rodríguez,Golden Boot 2014,Q368441,348394,111127,14,0.29909404930904915,rare,40
+Thibaut Courtois,Thibaut Courtois,Golden Glove 2018,Q73360,312356,135748,14,0.4243043884113594,rare,40
+Manuel Neuer,Manuel Neuer,Golden Glove 2014,Q107365,288233,105313,14,0.5164708706497558,rare,40
+Thomas Müller,Thomas Müller,Golden Boot 2010; Young Player 2010,Q43666,279729,115647,14,0.5508125641164235,super rare,60
+Pau Cubarsí,Pau Cubarsí,Young Player 2026,Q118473161,248645,116741,14,0.6858898710200652,super rare,60
+Gianluigi Buffon,Gianluigi Buffon,Golden Glove 2006,Q68060,248175,90207,14,0.6880594925236259,super rare,60
+Diego Forlán,Diego Forlán,Golden Ball 2010,Q261534,235124,80768,14,0.7500062389202085,super rare,60
+Iker Casillas,Iker Casillas,Golden Glove 2010,Q11584,186976,85490,14,1.0127557631431412,ultra rare,85
+Unai Simón,Unai Simón,Golden Glove 2026,Q23908113,173890,80711,14,1.0959581569840433,ultra rare,85
+Miroslav Klose,Miroslav Klose,Golden Boot 2006,Q80471,158352,48158,14,1.203293240661534,ultra rare,85
+Lukas Podolski,Lukas Podolski,Young Player 2006,Q134976,141464,43507,14,1.3326137082419542,legendary,100

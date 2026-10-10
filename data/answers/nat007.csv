@@ -1,0 +1,35 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,starter,Q615,3816900,1293817,14,-2.8130355238390146,common,10
+Lamine Yamal,Lamine Yamal,starter,Q113704154,1500521,661480,14,-1.8432137650538598,common,10
+Rodri,"Rodri (footballer, born 1996)",starter,Q20994118,1447248,631302,14,-1.8056637790027004,common,10
+Ferran Torres,Ferran Torres,substitute,Q44297797,1108656,412823,14,-1.5288160473776364,common,10
+Emiliano Martínez,Emiliano Martínez,starter,Q3275904,843751,464426,14,-1.2451842185226323,common,10
+Enzo Fernández,Enzo Fernández,starter,Q96105248,824199,487848,14,-1.2208298645980888,common,10
+Julián Alvarez,Julián Alvarez,starter,Q59381180,742112,342975,14,-1.1118508208280127,common,10
+Marc Cucurella,Marc Cucurella,starter,Q22082505,504542,184203,14,-0.7110433129245939,uncommon,25
+Dani Olmo,Dani Olmo,starter,Q19560313,293315,114874,14,-0.14761223144258448,uncommon,25
+Cristian Romero,Cristian Romero,starter,Q28058687,288196,142748,14,-0.12932339821817515,uncommon,25
+Rodrigo De Paul,Rodrigo De Paul,starter,Q6110670,281823,104502,14,-0.1060949477904258,uncommon,25
+Pedri,Pedri,substitute,Q66606355,277231,124675,14,-0.0890299823358021,uncommon,25
+Leandro Paredes,Leandro Paredes,substitute,Q630170,258143,98111,14,-0.01492716337716241,uncommon,25
+Pau Cubarsí,Pau Cubarsí,starter,Q118473161,248645,116741,14,0.0240135643730735,uncommon,25
+Mikel Oyarzabal,Mikel Oyarzabal,starter,Q21195147,238112,105545,14,0.06897653259182261,rare,40
+Alexis Mac Allister,Alexis Mac Allister,starter,Q33297140,235534,137218,14,0.0802843965146221,rare,40
+Mikel Merino,Mikel Merino,substitute,Q17612631,196654,93280,14,0.26768730007685926,rare,40
+Aymeric Laporte,Aymeric Laporte,starter,Q3855340,190589,77873,14,0.3002282015501696,rare,40
+Fabián Ruiz,Fabián Ruiz,starter,Q18637930,186449,72779,14,0.32304104650094506,rare,40
+Álex Baena,Álex Baena,starter,Q97404267,182234,75879,14,0.34679358946225386,rare,40
+Unai Simón,Unai Simón,starter,Q23908113,173890,80711,14,0.39547903878613555,rare,40
+Nico Williams,Nico Williams,substitute,Q104414736,170816,82224,14,0.4140063797104378,super rare,60
+Giuliano Simeone,Giuliano Simeone,substitute,Q111672750,163734,72197,14,0.45799154768371525,super rare,60
+Nahuel Molina,Nahuel Molina,substitute,Q22082590,157322,45122,14,0.4994885617750263,super rare,60
+Nicolás González,"Nicolás González (footballer, born 1998)",starter,Q43381082,153545,15182,14,0.524731506694815,super rare,60
+Pedro Porro,Pedro Porro,starter,Q44080929,142087,70422,14,0.6052918143450948,super rare,60
+Nicolás Otamendi,Nicolás Otamendi,substitute,Q182063,130546,52632,14,0.6932893528353989,super rare,60
+Lisandro Martínez,Lisandro Martínez,starter,Q30881092,129847,71360,14,0.6988662759579958,ultra rare,85
+Nicolás Tagliafico,Nicolás Tagliafico,starter,Q3876530,127066,32244,14,0.7213556605032047,ultra rare,85
+Martín Zubimendi,Martín Zubimendi,substitute,Q63384759,119768,64829,14,0.7827984655442926,ultra rare,85
+Eric Garcia,"Eric Garcia (footballer, born 2001)",substitute,Q59938996,110340,47180,14,0.8679664465720863,ultra rare,85
+Marcos Senesi,Marcos Senesi,substitute,Q23413053,75857,50464,14,1.2572061635507392,ultra rare,85
+Facundo Medina,Facundo Medina,substitute,Q28056787,59057,17731,14,1.517254939213296,ultra rare,85
+Gonzalo Montiel,Gonzalo Montiel,starter,Q26255087,40081,14948,14,1.9198742710687111,legendary,100

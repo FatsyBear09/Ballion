@@ -1,0 +1,45 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Barcelona,FC Barcelona,2013–14 knockout; 2014–15 knockout; 2016–17 group,Q7156,1388578,728825,14,-2.0021423164872605,common,10
+Real Madrid,Real Madrid CF,2012–13 group; 2015–16 knockout; 2019–20 knockout; 2021–22 knockout; 2022–23 knockout; 2023–24 knockout; 2024–25; 2025–26,Q8682,1208433,601446,14,-1.8389482382422526,common,10
+Chelsea F.C.,Chelsea F.C.,2021 final,Q9616,1158394,770880,14,-1.7892816019880036,common,10
+Liverpool,Liverpool F.C.,2017–18 knockout,Q1130849,895551,596192,14,-1.4870407462902466,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,2015–16 knockout; 2020–21 knockout; 2021–22 group; 2024–25,Q483020,759345,323757,14,-1.293279537451394,common,10
+Tottenham Hotspur,Tottenham Hotspur F.C.,2018–19 knockout,Q18741,748442,504261,14,-1.27629431261364,common,10
+Inter Milan,Inter Milan,2023 final; 2024–25,Q631,661948,309128,14,-1.1320662496160132,common,10
+Juventus,Juventus FC,2015–16 group; 2024–25,Q1422,652749,286786,14,-1.1156308729104618,common,10
+Bayern Munich,FC Bayern Munich,2011–12 group; 2013–14 group; 2014–15 group; 2022–23 knockout,Q15789,575149,261010,14,-0.966990703910678,common,10
+Atlético Madrid,Atlético Madrid,2021–22 knockout,Q8701,496791,258752,14,-0.7949838751943116,uncommon,25
+Borussia Dortmund,Borussia Dortmund,2012–13 group; 2020–21 knockout; 2022–23 group; 2025–26,Q41420,429696,213182,14,-0.6245840592922375,uncommon,25
+Roma,AS Roma,2014–15 group,Q2739,402830,186450,14,-0.5487589101193024,uncommon,25
+Galatasaray,Galatasaray S.K. (football),2025–26,Q495299,387479,153676,14,-0.5031287953299888,uncommon,25
+Napoli,SSC Napoli,2011–12 group; 2017–18 group; 2025–26,Q2641,342522,161478,14,-0.35829132971069216,uncommon,25
+Celtic,Celtic F.C.,2016–17 group,Q19593,311520,215906,14,-0.2468704429899014,uncommon,25
+Lyon,Olympique Lyonnais,2018–19 group; 2019–20 knockout,Q704,306256,118385,14,-0.22685559748695078,uncommon,25
+Ajax,AFC Ajax,2012–13 group,Q81888,297879,160599,14,-0.19428398902577879,uncommon,25
+Monaco,AS Monaco FC,2016–17 knockout; 2025–26,Q180305,290851,151843,14,-0.16624301917720788,uncommon,25
+Schalke 04,FC Schalke 04,2018–19 knockout,Q32494,277004,103841,14,-0.10895535717644561,rare,40
+Marseille,Olympique de Marseille,2020–21 group,Q132885,276544,117915,14,-0.10700344908050592,rare,40
+Olympiacos,Olympiacos F.C.,2020–21 group,Q19628,267030,148113,14,-0.06588795478201807,rare,40
+Sporting CP,Sporting CP,2021–22 knockout; 2024–25,Q75729,256490,135909,14,-0.018592146587044053,rare,40
+Feyenoord,Feyenoord,2017–18 group; 2024–25,Q134241,244779,124240,14,0.03629349215072092,rare,40
+RB Leipzig,RB Leipzig,2021–22 group; 2022–23 knockout; 2023–24 group,Q702455,243137,111568,14,0.04419820760008547,rare,40
+Villarreal,Villarreal CF,2011–12 group; 2025–26,Q12297,229841,102996,14,0.11024488215732535,rare,40
+Bodø/Glimt,FK Bodø/Glimt,2025–26,Q478167,227878,89453,14,0.1203183826719702,rare,40
+Porto,FC Porto,2020–21 group,Q128446,222828,119503,14,0.14663757606956554,rare,40
+Bayer Leverkusen,Bayer 04 Leverkusen,2025–26,Q104761,218856,117423,14,0.16776106262119442,super rare,60
+Sevilla,Sevilla FC,2015–16 group; 2022–23 group,Q10329,206948,107222,14,0.23346608913675312,super rare,60
+Atalanta,Atalanta BC,2019–20 group,Q1886,199355,90028,14,0.2773666518551484,super rare,60
+Shakhtar Donetsk,FC Shakhtar Donetsk,2017–18 group; 2018–19 group; 2019–20 group,Q172969,186632,84691,14,0.354818225964882,super rare,60
+Red Star Belgrade,Red Star Belgrade,2023–24 group,Q173009,169038,86775,14,0.47110432767033716,super rare,60
+Borussia Mönchengladbach,Borussia Mönchengladbach,2015–16 group; 2016–17 group; 2020–21 knockout,Q101959,168585,70058,14,0.47425586281289084,super rare,60
+Slovan Bratislava,ŠK Slovan Bratislava,2024–25,Q192253,155243,79186,14,0.5710854462233385,super rare,60
+Club Brugge,Club Brugge KV,2021–22 group; 2024–25,Q190916,152990,82331,14,0.588254456629715,super rare,60
+TSG Hoffenheim,TSG 1899 Hoffenheim,2018–19 group,Q22707,118792,59598,14,0.8853820608045316,ultra rare,85
+CSKA Moscow,PFC CSKA Moscow,2013–14 group; 2014–15 group,Q176371,104194,28926,14,1.0393717819492492,ultra rare,85
+Dinamo Zagreb,GNK Dinamo Zagreb,2019–20 group,Q172803,99751,62980,14,1.0905500987971002,ultra rare,85
+Copenhagen,F.C. Copenhagen,2022–23 group; 2023–24 knockout,Q188430,73184,46271,14,1.4542680733803264,ultra rare,85
+Basel,FC Basel,2017–18 knockout,Q189671,70128,33715,14,1.5043624364769081,ultra rare,85
+Dynamo Kyiv,FC Dynamo Kyiv,2015–16 knockout,Q179075,69010,29210,14,1.5232361535301877,ultra rare,85
+Sparta Prague,AC Sparta Prague,2024–25,Q193481,66363,38511,14,1.5691696088986349,ultra rare,85
+Young Boys,BSC Young Boys,2023–24 group,Q190526,45593,23855,14,2.0100266862301317,ultra rare,85
+Viktoria Plzeň,FC Viktoria Plzeň,2013–14 group,Q206838,38984,24254,14,2.193941941831214,legendary,100

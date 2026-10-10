@@ -1,0 +1,18 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,"Premier League 2017–18, Premier League 2018–19, Premier League 2020–21, Premier League 2021–22, Premier League 2022–23, Premier League 2023–24",Q50602,1425404,916736,14,-1.4712243060539605,common,10
+Barcelona,FC Barcelona,"La Liga 2014–15, La Liga 2015–16, La Liga 2017–18, La Liga 2018–19, La Liga 2022–23, La Liga 2024–25 (+1)",Q7156,1388578,728825,14,-1.424497581419014,common,10
+Real Madrid,Real Madrid CF,"La Liga 2016–17, La Liga 2019–20, La Liga 2021–22, La Liga 2023–24",Q8682,1208433,601446,14,-1.1764393022410662,common,10
+Chelsea,Chelsea F.C.,"Premier League 2014–15, Premier League 2016–17",Q9616,1158394,770880,14,-1.1009450168216564,common,10
+Arsenal,Arsenal F.C.,Premier League 2025–26,Q9617,959872,647514,14,-0.7653529173255836,uncommon,25
+Liverpool,Liverpool F.C.,"Premier League 2019–20, Premier League 2024–25",Q1130849,895551,596192,14,-0.6415328410373344,uncommon,25
+Paris Saint-Germain,Paris Saint-Germain F.C.,"Ligue 1 2014–15, Ligue 1 2015–16; Ligue 1 2017–18, Ligue 1 2018–19, Ligue 1 2019–20, Ligue 1 2021–22, Ligue 1 2022–23, Ligue 1 2023–24 (+2)",Q483020,759345,323757,14,-0.3470119089490708,uncommon,25
+Inter Milan,Inter Milan,"Serie A 2020–21, Serie A 2023–24, Serie A 2025–26",Q631,661948,309128,14,-0.10196447100818481,rare,40
+Juventus,Juventus FC,"Serie A 2014–15, Serie A 2015–16, Serie A 2016–17, Serie A 2019–20; Serie A 2017–18, Serie A 2018–19",Q1422,652749,286786,14,-0.07698236806018666,rare,40
+Milan,AC Milan,Serie A 2021–22,Q1543,589982,286974,14,0.10349837138706386,rare,40
+Bayern Munich,FC Bayern Munich,"Bundesliga 2014–15, Bundesliga 2015–16, Bundesliga 2016–17, Bundesliga 2017–18, Bundesliga 2018–19, Bundesliga 2019–20 (+5)",Q15789,575149,261010,14,0.14895367652747016,super rare,60
+Atlético Madrid,Atlético Madrid,La Liga 2020–21,Q8701,496791,258752,14,0.4104075135605737,super rare,60
+Leicester City,Leicester City F.C.,Premier League 2015–16,Q19481,384466,250464,14,0.8679685665861577,super rare,60
+Napoli,SSC Napoli,"Serie A 2022–23, Serie A 2024–25",Q2641,342522,161478,14,1.0741889603350858,ultra rare,85
+Lille,Lille OSC,Ligue 1 2020–21,Q19516,308485,112316,14,1.2610282014739027,ultra rare,85
+Monaco,AS Monaco FC,Ligue 1 2016–17,Q180305,290851,151843,14,1.3661062525694656,ultra rare,85
+Bayer Leverkusen,Bayer 04 Leverkusen,Bundesliga 2023–24,Q104761,218856,117423,14,1.8737991704762866,legendary,100

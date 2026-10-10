@@ -1,0 +1,42 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Mexico,Mexico national football team,CONCACAF,Q164089,191598,127767,14,-2.893693645169025,common,10
+United States,United States men's national soccer team,CONCACAF,Q164134,165178,134132,14,-2.701724453563739,common,10
+Canada,Canada men's national soccer team,CONCACAF,Q208635,84438,67172,14,-1.8335763693443121,common,10
+Panama,Panama national football team,CONCACAF,Q223748,62007,48592,14,-1.4340913546180747,common,10
+Curaçao,Curaçao national football team,CONCACAF,Q729640,55204,33902,14,-1.2837376563864493,common,10
+Costa Rica,Costa Rica national football team,CONCACAF,Q194387,48355,29004,14,-1.1123551979920903,common,10
+Haiti,Haiti national football team,CONCACAF,Q236006,44226,29385,14,-0.9968762359163261,common,10
+Jamaica,Jamaica national football team,CONCACAF,Q235399,39837,30355,14,-0.8616545040288465,common,10
+Suriname,Suriname national football team,CONCACAF,Q327769,38762,28222,14,-0.8262622248573029,uncommon,25
+Honduras,Honduras national football team,CONCACAF,Q180187,33032,21830,14,-0.6193052476923272,uncommon,25
+Guatemala,Guatemala national football team,CONCACAF,Q270168,32387,21671,13,-0.5937924746207464,uncommon,25
+El Salvador,El Salvador national football team,CONCACAF,Q188228,30484,19704,14,-0.5154480065675764,uncommon,25
+Dominican Republic,Dominican Republic national football team,CONCACAF,Q47233,29254,19397,14,-0.46216333048653147,uncommon,25
+Trinidad and Tobago,Trinidad and Tobago national football team,CONCACAF,Q192149,26120,18190,14,-0.31556035262723003,uncommon,25
+Martinique,Martinique national football team,CONCACAF,Q739684,22669,13387,14,-0.13223096096704798,uncommon,25
+Montserrat,Montserrat national football team,CONCACAF,Q497989,19749,15491,14,0.0461714007434926,uncommon,25
+Cuba,Cuba national football team,CONCACAF,Q236014,18541,11477,14,0.1278304042897636,rare,40
+Guadeloupe,Guadeloupe national football team,CONCACAF,Q497334,17869,11300,14,0.17559159123363674,rare,40
+Puerto Rico,Puerto Rico national football team,CONCACAF,Q477452,17308,12652,14,0.21685995475859193,rare,40
+Anguilla,Anguilla national football team,CONCACAF,Q497630,17230,11571,14,0.22270346843987682,rare,40
+Guyana,Guyana national football team,CONCACAF,Q330125,16442,12710,14,0.2832670931112617,rare,40
+Nicaragua,Nicaragua national football team,CONCACAF,Q327924,16233,10014,14,0.29981759193025875,rare,40
+Aruba,Aruba national football team,CONCACAF,Q459101,15531,9443,14,0.35701104945688694,rare,40
+Bonaire,Bonaire national football team,CONCACAF,Q2474418,13095,8770,14,0.5777295899347678,rare,40
+Turks and Caicos Islands,Turks and Caicos Islands national football team,CONCACAF,Q499287,12525,9717,14,0.6353046694975422,super rare,60
+Grenada,Grenada national football team,CONCACAF,Q270666,12361,9518,14,0.6523561146911666,super rare,60
+Barbados,Barbados national football team,CONCACAF,Q497659,12290,9411,14,0.65980842329919,super rare,60
+Saint Martin,Saint Martin national football team,CONCACAF,Q284113,12277,8134,14,0.6611775920232459,super rare,60
+Saint Kitts and Nevis,Saint Kitts and Nevis national football team,CONCACAF,Q187664,12039,9260,14,0.6865034418474856,super rare,60
+Bermuda,Bermuda national football team,CONCACAF,Q497653,11810,8622,14,0.7113486873795373,super rare,60
+French Guiana,French Guiana national football team,CONCACAF,Q726592,11561,6720,14,0.73891650431154,super rare,60
+Antigua and Barbuda,Antigua and Barbuda national football team,CONCACAF,Q267972,11503,8298,14,0.7454231577946546,super rare,60
+Saint Lucia,Saint Lucia national football team,CONCACAF,Q637831,10852,7858,14,0.8207919069592298,ultra rare,85
+Bahamas,Bahamas national football team,CONCACAF,Q244590,10552,7716,14,0.8570592071700706,ultra rare,85
+Belize,Belize national football team,CONCACAF,Q455413,10135,6716,14,0.9092214712941379,ultra rare,85
+Saint Vincent and the Grenadines,Saint Vincent and the Grenadines national football team,CONCACAF,Q221426,10068,7059,14,0.9178020898699456,ultra rare,85
+British Virgin Islands,British Virgin Islands national football team,CONCACAF,Q263708,10051,6984,14,0.9199883433868863,ultra rare,85
+United States Virgin Islands,United States Virgin Islands national soccer team,CONCACAF,Q692087,9627,6824,14,0.9757465798934589,ultra rare,85
+Dominica,Dominica national football team,CONCACAF,Q220724,9310,6764,14,1.0190621303405047,ultra rare,85
+Sint Maarten,Sint Maarten national football team,CONCACAF,Q684531,8461,5110,14,1.1427646856000933,ultra rare,85
+Cayman Islands,Cayman Islands national football team,CONCACAF,Q373462,7957,6070,14,1.222214865580402,legendary,100

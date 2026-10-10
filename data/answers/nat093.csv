@@ -1,0 +1,34 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,captain,Q615,3816900,1293817,14,-2.183446661972273,common,10
+Cristiano Ronaldo,Cristiano Ronaldo,captain,Q11571,3573666,1706984,14,-2.1447656742312122,common,10
+Harry Kane,Harry Kane,captain,Q969725,1019926,656705,14,-1.4081962687100924,common,10
+Robert Lewandowski,Robert Lewandowski,captain,Q151269,897219,386580,14,-1.3328950088105787,common,10
+Luka Modrić,Luka Modrić,captain,Q483837,552173,265700,14,-1.0477289191262327,common,10
+Virgil van Dijk,Virgil van Dijk,captain,Q133903,384535,189413,14,-0.8351776264201062,common,10
+Eden Hazard,Eden Hazard,captain,Q214204,335868,171505,14,-0.7556873435793087,common,10
+Gareth Bale,Gareth Bale,captain,Q184586,311672,163057,14,-0.7117663564930818,uncommon,25
+Manuel Neuer,Manuel Neuer,captain,Q107365,288233,105313,14,-0.6658391003535159,uncommon,25
+Ángel Di María,Ángel Di María,captain,Q251683,273087,102521,14,-0.6341298821843431,uncommon,25
+Son Heung-min,Son Heung-min,captain,Q439722,271359,150165,14,-0.630400962723909,uncommon,25
+Enner Valencia,Enner Valencia,captain,Q2843080,182727,29362,14,-0.3980988226563519,uncommon,25
+Thiago Silva,Thiago Silva,captain,Q210453,170173,70983,14,-0.3562863822455349,uncommon,25
+Granit Xhaka,Granit Xhaka,captain,Q514427,169510,103631,14,-0.3539932350954194,uncommon,25
+Sergio Busquets,Sergio Busquets,captain,Q49704,164421,75911,14,-0.3360871373987195,rare,40
+Dušan Tadić,Dušan Tadić,captain,Q713895,112480,45502,14,-0.11306402022024359,rare,40
+Hugo Lloris,Hugo Lloris,captain,Q1907,86907,43528,14,0.03845710941521344,rare,40
+Kalidou Koulibaly,Kalidou Koulibaly,captain,Q3192187,65075,30439,14,0.20840041052914796,rare,40
+Diego Godín,Diego Godín,captain,Q214903,42939,16569,14,0.4526301754375507,rare,40
+André Ayew,André Ayew,captain,Q516921,39144,23998,14,0.5069867281383436,rare,40
+Maya Yoshida,Maya Yoshida,captain,Q248141,37802,12441,14,0.5274791567812332,super rare,60
+Andrés Guardado,Andrés Guardado,captain,Q19364,36914,17460,14,0.5414429172248615,super rare,60
+Tyler Adams,Tyler Adams,captain,Q19871581,36321,30195,14,0.5509561440596851,super rare,60
+Vincent Aboubakar,Vincent Aboubakar,captain,Q116743,35136,12147,14,0.5704409212424978,super rare,60
+Bryan Ruiz,Bryan Ruiz,captain,Q318383,30467,11378,14,0.6541969324792437,super rare,60
+Mathew Ryan,Mathew Ryan,captain,Q1587689,28848,17975,14,0.6862721613317637,super rare,60
+Simon Kjær,Simon Kjær,captain,Q208638,24589,10144,14,0.7801073200750598,ultra rare,85
+Hassan Al-Haydos,Hassan Al-Haydos,captain,Q5679556,15091,9382,14,1.0668813379455873,ultra rare,85
+Romain Saïss,Romain Saïss,captain,Q3440768,11087,5181,14,1.2479901817421115,ultra rare,85
+Atiba Hutchinson,Atiba Hutchinson,captain,Q439030,9755,5169,14,1.3231714397773084,ultra rare,85
+Ehsan Hajsafi,Ehsan Hajsafi,captain,Q2762113,7345,5459,14,1.4898440240165616,ultra rare,85
+Salman Al-Faraj,Salman Al-Faraj,captain,Q7405407,6802,1559,14,1.534954939902659,ultra rare,85
+Youssef Msakni,Youssef Msakni,captain,Q2409513,4902,1250,12,1.7273515021220918,legendary,100

@@ -1,0 +1,23 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,1 win(s),Q50602,1425404,916736,14,-1.2145005160806732,common,10
+Barcelona,FC Barcelona,12 win(s),Q7156,1388578,728825,14,-1.1936959203595632,common,10
+Real Madrid,Real Madrid CF,12 win(s),Q8682,1208433,601446,14,-1.0832505113588269,common,10
+Manchester United,Manchester United F.C.,4 win(s),Q18656,1028323,687224,14,-0.954969705548818,common,10
+Liverpool,Liverpool F.C.,1 win(s),Q1130849,895551,596192,14,-0.8450888862739316,common,10
+Paris Saint-Germain,Paris Saint-Germain F.C.,2 win(s),Q483020,759345,323757,14,-0.7139564567837163,uncommon,25
+Inter Milan,Inter Milan,2 win(s),Q631,661948,309128,14,-0.6048515940165731,uncommon,25
+Juventus,Juventus FC,8 win(s),Q1422,652749,286786,14,-0.5937285684641349,uncommon,25
+Milan,AC Milan,8 win(s),Q1543,589982,286974,14,-0.5133713671198994,uncommon,25
+Bayern Munich,FC Bayern Munich,5 win(s),Q15789,575149,261010,14,-0.4931328579110048,rare,40
+Borussia Dortmund,Borussia Dortmund,1 win(s),Q41420,429696,213182,14,-0.26140115345125514,rare,40
+Inter Miami,Inter Miami CF,1 win(s),Q16844931,365442,195518,14,-0.13266334004726435,rare,40
+Ajax,AFC Ajax,1 win(s),Q81888,297879,160599,14,0.029814482340838114,rare,40
+Marseille,Olympique de Marseille,1 win(s),Q132885,276544,117915,14,0.08888362894055943,super rare,60
+Benfica,S.L. Benfica,1 win(s),Q131499,275308,148421,14,0.09244401066542597,super rare,60
+Borussia Mönchengladbach,Borussia Mönchengladbach,1 win(s),Q101959,168585,70058,14,0.48226446192134526,super rare,60
+Hamburger SV,Hamburger SV,2 win(s),Q51974,151743,71322,14,0.5659206883080883,super rare,60
+Ferencváros,Ferencvárosi TC,1 win(s),Q208396,132094,75282,14,0.6761418884234407,ultra rare,85
+Dynamo Moscow,FC Dynamo Moscow,1 win(s),Q17497,73753,23734,14,1.1393549236736427,ultra rare,85
+Dynamo Kyiv,FC Dynamo Kyiv,2 win(s),Q179075,69010,29210,14,1.1921864057068705,ultra rare,85
+Blackpool,Blackpool F.C.,1 win(s),Q19449,56250,43336,14,1.3546821101042026,ultra rare,85
+Dukla Prague,Dukla Prague,1 win(s),Q1199965,7251,5459,6,2.9829182773312155,legendary,100

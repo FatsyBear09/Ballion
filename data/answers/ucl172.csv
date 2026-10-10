@@ -1,0 +1,37 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,15 participations,Q50602,1425404,916736,14,-1.677053982172906,common,10
+Barcelona,FC Barcelona,30 participations,Q7156,1388578,728825,14,-1.645940055555865,common,10
+Real Madrid,Real Madrid CF,30 participations,Q8682,1208433,601446,14,-1.4807654760108688,common,10
+Chelsea,Chelsea F.C.,20 participations,Q9616,1158394,770880,14,-1.430496092164762,common,10
+Manchester United,Manchester United F.C.,25 participations,Q18656,1028323,687224,14,-1.288917500118813,common,10
+Arsenal,Arsenal F.C.,22 participations,Q9617,959872,647514,14,-1.2070353630305328,common,10
+Liverpool,Liverpool F.C.,17 participations,Q1130849,895551,596192,14,-1.1245872822492038,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,18 participations,Q483020,759345,323757,14,-0.9284746135404865,uncommon,25
+Inter Milan,Inter Milan,19 participations,Q631,661948,309128,14,-0.7653048630100932,uncommon,25
+Juventus,Juventus FC,25 participations,Q1422,652749,286786,14,-0.7486700287918597,uncommon,25
+Milan,AC Milan,21 participations,Q1543,589982,286974,14,-0.6284933092203092,uncommon,25
+Bayern Munich,FC Bayern Munich,29 participations,Q15789,575149,261010,14,-0.5982259827696966,uncommon,25
+Atlético Madrid,Atlético Madrid,16 participations,Q8701,496791,258752,14,-0.42413170240347203,uncommon,25
+Borussia Dortmund,Borussia Dortmund,20 participations,Q41420,429696,213182,14,-0.2516639373420836,uncommon,25
+Roma,AS Roma,11 participations,Q2739,402830,186450,14,-0.1749185843962926,rare,40
+Galatasaray,Galatasaray S.K. (football),18 participations,Q495299,387479,153676,14,-0.1287347086946303,rare,40
+Celtic,Celtic F.C.,13 participations,Q19593,311520,215906,14,0.1306335604108219,rare,40
+Lyon,Olympique Lyonnais,16 participations,Q704,306256,118385,14,0.15089130337649875,rare,40
+Ajax,AFC Ajax,19 participations,Q81888,297879,160599,14,0.18385819648031088,rare,40
+Monaco,AS Monaco FC,11 participations,Q180305,290851,151843,14,0.21223946775302202,rare,40
+Marseille,Olympique de Marseille,12 participations,Q132885,276544,117915,14,0.2721979612742071,rare,40
+Benfica,S.L. Benfica,20 participations,Q131499,275308,148421,14,0.27752262401705224,super rare,60
+Rangers,Rangers F.C.,11 participations,Q19597,273991,210240,14,0.2832226038705686,super rare,60
+Olympiacos,Olympiacos F.C.,21 participations,Q19628,267030,148113,14,0.31381242766030687,super rare,60
+Sporting CP,Sporting CP,12 participations,Q75729,256490,135909,14,0.3616822113979076,super rare,60
+Valencia,Valencia CF,12 participations,Q10333,244890,118666,14,0.4166950255038626,super rare,60
+PSV Eindhoven,PSV Eindhoven,19 participations,Q11938,223602,105825,14,0.5247953750885269,super rare,60
+Porto,FC Porto,27 participations,Q128446,222828,119503,14,0.5289171396602429,super rare,60
+Bayer Leverkusen,Bayer 04 Leverkusen,15 participations,Q104761,218856,117423,14,0.550296977992682,ultra rare,85
+Shakhtar Donetsk,FC Shakhtar Donetsk,19 participations,Q172969,186632,84691,14,0.7396242418152491,ultra rare,85
+Club Brugge,Club Brugge KV,12 participations,Q190916,152990,82331,14,0.9758934230581171,ultra rare,85
+Anderlecht,RSC Anderlecht,12 participations,Q187528,122339,52350,14,1.2416539211989082,ultra rare,85
+CSKA Moscow,PFC CSKA Moscow,12 participations,Q176371,104194,28926,14,1.4324854473302766,ultra rare,85
+Spartak Moscow,FC Spartak Moscow,12 participations,Q29112,97673,26925,14,1.5093087194459653,ultra rare,85
+Dynamo Kyiv,FC Dynamo Kyiv,18 participations,Q179075,69010,29210,14,1.9222219315959375,ultra rare,85
+Rosenborg,Rosenborg BK,11 participations,Q186785,43329,23932,14,2.475460922541484,legendary,100

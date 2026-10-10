@@ -1,0 +1,31 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,2015–16 quarter-finalist; 2017–18 quarter-finalist; 2018–19 quarter-finalist; 2019–20 quarter-finalist; 2020–21 quarter-finalist; 2021–22 quarter-finalist; 2022–23 quarter-finalist; 2023–24 quarter-finalist,Q50602,1425404,916736,14,-1.671159217381123,common,10
+Barcelona,FC Barcelona,2015–16 quarter-finalist; 2016–17 quarter-finalist; 2017–18 quarter-finalist; 2018–19 quarter-finalist; 2019–20 quarter-finalist; 2023–24 quarter-finalist; 2024–25 quarter-finalist; 2025–26 quarter-finalist,Q7156,1388578,728825,14,-1.6311716578390256,common,10
+Real Madrid,Real Madrid CF,2015–16 quarter-finalist; 2016–17 quarter-finalist; 2017–18 quarter-finalist; 2020–21 quarter-finalist; 2021–22 quarter-finalist; 2022–23 quarter-finalist; 2023–24 quarter-finalist; 2024–25 quarter-finalist; 2025–26 quarter-finalist,Q8682,1208433,601446,14,-1.4188896011352286,common,10
+Chelsea,Chelsea F.C.,2020–21 quarter-finalist; 2021–22 quarter-finalist; 2022–23 quarter-finalist,Q9616,1158394,770880,14,-1.3542834842528355,common,10
+Manchester United,Manchester United F.C.,2018–19 quarter-finalist,Q18656,1028323,687224,14,-1.1723269459796166,common,10
+Arsenal,Arsenal F.C.,2023–24 quarter-finalist; 2024–25 quarter-finalist; 2025–26 quarter-finalist,Q9617,959872,647514,14,-1.0670921785215457,common,10
+Liverpool,Liverpool F.C.,2017–18 quarter-finalist; 2018–19 quarter-finalist; 2020–21 quarter-finalist; 2021–22 quarter-finalist; 2025–26 quarter-finalist,Q1130849,895551,596192,14,-0.9611300613013627,uncommon,25
+Aston Villa,Aston Villa F.C.,2024–25 quarter-finalist,Q18711,835578,420556,14,-0.8552371577652366,uncommon,25
+Paris Saint-Germain,Paris Saint-Germain FC,2015–16 quarter-finalist; 2019–20 quarter-finalist; 2020–21 quarter-finalist; 2023–24 quarter-finalist; 2024–25 quarter-finalist; 2025–26 quarter-finalist,Q483020,759345,323757,14,-0.7090864310173465,uncommon,25
+Tottenham Hotspur,Tottenham Hotspur F.C.,2018–19 quarter-finalist,Q18741,748442,504261,14,-0.6869921338411858,uncommon,25
+Inter Milan,Inter Milan,2022–23 quarter-finalist; 2024–25 quarter-finalist,Q631,661948,309128,14,-0.49938097676491766,uncommon,25
+Juventus,Juventus FC,2016–17 quarter-finalist; 2017–18 quarter-finalist; 2018–19 quarter-finalist,Q1422,652749,286786,14,-0.47800191934275965,uncommon,25
+Milan,AC Milan,2022–23 quarter-finalist,Q1543,589982,286974,14,-0.32355102702724753,rare,40
+Bayern Munich,FC Bayern Munich,2015–16 quarter-finalist; 2016–17 quarter-finalist; 2017–18 quarter-finalist; 2019–20 quarter-finalist; 2020–21 quarter-finalist; 2021–22 quarter-finalist; 2022–23 quarter-finalist; 2023–24 quarter-finalist; 2024–25 quarter-finalist; 2025–26 quarter-finalist,Q15789,575149,261010,14,-0.28465151641513836,rare,40
+Atlético Madrid,Atlético Madrid,2015–16 quarter-finalist; 2016–17 quarter-finalist; 2019–20 quarter-finalist; 2021–22 quarter-finalist; 2023–24 quarter-finalist; 2025–26 quarter-finalist,Q8701,496791,258752,14,-0.0609058771144982,rare,40
+Borussia Dortmund,Borussia Dortmund,2016–17 quarter-finalist; 2020–21 quarter-finalist; 2023–24 quarter-finalist; 2024–25 quarter-finalist,Q41420,429696,213182,14,0.16074936779784094,rare,40
+Roma,AS Roma,2017–18 quarter-finalist,Q2739,402830,186450,14,0.25938235000775295,rare,40
+Leicester City,Leicester City F.C.,2016–17 quarter-finalist,Q19481,384466,250464,14,0.33066340138616906,rare,40
+Napoli,SSC Napoli,2022–23 quarter-finalist,Q2641,342522,161478,14,0.5071416445811296,super rare,60
+Lyon,Olympique Lyonnais,2019–20 quarter-finalist,Q704,306256,118385,14,0.6781126005182446,super rare,60
+Ajax,AFC Ajax,2018–19 quarter-finalist,Q81888,297879,160599,14,0.7204815890786485,super rare,60
+Monaco,AS Monaco FC,2016–17 quarter-finalist,Q180305,290851,151843,14,0.7569571451492982,super rare,60
+Benfica,S.L. Benfica,2015–16 quarter-finalist; 2021–22 quarter-finalist; 2022–23 quarter-finalist,Q131499,275308,148421,14,0.8408589338992338,super rare,60
+Sporting CP,Sporting CP,2025–26 quarter-finalist,Q75729,256490,135909,14,0.9490206761586353,super rare,60
+RB Leipzig,RB Leipzig,2019–20 quarter-finalist,Q702455,243137,111568,14,1.0306980609715335,ultra rare,85
+Villarreal,Villarreal CF,2021–22 quarter-finalist,Q12297,229841,102996,14,1.1166112513534039,ultra rare,85
+Porto,FC Porto,2018–19 quarter-finalist; 2020–21 quarter-finalist,Q128446,222828,119503,14,1.1639506891305733,ultra rare,85
+Sevilla,Sevilla FC,2017–18 quarter-finalist,Q10329,206948,107222,14,1.276896793135416,ultra rare,85
+Atalanta,Atalanta BC,2019–20 quarter-finalist,Q1886,199355,90028,14,1.3340024298382605,ultra rare,85
+VfL Wolfsburg,VfL Wolfsburg,2015–16 quarter-finalist,Q101859,124898,54412,14,2.0483332526928995,legendary,100

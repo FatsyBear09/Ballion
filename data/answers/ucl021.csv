@@ -1,0 +1,57 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Zinedine Zidane,Zinedine Zidane,1997 final; 1998 final,Q1835,978364,302365,14,-2.5108657751001147,common,10
+Paul Pogba,Paul Pogba,2015 final,Q129027,454658,210030,14,-1.8091259891386005,common,10
+Álvaro Morata,Álvaro Morata,2015 final,Q48770,402284,130435,14,-1.697055237461671,common,10
+Paulo Dybala,Paulo Dybala,2017 final,Q166317,366747,131957,14,-1.6123651536954884,common,10
+Antonio Conte,Antonio Conte,1996 final; 1998 final; 2003 final,Q26580,293970,141024,14,-1.409816016074483,common,10
+Carlos Tevez,Carlos Tevez,2015 final,Q50600,259730,112266,14,-1.2964195486877113,common,10
+Gianluigi Buffon,Gianluigi Buffon,2003 final; 2015 final; 2017 final,Q68060,248175,90207,14,-1.254747192238713,common,10
+Alessandro Del Piero,Alessandro Del Piero,1996 final; 1997 final; 1998 final; 2003 final,Q624,204485,66632,14,-1.0774305764243295,common,10
+Didier Deschamps,Didier Deschamps,1996 final; 1997 final; 1998 final,Q508711,204270,59938,14,-1.0764672784179206,common,10
+Christian Vieri,Christian Vieri,1997 final,Q188696,183864,59910,14,-0.9800928222862606,common,10
+Andrea Pirlo,Andrea Pirlo,2015 final,Q43926,176181,66975,14,-0.9410064888546913,common,10
+Filippo Inzaghi,Filippo Inzaghi,1998 final,Q126503,174584,55031,14,-0.9326682073478189,uncommon,25
+Gonzalo Higuaín,Gonzalo Higuaín,2017 final,Q483846,165677,62626,14,-0.8847165837931976,uncommon,25
+Edgar Davids,Edgar Davids,1998 final; 2003 final,Q185115,137929,64397,14,-0.7168673187123211,uncommon,25
+Arturo Vidal,Arturo Vidal,2015 final,Q192671,134075,45806,14,-0.6909165841355325,uncommon,25
+Dani Alves,Dani Alves,2017 final,Q172720,125626,52722,14,-0.6313134633076736,uncommon,25
+Sami Khedira,Sami Khedira,2017 final,Q54094,121409,47854,14,-0.6000475477843511,uncommon,25
+Juan Cuadrado,Juan Cuadrado,2017 final,Q509374,120769,29669,14,-0.5952077181467863,uncommon,25
+David Trezeguet,David Trezeguet,2003 final,Q183967,114806,30288,14,-0.548840390576665,uncommon,25
+Lilian Thuram,Lilian Thuram,2003 final,Q180326,108654,36521,14,-0.498407975409041,uncommon,25
+Kingsley Coman,Kingsley Coman,2015 final,Q6413296,106784,50049,14,-0.4825110353097815,uncommon,25
+Patrice Evra,Patrice Evra,2015 final,Q1916,101115,52368,14,-0.43255995155023735,uncommon,25
+Miralem Pjanić,Miralem Pjanić,2017 final,Q146907,82846,30428,14,-0.2500840667875501,rare,40
+Leonardo Bonucci,Leonardo Bonucci,2015 final; 2017 final,Q208050,82136,27661,14,-0.24220260878751976,rare,40
+Gianluca Vialli,Gianluca Vialli,1996 final,Q239688,78061,30717,14,-0.19560658344924364,rare,40
+Giorgio Chiellini,Giorgio Chiellini,2017 final,Q80306,76111,29539,14,-0.17244149323609123,rare,40
+Mario Mandžukić,Mario Mandžukić,2017 final,Q187171,73157,28454,14,-0.13619366204630304,rare,40
+Fabrizio Ravanelli,Fabrizio Ravanelli,1996 final,Q299493,63163,26337,14,-0.0016879794177781116,rare,40
+Gianluca Zambrotta,Gianluca Zambrotta,2003 final,Q182907,59147,20973,14,0.058466523375194396,rare,40
+Fernando Llorente,Fernando Llorente,2015 final,Q187891,57425,24384,14,0.0855217019202865,rare,40
+Claudio Marchisio,Claudio Marchisio,2015 final; 2017 final,Q179995,51660,15691,14,0.18239821063819933,rare,40
+Igor Tudor,Igor Tudor,2003 final,Q276544,50144,25725,14,0.20967198828396333,rare,40
+Stephan Lichtsteiner,Stephan Lichtsteiner,2015 final,Q208586,46996,16627,14,0.26904200114900967,rare,40
+Mauro Camoranesi,Mauro Camoranesi,2003 final,Q189716,44897,12472,14,0.3108812101684073,super rare,60
+Mario Lemina,Mario Lemina,2017 final,Q13780454,41517,17738,14,0.38255023882464434,super rare,60
+Andrea Barzagli,Andrea Barzagli,2015 final; 2017 final,Q107051,36989,11653,14,0.4882957940745714,super rare,60
+Paulo Sousa,Paulo Sousa,1996 final,Q314440,36096,11018,14,0.5106737441513518,super rare,60
+Alex Sandro,Alex Sandro,2017 final,Q551192,35966,14746,14,0.5139775371120335,super rare,60
+Pietro Vierchowod,Pietro Vierchowod,1996 final,Q351990,33590,5665,13,0.5765604412561804,super rare,60
+Alen Bokšić,Alen Bokšić,1997 final,Q313518,30193,10323,14,0.6741886801802692,super rare,60
+Angelo Peruzzi,Angelo Peruzzi,1996 final; 1997 final; 1998 final,Q294565,30113,8301,14,0.6766181006149237,super rare,60
+Paolo Montero,Paolo Montero,1997 final; 1998 final; 2003 final,Q342484,25543,6971,12,0.8273325217532651,super rare,60
+Ciro Ferrara,Ciro Ferrara,1996 final; 1997 final; 2003 final,Q314078,24101,6913,14,0.8805421883190037,super rare,60
+Alessio Tacchinardi,Alessio Tacchinardi,1997 final; 1998 final; 2003 final,Q382193,19180,3922,13,1.0896668274257186,super rare,60
+Gianluca Pessotto,Gianluca Pessotto,1996 final; 1998 final,Q319543,19176,4902,14,1.0898578089708548,ultra rare,85
+Michele Padovano,Michele Padovano,1996 final,Q1931119,19168,1967,9,1.0902398915968403,ultra rare,85
+Vladimir Jugović,Vladimir Jugović,1996 final; 1997 final,Q146119,18580,7491,13,1.1187686493152789,ultra rare,85
+Roberto Pereyra,Roberto Pereyra,2015 final,Q93504,17073,5737,14,1.1962217820947483,ultra rare,85
+Angelo Di Livio,Angelo Di Livio,1996 final; 1997 final; 1998 final,Q122294,15895,3665,13,1.2616851908950464,ultra rare,85
+Alessandro Birindelli,Alessandro Birindelli,2003 final,Q67995,15254,2920,12,1.2993759347772218,ultra rare,85
+Moreno Torricelli,Moreno Torricelli,1996 final; 1998 final,Q371904,13830,2578,14,1.3891106943429448,ultra rare,85
+Sergio Porrini,Sergio Porrini,1997 final,Q941300,13396,2129,10,1.4183049990251424,ultra rare,85
+Daniel Fonseca,Daniel Fonseca,1998 final,Q462842,12870,2801,13,1.4549828733697383,ultra rare,85
+Nicola Amoruso,Nicola Amoruso,1997 final,Q62244,12550,2545,11,1.478037100497635,ultra rare,85
+Marcelo Zalayeta,Marcelo Zalayeta,2003 final,Q316551,12452,3452,14,1.4852151454517235,legendary,100
+Mark Iuliano,Mark Iuliano,1997 final; 1998 final,Q353046,10294,2888,14,1.6594774685936902,legendary,100

@@ -1,0 +1,37 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,2024–25 participant,Q50602,1425404,916736,14,-1.7755229556400225,common,10
+Barcelona,FC Barcelona,2024–25 participant,Q7156,1388578,728825,14,-1.7470104311465577,common,10
+Real Madrid,Real Madrid CF,2024–25 participant,Q8682,1208433,601446,14,-1.5956459215190566,common,10
+Arsenal,Arsenal F.C.,2024–25 participant,Q9617,959872,647514,14,-1.344802090490796,common,10
+Liverpool,Liverpool F.C.,2024–25 participant,Q1130849,895551,596192,14,-1.2692474055533671,common,10
+Aston Villa,Aston Villa F.C.,2024–25 participant,Q18711,835578,420556,14,-1.1937420723864527,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,2024–25 participant,Q483020,759345,323757,14,-1.0895315073043328,common,10
+Inter Milan,Inter Milan,2024–25 participant,Q631,661948,309128,14,-0.9400042050819801,uncommon,25
+Juventus,Juventus FC,2024–25 participant,Q1422,652749,286786,14,-0.9247601915593561,uncommon,25
+Milan,AC Milan,2024–25 participant,Q1543,589982,286974,14,-0.8146313189646837,uncommon,25
+Bayern Munich,FC Bayern Munich,2024–25 participant,Q15789,575149,261010,14,-0.7868946113032944,uncommon,25
+Atlético Madrid,Atlético Madrid,2024–25 participant,Q8701,496791,258752,14,-0.627356167499309,uncommon,25
+Borussia Dortmund,Borussia Dortmund,2024–25 participant,Q41420,429696,213182,14,-0.4693082477953175,uncommon,25
+Celtic,Celtic F.C.,2024–25 participant,Q19593,311520,215906,14,-0.11897423490669665,uncommon,25
+Lille,Lille OSC,2024–25 participant,Q19516,308485,112316,14,-0.10830966063934006,rare,40
+Monaco,AS Monaco FC,2024–25 participant,Q180305,290851,151843,14,-0.044191310187978255,rare,40
+Benfica,S.L. Benfica,2024–25 participant,Q131499,275308,148421,14,0.015633591210657178,rare,40
+Sporting CP,Sporting CP,2024–25 participant,Q75729,256490,135909,14,0.09275668551153143,rare,40
+Feyenoord,Feyenoord,2024–25 participant,Q134241,244779,124240,14,0.14366378877456362,rare,40
+RB Leipzig,RB Leipzig,2024–25 participant,Q702455,243137,111568,14,0.15099550932842876,rare,40
+PSV Eindhoven,PSV Eindhoven,2024–25 participant,Q11938,223602,105825,14,0.24223213205925562,rare,40
+Bayer Leverkusen,Bayer 04 Leverkusen,2024–25 participant,Q104761,218856,117423,14,0.2656015732222716,super rare,60
+Atalanta,Atalanta BC,2024–25 participant,Q1886,199355,90028,14,0.36726210187162084,super rare,60
+Shakhtar Donetsk,FC Shakhtar Donetsk,2024–25 participant,Q172969,186632,84691,14,0.43909938702970835,super rare,60
+Red Star Belgrade,Red Star Belgrade,2024–25 participant,Q173009,169038,86775,14,0.546956172952505,super rare,60
+Slovan Bratislava,ŠK Slovan Bratislava,2024–25 participant,Q192253,155243,79186,14,0.639689886972836,super rare,60
+VfB Stuttgart,VfB Stuttgart,2024–25 participant,Q4512,152997,69150,14,0.6555645156547488,super rare,60
+Club Brugge,Club Brugge KV,2024–25 participant,Q190916,152990,82331,14,0.6556143547531499,super rare,60
+Red Bull Salzburg,FC Red Bull Salzburg,2024–25 participant,Q994811,138294,81810,14,0.7656228887131801,ultra rare,85
+Bologna,Bologna FC 1909,2024–25 participant,Q1893,123961,50954,14,0.8848077022846461,ultra rare,85
+Girona,Girona FC,2024–25 participant,Q11945,109716,63385,14,1.0177795017939255,ultra rare,85
+Dinamo Zagreb,GNK Dinamo Zagreb,2024–25 participant,Q172803,99751,62980,14,1.1214997249964955,ultra rare,85
+Sparta Prague,AC Sparta Prague,2024–25 participant,Q193481,66363,38511,14,1.5654251922913833,ultra rare,85
+Brest,Stade Brestois 29,2024–25 participant,Q218372,63584,31749,14,1.6120223873692991,ultra rare,85
+Sturm Graz,SK Sturm Graz,2024–25 participant,Q124007617,59008,29700,14,1.6933796952636309,ultra rare,85
+Young Boys,BSC Young Boys,2024–25 participant,Q190526,45593,23855,14,1.9743255399247792,legendary,100

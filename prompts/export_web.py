@@ -15,6 +15,7 @@ Ambiguity (one alias -> several answers in the same prompt) is resolved in the b
 import hashlib
 import json
 import re
+from collections import Counter
 import sys
 import unicodedata
 from pathlib import Path
@@ -126,7 +127,7 @@ def main():
     for p in prompts:
         df = frames[p["id"]]
         title, fine = split_title(p["text"])
-        answers = []
+        answers, titles = [], []
         for r in df.itertuples():
             names = {r.answer, re.sub(r"\s*\(.*?\)\s*$", "", r.enwiki)}
             for part in re.findall(r"^(.*?)\s*\((.*?)\)$", r.answer):
@@ -148,6 +149,13 @@ def main():
             if r.qid in people and len(first) >= 2 and len(first[0]) >= 4:
                 rec["fn"] = first[0]  # first name: only accepted when unique within the prompt
             answers.append(rec)
+            titles.append(r.enwiki)
+        # Two different answers with one display name (two Luis Suárez, two "Olympic Stadium") would show
+        # identical buttons in the "which one?" picker: use the article title, which is disambiguated.
+        counts = Counter(a["n"] for a in answers)
+        for a, t in zip(answers, titles):
+            if counts[a["n"]] > 1 and t != a["n"]:
+                a["n"] = t
         # One small file per prompt, so a game only downloads the 7 prompts it plays.
         body = json.dumps({"id": p["id"], "ans": answers}, ensure_ascii=False, separators=(",", ":"))
         (pdir / f"{p['id']}.js").write_text(f"BallionData.add({body});\n", encoding="utf8")

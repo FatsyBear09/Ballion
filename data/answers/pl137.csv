@@ -1,0 +1,25 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Aston Villa,Aston Villa F.C.,promoted for 2018–19,Q18711,835578,420556,14,-1.980872250256628,common,10
+Hull City,Hull City A.F.C.,promoted for 2015–16; promoted for 2025–26,Q19477,611024,414507,14,-1.4838596911532485,common,10
+Newcastle United,Newcastle United F.C.,promoted for 2016–17,Q18716,467010,337240,14,-1.05703831458348,common,10
+Brighton & Hove Albion,Brighton & Hove Albion F.C.,promoted for 2016–17,Q19453,438636,316329,14,-0.9575036591551435,common,10
+Leicester City,Leicester City F.C.,promoted for 2023–24,Q19481,384466,250464,14,-0.748187220756799,common,10
+Coventry City,Coventry City F.C.,promoted for 2025–26,Q19580,373688,273916,14,-0.7030349194987289,uncommon,25
+Ipswich Town,Ipswich Town F.C.,promoted for 2023–24; promoted for 2025–26,Q9653,370270,258564,14,-0.6884435331754357,uncommon,25
+Leeds United,Leeds United F.C.,promoted for 2019–20; promoted for 2024–25,Q1128631,335403,241793,14,-0.5313947176908074,uncommon,25
+Nottingham Forest,Nottingham Forest F.C.,promoted for 2021–22,Q19490,323858,219993,14,-0.47577219736434634,uncommon,25
+Brentford F.C.,Brentford F.C.,promoted for 2020–21,Q19571,313725,207451,14,-0.4252935687124341,uncommon,25
+Sunderland A.F.C.,Sunderland A.F.C.,promoted for 2024–25,Q18739,307469,202260,14,-0.3933080203778567,rare,40
+Fulham F.C.,Fulham F.C.,promoted for 2017–18; promoted for 2019–20; promoted for 2021–22,Q18708,305758,212120,14,-0.3844466787616739,rare,40
+AFC Bournemouth,AFC Bournemouth,promoted for 2021–22,Q19568,300638,196697,14,-0.35763070642517625,rare,40
+Burnley F.C.,Burnley F.C.,promoted for 2015–16; promoted for 2022–23; promoted for 2024–25,Q19458,243751,159541,14,-0.02454084227495358,rare,40
+Wolverhampton Wanderers,Wolverhampton Wanderers F.C.,promoted for 2017–18,Q19500,232468,160762,14,0.050719875578091746,rare,40
+Southampton F.C.,Southampton F.C.,promoted for 2023–24,Q18732,181820,119842,14,0.4409372736895874,super rare,60
+Middlesbrough F.C.,Middlesbrough F.C.,promoted for 2015–16,Q18661,144942,114127,14,0.8009006421012871,super rare,60
+West Bromwich Albion,West Bromwich Albion F.C.,promoted for 2019–20,Q18744,139617,104641,14,0.8603388850179707,super rare,60
+Sheffield United,Sheffield United F.C.,promoted for 2018–19; promoted for 2022–23,Q19607,127693,98183,14,1.0021018669722304,super rare,60
+Watford F.C.,Watford F.C.,promoted for 2020–21,Q2714,122691,82304,14,1.0655563713888363,ultra rare,85
+Luton Town,Luton Town F.C.,promoted for 2022–23,Q18520,112525,89403,14,1.2029040137289408,ultra rare,85
+Norwich City,Norwich City F.C.,promoted for 2018–19; promoted for 2020–21,Q18721,105211,79096,14,1.3096263143194982,ultra rare,85
+Cardiff City,Cardiff City F.C.,promoted for 2017–18,Q18662,100835,79599,14,1.3770861448010316,ultra rare,85
+Huddersfield Town,Huddersfield Town A.F.C.,promoted for 2016–17,Q19473,63912,48979,14,2.101154932589218,legendary,100

@@ -1,0 +1,37 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Barcelona,FC Barcelona,"quarter-finalist in 2001–02, 2002–03, 2005–06",Q7156,1388578,728825,14,-1.755862596282865,common,10
+Real Madrid,Real Madrid CF,"quarter-finalist in 2000–01, 2001–02, 2002–03",Q8682,1208433,601446,14,-1.57105885685979,common,10
+Chelsea,Chelsea F.C.,"quarter-finalist in 2003–04, 2004–05, 2006–07",Q9616,1158394,770880,14,-1.5148155163963524,common,10
+Manchester United,Manchester United F.C.,"quarter-finalist in 2000–01, 2001–02, 2002–03",Q18656,1028323,687224,14,-1.3564118848907074,common,10
+Arsenal,Arsenal F.C.,"quarter-finalist in 2000–01, 2003–04, 2005–06",Q9617,959872,647514,14,-1.2647989674093905,common,10
+Liverpool,Liverpool F.C.,"quarter-finalist in 2001–02, 2004–05, 2006–07",Q1130849,895551,596192,14,-1.1725528501277984,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,"quarter-finalist in 2012–13, 2013–14, 2014–15",Q483020,759345,323757,14,-0.9531343740799355,common,10
+Tottenham Hotspur,Tottenham Hotspur F.C.,quarter-finalist in 2010–11,Q18741,748442,504261,14,-0.9339000176699803,uncommon,25
+Inter Milan,Inter Milan,"quarter-finalist in 2002–03, 2004–05, 2005–06",Q631,661948,309128,14,-0.770573715279939,uncommon,25
+Juventus,Juventus FC,"quarter-finalist in 2002–03, 2004–05, 2005–06",Q1422,652749,286786,14,-0.7519620162117118,uncommon,25
+Milan,AC Milan,"quarter-finalist in 2002–03, 2003–04, 2004–05",Q1543,589982,286974,14,-0.6175036314554143,uncommon,25
+Bayern Munich,FC Bayern Munich,"quarter-finalist in 2000–01, 2001–02, 2004–05",Q15789,575149,261010,14,-0.5836393702245366,uncommon,25
+Fenerbahçe,Fenerbahçe S.K. (football),quarter-finalist in 2007–08,Q6601875,516090,235193,14,-0.4395424732427342,uncommon,25
+Atlético Madrid,Atlético Madrid,"quarter-finalist in 2013–14, 2014–15",Q8701,496791,258752,14,-0.3888559228413212,uncommon,25
+Borussia Dortmund,Borussia Dortmund,"quarter-finalist in 2012–13, 2013–14",Q41420,429696,213182,14,-0.19589228399880632,rare,40
+Roma,AS Roma,"quarter-finalist in 2006–07, 2007–08",Q2739,402830,186450,14,-0.11002660026711424,rare,40
+Galatasaray,Galatasaray S.K. (football),"quarter-finalist in 2000–01, 2012–13",Q495299,387479,153676,14,-0.05835428510682278,rare,40
+Leeds United,Leeds United F.C.,quarter-finalist in 2000–01,Q1128631,335403,241793,14,0.133595056801623,rare,40
+Deportivo A Coruña,Deportivo de A Coruña,"quarter-finalist in 2000–01, 2001–02, 2003–04",Q8760,331514,159970,14,0.14910586485364266,rare,40
+Lyon,Olympique Lyonnais,"quarter-finalist in 2003–04, 2004–05, 2005–06",Q704,306256,118385,14,0.2545021654018291,rare,40
+Ajax,AFC Ajax,quarter-finalist in 2002–03,Q81888,297879,160599,14,0.29138680672816336,rare,40
+Monaco,AS Monaco FC,"quarter-finalist in 2003–04, 2014–15",Q180305,290851,151843,14,0.32314087612083825,super rare,60
+Schalke 04,FC Schalke 04,"quarter-finalist in 2007–08, 2010–11",Q32494,277004,103841,14,0.38801439527299475,super rare,60
+Marseille,Olympique de Marseille,quarter-finalist in 2011–12,Q132885,276544,117915,14,0.3902247690746609,super rare,60
+Benfica,S.L. Benfica,"quarter-finalist in 2005–06, 2011–12",Q131499,275308,148421,14,0.39618220870462806,super rare,60
+Valencia,Valencia CF,"quarter-finalist in 2000–01, 2002–03, 2006–07",Q10333,244890,118666,14,0.5518937006914784,super rare,60
+Villarreal,Villarreal CF,"quarter-finalist in 2005–06, 2008–09",Q12297,229841,102996,14,0.6362404605012715,super rare,60
+Bordeaux,FC Girondins de Bordeaux,quarter-finalist in 2009–10,Q172476,228453,80441,14,0.644296273479161,super rare,60
+PSV Eindhoven,PSV Eindhoven,"quarter-finalist in 2004–05, 2006–07",Q11938,223602,105825,14,0.6728405733350707,ultra rare,85
+Porto,FC Porto,"quarter-finalist in 2003–04, 2008–09, 2014–15",Q128446,222828,119503,14,0.6774521637382245,ultra rare,85
+Bayer Leverkusen,Bayer 04 Leverkusen,quarter-finalist in 2001–02,Q104761,218856,117423,14,0.7013727578331482,ultra rare,85
+Shakhtar Donetsk,FC Shakhtar Donetsk,quarter-finalist in 2010–11,Q172969,186632,84691,14,0.9131994591665579,ultra rare,85
+Panathinaikos,Panathinaikos F.C.,quarter-finalist in 2001–02,Q4122219,146861,92103,14,1.231922490386036,ultra rare,85
+Málaga,Málaga CF,quarter-finalist in 2012–13,Q8857,125244,63867,14,1.443678870032449,ultra rare,85
+CSKA Moscow,PFC CSKA Moscow,quarter-finalist in 2009–10,Q176371,104194,28926,14,1.6883995052818592,ultra rare,85
+APOEL,APOEL FC,quarter-finalist in 2011–12,Q131378,40308,24632,14,2.9514369649416192,legendary,100

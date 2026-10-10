@@ -1,0 +1,35 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Harry Kane,Harry Kane,scored in 2020,Q969725,1019926,656705,14,-1.7755314639497741,common,10
+Jude Bellingham,Jude Bellingham,scored in 2024,Q66241169,799055,449634,14,-1.5714751586213667,common,10
+Raheem Sterling,Raheem Sterling,scored in 2020,Q312157,565628,426084,14,-1.2826064006620088,common,10
+Jamie Vardy,Jamie Vardy,scored in 2016,Q6147586,545002,347344,14,-1.251547467703304,common,10
+Wayne Rooney,Wayne Rooney,scored in 2004,Q266613,425928,295880,14,-1.045431555892272,common,10
+Frank Lampard,Frank Lampard,scored in 2004,Q41533,392067,271986,14,-0.9761706642069239,common,10
+Michael Owen,Michael Owen,scored in 2000,Q128829,349193,272552,14,-0.8793430956873944,common,10
+Ollie Watkins,Ollie Watkins,scored in 2024,Q16911979,339883,242239,14,-0.8567487646214401,uncommon,25
+Danny Welbeck,Danny Welbeck,scored in 2012,Q188457,338877,242670,14,-0.854270358107365,uncommon,25
+Bukayo Saka,Bukayo Saka,scored in 2024,Q59306386,288855,218977,14,-0.7207341765489308,uncommon,25
+Cole Palmer,Cole Palmer,scored in 2024,Q99760796,265006,187595,14,-0.6486851347132542,uncommon,25
+Steven Gerrard,Steven Gerrard,scored in 2004,Q459830,229309,146630,14,-0.5277159946835988,uncommon,25
+Jordan Henderson,Jordan Henderson,scored in 2020,Q273715,227010,164485,14,-0.5192911102143001,uncommon,25
+Andy Carroll,Andy Carroll,scored in 2012,Q159159,178420,145559,14,-0.31791265098026983,uncommon,25
+Alan Shearer,Alan Shearer,scored in 1996,Q483583,166995,120775,14,-0.2625823904331546,rare,40
+Harry Maguire,Harry Maguire,scored in 2020,Q165772,162034,110968,14,-0.23736749992021258,rare,40
+Luke Shaw,Luke Shaw,scored in 2020,Q93563,145136,112062,14,-0.14528351248739263,rare,40
+Paul Gascoigne,Paul Gascoigne,scored in 1996,Q13002,129031,87958,14,-0.04694256061936243,rare,40
+Bobby Charlton,Bobby Charlton,scored in 1968,Q171583,113393,71892,14,0.06107571525068876,rare,40
+Paul Scholes,Paul Scholes,scored in 2000,Q45613,109845,75099,14,0.08765479448924092,rare,40
+Daniel Sturridge,Daniel Sturridge,scored in 2016,Q222231,98198,67136,14,0.18136845071470936,rare,40
+Eric Dier,Eric Dier,scored in 2016,Q1439915,90035,66722,14,0.25393118684322064,super rare,60
+Theo Walcott,Theo Walcott,scored in 2012,Q29516,87943,62959,14,0.27358750818746624,super rare,60
+Teddy Sheringham,Teddy Sheringham,scored in 1996,Q234576,66651,53816,14,0.5053690241983606,super rare,60
+Steve McManaman,Steve McManaman,scored in 2000,Q294501,62735,42549,14,0.5559949647628507,super rare,60
+Bryan Robson,Bryan Robson,scored in 1988,Q296583,58715,49993,14,0.6113646203778788,super rare,60
+Tony Adams,Tony Adams,scored in 1988,Q299391,44406,33850,14,0.8449019212770318,super rare,60
+Geoff Hurst,Geoff Hurst,scored in 1968,Q212738,43847,34196,14,0.8554937283178793,ultra rare,85
+Ray Wilkins,Ray Wilkins,scored in 1980,Q352820,29047,23664,14,1.1997853563370258,ultra rare,85
+Joleon Lescott,Joleon Lescott,scored in 2012,Q215841,27165,22420,14,1.2557906699048713,ultra rare,85
+Own goal,Own goal,scored in 2020,Q18533,20740,8417,14,1.4814172517091946,ultra rare,85
+David Platt,David Platt (footballer),scored in 1992,Q312143,20441,14234,14,1.493558199827367,ultra rare,85
+Trevor Brooking,Trevor Brooking,scored in 1980,Q431084,11941,10748,13,1.9429907092838985,ultra rare,85
+Tony Woodcock,Tony Woodcock (footballer),scored in 1980,Q167133,7649,5390,13,2.3153558585706135,legendary,100

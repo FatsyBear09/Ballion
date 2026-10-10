@@ -1,0 +1,36 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,starter,Q615,3816900,1293817,14,-2.8960270901767746,common,10
+Kylian Mbappé,Kylian Mbappé,starter,Q21621995,1433583,582740,14,-1.9252182439987418,common,10
+Emiliano Martínez,Emiliano Martínez,starter,Q3275904,843751,464426,14,-1.3997192542393033,common,10
+Enzo Fernández,Enzo Fernández,starter,Q96105248,824199,487848,14,-1.3764762269873438,common,10
+Julián Alvarez,Julián Alvarez,starter,Q59381180,742112,342975,14,-1.272470064800151,common,10
+Ousmane Dembélé,Ousmane Dembélé,starter,Q20851003,449666,175017,14,-0.7758001287099836,common,10
+Lautaro Martínez,Lautaro Martínez,substitute,Q21484126,423801,133779,14,-0.717070516755868,common,10
+Paulo Dybala,Paulo Dybala,substitute,Q166317,366747,131957,14,-0.5737271405815288,uncommon,25
+Olivier Giroud,Olivier Giroud,starter,Q1911,344959,107916,14,-0.5130092877082818,uncommon,25
+Antoine Griezmann,Antoine Griezmann,starter,Q455462,326493,138240,14,-0.45846726368633534,uncommon,25
+Cristian Romero,"Cristian Romero (footballer, born 1998)",starter,Q28058687,288196,142748,14,-0.3347768814673873,uncommon,25
+Rodrigo De Paul,Rodrigo De Paul,starter,Q6110670,281823,104502,14,-0.3126083810018966,uncommon,25
+Ángel Di María,Ángel Di María,starter,Q251683,273087,102521,14,-0.2813914970617572,uncommon,25
+Leandro Paredes,Leandro Paredes,substitute,Q630170,258143,98111,14,-0.2256007229796989,uncommon,25
+Ibrahima Konaté,Ibrahima Konaté,substitute,Q30301454,235551,88834,14,-0.1348053637283095,rare,40
+Alexis Mac Allister,Alexis Mac Allister,starter,Q33297140,235534,137218,14,-0.13473381318103128,rare,40
+Randal Kolo Muani,Randal Kolo Muani,substitute,Q59655998,225507,63290,14,-0.09160542497366826,rare,40
+Eduardo Camavinga,Eduardo Camavinga,substitute,Q62960177,158468,53907,14,0.2581460931143068,rare,40
+Nahuel Molina,Nahuel Molina,starter,Q22082590,157322,45122,14,0.2653414204905654,rare,40
+Adrien Rabiot,Adrien Rabiot,starter,Q18962,153912,47600,14,0.28706578547178757,rare,40
+Jules Koundé,Jules Koundé,starter,Q47170176,139764,60639,14,0.3826585697728055,rare,40
+Youssouf Fofana,Youssouf Fofana (French footballer),substitute,Q56282611,135626,24249,14,0.41245313222889013,super rare,60
+Nicolás Otamendi,Nicolás Otamendi,starter,Q182063,130546,52632,14,0.45029878302310417,super rare,60
+Raphaël Varane,Raphaël Varane,starter,Q489039,128564,53442,14,0.4654654360791213,super rare,60
+Marcus Thuram,Marcus Thuram,substitute,Q19903718,128410,43508,14,0.46665364652533875,super rare,60
+Nicolás Tagliafico,Nicolás Tagliafico,starter,Q3876530,127066,32244,14,0.4770843818530232,super rare,60
+Dayot Upamecano,Dayot Upamecano,starter,Q20723878,118035,36093,14,0.5501728775021397,super rare,60
+Théo Hernandez,Théo Hernandez,starter,Q23703372,115400,49720,14,0.5725546527661138,super rare,60
+Kingsley Coman,Kingsley Coman,substitute,Q6413296,106784,50049,14,0.6494804474125354,ultra rare,85
+Aurélien Tchouaméni,Aurélien Tchouaméni,starter,Q46951844,105006,43415,14,0.6661259750456368,ultra rare,85
+Hugo Lloris,Hugo Lloris,starter,Q1907,86907,43528,14,0.8536700414462454,ultra rare,85
+Axel Disasi,Axel Disasi,substitute,Q23887767,63090,44066,14,1.1711776076655682,ultra rare,85
+Gonzalo Montiel,Gonzalo Montiel,substitute,Q26255087,40081,14948,14,1.6209127426325367,ultra rare,85
+Germán Pezzella,Germán Pezzella,substitute,Q3761173,29722,5490,14,1.9173381015851654,ultra rare,85
+Marcos Acuña,Marcos Acuña,substitute,Q17462635,28559,10949,14,1.956907607423132,legendary,100

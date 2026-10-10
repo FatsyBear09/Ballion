@@ -1,0 +1,51 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Cristiano Ronaldo,Cristiano Ronaldo,Al-Nassr,Q11571,3573666,1706984,14,-3.1935331089140253,common,10
+João Félix,João Félix,Al-Nassr,Q27049064,315014,148656,14,-1.702136635988917,common,10
+Franck Kessié,Franck Kessié,Al-Ahli,Q18044401,282570,54379,14,-1.6353936561936322,common,10
+Darwin Núñez,Darwin Núñez,Al-Hilal,Q46372260,235274,134615,14,-1.5229124153111868,common,10
+Riyad Mahrez,Riyad Mahrez,Al-Ahli,Q8338725,227741,100468,14,-1.502929736265537,common,10
+Sadio Mané,Sadio Mané,Al-Nassr,Q209942,209556,111245,14,-1.4518286996617136,common,10
+Julián Quiñones,Julián Quiñones,Al-Qadsiah,Q22082627,190388,83938,14,-1.3929236330734989,common,10
+Fabinho,"Fabinho (footballer, born 1993)",Al-Ittihad,Q641425,136982,64908,14,-1.1907657397205904,common,10
+Théo Hernandez,Théo Hernandez,Al-Hilal,Q23703372,115400,49720,14,-1.085488091198881,common,10
+Ivan Toney,Ivan Toney,Al-Ahli,Q16239819,98003,71192,14,-0.9851469640014903,common,10
+Rúben Neves,Rúben Neves,Al-Hilal,Q17486599,91086,54114,14,-0.9402015793738221,uncommon,25
+Yassine Bounou,Yassine Bounou,Al-Hilal,Q3571952,81061,30822,14,-0.8686011060446353,uncommon,25
+Kalidou Koulibaly,Kalidou Koulibaly,Al-Hilal,Q3192187,65075,30439,14,-0.7337165177212102,uncommon,25
+Édouard Mendy,Édouard Mendy,Al-Ahli,Q27736107,61318,31730,14,-0.6972004827822436,uncommon,25
+Merih Demiral,Merih Demiral,Al-Ahli,Q29047921,43271,14272,14,-0.483147256769567,uncommon,25
+Salem Al-Dawsari,Salem Al-Dawsari,Al-Hilal,Q3945419,37723,15284,14,-0.3988918377610175,uncommon,25
+Houssem Aouar,Houssem Aouar,Al-Ittihad,Q27927442,34311,13095,14,-0.34067764448705545,uncommon,25
+Mohammed Al-Owais,Mohammed Al-Owais,Al-Ula,Q22677970,32131,4824,14,-0.30036874035359645,uncommon,25
+Jack Hendry,"Jack Hendry (footballer, born 1995)",Al-Ettifaq,Q20027858,29918,27170,13,-0.25654986550228576,uncommon,25
+Roger Ibañez,Roger Ibañez,Al-Ahli,Q55363875,26685,12872,13,-0.18632867618241775,uncommon,25
+Abdullah Al-Hamdan,Abdullah Al-Hamdan,Al-Nassr,Q47499719,22494,8010,10,-0.08141810957055336,rare,40
+Sultan Mandash,Sultan Mandash,Al-Hilal,Q22340706,17381,3690,8,0.07692339310648014,rare,40
+Mohammed Abu Al-Shamat,Mohammed Abu Al-Shamat,Al-Qadsiah,Q136399691,17302,2837,9,0.0797206380864091,rare,40
+Firas Al-Buraikan,Firas Al-Buraikan,Al-Ahli,Q30082508,14596,4952,13,0.184150912323984,rare,40
+Mohamed Kanno,Mohamed Kanno,Al-Hilal,Q22278509,14474,5272,14,0.18930476297994675,rare,40
+Nawaf Al-Aqidi,Nawaf Al-Aqidi,Al-Nassr,Q82251502,13635,5389,12,0.22597038263312144,rare,40
+Abdulelah Al-Amri,Abdulelah Al-Amri,Al-Nassr,Q30308980,10144,3322,14,0.4075692953232994,rare,40
+Ali Jasim,Ali Jasim,Al-Najma,Q123281002,9479,5561,11,0.4492008513796758,rare,40
+Nasser Al-Dawsari,Nasser Al-Dawsari,Al-Hilal,Q47074246,8315,3597,13,0.5296451791931512,rare,40
+Christopher Bonsu Baah,Christopher Bonsu Baah,Al-Qadsiah,Q117408985,7655,5358,11,0.5804232699632159,rare,40
+Musab Al-Juwayr,Musab Al-Juwayr,Al-Qadsiah,Q105834415,7307,2770,10,0.6089895846465149,super rare,60
+Alaa Al-Hejji,Alaa Al-Hejji,Neom,Q22812486,6828,1154,8,0.650617905517235,super rare,60
+Hassan Al-Tambakti,Hassan Al-Tambakti,Al-Hilal,Q45108287,6345,2142,14,0.6956617594068505,super rare,60
+Abdullah Al-Khaibari,Abdullah Al-Khaibari,Al-Nassr,Q28716544,6122,1918,13,0.7176284132952905,super rare,60
+Hassan Kadesh,Hassan Kadesh,Al-Ittihad,Q23712679,5923,1615,9,0.7379172913435095,super rare,60
+Ali Majrashi,Ali Majrashi,Al-Ahli,Q47499724,5774,1418,9,0.7535597627909487,super rare,60
+Nawaf Boushal,Nawaf Boushal,Al-Nassr,Q78459310,5574,2056,10,0.775203061332512,super rare,60
+Saleh Al-Shehri,Saleh Al-Shehri,Al-Ittihad,Q7403894,5559,2075,14,0.7768574809077625,super rare,60
+Jehad Thakri,Jehad Thakri,Al-Qadsiah,Q105658245,5498,1449,9,0.7836317546345883,super rare,60
+Marwane Saâdane,Marwane Saâdane,Al-Fateh,Q21622757,4954,2681,10,0.847598349599791,ultra rare,85
+Ali Azaizeh,Ali Azaizeh,Al-Shabab,Q131822292,4568,1391,8,0.897400745911263,ultra rare,85
+Ali Lajami,Ali Lajami,Al-Hilal,Q22812479,4549,1764,11,0.8999596344751879,ultra rare,85
+Ayman Yahya,Ayman Yahya,Al-Nassr,Q68168547,4305,1667,11,0.9338055687425834,ultra rare,85
+Orlando Mosquera,Orlando Mosquera,Al-Fayha,Q48839143,4128,2527,9,0.9595804275710702,ultra rare,85
+Juriën Gaari,Juriën Gaari,Abha,Q32666318,3728,2692,13,1.0221506730288383,ultra rare,85
+Moteb Al-Harbi,Moteb Al-Harbi,Al-Hilal,Q97698786,3422,1512,8,1.0747286042397448,ultra rare,85
+Nabil Emad,Nabil Emad,Al-Najma,Q41187975,2906,1214,9,1.1750642125815713,ultra rare,85
+Ziyad Al-Johani,Ziyad Al-Johani,Al-Ahli,Q98191389,2489,1035,9,1.2701453727948486,ultra rare,85
+Khalid Al-Ghannam,Khalid Al-Ghannam,Al-Ettifaq,Q64147458,2417,983,9,1.2881632432174182,legendary,100
+Ahmed Al-Kassar,Ahmed Al-Kassar,Al-Qadsiah,Q23712857,2155,828,8,1.3585879658510671,legendary,100

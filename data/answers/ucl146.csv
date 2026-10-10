@@ -1,0 +1,33 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,2022–23 participant,Q50602,1425404,916736,14,-1.5954981800313137,common,10
+Barcelona,FC Barcelona,2022–23 participant,Q7156,1388578,728825,14,-1.5677419618471726,common,10
+Real Madrid,Real Madrid CF,2022–23 participant,Q8682,1208433,601446,14,-1.4203924574032776,common,10
+Chelsea,Chelsea F.C.,2022–23 participant,Q9616,1158394,770880,14,-1.3755479733499314,common,10
+Liverpool,Liverpool F.C.,2022–23 participant,Q1130849,895551,596192,14,-1.1026517948323413,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,2022–23 participant,Q483020,759345,323757,14,-0.9277029338816936,common,10
+Tottenham Hotspur,Tottenham Hotspur F.C.,2022–23 participant,Q18741,748442,504261,14,-0.9123668108456989,common,10
+Inter Milan,Inter Milan,2022–23 participant,Q631,661948,309128,14,-0.7821419041692629,uncommon,25
+Juventus,Juventus FC,2022–23 participant,Q1422,652749,286786,14,-0.7673022443056499,uncommon,25
+Milan,AC Milan,2022–23 participant,Q1543,589982,286974,14,-0.6600945848501768,uncommon,25
+Bayern Munich,FC Bayern Munich,2022–23 participant,Q15789,575149,261010,14,-0.6330936046410859,uncommon,25
+Atlético Madrid,Atlético Madrid,2022–23 participant,Q8701,496791,258752,14,-0.4777869829493897,uncommon,25
+Borussia Dortmund,Borussia Dortmund,2022–23 participant,Q41420,429696,213182,14,-0.32393134859968176,uncommon,25
+Napoli,SSC Napoli,2022–23 participant,Q2641,342522,161478,14,-0.08349307925302354,rare,40
+Celtic,Celtic F.C.,2022–23 participant,Q19593,311520,215906,14,0.017109912102823015,rare,40
+Ajax,AFC Ajax,2022–23 participant,Q81888,297879,160599,14,0.06459072767777294,rare,40
+Marseille,Olympique de Marseille,2022–23 participant,Q132885,276544,117915,14,0.14339716751208686,rare,40
+Benfica,S.L. Benfica,2022–23 participant,Q131499,275308,148421,14,0.1481472108822616,rare,40
+Rangers,Rangers F.C.,2022–23 participant,Q19597,273991,210240,14,0.15323206842553153,rare,40
+Sporting CP,Sporting CP,2022–23 participant,Q75729,256490,135909,14,0.2232245837378923,super rare,60
+RB Leipzig,RB Leipzig,2022–23 participant,Q702455,243137,111568,14,0.27991859906508876,super rare,60
+Porto,FC Porto,2022–23 participant,Q128446,222828,119503,14,0.3724120911197564,super rare,60
+Bayer Leverkusen,Bayer 04 Leverkusen,2022–23 participant,Q104761,218856,117423,14,0.39148469049947693,super rare,60
+Sevilla,Sevilla FC,2022–23 participant,Q10329,206948,107222,14,0.4508103915338324,super rare,60
+Shakhtar Donetsk,FC Shakhtar Donetsk,2022–23 participant,Q172969,186632,84691,14,0.5603804042274732,super rare,60
+Eintracht Frankfurt,Eintracht Frankfurt,2022–23 participant,Q38245,161751,67780,14,0.7121032476397974,ultra rare,85
+Club Brugge,Club Brugge KV,2022–23 participant,Q190916,152990,82331,14,0.7711522243671302,ultra rare,85
+Red Bull Salzburg,FC Red Bull Salzburg,2022–23 participant,Q994811,138294,81810,14,0.8782427372191911,ultra rare,85
+Dinamo Zagreb,GNK Dinamo Zagreb,2022–23 participant,Q172803,99751,62980,14,1.224679795671368,ultra rare,85
+Copenhagen,F.C. Copenhagen,2022–23 participant,Q188430,73184,46271,14,1.5530842567187466,ultra rare,85
+Viktoria Plzeň,FC Viktoria Plzeň,2022–23 participant,Q206838,38984,24254,14,2.2209429139593997,ultra rare,85
+Maccabi Haifa,Maccabi Haifa F.C.,2022–23 participant,Q2129100,30974,20578,14,2.464832838600127,legendary,100

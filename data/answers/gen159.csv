@@ -1,0 +1,13 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+MetLife Stadium,MetLife Stadium,venue,Q10862290,104455,78209,14,-1.7832041400308285,common,10
+Rose Bowl,Rose Bowl (stadium),venue,Q582280,50196,42378,14,-0.8255088543904758,common,10
+Hard Rock Stadium,Hard Rock Stadium,venue,Q864339,49242,41108,14,-0.8004323990610802,common,10
+Mercedes-Benz Stadium,Mercedes-Benz Stadium,venue,Q7007552,48460,37878,14,-0.7795120346022322,uncommon,25
+Lumen Field,Lumen Field,venue,Q612736,46482,39326,14,-0.7250508391990302,uncommon,25
+Lincoln Financial Field,Lincoln Financial Field,venue,Q1052370,35108,30778,14,-0.35830234191168026,rare,40
+Bank of America Stadium,Bank of America Stadium,venue,Q806673,27501,23762,14,-0.039163948068811245,rare,40
+Camping World Stadium,Camping World Stadium,venue,Q199359,19107,17290,13,0.43673838118480224,super rare,60
+Audi Field,Audi Field,venue,Q5203387,12697,10063,11,0.9708111758590773,super rare,60
+Geodis Park,Geodis Park,venue,Q47528203,10799,8536,10,1.1823928430277686,ultra rare,85
+Inter&Co Stadium,Inter&Co Stadium,venue,Q16846942,9581,7525,14,1.3387737849089654,ultra rare,85
+TQL Stadium,TQL Stadium,venue,Q54465634,9266,7884,12,1.3824583722835653,legendary,100

@@ -1,0 +1,31 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,1 UCL goal; 6 UCL goals; 9 UCL goals; 8 UCL goals; 12 UCL goals,Q615,3816900,1293817,14,-2.163274282662612,common,10
+Ronaldinho,Ronaldinho,7 UCL goals; 2 UCL goals; 1 UCL goal,Q39444,1112256,372664,14,-1.4174091849174097,common,10
+Xavi,"Xavi (footballer, born 1980)",1 UCL goal; 3 UCL goals; 2 UCL goals,Q17500,692300,245230,14,-1.1306125938162734,common,10
+Zlatan Ibrahimović,Zlatan Ibrahimović,4 UCL goals,Q46896,637457,290664,14,-1.0806890803026559,common,10
+Thierry Henry,Thierry Henry,3 UCL goals; 6 UCL goals,Q45901,474453,245377,14,-0.9020490454637454,common,10
+Mark van Bommel,Mark van Bommel,1 UCL goal,Q151853,404098,111829,14,-0.8049604076250116,common,10
+Samuel Eto'o,Samuel Eto'o,6 UCL goals; 1 UCL goal,Q1255625,330285,154339,14,-0.68295237986718,uncommon,25
+Gerard Piqué,Gerard Piqué,1 UCL goal; 2 UCL goals,Q17507,308539,150683,14,-0.6417544790700074,uncommon,25
+Yaya Touré,Yaya Touré,1 UCL goal,Q184277,287531,139733,14,-0.599098849332735,uncommon,25
+Pedro,"Pedro (footballer, born July 1987)",4 UCL goals; 5 UCL goals,Q179773,236034,90906,14,-0.4797202378562564,uncommon,25
+Andrés Iniesta,Andrés Iniesta,1 UCL goal; 2 UCL goals,Q43729,215437,87469,14,-0.42448907090297516,uncommon,25
+David Villa,David Villa,4 UCL goals,Q83006,178506,74913,14,-0.31074125775950534,uncommon,25
+Sergio Busquets,Sergio Busquets,2 UCL goals,Q49704,164421,75911,14,-0.2610239635263679,rare,40
+Deco,Deco,2 UCL goals,Q659634,156109,71753,14,-0.22964475582956564,rare,40
+Bojan Krkić,Bojan Krkić,1 UCL goal; 3 UCL goals,Q179172,127532,51313,14,-0.10734348635334799,rare,40
+Dani Alves,Dani Alves,2 UCL goals,Q172720,125626,52722,14,-0.0982349945780889,rare,40
+Rafael Márquez,Rafael Márquez,1 UCL goal,Q186330,118265,52903,14,-0.06171086651364428,rare,40
+Carles Puyol,Carles Puyol,1 UCL goal,Q17158,112735,43703,14,-0.032743912514066956,rare,40
+Henrik Larsson,Henrik Larsson,1 UCL goal,Q179334,88120,53514,14,0.1162648304481044,super rare,60
+Eiður Guðjohnsen,Eiður Guðjohnsen,3 UCL goals,Q187396,71757,47804,14,0.240517366871837,super rare,60
+Víctor Valdés,Víctor Valdés,5 UCL goals,Q47548,69457,30413,14,0.2602231088364792,super rare,60
+Giovani dos Santos,Giovani dos Santos,1 UCL goal,Q562337,58085,26549,14,0.3683769882077628,super rare,60
+Ludovic Giuly,Ludovic Giuly,1 UCL goal; 2 UCL goals,Q219771,42614,13807,14,0.555724280357035,super rare,60
+Juliano Belletti,Juliano Belletti,1 UCL goal,Q237561,41592,20044,14,0.5704077714195013,super rare,60
+Seydou Keita,Seydou Keita,2 UCL goals; 1 UCL goal,Q191080,32686,13285,14,0.716160062540089,ultra rare,85
+Sylvinho,Sylvinho,1 UCL goal,Q312002,31440,14900,13,0.7396691332754834,ultra rare,85
+Gabri García,Gabri García,1 UCL goal,Q356399,5714,1404,13,1.771027388600002,ultra rare,85
+Víctor Vázquez Solsona,Víctor Vázquez Solsona,1 UCL goal,Q584357,4842,2029,11,1.8711738719743076,ultra rare,85
+Andreu Fontàs,Andreu Fontàs,1 UCL goal,Q218982,3574,1329,14,2.0548015520772056,ultra rare,85
+Santiago Ezquerro,Santiago Ezquerro,1 UCL goal,Q311972,2983,1165,12,2.164106494283637,legendary,100

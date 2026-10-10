@@ -1,0 +1,45 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Harry Kane,Harry Kane,2016–17 semi-final,Q969725,1019926,656705,14,-1.8929873279875198,common,10
+Gabriel Jesus,Gabriel Jesus,2018–19 semi-final,Q19708656,966958,400185,14,-1.842889348067903,common,10
+Enzo Fernández,Enzo Fernández,2025–26 semi-final,Q96105248,824199,487848,14,-1.6928282296130206,common,10
+Pierre-Emerick Aubameyang,Pierre-Emerick Aubameyang,2019–20 semi-final,Q44977,694438,258387,14,-1.5319020917281547,common,10
+Jack Grealish,Jack Grealish,2021–22 semi-final,Q16056053,465605,321666,14,-1.1563666332534956,common,10
+Álvaro Morata,Álvaro Morata,2017–18 semi-final,Q48770,402284,130435,14,-1.0190473157371975,common,10
+Bruno Fernandes,Bruno Fernandes,2019–20 semi-final; 2023–24 semi-final,Q4979316,372595,235158,14,-0.9470278526295652,common,10
+Olivier Giroud,Olivier Giroud,2017–18 semi-final; 2019–20 semi-final,Q1911,344959,107916,14,-0.8746324595210961,common,10
+Eden Hazard,Eden Hazard,2016–17 semi-final,Q214204,335868,171505,14,-0.8495438784892547,common,10
+Dele Alli,Dele Alli,2016–17 semi-final; 2017–18 semi-final,Q10553748,295480,207538,14,-0.7291921569101858,uncommon,25
+Alexis Sánchez,Alexis Sánchez,2016–17 semi-final; 2017–18 semi-final,Q180553,292263,147906,14,-0.7189086053720116,uncommon,25
+Nico González,"Nico González (footballer, born 2002)",2025–26 semi-final,Q106625792,290950,231872,14,-0.7146788675492033,uncommon,25
+Bernardo Silva,Bernardo Silva,2021–22 semi-final; 2023–24 semi-final,Q15521306,281912,139122,14,-0.6850350919265109,uncommon,25
+Sergio Agüero,Sergio Agüero,2016–17 semi-final,Q119562,240365,113590,14,-0.5352624845781027,uncommon,25
+Ibrahima Konaté,Ibrahima Konaté,2021–22 semi-final,Q30301454,235551,88834,14,-0.5162575910044774,uncommon,25
+Anthony Martial,Anthony Martial,2015–16 semi-final,Q2091463,230284,131564,14,-0.4950141668841373,uncommon,25
+Riyad Mahrez,Riyad Mahrez,2022–23 semi-final,Q8338725,227741,100468,14,-0.48458291536711323,uncommon,25
+Sadio Mané,Sadio Mané,2021–22 semi-final,Q209942,209556,111245,14,-0.4064089711364125,uncommon,25
+Ismaïla Sarr,Ismaïla Sarr,2024–25 semi-final,Q26924482,183182,119316,14,-0.280051287280408,rare,40
+Raúl Jiménez,Raúl Jiménez,2018–19 semi-final,Q1925465,181773,118407,14,-0.27279777873299826,rare,40
+Hakim Ziyech,Hakim Ziyech,2020–21 semi-final,Q327456,169866,48087,14,-0.20915551939760307,rare,40
+Harry Maguire,Harry Maguire,2023–24 semi-final,Q165772,162034,110968,14,-0.16481302569249878,rare,40
+Eberechi Eze,Eberechi Eze,2024–25 semi-final,Q28445512,132046,97769,14,0.02743764025160418,rare,40
+Scott McTominay,Scott McTominay,2023–24 semi-final,Q29624459,131277,73198,14,0.03292435214221416,rare,40
+Mason Mount,Mason Mount,2019–20 semi-final; 2021–22 semi-final,Q38000669,116447,84137,14,0.1455314705656538,rare,40
+Jérémy Doku,Jérémy Doku,2025–26 semi-final,Q59209505,115105,65244,14,0.15642031429384803,rare,40
+Finn Azaz,Finn Azaz,2025–26 semi-final,Q98959095,100896,97439,5,0.2801882109135608,rare,40
+Joško Gvardiol,Joško Gvardiol,2024–25 semi-final,Q73400656,94442,57494,14,0.3422854878947989,super rare,60
+Willian,"Willian (footballer, born 1988)",2016–17 semi-final,Q73480,93070,53336,14,0.35603238992727565,super rare,60
+Ander Herrera,Ander Herrera,2017–18 semi-final,Q1639968,87202,47365,14,0.4172092436335842,super rare,60
+Nemanja Matić,Nemanja Matić,2016–17 semi-final,Q297603,81938,34626,14,0.47569920929073484,super rare,60
+Ruben Loftus-Cheek,Ruben Loftus-Cheek,2021–22 semi-final,Q18616995,73403,48088,14,0.5790291284720863,super rare,60
+Ellis Simms,Ellis Simms,2023–24 semi-final,Q105062238,70792,56343,9,0.6130522997748858,super rare,60
+Marouane Fellaini,Marouane Fellaini,2015–16 semi-final,Q275169,63867,36085,14,0.7097548433768179,super rare,60
+Kelechi Iheanacho,Kelechi Iheanacho,2020–21 semi-final,Q15506789,63334,40565,14,0.7176272781503389,super rare,60
+Rico Lewis,Rico Lewis,2024–25 semi-final,Q113509374,60653,46695,14,0.7582583266220015,ultra rare,85
+Gerard Deulofeu,Gerard Deulofeu,2018–19 semi-final,Q356126,51000,23232,14,0.9210927929934152,ultra rare,85
+Troy Deeney,Troy Deeney,2015–16 semi-final; 2018–19 semi-final,Q10725,37599,31501,12,1.2074580502636354,ultra rare,85
+Haji Wright,Haji Wright,2023–24 semi-final,Q19787021,36843,31945,14,1.2265382843934494,ultra rare,85
+Callum O'Hare,Callum O'Hare,2023–24 semi-final,Q36160178,27012,26791,3,1.5181015350840417,ultra rare,85
+Yannick Bolasie,Yannick Bolasie,2015–16 semi-final,Q4022527,25513,14748,14,1.5717322576012678,ultra rare,85
+Matt Doherty,"Matt Doherty (footballer, born 1992)",2018–19 semi-final,Q4167438,20212,17343,13,1.790517841313599,ultra rare,85
+Connor Wickham,Connor Wickham,2015–16 semi-final,Q126422,16686,15577,13,1.9705954453173349,ultra rare,85
+Nacho Monreal,Nacho Monreal,2016–17 semi-final,Q342219,13044,7818,14,2.201897196582708,legendary,100

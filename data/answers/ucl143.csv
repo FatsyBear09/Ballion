@@ -1,0 +1,33 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,2016–17 participant,Q50602,1425404,916736,14,-1.7392674727958077,common,10
+Barcelona,FC Barcelona,2016–17 participant,Q7156,1388578,728825,14,-1.7124988178060836,common,10
+Real Madrid,Real Madrid CF,2016–17 participant,Q8682,1208433,601446,14,-1.570391992546326,common,10
+Arsenal,Arsenal F.C.,2016–17 participant,Q9617,959872,647514,14,-1.3348901529728001,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,2016–17 participant,Q483020,759345,323757,14,-1.0952323081576092,common,10
+Tottenham Hotspur,Tottenham Hotspur F.C.,2016–17 participant,Q18741,748442,504261,14,-1.0804418426948084,common,10
+Juventus,Juventus FC,2016–17 participant,Q1422,652749,286786,14,-0.9405386574992417,common,10
+Bayern Munich,FC Bayern Munich,2016–17 participant,Q15789,575149,261010,14,-0.8111051464932794,uncommon,25
+Atlético Madrid,Atlético Madrid,2016–17 participant,Q8701,496791,258752,14,-0.6613243173434358,uncommon,25
+Borussia Dortmund,Borussia Dortmund,2016–17 participant,Q41420,429696,213182,14,-0.5129428495653202,uncommon,25
+Leicester City,Leicester City F.C.,2016–17 participant,Q19481,384466,250464,14,-0.3991982201075011,uncommon,25
+Napoli,SSC Napoli,2016–17 participant,Q2641,342522,161478,14,-0.28105934743373406,uncommon,25
+Celtic,Celtic F.C.,2016–17 participant,Q19593,311520,215906,14,-0.18403579946070575,uncommon,25
+Lyon,Olympique Lyonnais,2016–17 participant,Q704,306256,118385,14,-0.1666071881834099,rare,40
+Beşiktaş,Beşiktaş J.K.,2016–17 participant,Q172567,293563,122873,14,-0.12331831488462196,rare,40
+Monaco,AS Monaco FC,2016–17 participant,Q180305,290851,151843,14,-0.11382671252500777,rare,40
+Benfica,S.L. Benfica,2016–17 participant,Q131499,275308,148421,14,-0.057660793379497005,rare,40
+Sporting CP,Sporting CP,2016–17 participant,Q75729,256490,135909,14,0.014745334795973893,rare,40
+PSV Eindhoven,PSV Eindhoven,2016–17 participant,Q11938,223602,105825,14,0.15507863495633298,rare,40
+Porto,FC Porto,2016–17 participant,Q128446,222828,119503,14,0.15862476705104278,super rare,60
+Bayer Leverkusen,Bayer 04 Leverkusen,2016–17 participant,Q104761,218856,117423,14,0.17701876543965153,super rare,60
+Sevilla,Sevilla FC,2016–17 participant,Q10329,206948,107222,14,0.23423366454718003,super rare,60
+Borussia Mönchengladbach,Borussia Mönchengladbach,2016–17 participant,Q101959,168585,70058,14,0.4439095955620249,super rare,60
+Club Brugge,Club Brugge KV,2016–17 participant,Q190916,152990,82331,14,0.5431777701526741,super rare,60
+CSKA Moscow,PFC CSKA Moscow,2016–17 participant,Q176371,104194,28926,14,0.9360036104664803,super rare,60
+Dinamo Zagreb,GNK Dinamo Zagreb,2016–17 participant,Q172803,99751,62980,14,0.9805688802826267,ultra rare,85
+Copenhagen,F.C. Copenhagen,2016–17 participant,Q188430,73184,46271,14,1.2972887466758949,ultra rare,85
+Basel,FC Basel,2016–17 participant,Q189671,70128,33715,14,1.3409101266893118,ultra rare,85
+Dynamo Kyiv,FC Dynamo Kyiv,2016–17 participant,Q179075,69010,29210,14,1.3573450613397335,ultra rare,85
+Legia Warsaw,Legia Warsaw,2016–17 participant,Q193749,66575,23290,14,1.3940814482944444,ultra rare,85
+Ludogorets Razgrad,PFC Ludogorets Razgrad,2016–17 participant,Q1339086,50819,28251,14,1.6702598611574617,ultra rare,85
+Rostov,FC Rostov,2016–17 participant,Q182930,34006,10308,14,2.0810936664383606,legendary,100

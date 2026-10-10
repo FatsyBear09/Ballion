@@ -1,0 +1,42 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Lionel Messi,Lionel Messi,born 1987,Q615,3816900,1293817,14,-2.490949172682469,common,10
+Cristiano Ronaldo,Cristiano Ronaldo,born 1985,Q11571,3573666,1706984,14,-2.4541057692300363,common,10
+Karim Benzema,Karim Benzema,born 1987,Q1912,629696,263800,14,-1.482694058933279,common,10
+Luka Modrić,Luka Modrić,born 1985,Q483837,552173,265700,14,-1.409184992101727,common,10
+Olivier Giroud,Olivier Giroud,born 1986,Q1911,344959,107916,14,-1.145960803867483,common,10
+Manuel Neuer,Manuel Neuer,born 1986,Q107365,288233,105313,14,-1.045437283237414,common,10
+Luis Suárez,Luis Suárez (Uruguayan footballer),born 1987,Q26517,262457,43186,14,-0.9930192628055721,common,10
+Edinson Cavani,Edinson Cavani,born 1987,Q167790,222714,74818,14,-0.9011448359188097,common,10
+Thiago Silva,Thiago Silva,born 1984,Q210453,170173,70983,14,-0.7505902188502056,uncommon,25
+Dani Alves,Dani Alves,born 1983,Q172720,125626,52722,14,-0.5807693054058232,uncommon,25
+Pepe,"Pepe (footballer, born 1983)",born 1983,Q485697,115484,44548,14,-0.5336696733423847,uncommon,25
+Keylor Navas,Keylor Navas,born 1986,Q969423,103560,41840,14,-0.4726917582028306,uncommon,25
+Kasper Schmeichel,Kasper Schmeichel,born 1986,Q295797,93548,60032,14,-0.4158008982570325,uncommon,25
+Yūto Nagatomo,Yūto Nagatomo,born 1986,Q281734,87882,12479,14,-0.38084179154653386,uncommon,25
+Hugo Lloris,Hugo Lloris,born 1986,Q1907,86907,43528,14,-0.37459946543828343,uncommon,25
+Guillermo Ochoa,Guillermo Ochoa,born 1985,Q215522,86062,38351,14,-0.3691325385285245,uncommon,25
+Dries Mertens,Dries Mertens,born 1987,Q11954,68912,19094,14,-0.2447846638453712,rare,40
+Fernando Muslera,Fernando Muslera,born 1986,Q203749,57160,14432,14,-0.1401669364385942,rare,40
+Diego Godín,Diego Godín,born 1986,Q214903,42939,16569,14,0.019897838320933975,rare,40
+Andrés Guardado,Andrés Guardado,born 1986,Q19364,36914,17460,14,0.1044914298623697,rare,40
+Jan Vertonghen,Jan Vertonghen,born 1987,Q313170,34774,16914,14,0.13790636619394914,rare,40
+Tim Ream,Tim Ream,born 1987,Q716113,33468,29489,14,0.15932482062647957,rare,40
+Bryan Ruiz,Bryan Ruiz,born 1985,Q318383,30467,11378,14,0.21188893746244264,rare,40
+Franco Armani,Franco Armani,born 1986,Q5484508,29724,5661,14,0.22570299572487335,rare,40
+Martín Cáceres,Martín Cáceres,born 1987,Q194107,26284,9535,14,0.29452007480299613,super rare,60
+Steve Mandanda,Steve Mandanda,born 1985,Q1924,25511,8472,14,0.3112218845215423,super rare,60
+Weverton,"Weverton (footballer, born 1987)",born 1987,Q8040741,24064,6032,14,0.34389330787025174,super rare,60
+Artur Jędrzejczyk,Artur Jędrzejczyk,born 1987,Q2011808,21432,1810,14,0.4087022800495216,super rare,60
+Eiji Kawashima,Eiji Kawashima,born 1983,Q310610,20666,2527,14,0.42906571347200156,super rare,60
+Rodolfo Cota,Rodolfo Cota,born 1987,Q7357150,19224,6280,11,0.4695349595706366,super rare,60
+Hernán Galíndez,Hernán Galíndez,born 1987,Q5742434,12453,2579,13,0.712467602346747,super rare,60
+Atiba Hutchinson,Atiba Hutchinson,born 1983,Q439030,9755,5169,14,0.849083050414501,super rare,60
+Remko Pasveer,Remko Pasveer,born 1983,Q392434,9741,3913,14,0.8498865662575786,ultra rare,85
+Wayne Hennessey,Wayne Hennessey,born 1987,Q138839,9150,7627,14,0.8849040288025047,ultra rare,85
+Alfredo Talavera,Alfredo Talavera,born 1982,Q2118086,8099,3096,14,0.9531666617935108,ultra rare,85
+Milan Borjan,Milan Borjan,born 1987,Q1360904,7232,5103,14,1.0165115919301855,ultra rare,85
+Alexander Domínguez,Alexander Domínguez,born 1987,Q2667325,4434,828,14,1.2901943228320822,ultra rare,85
+Sebastián Sosa,Sebastián Sosa,born 1986,Q971111,4331,544,12,1.3033424108028189,ultra rare,85
+Steven Vitória,Steven Vitória,born 1987,Q3718823,3659,3052,13,1.397660903967651,ultra rare,85
+Danny Vukovic,Danny Vukovic,born 1985,Q942164,1740,987,14,1.8133965429763592,ultra rare,85
+Aymen Mathlouthi,Aymen Mathlouthi,born 1984,Q793138,1249,308,13,1.998779138030401,legendary,100

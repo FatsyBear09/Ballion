@@ -1,0 +1,65 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+José Mourinho,José Mourinho,"Chelsea, 2015–16; Manchester United, 2018–19; Tottenham Hotspur, 2020–21",Q79983,2051741,1059250,14,-2.888835135601849,common,10
+Frank Lampard,Frank Lampard,"Chelsea, 2020–21; Everton, 2022–23",Q41533,392067,271986,14,-1.631229657446606,common,10
+Ruben Amorim,Ruben Amorim,"Manchester United, 2025–26",Q368682,339783,100175,14,-1.5224719514836658,common,10
+Antonio Conte,Antonio Conte,"Chelsea, 2018–19",Q26580,293970,141024,14,-1.4124195451492256,common,10
+Unai Emery,Unai Emery,"Arsenal, 2019–20",Q295610,249529,120477,14,-1.287873999157867,common,10
+Patrick Vieira,Patrick Vieira,"Crystal Palace, 2022–23",Q46347,248834,105572,14,-1.285754605830788,common,10
+Steven Gerrard,Steven Gerrard,"Aston Villa, 2022–23",Q459830,229309,146630,14,-1.2236609824744975,common,10
+Ronald Koeman,Ronald Koeman,"Everton, 2017–18",Q192635,214274,71828,14,-1.1721301707703098,common,10
+Liam Rosenior,Liam Rosenior,"Chelsea, 2025–26",Q1336865,175849,114422,14,-1.0219562844495218,common,10
+Manuel Pellegrini,Manuel Pellegrini,"West Ham United, 2019–20",Q296036,174157,69711,14,-1.014609457985764,common,10
+Ange Postecoglou,Ange Postecoglou,"Tottenham Hotspur, 2025–26; Nottingham Forest, 2025–26",Q2849301,165058,108516,14,-0.9738344309174009,common,10
+Thomas Tuchel,Thomas Tuchel,"Chelsea, 2022–23",Q702233,162312,82532,14,-0.9610863973629533,common,10
+Rafael Benítez,Rafael Benítez,"Everton, 2021–22",Q144048,139765,73127,14,-0.8474413051447213,common,10
+Slaven Bilić,Slaven Bilić,"West Ham United, 2017–18; West Bromwich Albion, 2020–21",Q489107,134486,79551,14,-0.8181844304646033,uncommon,25
+Roberto Martínez,Roberto Martínez,"Everton, 2015–16",Q357994,130780,54590,14,-0.796950870117677,uncommon,25
+Russell Martin,Russell Martin (footballer),"Southampton, 2024–25",Q555382,124898,119100,11,-0.7619822168371149,uncommon,25
+Mauricio Pochettino,Mauricio Pochettino,"Tottenham Hotspur, 2019–20",Q313000,122749,72441,14,-0.7487940403914463,uncommon,25
+Gary O'Neil,Gary O'Neil,"Bournemouth, 2023–24; Wolverhampton Wanderers, 2024–25",Q731946,115850,99332,12,-0.7048389710453404,uncommon,25
+Marco Silva,Marco Silva,"Watford, 2017–18; Everton, 2019–20",Q6757714,110845,67849,12,-0.6712804434105325,uncommon,25
+Louis van Gaal,Louis van Gaal,"Manchester United, 2016–17",Q207431,105006,46161,14,-0.6301597563985243,uncommon,25
+Erik ten Hag,Erik ten Hag,"Manchester United, 2024–25",Q2844569,98313,58351,14,-0.5801137366837177,uncommon,25
+Claudio Ranieri,Claudio Ranieri,"Leicester City, 2016–17; Fulham, 2018–19; Watford, 2021–22",Q235068,86708,37538,14,-0.48466637656369815,uncommon,25
+Daniel Farke,Daniel Farke,"Norwich City, 2021–22",Q30015253,86013,63044,13,-0.47855117203850117,uncommon,25
+Ole Gunnar Solskjær,Ole Gunnar Solskjær,"Manchester United, 2021–22",Q18976,76937,50554,14,-0.39381701818480686,uncommon,25
+Brendan Rodgers,Brendan Rodgers,"Liverpool, 2015–16",Q310623,71805,55295,14,-0.3413612054950889,uncommon,25
+Nuno Espírito Santo,Nuno Espírito Santo,"Tottenham Hotspur, 2021–22; Nottingham Forest, 2025–26",Q372372,69911,44637,14,-0.3210491053294734,uncommon,25
+Marcelo Bielsa,Marcelo Bielsa,"Leeds United, 2021–22",Q31575,67504,30201,14,-0.29442628510892477,rare,40
+Mark Hughes,Mark Hughes,"Stoke City, 2017–18; Southampton, 2018–19",Q214513,64747,54181,14,-0.262740230423375,rare,40
+Quique Sánchez Flores,Quique Sánchez Flores,"Watford, 2019–20",Q352313,60589,15823,14,-0.2123048698484139,rare,40
+Scott Parker,Scott Parker,"Bournemouth, 2022–23",Q213989,50091,43793,14,-0.0677239379280845,rare,40
+Graham Potter,Graham Potter,"Chelsea, 2022–23; West Ham United, 2025–26",Q5593150,49632,36298,14,-0.06072897015106108,rare,40
+Sean Dyche,Sean Dyche,"Burnley, 2021–22; Everton, 2024–25; Nottingham Forest, 2025–26",Q10599,49156,42298,14,-0.05340626851647634,rare,40
+Sam Allardyce,Sam Allardyce,"Everton, 2018–19",Q334388,48114,39809,14,-0.0371256651036443,rare,40
+Frank de Boer,Frank de Boer,"Crystal Palace, 2017–18",Q219657,47139,22616,14,-0.021569375743675654,rare,40
+Julen Lopetegui,Julen Lopetegui,"West Ham United, 2024–25",Q115119,39475,15269,14,0.11325506663794671,rare,40
+Vítor Pereira,"Vítor Pereira (footballer, born 1968)","Wolverhampton Wanderers, 2025–26",Q556610,36585,20066,14,0.17102651194121946,rare,40
+Mauricio Pellegrino,Mauricio Pellegrino,"Southampton, 2017–18",Q313131,32599,12483,14,0.2586810254863922,rare,40
+Nathan Jones,Nathan Jones (Welsh footballer),"Southampton, 2022–23",Q10387537,30665,29752,6,0.30515346158619366,rare,40
+Jesse Marsch,Jesse Marsch,"Leeds United, 2022–23",Q1336179,26951,21333,13,0.40325149693280715,super rare,60
+Paul Heckingbottom,Paul Heckingbottom,"Sheffield United, 2023–24",Q7151218,26924,26184,6,0.40401311003414164,super rare,60
+Tony Pulis,Tony Pulis,"West Bromwich Albion, 2017–18",Q334541,25316,23003,14,0.45080574123072725,super rare,60
+Alan Pardew,Alan Pardew,"Crystal Palace, 2016–17",Q360491,24224,20247,14,0.4843094945511516,super rare,60
+Steve Cooper,Steve Cooper (football manager),"Nottingham Forest, 2023–24; Leicester City, 2024–25",Q24183505,23656,21486,12,0.5023384446485707,super rare,60
+Ralph Hasenhüttl,Ralph Hasenhüttl,"Southampton, 2022–23",Q874628,23170,7476,14,0.5181116611335325,super rare,60
+Tim Sherwood,Tim Sherwood,"Aston Villa, 2015–16",Q970732,21155,18876,14,0.5872438218911694,super rare,60
+Steve McClaren,Steve McClaren,"Newcastle United, 2015–16",Q311007,20794,16958,14,0.6003220713010854,super rare,60
+Chris Wilder,Chris Wilder,"Sheffield United, 2020–21",Q5108471,19991,18622,10,0.6302463653746739,super rare,60
+Bruno Lage,Bruno Lage,"Wolverhampton Wanderers, 2022–23",Q56434101,19923,11280,13,0.6328353908854933,super rare,60
+Slaviša Jokanović,Slaviša Jokanović,"Fulham, 2018–19",Q944426,19667,9612,14,0.6426622015367409,super rare,60
+Chris Hughton,Chris Hughton,"Brighton & Hove Albion, 2019–20",Q351004,18998,17265,14,0.6689590068071505,super rare,60
+Dean Smith,"Dean Smith (footballer, born 1971)","Aston Villa, 2021–22",Q5246473,15259,13764,13,0.8354873291062492,ultra rare,85
+Claude Puel,Claude Puel,"Southampton, 2017–18; Leicester City, 2018–19",Q128898,13187,5116,14,0.9463746152394292,ultra rare,85
+Nigel Pearson,Nigel Pearson,"Leicester City, 2015–16; Watford, 2019–20",Q154126,12776,10395,14,0.9704328512856355,ultra rare,85
+Francesco Guidolin,Francesco Guidolin,"Swansea City, 2016–17",Q557760,12431,2636,11,0.9912329120481433,ultra rare,85
+Xisco Muñoz,Xisco Muñoz,"Watford, 2021–22",Q301390,12354,9871,12,0.9959540008157961,ultra rare,85
+John Carver,John Carver (footballer),"Newcastle United, 2015–16",Q1330261,10705,5455,7,1.1048115053456804,ultra rare,85
+Bob Bradley,Bob Bradley,"Swansea City, 2016–17",Q442325,9787,7427,13,1.1729324526660632,ultra rare,85
+Garry Monk,Garry Monk,"Swansea City, 2015–16",Q1340803,8958,8283,14,1.2401805624688604,ultra rare,85
+Paul Clement,Paul Clement (football manager),"Swansea City, 2017–18",Q15708728,8347,7060,10,1.2938557971683735,ultra rare,85
+Javi Gracia,Javi Gracia,"Watford, 2019–20; Leeds United, 2022–23",Q4886441,7344,4230,11,1.3911218696882197,ultra rare,85
+Mike Phelan,Mike Phelan,"Hull City, 2016–17",Q325580,7017,6241,12,1.4257278897857448,ultra rare,85
+Craig Shakespeare,Craig Shakespeare,"Leicester City, 2017–18",Q5181434,6574,5481,10,1.475274762700785,ultra rare,85
+Cristian Stellini,Cristian Stellini,"Tottenham Hotspur, 2022–23",Q461177,4976,3168,6,1.6868607938142266,legendary,100
+Thomas Frank,Thomas Frank,"Tottenham Hotspur, 2025–26",Q15850734,793,772,2,3.081616655447146,legendary,100

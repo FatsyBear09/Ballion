@@ -1,0 +1,37 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,2025–26 participant,Q50602,1425404,916736,14,-1.7167786083783512,common,10
+Barcelona,FC Barcelona,2025–26 participant,Q7156,1388578,728825,14,-1.6866913063009021,common,10
+Real Madrid,Real Madrid CF,2025–26 participant,Q8682,1208433,601446,14,-1.526966771000234,common,10
+Chelsea,Chelsea F.C.,2025–26 participant,Q9616,1158394,770880,14,-1.4783560586449287,common,10
+Arsenal,Arsenal F.C.,2025–26 participant,Q9617,959872,647514,14,-1.2622685637214734,common,10
+Liverpool,Liverpool F.C.,2025–26 participant,Q1130849,895551,596192,14,-1.1825409117697863,common,10
+Paris Saint-Germain,Paris Saint-Germain FC,2025–26 participant,Q483020,759345,323757,14,-0.9928991099721883,common,10
+Tottenham Hotspur,Tottenham Hotspur F.C.,2025–26 participant,Q18741,748442,504261,14,-0.9762749948488776,uncommon,25
+Inter Milan,Inter Milan,2025–26 participant,Q631,661948,309128,14,-0.835113253029878,uncommon,25
+Juventus,Juventus FC,2025–26 participant,Q1422,652749,286786,14,-0.8190272961433515,uncommon,25
+Bayern Munich,FC Bayern Munich,2025–26 participant,Q15789,575149,261010,14,-0.673547250691828,uncommon,25
+Atlético Madrid,Atlético Madrid,2025–26 participant,Q8701,496791,258752,14,-0.5051973259842895,uncommon,25
+Newcastle United,Newcastle United F.C.,2025–26 participant,Q18716,467010,337240,14,-0.43413902738173465,uncommon,25
+Borussia Dortmund,Borussia Dortmund,2025–26 participant,Q41420,429696,213182,14,-0.3384202486358302,uncommon,25
+Galatasaray,Galatasaray S.K. (football),2025–26 participant,Q495299,387479,153676,14,-0.21954715100378683,rare,40
+Napoli,SSC Napoli,2025–26 participant,Q2641,342522,161478,14,-0.07778896260042602,rare,40
+Ajax,AFC Ajax,2025–26 participant,Q81888,297879,160599,14,0.08273154499708224,rare,40
+Monaco,AS Monaco FC,2025–26 participant,Q180305,290851,151843,14,0.11017635749646007,rare,40
+Marseille,Olympique de Marseille,2025–26 participant,Q132885,276544,117915,14,0.16815648095965022,rare,40
+Benfica,S.L. Benfica,2025–26 participant,Q131499,275308,148421,14,0.17330545294175864,rare,40
+Olympiacos,Olympiacos F.C.,2025–26 participant,Q19628,267030,148113,14,0.20839785056758284,rare,40
+Sporting CP,Sporting CP,2025–26 participant,Q75729,256490,135909,14,0.2546881392033645,super rare,60
+Athletic Bilbao,Athletic Bilbao,2025–26 participant,Q8687,238821,117727,14,0.33673124421009715,super rare,60
+Villarreal,Villarreal CF,2025–26 participant,Q12297,229841,102996,14,0.3807860636318369,super rare,60
+Bodø/Glimt,FK Bodø/Glimt,2025–26 participant,Q478167,227878,89453,14,0.3906453992514608,super rare,60
+PSV Eindhoven,PSV Eindhoven,2025–26 participant,Q11938,223602,105825,14,0.41241927642601844,super rare,60
+Bayer Leverkusen,Bayer 04 Leverkusen,2025–26 participant,Q104761,218856,117423,14,0.4370794371148412,super rare,60
+Atalanta,Atalanta BC,2025–26 participant,Q1886,199355,90028,14,0.5443547867783621,super rare,60
+Eintracht Frankfurt,Eintracht Frankfurt,2025–26 participant,Q38245,161751,67780,14,0.7846248885995961,ultra rare,85
+Club Brugge,Club Brugge KV,2025–26 participant,Q190916,152990,82331,14,0.8486330466409038,ultra rare,85
+Union Saint-Gilloise,Royale Union Saint-Gilloise,2025–26 participant,Q196160,123997,77703,14,1.0901512214779405,ultra rare,85
+Qarabağ,Qarabağ FK,2025–26 participant,Q723476,86930,46040,14,1.498384354227822,ultra rare,85
+Slavia Prague,SK Slavia Prague,2025–26 participant,Q194393,78098,42638,14,1.621535038022965,ultra rare,85
+Copenhagen,F.C. Copenhagen,2025–26 participant,Q188430,73184,46271,14,1.6962350183979493,ultra rare,85
+Pafos,Pafos FC,2025–26 participant,Q17442894,65072,37255,14,1.8312749775070516,ultra rare,85
+Kairat,FC Kairat,2025–26 participant,Q420594,63729,32658,14,1.8552462616551273,legendary,100

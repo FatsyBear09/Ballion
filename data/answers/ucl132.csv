@@ -1,0 +1,39 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Spain,Spain national football team,e.g. Raúl,Q42267,549207,292285,14,-1.4543320925289467,common,10
+Argentina,Argentina national football team,e.g. Claudio López,Q79800,488877,290733,14,-1.3448653056702327,common,10
+France,France national football team,e.g. Franck Sauzée,Q47774,450086,222345,14,-1.2670936147557605,common,10
+England,England national football team,e.g. Mike Newell,Q47762,435549,321591,14,-1.2362083904406616,common,10
+Italy,Italy national football team,e.g. Marco Simone,Q676899,416147,195485,14,-1.1933408339776568,common,10
+Germany,Germany national football team,e.g. Bernd Hobsch,Q43310,412591,218524,14,-1.185267761891912,common,10
+Portugal,Portugal national football team,e.g. Cristiano Ronaldo,Q267245,392109,224617,14,-1.1373690530081793,common,10
+Brazil,Brazil national football team,e.g. Romário,Q83459,359357,210260,14,-1.0553159017904923,common,10
+Netherlands,Netherlands national football team,e.g. Juul Ellerman,Q47050,305351,173691,14,-0.9021151584895506,uncommon,25
+Croatia,Croatia national football team,e.g. Dado Pršo,Q134479,211134,136336,14,-0.5550182091599813,uncommon,25
+Belgium,Belgium national football team,e.g. Luc Nilis,Q166776,202259,108366,14,-0.514619955543196,uncommon,25
+Greece,Greece national football team,e.g. Kostas Mitroglou,Q134925,177347,117694,14,-0.39097096345175064,uncommon,25
+Norway,Norway national football team,e.g. Sigurd Rushfeldt,Q184387,161198,104399,14,-0.30115591709678274,uncommon,25
+Uruguay,Uruguay national football team,e.g. Walter Pandiani,Q134916,161145,91373,14,-0.30084656885701483,uncommon,25
+Poland,Poland national football team,e.g. Robert Lewandowski,Q166196,137644,64851,14,-0.15255736726870775,uncommon,25
+Russia,Russia national football team,e.g. Andrey Tikhonov,Q726080,133100,54287,14,-0.1209775386061139,uncommon,25
+Turkey,Turkey national football team,e.g. Tuncay Şanlı,Q483856,132674,64465,14,-0.11796184702275073,rare,40
+Colombia,Colombia national football team,e.g. Faustino Asprilla,Q212564,104852,59060,14,0.1034313632097041,rare,40
+Wales,Wales national football team,e.g. Gareth Bale,Q180857,101681,78585,14,0.13232015806807637,rare,40
+Egypt,Egypt national football team,e.g. Mohamed Salah,Q28089,98775,57357,14,0.1595970797571638,rare,40
+Bosnia and Herzegovina,Bosnia and Herzegovina national football team,e.g. Edin Džeko,Q181190,96712,66689,14,0.1794528043067321,rare,40
+Denmark,Denmark national football team,e.g. Nicklas Bendtner,Q131785,95928,65558,14,0.18710983161070213,rare,40
+Israel,Israel national football team,e.g. Yossi Benayoun,Q191406,95777,70424,14,0.18859177556671028,rare,40
+Algeria,Algeria national football team,e.g. Yacine Brahimi,Q181903,93100,40864,14,0.21525953278041288,super rare,60
+Serbia,Serbia national football team,e.g. Predrag Đorđević,Q182740,92086,62216,14,0.22556154753761795,super rare,60
+Chile,Chile national football team,e.g. Arturo Vidal,Q172025,84862,46605,14,0.30241463801034946,super rare,60
+Nigeria,Nigeria national football team,e.g. Yakubu,Q181930,80818,51429,14,0.3483465791574505,super rare,60
+Senegal,Senegal national football team,e.g. Sadio Mané,Q207441,80014,47997,14,0.3577519195305889,super rare,60
+Ivory Coast,Ivory Coast national football team,e.g. Didier Drogba,Q175145,75572,44022,14,0.4114814700752885,super rare,60
+Georgia,Georgia national football team,e.g. Levan Kobiashvili,Q186268,70804,44309,14,0.4727880119619876,super rare,60
+Ukraine,Ukraine national football team,e.g. Andriy Shevchenko,Q170403,70755,39971,14,0.473439258142563,ultra rare,85
+Peru,Peru national football team,e.g. Claudio Pizarro,Q212166,61373,34709,14,0.607258383272766,ultra rare,85
+Cameroon,Cameroon national football team,e.g. Samuel Eto'o,Q175309,56921,34435,14,0.6780991043225805,ultra rare,85
+Finland,Finland national football team,e.g. Jari Litmanen,Q186532,52400,35426,14,0.755949968861043,ultra rare,85
+Slovenia,Slovenia national football team,e.g. Josip Iličić,Q172221,48796,35422,14,0.8229830642586029,ultra rare,85
+Gabon,Gabon national football team,e.g. Pierre-Emerick Aubameyang,Q235416,36909,22154,14,1.0856206333651939,ultra rare,85
+Guinea,Guinea national football team,e.g. Serhou Guirassy,Q235411,29101,19548,14,1.3092080445909016,ultra rare,85
+Sweden,Sweden national football team,e.g. Zlatan Ibrahimović,Q127925698,1327,1327,1,4.213351311173292,legendary,100

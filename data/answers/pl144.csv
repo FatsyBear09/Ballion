@@ -1,0 +1,27 @@
+answer,enwiki,detail,qid,views,views_en,n_langs,rarity_z,tier,points
+Manchester City,Manchester City F.C.,7,Q50602,1425404,916736,14,-1.7318075418079404,common,10
+Chelsea F.C.,Chelsea F.C.,4,Q9616,1158394,770880,14,-1.484776991453606,common,10
+Manchester United,Manchester United F.C.,21 (17/4),Q18656,1028323,687224,14,-1.342926988152769,common,10
+Arsenal F.C.,Arsenal F.C.,18 (17/1),Q9617,959872,647514,14,-1.2608878800616072,common,10
+Liverpool F.C.,Liverpool F.C.,16 (11/5),Q1130849,895551,596192,14,-1.1782817433429746,common,10
+Aston Villa,Aston Villa F.C.,1 (0/1),Q18711,835578,420556,14,-1.095729564351858,uncommon,25
+Tottenham Hotspur,Tottenham Hotspur F.C.,7 (4/3),Q18741,748442,504261,14,-0.9645688079126449,uncommon,25
+Newcastle United,Newcastle United F.C.,1,Q18716,467010,337240,14,-0.4028595796537119,uncommon,25
+Brighton & Hove Albion,Brighton & Hove Albion F.C.,1,Q19453,438636,316329,14,-0.32820917710780845,uncommon,25
+Crystal Palace,Crystal Palace F.C.,1,Q19467,420053,267057,14,-0.2766536071353926,uncommon,25
+Everton F.C.,Everton F.C.,9 (8/1),Q5794,406142,301688,14,-0.23654434738444036,rare,40
+West Ham United,West Ham United F.C.,1 (0/1),Q18747,385893,264445,14,-0.1756353261715346,rare,40
+Leicester City,Leicester City F.C.,2,Q19481,384466,250464,14,-0.17122308700011332,rare,40
+Leeds United,Leeds United F.C.,2,Q1128631,335403,241793,14,-0.00862999263347568,rare,40
+Nottingham Forest,Nottingham Forest F.C.,1,Q19490,323858,219993,14,0.03308656844888594,rare,40
+Sunderland A.F.C.,Sunderland A.F.C.,1,Q18739,307469,202260,14,0.09493421318293833,super rare,60
+Burnley F.C.,Burnley F.C.,2 (1/1),Q19458,243751,159541,14,0.37150741447280256,super rare,60
+Wolverhampton Wanderers,Wolverhampton Wanderers F.C.,4 (1/3),Q19500,232468,160762,14,0.4279525074853418,super rare,60
+Blackburn Rovers,Blackburn Rovers F.C.,1,Q19446,210284,159899,14,0.5473980784897419,super rare,60
+Sheffield Wednesday,Sheffield Wednesday F.C.,1,Q19498,146892,117758,14,0.9746677476107238,super rare,60
+Bolton Wanderers,Bolton Wanderers F.C.,1,Q19451,139665,101823,14,1.0347525958327783,ultra rare,85
+West Bromwich Albion,West Bromwich Albion F.C.,2 (1/1),Q18744,139617,104641,14,1.0351619734086686,ultra rare,85
+Derby County,Derby County F.C.,1,Q19470,115449,83365,14,1.2615317030917679,ultra rare,85
+Cardiff City,Cardiff City F.C.,1,Q18662,100835,79599,14,1.4227193602433652,ultra rare,85
+Portsmouth F.C.,Portsmouth F.C.,1 (0/1),Q19604,95356,70371,14,1.489255805706527,ultra rare,85
+Huddersfield Town,Huddersfield Town A.F.C.,1,Q19473,63912,48979,14,1.9657666661963065,legendary,100
