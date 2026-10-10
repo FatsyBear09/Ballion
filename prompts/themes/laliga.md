@@ -328,3 +328,136 @@ Same sources and filters as above, restricted to entries whose club list include
 - Rough counts not parsed: ll053, ll085–ll087, ll089, ll090, ll092, ll093, ll110, ll111, ll120.
 - Women's prompts (ll181–ll185, ll189) are well sourced but have lower page views, so rarity tiers may be compressed.
 - Ranges ending in 2026–27 (ll084, ll098, ll101–ll103, ll125) and the "since 20xx" filters will grow as the season goes on. Re-scrape before release.
+
+## Build status
+
+Built: **195** of 200 catalog prompts, each with 12–130 answers (`data/answers_raw/ll*.csv`).
+
+### Dropped (5)
+Not built because the source couldn't produce a clean answer list of 12–130 entries, unless a reason is given.
+
+| id | catalog prompt | reason |
+|---|---|---|
+| ll032 | Name a goalkeeper who finished in the top five of La Liga's Zamora Trophy standings since 2015–16 | season pages have no parseable Zamora Trophy standings |
+| ll103 | Name a company that has been a La Liga club's main shirt sponsor since 2015–16 | failed the scrape or quality check |
+| ll104 | Name a broadcaster that has shown La Liga outside Spain | failed the scrape or quality check |
+| ll106 | Name a stadium that has hosted a Copa del Rey or Supercopa de España final since 2015 | failed the scrape or quality check |
+| ll124 | Name a player who has been in Valencia's first-team squad since 2021–22 | the 2021–22 Valencia season page has no squad table |
+
+### Reworded (112)
+Mostly tightened to match what the source supports.
+
+| id | catalog wording | built wording |
+|---|---|---|
+| ll001 | Name a player who has scored 100+ La Liga goals | Name a player who has scored 100 or more La Liga goals |
+| ll002 | Name a player who has scored 100+ La Liga goals and was still playing in La Liga in 2010 or later | Name a player who has scored 100 or more La Liga goals and played in La Liga in 2010 or later |
+| ll003 | Name a player who finished in La Liga's top-10 scorers in any season since 2015–16 | Name a player who finished in La Liga's top 10 scorers in a season from 2015–16 to 2025–26 |
+| ll005 | Name a player who finished in La Liga's top-10 scorers in a season from 2000–01 to 2008–09 | Name a player who finished in La Liga's top scorers table in a season from 2000–01 to 2008–09 |
+| ll006 | Name a player who scored 20+ La Liga goals in a single season since 2010–11 | Name a player who scored 20 or more La Liga goals in a season since 2010–11 |
+| ll008 | Name a player who has scored a La Liga hat-trick since 2015–16 for a club other than Real Madrid, Barcelona or Atlético | Name a player who has scored a La Liga hat-trick since 2015–16 for a club other than Real Madrid, Barcelona or Atlético Madrid |
+| ll011 | Name a player who finished in La Liga's top-10 assist providers in a season from 2015–16 to 2023–24 | Name a player who finished in La Liga's top 10 for assists in a season from 2015–16 to 2023–24 |
+| ll015 | Name a player who has made 400+ La Liga appearances | Name a player who has made 400 or more La Liga appearances |
+| ll016 | Name a player who finished in the Segunda División top-10 scorers in a season since 2019–20 | Name a player who finished in the Segunda División top scorers table in a season from 2019–20 to 2025–26 |
+| ll017 | Name a player listed among the Copa del Rey top scorers in a season since 2022–23 | Name a player who scored 3 or more goals in a single Copa del Rey season from 2022–23 to 2025–26 |
+| ll018 | Name a player who has scored in El Clásico since 2015–16 | Name a player who has scored in El Clásico since 2015–16 (own goals excluded) |
+| ll020 | Name a player in El Clásico's all-time top goalscorers table | Name a player among El Clásico's all-time top goalscorers (overall or in a single competition) |
+| ll021 | Name a player who appeared in a Supercopa de España final between Real Madrid and Barcelona (2023–2026) | Name a player who appeared in a Real Madrid v Barcelona Supercopa de España final between 2023 and 2026 |
+| ll022 | Name a player in Real Madrid's or Barcelona's all-time top-20 appearance makers | Name a player in the all-time top 10 for appearances at Real Madrid or Barcelona |
+| ll023 | Name a player in Real Madrid's or Barcelona's all-time top-20 goalscorers | Name a player in the all-time top 10 goalscorers of Real Madrid or Barcelona |
+| ll028 | Name a player named in a La Liga Team of the Season | Name a player named in a La Liga Team of the Season (2013–14 onward) |
+| ll030 | Name a winner of a discontinued LFP award (Best Forward, Midfielder, Attacking Midfielder, Defender, Goalkeeper, Breakthrough or Best American Player) | Name a winner of a discontinued La Liga award (Best Forward, Midfielder, Attacking Midfielder, Defender, Goalkeeper, Breakthrough or Best American Player) |
+| ll031 | Name a Ricardo Zamora Trophy winner (La Liga) | Name a winner of the Ricardo Zamora Trophy in La Liga (best goalkeeper by goals-against average) |
+| ll033 | Name a winner of the Zarra Trophy (top Spanish scorer in La Liga or Segunda División) | Name a winner of the Zarra Trophy (top Spanish scorer in La Liga or the Segunda División) |
+| ll034 | Name a winner of MARCA's Miguel Muñoz Trophy (La Liga coach of the season) | Name a winner of MARCA's Miguel Muñoz Trophy for La Liga coach of the season |
+| ll035 | Name a winner of MARCA's Trofeo Alfredo Di Stéfano (La Liga best player) | Name a player who finished in the top three of MARCA's Alfredo Di Stéfano Trophy (La Liga player of the season) |
+| ll036 | Name a winner of the Don Balón Award | Name a player or coach who won a Don Balón Award (best Spanish player, best foreign player, best breakthrough or best coach) |
+| ll038 | Name a club whose player has won La Liga Player of the Month | Name a club whose player has won the La Liga Player of the Month award |
+| ll039 | Name a country whose player has won La Liga Player of the Month | Name a country whose player has won the La Liga Player of the Month award |
+| ll040 | Name a player in a Real Madrid La Liga title-winning squad since 2016–17 (2016–17, 2019–20, 2021–22, 2023–24) | Name a player in a Real Madrid squad that won La Liga in 2016–17, 2019–20, 2021–22 or 2023–24 |
+| ll042 | Name a player in a Barcelona La Liga title-winning squad from 2014–15 to 2018–19 | Name a player in a Barcelona squad that won La Liga in 2014–15, 2015–16, 2017–18 or 2018–19 |
+| ll045 | Name a player in an Atlético Madrid La Liga title-winning squad (2013–14 or 2020–21) | Name a player in an Atlético Madrid squad that won La Liga in 2013–14 or 2020–21 |
+| ll047 | Name a player in Girona's 2023–24 squad (third place, first Champions League qualification) | Name a player in Girona's 2023–24 squad (third in La Liga, first Champions League qualification) |
+| ll050 | Name a player in Sevilla's 2022–23 squad (seventh Europa League title) | Name a player in Sevilla's 2022–23 squad (Europa League winners) |
+| ll052 | Name a player in Athletic Bilbao's 2023–24 squad (Copa del Rey winners) | Name a player in Athletic Club's 2023–24 squad (Copa del Rey winners) |
+| ll053 | Name a player who has been in Athletic Bilbao's first-team squad since 2020–21 | Name a player in an Athletic Club first-team squad from 2020–21 to 2025–26 |
+| ll054 | Name a player in Real Sociedad's 2022–23 squad (fourth place) | Name a player in Real Sociedad's 2022–23 squad (fourth in La Liga) |
+| ll055 | Name a player in Real Sociedad's 2019–20 squad (Copa del Rey winners) | Name a player in Real Sociedad's 2019–20 squad (Copa del Rey winners, played in 2021) |
+| ll058 | Name a player who scored for Real Madrid in 2016–17 (any competition) | Name a player who scored for Real Madrid in 2016–17 in any competition |
+| ll059 | Name a player who scored for Real Madrid in 2024–25 (any competition) | Name a player who scored for Real Madrid in 2024–25 in any competition |
+| ll060 | Name a player who scored for Real Madrid in 2025–26 (any competition) | Name a player who scored for Real Madrid in 2025–26 in any competition |
+| ll061 | Name a player who scored for Barcelona in 2024–25 (any competition) | Name a player who scored for Barcelona in 2024–25 in any competition |
+| ll062 | Name a player who scored for Barcelona in 2025–26 (any competition) | Name a player who scored for Barcelona in 2025–26 in any competition |
+| ll063 | Name a player who scored for Atlético Madrid in 2020–21 (any competition) | Name a player who scored for Atlético Madrid in 2020–21 in any competition |
+| ll064 | Name a player who scored for Villarreal in 2024–25 (any competition) | Name a player who scored for Villarreal in 2024–25 in any competition |
+| ll065 | Name a player who scored for Real Sociedad in 2022–23 (any competition) | Name a player who scored for Real Sociedad in 2022–23 in any competition |
+| ll066 | Name a player who scored for Real Betis in 2024–25 (any competition) | Name a player who scored for Real Betis in 2024–25 in any competition |
+| ll067 | Name a player who scored for Girona in 2023–24 (any competition) | Name a player who scored for Girona in 2023–24 in any competition |
+| ll068 | Name a player who appeared in the 2020 Copa del Rey final (Real Sociedad v Athletic, played 2021) | Name a player who appeared in the 2020 Copa del Rey final (Real Sociedad v Athletic Club, played April 2021) |
+| ll069 | Name a player who appeared in the 2021 Copa del Rey final (Barcelona v Athletic) | Name a player who appeared in the 2021 Copa del Rey final (Barcelona v Athletic Club) |
+| ll072 | Name a player who appeared in the 2024 Copa del Rey final (Athletic v Mallorca) | Name a player who appeared in the 2024 Copa del Rey final (Athletic Club v Mallorca) |
+| ll075 | Name a player who has scored in a Copa del Rey final since 2000 | Name a player who has scored in a Copa del Rey final since 2000 (own goals excluded) |
+| ll076 | Name a player who has scored in a Supercopa de España final since 2020 | Name a player who has scored in a Supercopa de España final since 2020 (own goals excluded) |
+| ll077 | Name a player who has scored in any Supercopa de España match since the four-team format (2020 edition onward) | Name a player who has scored in a Supercopa de España match from 2020 to 2026 (own goals excluded) |
+| ll078 | Name a player who appeared for Sevilla in a Europa League final (2014, 2015, 2016, 2020, 2023) | Name a player who appeared for Sevilla in a Europa League final (2014, 2015, 2016, 2020 or 2023) |
+| ll079 | Name a player who appeared for Atlético Madrid in a Europa League final (2010, 2012, 2018) | Name a player who appeared for Atlético Madrid in a Europa League final (2010, 2012 or 2018) |
+| ll082 | Name a player who has won the Copa del Rey with Barcelona since 2015 (appeared in the final) | Name a player who appeared in a Copa del Rey final that Barcelona won (2015, 2016, 2017, 2018, 2021 or 2025) |
+| ll083 | Name a player who has won the Copa del Rey with Real Madrid since 2011 (appeared in the final) | Name a player who appeared in a Copa del Rey final that Real Madrid won (2011, 2014 or 2023) |
+| ll084 | Name a club that has played in La Liga since 2015–16 | Name a club that has played in La Liga since 2015–16 (to 2026–27) |
+| ll086 | Name a club that has been relegated from La Liga since 2010–11 | Name a club that has been relegated from La Liga since 2010–11 (to 2025–26) |
+| ll087 | Name a club that has been promoted to La Liga since 2015–16 | Name a club that has been promoted to La Liga since 2015–16 (to 2026–27) |
+| ll088 | Name a club that has taken part in the Segunda División promotion play-offs (2011 onward) | Name a club that has taken part in the Segunda División promotion play-offs since 2011 |
+| ll089 | Name a club that has played in the Segunda División since 2020–21 | Name a club that has played in the Segunda División since 2020–21 (to 2026–27) |
+| ll091 | Name a former La Liga club that has played in Primera Federación (third tier, since 2021–22) | Name a former La Liga club that has played in the third tier (Primera Federación) since 2021–22 |
+| ll092 | Name a club that has finished in La Liga's top seven since 2010–11 | Name a club that has finished in La Liga's top seven since 2010–11 (to 2025–26) |
+| ll093 | Name a club that has played in a Copa del Rey final since 2000 | Name a club that has played in a Copa del Rey final since 2000 (to 2026) |
+| ll094 | Name a club that has reached the Copa del Rey quarter-finals since 2019–20 | Name a club that has reached the Copa del Rey quarter-finals since 2019–20 (to 2025–26) |
+| ll095 | Name a club from outside La Liga that reached the Copa del Rey round of 16 since 2019–20 | Name a club that was outside La Liga and reached the Copa del Rey round of 16 in a season from 2019–20 to 2025–26 (not a La Liga club that season) |
+| ll096 | Name a club that has played in Liga F (2022–23 onward) | Name a club that has played in Liga F, Spain's top women's league (2022–23 to 2026–27) |
+| ll097 | Name a country that has had a player in La Liga from Africa | Name an African country that has had a player in La Liga |
+| ll098 | Name a stadium that has hosted La Liga matches since 2015–16 | Name a stadium that has hosted La Liga matches since 2015–16 (to 2026–27) |
+| ll101 | Name a city or town that has had a La Liga club since 2015–16 | Name a city or town that has had a La Liga club since 2015–16 (to 2026–27) |
+| ll102 | Name a kit manufacturer that has supplied a La Liga club since 2015–16 | Name a kit manufacturer that has supplied a La Liga club since 2015–16 (to 2026–27) |
+| ll105 | Name a president of Real Madrid or FC Barcelona | Name a president of Real Madrid or Barcelona |
+| ll107 | Name a manager who took charge of a La Liga club during 2025–26 | Name a manager who took charge of a La Liga club in 2025–26 (at the start of the season or later) |
+| ll108 | Name a manager involved in a mid-season La Liga managerial change since 2022–23 (outgoing or incoming) | Name a manager involved in a mid-season La Liga managerial change from 2022–23 to 2026–27 (outgoing or incoming) |
+| ll109 | Name a manager who managed in La Liga between 2015–16 and 2019–20 | Name a manager who managed a La Liga club between 2015–16 and 2019–20 |
+| ll110 | Name a manager who managed in La Liga between 2020–21 and 2024–25 | Name a manager who managed a La Liga club between 2020–21 and 2024–25 |
+| ll111 | Name a non-Spanish manager who has managed in La Liga since 2015–16 | Name a non-Spanish manager who has managed a La Liga club since 2015–16 (to 2026–27) |
+| ll112 | Name a manager who has won the Copa del Rey since 2000 | Name a manager who has won the Copa del Rey since 2000 (final of 2000 to 2026) |
+| ll113 | Name a manager who has won the Supercopa de España since 2000 | Name a manager who has won the Supercopa de España since 2000 (editions of 2000 to January 2026) |
+| ll116 | Name a manager of Athletic Bilbao since 2000 (caretakers included) | Name a manager of Athletic Club since 2000 (caretakers included) |
+| ll118 | Name a head coach of Sevilla since 2015–16 (caretakers included) | Name a head coach of Sevilla from 2015–16 to 2026–27 (caretakers included) |
+| ll121 | Name a goalkeeper who has played for Real Madrid since 2000 | Name a goalkeeper who has played for Real Madrid since 2000–01 |
+| ll122 | Name a notable Barcelona player (roughly 100+ league games) whose Barcelona career ran into 2008 or later | Name a Barcelona player with 100 or more league appearances who played for the club in 2008 or later |
+| ll123 | Name a notable Atlético Madrid player whose Atlético career ran into the Simeone era (2011–12 or later) | Name an Atlético Madrid player listed among the club's notable players whose Atlético career ran into 2012 or later |
+| ll125 | Name a player who has captained a La Liga club since 2020–21 | Name a player who has been named as captain of a La Liga club since 2020–21 (to 2026–27) |
+| ll126 | Name a player Real Madrid signed between 2019–20 and 2025–26 | Name a player Real Madrid signed between 2019–20 and 2025–26 (transfers and loans in; loan returns and academy promotions excluded) |
+| ll127 | Name a player Barcelona signed between 2019–20 and 2025–26 | Name a player Barcelona signed between 2019–20 and 2025–26 (transfers and loans in; loan returns and academy promotions excluded) |
+| ll128 | Name a player Atlético Madrid signed between 2019–20 and 2025–26 | Name a player Atlético Madrid signed between 2019–20 and 2025–26 (transfers and loans in; loan returns and academy promotions excluded) |
+| ll129 | Name a player Sevilla signed between 2019–20 and 2025–26 | Name a player Sevilla signed between 2019–20 and 2025–26 (transfers and loans in; loan returns and academy promotions excluded) |
+| ll130 | Name a player Real Sociedad signed between 2019–20 and 2025–26 | Name a player Real Sociedad signed between 2019–20 and 2025–26 (transfers and loans in; loan returns and academy promotions excluded) |
+| ll131 | Name a player Girona signed between 2022–23 and 2025–26 | Name a player Girona signed between 2022–23 and 2025–26 (transfers and loans in; loan returns and academy promotions excluded) |
+| ll132 | Name a player who permanently left Barcelona between 2019–20 and 2025–26 | Name a player who permanently left Barcelona between 2019–20 and 2025–26 (loans out and loan returns excluded) |
+| ll133 | Name a player who permanently left Real Madrid between 2018–19 and 2025–26 | Name a player who permanently left Real Madrid between 2018–19 and 2025–26 (loans out and loan returns excluded) |
+| ll134 | Name a player in Real Madrid's or Barcelona's top-10 record transfer fees paid or received | Name a player in the top 10 of Real Madrid's or Barcelona's record transfer fees (paid or received) |
+| ll135 | Name a player whose move to or from a Spanish club is on Wikipedia's list of most expensive transfers | Name a player whose move to or from a Spanish club is among football's 50 most expensive transfers of all time |
+| ll145 | Name a player who has played for both Athletic Bilbao and Real Sociedad | Name a player who has played for both Athletic Club and Real Sociedad |
+| ll154 | Name a Dutch player who has played in La Liga since 2000 | Name a Dutch player who has played in La Liga since 2000–01 |
+| ll155 | Name an Italian who has played in La Liga since 2000 | Name an Italian who has played in La Liga since 2000–01 |
+| ll162 | Name a player from an AFC country (Asia or Australia) who has played in La Liga | Name a player from Asia or Australia who has played in La Liga |
+| ll166 | Name a Croatian who has played in La Liga since 2000 | Name a Croatian who has played in La Liga since 2000–01 |
+| ll181 | Name a notable Barcelona Femení player | Name a player listed among Barcelona Femení's notable players |
+| ll182 | Name a player who finished in Liga F's top scorers table in a season since 2022–23 | Name a player who finished in Liga F's top scorers table in a season from 2022–23 to 2025–26 |
+| ll184 | Name a South American player who has played in Spain's top women's division (Liga F / Primera División) | Name a South American player who has played in Spain's top women's division (Liga F or its predecessor) |
+| ll185 | Name an African player who has played in Spain's top women's division (Liga F / Primera División) | Name an African player who has played in Spain's top women's division (Liga F or its predecessor) |
+| ll187 | Name a player who has scored in a Copa del Rey semi-final since 2019–20 | Name a player who has scored in a Copa del Rey semi-final since 2019–20 (to 2025–26; own goals excluded) |
+| ll191 | Name a Real Sociedad player listed among the club's notable players whose career there ran into 2010 or later | Name a Real Sociedad player listed among the club's notable players whose spell there ran into 2010 or later |
+| ll192 | Name a player who scored for Atlético Madrid in 2024–25 (any competition) | Name a player who scored for Atlético Madrid in 2024–25 in any competition |
+| ll193 | Name a player who scored for Athletic Bilbao in 2024–25 (any competition) | Name a player who scored for Athletic Club in 2024–25 in any competition |
+| ll194 | Name a manager who took charge of a Segunda División club during 2025–26 | Name a manager who took charge of a Segunda División club in 2025–26 (at the start of the season or later) |
+| ll195 | Name a player Villarreal signed between 2019–20 and 2025–26 | Name a player Villarreal signed between 2019–20 and 2025–26 (transfers and loans in; loan returns and academy promotions excluded) |
+| ll196 | Name a player who scored for Real Madrid in 2021–22 (any competition) | Name a player who scored for Real Madrid in 2021–22 in any competition |
+| ll197 | Name a player who scored for Barcelona in 2014–15 (any competition, the MSN treble season) | Name a player who scored for Barcelona in 2014–15 in any competition (the MSN treble season) |
+| ll198 | Name a player who permanently left Valencia between 2019–20 and 2025–26 | Name a player who permanently left Valencia between 2019–20 and 2025–26 (loans out and loan returns excluded) |
+| ll199 | Name a player Real Betis signed between 2019–20 and 2025–26 | Name a player Real Betis signed between 2019–20 and 2025–26 (transfers and loans in; loan returns and academy promotions excluded) |
+| ll200 | Name a player who appeared in the 2013 Copa del Rey final (Atlético beat Real Madrid at the Bernabéu) | Name a player who appeared in the 2013 Copa del Rey final (Atlético Madrid v Real Madrid) |

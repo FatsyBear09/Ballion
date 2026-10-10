@@ -365,3 +365,147 @@ Answer types are mixed: players (most), clubs (about 35), managers (about 20), s
   - gen028 (women's transfers) may include players without enwiki articles. Drop those rows.
 - **Shelf life:** the current-season prompts (gen041, 042, 061, 080, 092, 098, 105, 123, 124, 149, 166, 167, 187, 188, 200) and the 2026 Ballon d'Or prompts (gen001, 181) need a re-scrape or retirement each season.
 - **Scope overlap:** gen145 (Manchester United/Tottenham Europa League run) and gen171/172 touch Premier League clubs, but they sit here because the competition or cross-league framing is General's.
+
+## Build status
+
+Built: **180** of 200 catalog prompts, each with 12–130 answers (`data/answers_raw/gen*.csv`).
+
+### Dropped (20)
+Not built because the source couldn't produce a clean answer list of 12–130 entries, unless a reason is given.
+
+| id | catalog prompt | reason |
+|---|---|---|
+| gen046 | Name a player who has played for both RB Leipzig and Red Bull Salzburg | failed the scrape or quality check |
+| gen066 | Name a player who has played for both Juventus and Inter | failed the scrape or quality check |
+| gen067 | Name a player who has played for both Napoli and Juventus | failed the scrape or quality check |
+| gen068 | Name a player who has played for both Roma and Lazio | failed the scrape or quality check |
+| gen083 | Name a player who has played for both Marseille and Lyon | failed the scrape or quality check |
+| gen084 | Name a player who has played for both PSG and Real Madrid | failed the scrape or quality check |
+| gen085 | Name a player who has played for both PSG and Barcelona | failed the scrape or quality check |
+| gen086 | Name a player who has played for both PSG and Inter | failed the scrape or quality check |
+| gen093 | Name a player who has played for both Ajax and PSV | failed the scrape or quality check |
+| gen094 | Name a player who has played for both Ajax and Barcelona | failed the scrape or quality check |
+| gen101 | Name a player who has played for both Benfica and Porto | failed the scrape or quality check |
+| gen106 | Name a player who has played for both Galatasaray and Fenerbahçe | failed the scrape or quality check |
+| gen143 | Name a player who has scored a Conference League hat-trick | failed the scrape or quality check |
+| gen168 | Name a player who has played for both Juventus and Real Madrid | failed the scrape or quality check |
+| gen169 | Name a player who has played for both Bayern Munich and Real Madrid | failed the scrape or quality check |
+| gen170 | Name a player who has played for both Bayern Munich and Juventus | failed the scrape or quality check |
+| gen172 | Name a manager who won a league title in England, Spain, Germany, Italy or France since 2015 | season pages don't reliably name the champion's manager (e.g. 2014–15 Chelsea) |
+| gen191 | Name a player who finished in the top 5 of the MLS scoring chart in a season since 2023 | failed the scrape or quality check |
+| gen193 | Name a country with a player in the MLS Best XI since 2015 | failed the scrape or quality check |
+| gen198 | Name a player who has played for both Chelsea and AC Milan | failed the scrape or quality check |
+
+### Reworded (108)
+Mostly tightened to match what the source supports.
+
+| id | catalog wording | built wording |
+|---|---|---|
+| gen008 | Name a player on a FIFA Ballon d'Or shortlist (2010–2015) | Name a player on the FIFA Ballon d'Or shortlist between 2010 and 2015 |
+| gen009 | Name a player who finished in the Ballon d'Or top 10 since 2010 | Name a player who finished in the Ballon d'Or top 10 in a year from 2010 to 2025 |
+| gen010 | Name a club whose player won the Ballon d'Or (club at the time of the award) | Name a club whose player won the men's Ballon d'Or (the player's club at the time) |
+| gen013 | Name a player who finished in the top 3 for the Kopa Trophy | Name a player who finished in the top 3 for the Kopa Trophy (2018–2025, men's) |
+| gen014 | Name a goalkeeper who finished top 3 for the Yashin Trophy or won The Best FIFA Men's Goalkeeper | Name a goalkeeper who finished in the top 3 for the men's Yashin Trophy or The Best FIFA Men's Goalkeeper |
+| gen015 | Name a player nominated for The Best FIFA Men's Player | Name a player nominated for The Best FIFA Men's Player (2016–2025) |
+| gen016 | Name a coach who finished in the top 3 for The Best FIFA Men's Coach | Name a coach who finished in the top 3 for The Best FIFA Men's Coach (2016–2025) |
+| gen017 | Name a goalscorer nominated for the FIFA Puskás Award since 2019 | Name a goalscorer nominated for the FIFA Puskás Award (2019–2025) |
+| gen018 | Name a country with a FIFA Puskás Award winner | Name a country with a FIFA Puskás Award winner (2009–2025) |
+| gen020 | Name a goalkeeper or defender named in a FIFPRO Men's World 11 | Name a goalkeeper or defender named in a FIFPRO Men's World 11 (2005–2025) |
+| gen023 | Name a winner of the Golden Foot award | Name a winner of the Golden Foot award (men's, 2003–2025) |
+| gen025 | Name a UEFA Jubilee "Golden Player" | Name a player in the top 50 of the UEFA Golden Jubilee Poll (2004) |
+| gen026 | Name a woman who finished in the top 3 for the Ballon d'Or Féminin | Name a woman who finished in the top 3 for the Ballon d'Or Féminin (2018–2025) |
+| gen027 | Name a player named in a FIFPRO Women's World 11 | Name a player named in a FIFPRO Women's World 11 (2015 onward) |
+| gen028 | Name a player on the list of most expensive women's football transfers | Name a player on the list of the most expensive women's football transfers |
+| gen029 | Name a club that has played in the NWSL | Name a club that has played in the NWSL (2013–2026, incl. former clubs) |
+| gen031 | Name a player who made a Bundesliga appearance for Bayern Munich under Vincent Kompany (2024–25 or 2025–26) | Name a player who made a Bundesliga appearance for Bayern Munich in 2024–25 or 2025–26 |
+| gen033 | Name a player who has been named in a Bundesliga Team of the Season | Name a player named in the Bundesliga Team of the Season (2017–18 to 2025–26) |
+| gen034 | Name a player who finished in the top 5 of the Bundesliga scoring chart in a season since 2017–18 | Name a player who finished in the top 5 of the Bundesliga scoring chart in a season from 2017–18 to 2025–26 |
+| gen039 | Name a club promoted to the Bundesliga since 2015 | Name a club promoted to the Bundesliga between 2015 and 2026 |
+| gen041 | Name the home stadium of a 2026–27 Bundesliga club | Name the home stadium of a club in the 2026–27 Bundesliga |
+| gen043 | Name a player who has scored in a DFB-Pokal final since 2010 | Name a player who has scored in a DFB-Pokal final from 2010 to 2026 (own goals and shoot-outs excluded) |
+| gen048 | Name a player who made a Serie A appearance for Napoli in Antonio Conte's 2024–25 title season | Name a player who made a Serie A appearance for Napoli in their 2024–25 title season |
+| gen049 | Name a player who made a Serie A appearance for Inter in their 2023–24 "second star" season | Name a player who made a Serie A appearance for Inter in their 2023–24 title season |
+| gen051 | Name a player who made a Serie A appearance for Juventus during their nine-in-a-row (2011–12 to 2019–20) | Name a player who made a Serie A appearance for Juventus in a title season from 2011–12 to 2019–20 |
+| gen053 | Name a player who finished in the top 5 of the Serie A scoring chart in a season since 2017–18 | Name a player who finished in the top 5 of the Serie A scoring chart in a season from 2017–18 to 2025–26 |
+| gen054 | Name a player named in the Serie A Team of the Year since 2018–19 | Name a player named in the AIC Serie A Team of the Year (2018–19 to 2024–25) |
+| gen055 | Name a winner of the Serie A Footballer of the Year / Most Valuable Player award | Name a winner of the Serie A Footballer of the Year (MVP) award |
+| gen056 | Name a winner of the Serie A Young Footballer of the Year | Name a winner of the Serie A Young Footballer of the Year award |
+| gen060 | Name a club relegated from Serie A since 2015 | Name a club relegated from Serie A between 2015–16 and 2025–26 |
+| gen061 | Name the home stadium of a 2026–27 Serie A club | Name the home stadium of a club in the 2026–27 Serie A |
+| gen062 | Name a player who has scored in a Coppa Italia final since 2010 | Name a player who has scored in a Coppa Italia final from 2010 to 2026 (own goals and shoot-outs excluded) |
+| gen072 | Name a winner of the Ligue 1 Player of the Year award | Name a winner of the UNFP Ligue 1 Player of the Year award |
+| gen073 | Name a winner of the Ligue 1 Young Player of the Year award | Name a winner of the UNFP Ligue 1 Young Player of the Year award |
+| gen074 | Name a player named in the UNFP Ligue 1 Team of the Year since 2015–16 | Name a player named in the UNFP Ligue 1 Team of the Year (2015–16 to 2025–26) |
+| gen075 | Name a winner of the UNFP Ligue 1 Player of the Month award since 2015 | Name a winner of the UNFP Ligue 1 Player of the Month award since August 2015 |
+| gen077 | Name a player who finished in the top 5 of the Ligue 1 scoring chart in a season since 2017–18 | Name a player who finished in the top 5 of the Ligue 1 scoring chart in a season from 2017–18 to 2025–26 |
+| gen079 | Name a club promoted to Ligue 1 since 2015 | Name a club promoted to Ligue 1 between 2015 and 2026 |
+| gen080 | Name the home stadium of a 2026–27 Ligue 1 club | Name the home stadium of a club in the 2026–27 Ligue 1 |
+| gen090 | Name a player who finished as Eredivisie top scorer in a season since 2005–06 | Name a player who finished as Eredivisie top scorer in a season from 2005–06 to 2025–26 |
+| gen091 | Name a winner of the Eredivisie Player of the Month award | Name a winner of the Eredivisie Player of the Month award (2017–18 onward) |
+| gen095 | Name a player who made a Primeira Liga appearance for Sporting CP in their 2020–21 title season | Name a player in Sporting CP's first-team squad in their 2020–21 title season |
+| gen096 | Name a player who finished as Primeira Liga top scorer in a season since 2000 | Name a player who finished as Primeira Liga top scorer in a season from 2000–01 to 2025–26 |
+| gen097 | Name a winner of the LPFP Primeira Liga Player of the Year | Name a winner of the LPFP Primeira Liga Player of the Year award |
+| gen102 | Name a player who made a Premiership appearance for Celtic in their 2016–17 invincible treble season | Name a player who made a Scottish Premiership appearance for Celtic in their 2016–17 invincible season |
+| gen103 | Name a club that has played in the Scottish Premiership (2013–present) | Name a club that has played in the Scottish Premiership (2013–14 to 2026–27) |
+| gen104 | Name a player who finished as Süper Lig top scorer in a season since 2000 | Name a player who finished as Süper Lig top scorer in a season from 2000–01 to 2025–26 |
+| gen107 | Name a European club that went a whole top-flight league season unbeaten | Name a European club that went a whole top-flight league season unbeaten (men's) |
+| gen108 | Name a player who has played for Inter Miami in the Messi era (2023 onward) | Name a player who has played for Inter Miami since the start of 2023 (the Messi era) |
+| gen111 | Name a winner of the MLS MVP award | Name a winner of the MLS MVP award (1996–2025) |
+| gen112 | Name a winner of the MLS Golden Boot | Name a winner of the MLS Golden Boot (1996–2025) |
+| gen115 | Name a player who has scored an MLS hat-trick since 2015 | Name a player who has scored an MLS hat-trick since the start of 2015 (regular season or playoffs) |
+| gen116 | Name a player who has scored 100+ MLS goals | Name a player who has scored 100 or more MLS regular-season goals |
+| gen117 | Name a player who has played 400+ MLS games | Name a player who has made 400 or more MLS regular-season appearances |
+| gen118 | Name a club that has won the MLS Cup | Name a club that has won the MLS Cup (1996–2025) |
+| gen119 | Name a player who has scored in an MLS Cup final since 2010 | Name a player who has scored in an MLS Cup final from 2010 to 2025 (own goals and shoot-outs excluded) |
+| gen121 | Name a club that played the MLS All-Stars in an All-Star Game | Name a club that has played the MLS All-Stars in an MLS All-Star Game |
+| gen122 | Name a head coach of an MLS club in the 2026 season | Name a head coach who managed an MLS club in the 2026 season (to October 2026) |
+| gen123 | Name a club playing in Liga MX in 2026–27 | Name a club playing in the 2026–27 Liga MX season |
+| gen125 | Name a player who finished as Saudi Pro League top scorer in a season | Name a player who finished as top scorer of a Saudi top-flight season |
+| gen126 | Name a player who made a league appearance for Al-Nassr in 2023–24 | Name a player who made a Saudi Pro League appearance for Al-Nassr in 2023–24 |
+| gen127 | Name a player who made a league appearance for Al-Hilal in their record-breaking 2023–24 season | Name a player who made a Saudi Pro League appearance for Al-Hilal in their record-breaking 2023–24 season |
+| gen128 | Name a player who made a league appearance for Al-Ittihad in their 2024–25 title season | Name a player who made a Saudi Pro League appearance for Al-Ittihad in their 2024–25 title season |
+| gen131 | Name a player who has scored a Saudi Pro League hat-trick since 2023–24 | Name a player who has scored a Saudi Pro League hat-trick since the start of 2023–24 |
+| gen132 | Name a head coach who managed a Saudi Pro League club from 2023–24 to 2025–26 | Name a head coach who managed a Saudi Pro League club between 2023–24 and 2025–26 |
+| gen133 | Name a club in the 2025–26 AFC Champions League Elite | Name a club in the league stage of the 2025–26 AFC Champions League Elite |
+| gen136 | Name the nationality of a player in the 50 most expensive transfers | Name a country whose players appear in the 50 most expensive football transfers |
+| gen137 | Name a club that has paid a world-record transfer fee | Name a club that has paid a world-record transfer fee (1893 onward) |
+| gen138 | Name a player who has scored in a Europa League final since 2010 | Name a player who has scored in a UEFA Europa League final from 2010 to 2026 (own goals and shoot-outs excluded) |
+| gen140 | Name a player who finished as Europa League top scorer in a season since 2009–10 | Name a player who finished as top scorer of a UEFA Cup / Europa League season from 2009–10 to 2025–26 |
+| gen141 | Name a player in the all-time UEFA Cup / Europa League top scorers table | Name a player in the all-time UEFA Cup / Europa League top scorers table (group or league phase to final) |
+| gen142 | Name a player who has scored a Europa League hat-trick since 2015–16 | Name a player who has scored a UEFA Europa League hat-trick since 2015–16 |
+| gen144 | Name a player who scored in the 2025–26 Europa League knockout phase | Name a player who scored in the 2025–26 UEFA Europa League knockout phase (own goals and shoot-outs excluded) |
+| gen145 | Name a player who scored in the 2024–25 Europa League knockout phase | Name a player who scored in the 2024–25 UEFA Europa League knockout phase (own goals and shoot-outs excluded) |
+| gen146 | Name a player who scored in the 2025–26 Conference League knockout phase | Name a player who scored in the 2025–26 UEFA Conference League knockout phase (own goals and shoot-outs excluded) |
+| gen147 | Name a club that reached a Europa League semi-final since 2015–16 | Name a club that reached a UEFA Europa League semi-final from 2015–16 to 2025–26 |
+| gen148 | Name a club that reached a Conference League semi-final | Name a club that reached a UEFA Conference League semi-final (2021–22 to 2025–26) |
+| gen149 | Name a club in the 2026–27 Europa League league phase | Name a club in the 2026–27 UEFA Europa League league phase |
+| gen150 | Name a country with a club in the 2026–27 Conference League league phase | Name a country with a club in the 2026–27 UEFA Conference League league phase |
+| gen151 | Name a player who made a Europa League appearance for Atalanta in their 2023–24 winning run | Name a player who made a UEFA Europa League appearance for Atalanta in their 2023–24 winning run |
+| gen152 | Name a player who made a Europa League appearance for Eintracht Frankfurt in their 2021–22 winning run | Name a player who made a UEFA Europa League appearance for Eintracht Frankfurt in their 2021–22 winning run |
+| gen155 | Name a player who has scored in a UEFA Super Cup since 2010 | Name a player who has scored in a UEFA Super Cup from 2010 to 2026 (own goals and shoot-outs excluded) |
+| gen158 | Name a player who scored in the 2025 Club World Cup knockout stage | Name a player who scored in the 2025 FIFA Club World Cup knockout stage (own goals and shoot-outs excluded) |
+| gen159 | Name a stadium that hosted a 2025 Club World Cup match | Name a stadium that hosted a 2025 FIFA Club World Cup match |
+| gen161 | Name a club that played at a FIFA Club World Cup from 2000 to 2023 | Name a club that played at the FIFA Club World Cup / Club World Championship from 2000 to 2023 |
+| gen162 | Name a player who won the Golden, Silver or Bronze Ball at a FIFA Club World Cup | Name a player who won the Golden Ball, Silver Ball or Bronze Ball at a FIFA Club World Cup (2000–2025) |
+| gen163 | Name a player who has scored in a FIFA Club World Cup final | Name a player who has scored in a FIFA Club World Cup final (2000–2025; own goals and shoot-outs excluded) |
+| gen165 | Name a player who has scored in a Copa Libertadores final since 2010 | Name a player who has scored in a Copa Libertadores final from 2010 to 2025 (own goals and shoot-outs excluded) |
+| gen166 | Name a club playing in the 2026 Brasileirão Série A | Name a club playing in the 2026 Campeonato Brasileiro Série A |
+| gen171 | Name a club that has won the league in England, Spain, Germany, Italy or France since 2015 | Name a club that has won the league title in England, Spain, Germany, Italy or France between 2014–15 and 2025–26 |
+| gen174 | Name a man who has made 1,000 or more official appearances | Name a men's footballer who has made 1,000 or more official appearances |
+| gen175 | Name a club owned (now or before) by the City Football Group | Name a club that the City Football Group owns or has owned |
+| gen177 | Name a footballer who has been a FIFA or EA Sports FC cover athlete (FIFA 15 onward) | Name a footballer who has been a FIFA or EA Sports FC cover athlete (FIFA 15 to EA Sports FC 26) |
+| gen179 | Name a Pro Evolution Soccer or eFootball cover star | Name a person who has been a Pro Evolution Soccer / eFootball PES cover star |
+| gen180 | Name a footballer (current or former) who is a Kings League team president | Name a footballer (current or former) who is or was a Kings League team chairperson |
+| gen181 | Name a player nominated for the 2026 Kopa Trophy or the 2026 Yashin Trophy (men) | Name a player nominated for the men's Kopa Trophy or Yashin Trophy in 2026 |
+| gen182 | Name a winner of the FIFA Puskás Award | Name a winner of the FIFA Puskás Award (2009–2025) |
+| gen184 | Name a club relegated from the Bundesliga since 2015 | Name a club relegated from the Bundesliga between 2015–16 and 2025–26 |
+| gen185 | Name a club promoted to Serie A since 2015 | Name a club promoted to Serie A between 2015 and 2026 |
+| gen186 | Name a club relegated from Ligue 1 since 2015 | Name a club relegated from Ligue 1 between 2015–16 and 2025–26 |
+| gen187 | Name the home stadium of a 2026–27 Eredivisie club | Name the home stadium of a club in the 2026–27 Eredivisie |
+| gen188 | Name the home stadium of a 2026–27 Primeira Liga club | Name the home stadium of a club in the 2026–27 Primeira Liga |
+| gen189 | Name a player who finished in the top 5 of the Eredivisie scoring chart in a season since 2020–21 | Name a player who finished in the top 5 of the Eredivisie scoring chart in a season from 2020–21 to 2025–26 |
+| gen190 | Name a player who finished in the top 5 of the Saudi Pro League scoring chart since 2023–24 | Name a player who finished in the top 10 of the Saudi Pro League scoring chart in a season from 2023–24 to 2025–26 |
+| gen192 | Name a player in either squad for the 2025 MLS All-Star Game | Name a player in either squad for the 2025 MLS All-Star Game (MLS All-Stars or Liga MX All-Stars) |
+| gen194 | Name a player who scored in the 2024–25 AFC Champions League Elite knockout stage | Name a player who scored in the 2024–25 AFC Champions League Elite knockout stage (own goals excluded) |
+| gen195 | Name a player who scored in the 2024–25 Conference League knockout phase | Name a player who scored in the 2024–25 UEFA Conference League knockout phase (own goals and shoot-outs excluded) |
+| gen196 | Name a player who scored for a non-European club at the 2025 FIFA Club World Cup | Name a player who scored for a non-European club at the 2025 FIFA Club World Cup (own goals excluded) |

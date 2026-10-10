@@ -303,3 +303,109 @@ Squad-page conventions used in notes: squad pages use `{{nat fs g player}}` rows
 - Floor-size prompts (12–13 answers): Crystal Palace / Al Hilal / Atlético players at the 2026 World Cup, Real Madrid at 2022, Inter and Saudi-based players at Euro 2024, and the Olympic medal nations. They are fine, but there is no slack if a page edit drops a row.
 - Near the ceiling: 2022 World Cup scorers (117), 2018 World Cup scorers (110), players with 5+ World Cup goals (111) and 2022 World Cup goalkeepers (99).
 - Deep-cut-heavy prompts, where answers beyond the first few are obscure: Saudi Arabia and Nigeria coaches since 2000, CONCACAF/AFC member nations, Ali Daei's and Sunil Chhetri's opponents, and Curaçao-heavy Dutch-club players at the 2026 World Cup.
+
+## Build status
+
+Built: **195** of 200 catalog prompts, each with 12–130 answers (`data/answers_raw/nat*.csv`).
+
+### Dropped (5)
+Not built because the source couldn't produce a clean answer list of 12–130 entries, unless a reason is given.
+
+| id | catalog prompt | reason |
+|---|---|---|
+| nat073 | Name a country currently in the top 20 of the FIFA Men's World Ranking | failed the scrape or quality check |
+| nat097 | Name the head coach of a team at the 2023 Women's World Cup | failed the scrape or quality check |
+| nat177 | Name a player who has scored for Brazil at a men's World Cup | failed the scrape or quality check |
+| nat178 | Name a player who has scored for Spain at a men's World Cup | failed the scrape or quality check |
+| nat180 | Name a player who has scored for Mexico at a men's World Cup | failed the scrape or quality check |
+
+### Reworded (85)
+Mostly tightened to match what the source supports.
+
+| id | catalog wording | built wording |
+|---|---|---|
+| nat005 | Name a player who scored 2 or more goals at the 2026 World Cup | Name a player who scored 2 or more goals at the 2026 World Cup (own goals excluded) |
+| nat006 | Name a player who scored in the knockout stage of the 2026 World Cup | Name a player who scored in the knockout stage of the 2026 World Cup (own goals and shoot-out penalties excluded) |
+| nat007 | Name a player who appeared in the 2026 World Cup final | Name a player who appeared in the 2026 World Cup final (starters and used substitutes) |
+| nat009 | Name a 2026 World Cup head coach who was coaching a country other than his own | Name a head coach at the 2026 World Cup who was coaching a country other than his own |
+| nat032 | Name a player who appeared in the 2022 World Cup final | Name a player who appeared in the 2022 World Cup final (starters and used substitutes) |
+| nat033 | Name a player who appeared in the 2018 World Cup final | Name a player who appeared in the 2018 World Cup final (starters and used substitutes) |
+| nat034 | Name a player who appeared in the Euro 2024 final | Name a player who appeared in the Euro 2024 final (starters and used substitutes) |
+| nat035 | Name a player who appeared in the Euro 2020 final | Name a player who appeared in the Euro 2020 final (starters and used substitutes) |
+| nat036 | Name a player who appeared in the 2024 Copa América final | Name a player who appeared in the 2024 Copa América final (starters and used substitutes) |
+| nat045 | Name a player who was in the Netherlands' squad at any World Cup or Euro from 2016 to 2026 | Name a player who was in the Netherlands' squad at any World Cup or Euro from 2020 to 2026 |
+| nat046 | Name a player who appeared in the 2025 UEFA Nations League final | Name a player who appeared in the 2025 UEFA Nations League final (starters and used substitutes) |
+| nat047 | Name a player who appeared in the 2021 Copa América final | Name a player who appeared in the 2021 Copa América final (starters and used substitutes) |
+| nat048 | Name a player who scored at the 2022 World Cup | Name a player who scored at the 2022 World Cup (own goals excluded) |
+| nat049 | Name a player who scored at the 2018 World Cup | Name a player who scored at the 2018 World Cup (own goals excluded) |
+| nat050 | Name a player who scored in the knockout stage of the 2022 World Cup | Name a player who scored in the knockout stage of the 2022 World Cup (own goals and shoot-out penalties excluded) |
+| nat051 | Name a player who scored at Euro 2024 | Name a player who scored at Euro 2024 (own goals excluded) |
+| nat052 | Name a player who scored in the knockout stage of Euro 2024 | Name a player who scored in the knockout stage of Euro 2024 (own goals and shoot-out penalties excluded) |
+| nat053 | Name a player who scored at Euro 2020 | Name a player who scored at Euro 2020 (own goals excluded) |
+| nat054 | Name a player who scored at Euro 2016 | Name a player who scored at Euro 2016 (own goals excluded) |
+| nat055 | Name a player who scored at the 2024 Copa América | Name a player who scored at the 2024 Copa América (own goals excluded) |
+| nat056 | Name a player who scored at the 2021 Copa América | Name a player who scored at the 2021 Copa América (own goals excluded) |
+| nat057 | Name a player who scored at the 2025 Africa Cup of Nations | Name a player who scored at the 2025 Africa Cup of Nations (own goals excluded) |
+| nat058 | Name a player who scored at the 2023 Africa Cup of Nations | Name a player who scored at the 2023 Africa Cup of Nations (own goals excluded) |
+| nat059 | Name a player who scored at the 2021 Africa Cup of Nations | Name a player who scored at the 2021 Africa Cup of Nations (own goals excluded) |
+| nat060 | Name a player who scored at the 2019 Africa Cup of Nations | Name a player who scored at the 2019 Africa Cup of Nations (own goals excluded) |
+| nat061 | Name a player who scored at the 2023 AFC Asian Cup | Name a player who scored at the 2023 AFC Asian Cup (own goals excluded) |
+| nat062 | Name a player who scored at the 2025 CONCACAF Gold Cup | Name a player who scored at the 2025 CONCACAF Gold Cup (own goals excluded) |
+| nat075 | Name a member nation of the Asian Football Confederation | Name a member nation of the Asian Football Confederation (AFC) |
+| nat078 | Name a country that has played at exactly one men's World Cup | Name a country that has played at exactly one men's World Cup (2026 included) |
+| nat088 | Name a manager of the Italy national team since 1990 | Name a manager of the Italy national team since 1990 (caretakers included) |
+| nat095 | Name a player who has captained England since 2000 | Name a player who first captained the England men's team in 2000 or later (one-off captains included) |
+| nat102 | Name a Manchester City player who went to the 2026 World Cup | Name a Manchester City player who went to the 2026 World Cup (club at the start of the tournament) |
+| nat103 | Name a Bayern Munich player who went to the 2026 World Cup | Name a Bayern Munich player who went to the 2026 World Cup (club at the start of the tournament) |
+| nat104 | Name a Paris Saint-Germain player who went to the 2026 World Cup | Name a Paris Saint-Germain player who went to the 2026 World Cup (club at the start of the tournament) |
+| nat105 | Name an Arsenal player who went to the 2026 World Cup | Name an Arsenal player who went to the 2026 World Cup (club at the start of the tournament) |
+| nat106 | Name a Barcelona player who went to the 2026 World Cup | Name a Barcelona player who went to the 2026 World Cup (club at the start of the tournament) |
+| nat107 | Name a Crystal Palace player who went to the 2026 World Cup | Name a Crystal Palace player who went to the 2026 World Cup (club at the start of the tournament) |
+| nat108 | Name a Real Madrid player who went to the 2022 World Cup | Name a Real Madrid player who went to the 2022 World Cup (club at the start of the tournament) |
+| nat109 | Name a Manchester United player who went to the 2022 World Cup | Name a Manchester United player who went to the 2022 World Cup (club at the start of the tournament) |
+| nat110 | Name an Al Sadd player who went to the 2022 World Cup | Name an Al Sadd player who went to the 2022 World Cup (club at the start of the tournament) |
+| nat111 | Name an Inter Milan player who went to Euro 2024 | Name an Inter Milan player who went to Euro 2024 (club at the start of the tournament) |
+| nat112 | Name a player at the 2026 World Cup who played for a Saudi Arabian club | Name a player at the 2026 World Cup who played for a Saudi Arabian club (club at the start of the tournament) |
+| nat113 | Name a player at the 2026 World Cup who played for a Major League Soccer club | Name a player at the 2026 World Cup who played for a Major League Soccer club (club at the start of the tournament) |
+| nat114 | Name a player at the 2026 World Cup who played for a Turkish club | Name a player at the 2026 World Cup who played for a Turkish club (club at the start of the tournament) |
+| nat115 | Name a player at the 2026 World Cup who played for a Brazilian club | Name a player at the 2026 World Cup who played for a Brazilian club (club at the start of the tournament) |
+| nat116 | Name a player at the 2022 World Cup who played for a Qatari club | Name a player at the 2022 World Cup who played for a Qatari club (club at the start of the tournament) |
+| nat117 | Name an Al Hilal player who went to the 2026 World Cup | Name an Al Hilal player who went to the 2026 World Cup (club at the start of the tournament) |
+| nat118 | Name an Atlético Madrid player who went to the 2026 World Cup | Name an Atlético Madrid player who went to the 2026 World Cup (club at the start of the tournament) |
+| nat119 | Name a player at the 2026 World Cup who played for a Scottish club | Name a player at the 2026 World Cup who played for a Scottish club (club at the start of the tournament) |
+| nat120 | Name a player at the 2026 World Cup who played for a Mexican club | Name a player at the 2026 World Cup who played for a Mexican club (club at the start of the tournament) |
+| nat121 | Name a player at the 2026 World Cup who played for a Dutch club | Name a player at the 2026 World Cup who played for a Dutch club (club at the start of the tournament) |
+| nat122 | Name a player at Euro 2024 who played for a Turkish club | Name a player at Euro 2024 who played for a Turkish club (club at the start of the tournament) |
+| nat123 | Name a player at Euro 2024 who played for a Saudi Arabian club | Name a player at Euro 2024 who played for a Saudi Arabian club (club at the start of the tournament) |
+| nat133 | Name a stadium that will host a match at the 2030 World Cup or Euro 2028 | Name a stadium chosen to host a match at the 2030 World Cup or Euro 2028 (planned venues as of October 2026) |
+| nat139 | Name a player in England's current squad or recent call-ups | Name a player in England's current squad or recent call-ups (as of October 2026) |
+| nat140 | Name a player in France's current squad or recent call-ups | Name a player in France's current squad or recent call-ups (as of October 2026) |
+| nat141 | Name a player in Brazil's current squad or recent call-ups | Name a player in Brazil's current squad or recent call-ups (as of October 2026) |
+| nat142 | Name a player in Argentina's current squad or recent call-ups | Name a player in Argentina's current squad or recent call-ups (as of October 2026) |
+| nat143 | Name a player in Spain's current squad or recent call-ups | Name a player in Spain's current squad or recent call-ups (as of October 2026) |
+| nat144 | Name a player in Germany's current squad or recent call-ups | Name a player in Germany's current squad or recent call-ups (as of October 2026) |
+| nat145 | Name a player in Portugal's current squad or recent call-ups | Name a player in Portugal's current squad or recent call-ups (as of October 2026) |
+| nat146 | Name a player in Italy's current squad or recent call-ups | Name a player in Italy's current squad or recent call-ups (as of October 2026) |
+| nat147 | Name a player in the Netherlands' current squad or recent call-ups | Name a player in the Netherlands' current squad or recent call-ups (as of October 2026) |
+| nat148 | Name a player in the United States' current squad or recent call-ups | Name a player in the United States' current squad or recent call-ups (as of October 2026) |
+| nat157 | Name the all-time top scorer of a UEFA national team | Name the all-time top scorer of a UEFA national team (record holders only; ties included) |
+| nat158 | Name the all-time top scorer of an African (CAF) national team | Name the all-time top scorer of an African (CAF) national team (record holders only; ties included) |
+| nat159 | Name the all-time top scorer of an Asian (AFC) national team | Name the all-time top scorer of an Asian (AFC) national team (record holders only; ties included) |
+| nat160 | Name the all-time top scorer of a CONCACAF national team | Name the all-time top scorer of a CONCACAF national team (record holders only; ties included) |
+| nat164 | Name a country Lionel Messi has scored against | Name a country Lionel Messi has scored against for his national team |
+| nat165 | Name a country Cristiano Ronaldo has scored against | Name a country Cristiano Ronaldo has scored against for his national team |
+| nat166 | Name a country Harry Kane has scored against | Name a country Harry Kane has scored against for his national team |
+| nat167 | Name a country Robert Lewandowski has scored against | Name a country Robert Lewandowski has scored against for his national team |
+| nat168 | Name a country Kylian Mbappé has scored against | Name a country Kylian Mbappé has scored against for his national team |
+| nat169 | Name a country Neymar has scored against | Name a country Neymar has scored against for his national team |
+| nat170 | Name a country Romelu Lukaku has scored against | Name a country Romelu Lukaku has scored against for his national team |
+| nat171 | Name a country Erling Haaland has scored against | Name a country Erling Haaland has scored against for his national team |
+| nat172 | Name a country Edin Džeko has scored against | Name a country Edin Džeko has scored against for his national team |
+| nat173 | Name a country Sunil Chhetri has scored against | Name a country Sunil Chhetri has scored against for his national team |
+| nat174 | Name a country Ali Daei scored against | Name a country Ali Daei has scored against for his national team |
+| nat184 | Name a player who has scored 5 or more goals at men's World Cups | Name a player who has scored 5 or more goals at men's World Cups (career total) |
+| nat187 | Name a player who switched to a second senior national team in 2021 or later | Name a man who switched to a second senior national team in 2021 or later |
+| nat190 | Name a player who has scored a hat-trick for England | Name a player who has scored a hat-trick for England (men's team) |
+| nat195 | Name a player in Spain's 2024 Olympic gold-medal squad | Name a player in Spain's 2024 Olympic gold-medal squad (men's tournament) |
+| nat196 | Name a player who scored at the 2023 Women's World Cup | Name a player who scored at the 2023 Women's World Cup (own goals excluded) |
+| nat198 | Name a player who scored at Women's Euro 2025 | Name a player who scored at Women's Euro 2025 (own goals excluded) |

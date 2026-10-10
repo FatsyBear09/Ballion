@@ -290,3 +290,111 @@ These use Wikidata because no page table covers them. The SPARQL needs `p:P54/ps
 - **pl078, pl136, pl169 (include the live 2026–27 season):** freeze the answer list at scrape date.
 - **pl055, pl056, pl060:** a season-based rule labelled as a manager or owner era. A handful of boundary-season players from the previous regime are included.
 - **pl172 (current referees):** Anthony Taylor does not appear in the Professional Referee Group sub-list as linked, so check which sub-sections to include.
+
+## Build status
+
+Built: **173** of 179 catalog prompts, each with 12–130 answers (`data/answers_raw/pl*.csv`).
+
+### Dropped (6)
+Not built because the source couldn't produce a clean answer list of 12–130 entries, unless a reason is given.
+
+| id | catalog prompt | reason |
+|---|---|---|
+| pl009 | Name an EFL League One Player of the Month winner since 2020–21 | failed the scrape or quality check |
+| pl135 | Name a club that has played in the National League since 2015–16 | failed the scrape or quality check |
+| pl149 | Name an English football derby or rivalry with its own Wikipedia article | failed the scrape or quality check |
+| pl170 | Name an owner of a 2026–27 Premier League club (person, family, fund or company) | failed the scrape or quality check |
+| pl171 | Name an owner of a Championship club | failed the scrape or quality check |
+| pl177 | Name a company that has been a Premier League club's sleeve sponsor since 2017–18 | failed the scrape or quality check |
+
+### Reworded (86)
+Mostly tightened to match what the source supports.
+
+| id | catalog wording | built wording |
+|---|---|---|
+| pl003 | Name a player who has won Premier League Goal of the Month since 2015–16 | Name a player who has won Premier League Goal of the Month |
+| pl018 | Name a Premier League winner of the PFA Fans' Player of the Year | Name a winner of the PFA Fans' Player of the Year in the Premier League |
+| pl023 | Name a player who has scored a Premier League hat-trick for a club outside the "Big Six" since 2015 | Name a player who has scored a Premier League hat-trick for a club outside the 'Big Six' since 2015 (Big Six: Arsenal, Chelsea, Liverpool, Man City, Man United, Tottenham) |
+| pl031 | Name a player who featured in a Premier League season's top-scorers table since 2015–16 | Name a player who finished in the top ten of a Premier League season's scoring charts since 2015–16 |
+| pl032 | Name a goalkeeper who featured in a Premier League season's clean-sheets table since 2015–16 | Name a goalkeeper who finished in the top ten of a Premier League season's clean-sheets chart since 2015–16 |
+| pl033 | Name a player who featured in an EFL Championship season's top-scorers table since 2020–21 | Name a player who finished in the top ten of an EFL Championship season's scoring charts since 2020–21 |
+| pl034 | Name a player who has finished a season as the Championship's top scorer since 2010–11 | Name a player who has been the Championship's top scorer (including shared) in a season since 2010–11 |
+| pl035 | Name a player who played in the Premier League for Leicester City in their 2015–16 title season | Name a player who played in the Premier League for Leicester City in 2015–16 (Leicester City's title-winning season) |
+| pl036 | Name a player who played in the Premier League for Chelsea in 2016–17 (Conte's title) | Name a player who played in the Premier League for Chelsea in 2016–17 (Conte's title-winning season) |
+| pl037 | Name a player who played in the Premier League for Manchester City in 2017–18 (the 100-point "Centurions") | Name a player who played in the Premier League for Manchester City in 2017–18 (the 100-point Centurions season) |
+| pl038 | Name a player who played in the Premier League for Manchester City in 2018–19 (the domestic treble) | Name a player who played in the Premier League for Manchester City in 2018–19 (the domestic treble season) |
+| pl039 | Name a player who played in the Premier League for Liverpool in 2018–19 (97 points) | Name a player who played in the Premier League for Liverpool in 2018–19 (97 points, runners-up) |
+| pl040 | Name a player who played in the Premier League for Liverpool in their 2019–20 title season | Name a player who played in the Premier League for Liverpool in 2019–20 (Liverpool's title-winning season) |
+| pl041 | Name a player who played in the Premier League for Manchester City in 2022–23 (the treble) | Name a player who played in the Premier League for Manchester City in 2022–23 (the treble season) |
+| pl044 | Name a player who played in the Premier League for Liverpool in their 2024–25 title season | Name a player who played in the Premier League for Liverpool in 2024–25 (Liverpool's title-winning season) |
+| pl045 | Name a player who played in the Premier League for Arsenal in their 2025–26 title season | Name a player who played in the Premier League for Arsenal in 2025–26 (Arsenal's title-winning season) |
+| pl046 | Name a player who played in the Premier League for Arsenal's 2003–04 "Invincibles" | Name a player who played in the Premier League for Arsenal in 2003–04 (the unbeaten Invincibles season) |
+| pl048 | Name a player who played in the Premier League for Manchester United in 2007–08 | Name a player who played in the Premier League for Manchester United in 2007–08 (title and Champions League winners) |
+| pl049 | Name a player who played in the Premier League for Manchester City in 2011–12 (the "Agüeroooo" title) | Name a player who played in the Premier League for Manchester City in 2011–12 (the Agüero title-clinching season) |
+| pl050 | Name a player who played in the Premier League for Manchester United in 1998–99 (the treble) | Name a player who played in the Premier League for Manchester United in 1998–99 (the treble season) |
+| pl052 | Name a player who played in the Premier League for Blackburn Rovers in their 1994–95 title season | Name a player in the 1994–95 Blackburn Rovers squad (Blackburn's title-winning season) |
+| pl054 | Name a player who played in the Premier League for Keegan's Newcastle "Entertainers" in 1995–96 | Name a player in the 1995–96 Newcastle United squad (Keegan's Entertainers) |
+| pl055 | Name a player who played in the Premier League for Liverpool in the Klopp era (2015–16 to 2023–24) | Name a player who played in the Premier League for Liverpool between 2016–17 and 2023–24 (the Klopp years) |
+| pl056 | Name a player who played in the Premier League for Arsenal in the Arteta era (2019–20 onward) | Name a player who played in the Premier League for Arsenal between 2020–21 and 2025–26 (the Arteta years) |
+| pl057 | Name a player who played in the Premier League for Manchester United in Ten Hag's two full seasons (2022–23, 2023–24) | Name a player who played in the Premier League for Manchester United in 2022–23 or 2023–24 (Ten Hag's full seasons) |
+| pl059 | Name a player who played in the Premier League for Tottenham under Postecoglou (2023–24, 2024–25) | Name a player who played in the Premier League for Tottenham in 2023–24 or 2024–25 (Postecoglou's seasons) |
+| pl060 | Name a player who played in the Premier League for Chelsea since the 2022 BlueCo takeover | Name a player who played in the Premier League for Chelsea between 2022–23 and 2025–26 (the BlueCo ownership years) |
+| pl061 | Name a player who played in the Premier League for Newcastle since the 2021 PIF takeover | Name a player who played in the Premier League for Newcastle between 2021–22 and 2025–26 (the Saudi PIF ownership years) |
+| pl062 | Name a player who has played in the Premier League for Brentford (2021–22 onward) | Name a player who played in the Premier League for Brentford between 2021–22 and 2025–26 |
+| pl063 | Name a player who has played in the Premier League for Nottingham Forest since their 2022 promotion | Name a player who played in the Premier League for Nottingham Forest between 2022–23 and 2025–26 |
+| pl064 | Name a player who has played in the Premier League for Brighton (2017–18 onward) | Name a player who played in the Premier League for Brighton between 2017–18 and 2025–26 |
+| pl065 | Name a player who has played in the Premier League for Bournemouth since their 2022 return | Name a player who played in the Premier League for Bournemouth between 2022–23 and 2025–26 |
+| pl067 | Name a player who has played in the Premier League for Leeds since 2020 (2020–23 and 2025–26) | Name a player who played in the Premier League for Leeds United in 2020–21, 2021–22, 2022–23 or 2025–26 |
+| pl071 | Name a player who has played in the Premier League for Aston Villa since their 2019 promotion | Name a player who played in the Premier League for Aston Villa between 2019–20 and 2025–26 |
+| pl074 | Name a manager who has taken charge of a Premier League club since August 2020 (caretakers included) | Name a manager who has managed a Premier League club since 2020–21 (caretakers included) |
+| pl075 | Name a caretaker manager who took charge of a Premier League club since 2015 | Name a caretaker or interim manager of a Premier League club since 2015–16 |
+| pl076 | Name a manager sacked by a Premier League club since 2015–16 | Name a manager who was sacked by a Premier League club between 2015–16 and 2025–26 |
+| pl077 | Name a manager who managed a Premier League club during the 2015–16 season | Name a manager who managed a Premier League club during 2015–16 (caretakers included) |
+| pl078 | Name a manager in charge of a Premier League club in 2026–27 | Name a manager in charge of a Premier League club in 2026–27 (up to October 2026) |
+| pl079 | Name a manager of a "Big Six" club since 2015 (caretakers included) | Name a manager of a 'Big Six' club since 2015–16 (Arsenal, Chelsea, Liverpool, Man City, Man United or Tottenham; caretakers included) |
+| pl080 | Name a manager who has won the FA Cup or League Cup since 2015 | Name a manager who has won the FA Cup or the League Cup (finals from 2015 to 2026) |
+| pl081 | Name a manager who managed a Championship club in 2025–26 | Name a manager who managed an EFL Championship club in 2025–26 (caretakers included) |
+| pl082 | Name a manager who won promotion from the Championship to the Premier League since 2015–16 | Name a manager who won promotion from the Championship to the Premier League between 2015–16 and 2025–26 |
+| pl085 | Name a manager who has managed 300+ Premier League matches | Name a manager who has managed 300 or more Premier League matches |
+| pl086 | Name a manager of Tottenham Hotspur since 1992 (caretakers included) | Name a manager who has managed Tottenham Hotspur in the Premier League (caretakers included) |
+| pl090 | Name a manager of West Ham United since 1992 (caretakers included) | Name a manager who has managed West Ham United in the Premier League (caretakers included) |
+| pl092 | Name a manager of Watford since 2012 (the Pozzo era, caretakers included) | Name a manager of Watford since 2012 (caretakers included) |
+| pl099 | Name a manager who managed in the inaugural 1992–93 Premier League season | Name a manager who managed a Premier League club in the inaugural 1992–93 season (caretakers included) |
+| pl100 | Name a Brazilian who has played in the Premier League since 2015–16 | Name a Brazilian player who has played in the Premier League since 2015–16 |
+| pl120 | Name a player who has played for both Chelsea and Manchester United (PL era) | Name a player who has played for both Chelsea and Manchester United (≥1 league appearance for each club; loans count; Premier League era) |
+| pl121 | Name a player who has played for both Liverpool and Manchester City (PL era) | Name a player who has played for both Liverpool and Manchester City (≥1 league appearance for each club; loans count; Premier League era) |
+| pl122 | Name a player who has played for both Liverpool and Chelsea (PL era) | Name a player who has played for both Liverpool and Chelsea (≥1 league appearance for each club; loans count; Premier League era) |
+| pl123 | Name a player who has played for both Arsenal and Manchester City (PL era) | Name a player who has played for both Arsenal and Manchester City (≥1 league appearance for each club; loans count; Premier League era) |
+| pl124 | Name a player who has played for both Chelsea and Manchester City (PL era) | Name a player who has played for both Chelsea and Manchester City (≥1 league appearance for each club; loans count; Premier League era) |
+| pl125 | Name a player who has played for both Liverpool and Tottenham (PL era) | Name a player who has played for both Liverpool and Tottenham (≥1 league appearance for each club; loans count; Premier League era) |
+| pl126 | Name a player who has played for both Everton and Manchester United (PL era) | Name a player who has played for both Everton and Manchester United (≥1 league appearance for each club; loans count; Premier League era) |
+| pl127 | Name a player who has played for both West Ham and Tottenham (PL era) | Name a player who has played for both West Ham and Tottenham (≥1 league appearance for each club; loans count; Premier League era) |
+| pl128 | Name a player who has played for both Newcastle and Sunderland (PL era) | Name a player who has played for both Newcastle and Sunderland (≥1 league appearance for each club; loans count; Premier League era) |
+| pl129 | Name a player who has played for both Brighton and Chelsea (since 2010) | Name a player who has played for both Brighton and Chelsea (≥1 league appearance for each club; loans count; spells since 2000) |
+| pl130 | Name a player who has played for both Southampton and Liverpool (since 2000) | Name a player who has played for both Southampton and Liverpool (≥1 league appearance for each club; loans count; spells since 2000) |
+| pl131 | Name a player who has played for both Leicester City and Chelsea (since 2005) | Name a player who has played for both Leicester and Chelsea (≥1 league appearance for each club; loans count; Premier League era) |
+| pl140 | Name a club that has reached the Championship play-off final (2005 onward) | Name a club that has reached the Championship play-off final (2005 to 2026) |
+| pl141 | Name a club that has played in the Championship (2004–05 onward) | Name a club that has played in the Championship since 2004–05 (the season it was renamed) |
+| pl142 | Name a club that has qualified for the Champions League through its Premier League finish | Name a club that has qualified for the Champions League through its Premier League finish (champions included) |
+| pl144 | Name a club that has played in the Charity/Community Shield | Name a club that has won the Community Shield (formerly the Charity Shield) |
+| pl145 | Name a club that has reached the FA Cup final since 2000 | Name a club that has reached the FA Cup final since 2000 (winners or runners-up) |
+| pl146 | Name a club that has reached the League Cup final since 2000 | Name a club that has reached the League Cup final since 2000 (winners or runners-up) |
+| pl150 | Name the home stadium of a 2025–26 Championship club | Name the home stadium of a Championship club in 2025–26 |
+| pl151 | Name the home stadium of a 2025–26 League One club | Name the home stadium of a League One club in 2025–26 |
+| pl152 | Name a Premier League ground that opened in 2000 or later | Name a Premier League stadium that opened in 2000 or later |
+| pl153 | Name the home stadium of a 2025–26 League Two club | Name the home stadium of a League Two club in 2025–26 |
+| pl157 | Name a player who has scored in a League Cup final since 2000 | Name a player who has scored in a League Cup final since 2000 (own goals and penalty shoot-outs excluded) |
+| pl158 | Name a player who has scored in the Community Shield since 2010 | Name a player who has scored in the Community Shield since 2010 (own goals and penalty shoot-outs excluded) |
+| pl160 | Name a player who has scored in a Championship play-off final since 2016 | Name a player who has scored in a Championship play-off final since 2016 (own goals and penalty shoot-outs excluded) |
+| pl161 | Name a player who started a Community Shield from 2020 to 2026 | Name a player who started a Community Shield match from 2020 to 2026 |
+| pl162 | Name a player who joined a "Big Six" club in the summer 2025 window (loans included) | Name a player who joined a 'Big Six' club in the summer 2025 transfer window (loans included; Big Six: Arsenal, Chelsea, Liverpool, Man City, Man United, Tottenham) |
+| pl163 | Name a player who joined a "Big Six" club in the summer 2024 window (loans included) | Name a player who joined a 'Big Six' club in the summer 2024 transfer window (loans included; Big Six: Arsenal, Chelsea, Liverpool, Man City, Man United, Tottenham) |
+| pl164 | Name a player who joined a "Big Six" club in the summer 2023 window (loans included) | Name a player who joined a 'Big Six' club in the summer 2023 transfer window (loans included; Big Six: Arsenal, Chelsea, Liverpool, Man City, Man United, Tottenham) |
+| pl165 | Name a player who joined a "Big Six" club in the summer 2022 window (loans included) | Name a player who joined a 'Big Six' club in the summer 2022 transfer window (loans included; Big Six: Arsenal, Chelsea, Liverpool, Man City, Man United, Tottenham) |
+| pl166 | Name a player who joined a Premier League club in the January 2026 window (loans included) | Name a player who joined a Premier League club in the January 2026 transfer window (loans included; clubs of the 2025–26 Premier League) |
+| pl167 | Name a player who joined a Premier League club in the January 2025 window (loans included) | Name a player who joined a Premier League club in the January 2025 transfer window (loans included; clubs of the 2024–25 Premier League) |
+| pl169 | Name a Premier League club captain since 2020–21 | Name a Premier League club captain from 2020–21 to 2025–26 |
+| pl172 | Name a referee in the current Premier League Select Group | Name a referee in the Premier League's Select Group (Professional Referee Group) of match officials |
+| pl173 | Name a former Premier League Select Group referee | Name a former Premier League Select Group referee (retired or dropped from the Select Group) |
+| pl174 | Name a presenter or pundit on Match of the Day | Name a presenter or pundit who has appeared on Match of the Day (studio presenters and analysts) |
+| pl176 | Name a company that has been a Premier League club's front-of-shirt sponsor since 2015–16 | Name a company that has been a Premier League club's main shirt sponsor since 2015–16 |
